@@ -1,0 +1,292 @@
+<!doctype html>
+<html lang="fr" data-v="1">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>The Alters infiltre la Fashion Week : étude de cas Premium Events</title>
+<meta name="description" content="Pour 11 bit studios et ZA/UM Atelier, un camion vitré aux couleurs du jeu The Alters a traversé Paris, de République aux Champs-Élysées.">
+<meta name="robots" content="noindex, nofollow">
+<link rel="canonical" href="https://premium-events-maquette.vercel.app/the-alters">
+<style>:root{--fond:#F4F3EF;--texte:#111113;--voile-fond:#111113;--ouverture-fond:#111113;--menu-fond:#111113}:root { --entete-h: 72px; --barres-h: 0px; } html { background: var(--fond); color: var(--texte); scrollbar-gutter: stable; } body { margin: 0; background: var(--fond); } html.js:not(.secours):not([data-arrivee="retour"]) [data-anime] { opacity: 0; } html.js:not(.secours):not([data-arrivee="retour"]) [data-anime].vu { opacity: 1; } [data-voile] { position: fixed; inset: 0; z-index: 900; background: var(--voile-fond); transform: translateY(100%); visibility: hidden; pointer-events: none; } html[data-arrivee="voile"]:not(.voile-leve):not(.secours) [data-voile] { transform: none; visibility: visible; } html.secours [data-voile] { visibility: hidden !important; } .ouverture-panneau { position: fixed; inset: 0; z-index: 850; display: none; place-content: center; justify-items: center; background: var(--ouverture-fond, var(--voile-fond)); color: var(--fond); text-align: center; } html.js[data-arrivee="intro"]:not(.secours):not(.intro-finie) .ouverture-panneau { display: grid; } html.defilement-bloque, html.defilement-bloque body, html.js[data-arrivee="intro"]:not(.secours):not(.intro-finie), html.js[data-arrivee="intro"]:not(.secours):not(.intro-finie) body, html[data-arrivee="voile"]:not(.voile-leve):not(.secours), html[data-arrivee="voile"]:not(.voile-leve):not(.secours) body { overflow: hidden; } html.js[data-arrivee="intro"]:not(.secours):not(.intro-finie) { background-color: var(--ouverture-fond, var(--voile-fond)); } html[data-arrivee="voile"]:not(.voile-leve):not(.secours) { background-color: var(--voile-fond); }</style>
+<script>(function () {
+var d = document.documentElement, ss = null, ls = null;
+try { ss = window.sessionStorage; ls = window.localStorage; } catch (e) {}
+d.classList.add('js');
+var nav = performance.getEntriesByType ? performance.getEntriesByType('navigation')[0] : null;
+var type = nav ? nav.type : 'navigate';
+var depart = null;
+try { depart = JSON.parse(ss.getItem('socle:depart') || 'null'); ss.removeItem('socle:depart'); } catch (e) {}
+if (depart && !(Date.now() - depart.t < 15000)) depart = null;
+var mode = type === 'back_forward' ? 'retour' : type === 'reload' ? 'intro' : depart ? 'voile' : 'intro';
+d.setAttribute('data-arrivee', mode);
+if (mode === 'voile' && depart.couleur) d.style.setProperty('--voile-fond', depart.couleur);
+if (type === 'reload' && 'scrollRestoration' in history) {
+history.scrollRestoration = 'manual';
+}
+try {
+var choisie = ls && ls.getItem('socle:langue');
+var langue = (d.lang || '').slice(0, 2);
+if (choisie && choisie !== langue && type === 'navigate' && !depart) {
+var alt = document.querySelector('link[rel="alternate"][hreflang="' + choisie + '"]');
+if (alt) location.replace(new URL(alt.href).pathname + location.search + location.hash);
+}
+} catch (e) {}
+setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('secours'); }, 2000);
+})();</script>
+<link rel="preload" href="/assets/polices/archivo-titres.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/polices/instrument-sans.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="/assets/css/socle.css?v=1">
+<link rel="stylesheet" href="/assets/css/site.css?v=1">
+<link rel="modulepreload" href="/assets/js/site.js?v=1">
+<link rel="modulepreload" href="/assets/js/socle/index.js?v=1">
+<script src="/assets/vendor/gsap.min.js" defer></script>
+<script src="/assets/vendor/ScrollTrigger.min.js" defer></script>
+<script src="/assets/vendor/SplitText.min.js" defer></script>
+<script type="module" src="/assets/js/site.js?v=1"></script>
+<meta name="theme-color" content="#111113">
+<link rel="icon" href="/assets/images/favicon.png" type="image/png" sizes="64x64">
+<link rel="apple-touch-icon" href="/assets/images/apple-touch-icon.png">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Premium Events">
+<meta property="og:locale" content="fr_FR">
+<meta property="og:title" content="The Alters infiltre la Fashion Week : étude de cas Premium Events">
+<meta property="og:description" content="Pour 11 bit studios et ZA/UM Atelier, un camion vitré aux couleurs du jeu The Alters a traversé Paris, de République aux Champs-Élysées.">
+<meta property="og:url" content="https://premium-events-maquette.vercel.app/the-alters">
+<meta property="og:image" content="https://premium-events-maquette.vercel.app/assets/partage/the-alters-fr.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Le camion The Alters dans une rue de Paris">
+<meta name="twitter:card" content="summary_large_image">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"Organization","name":"Premium Events","url":"https://premium-events-maquette.vercel.app/","telephone":"+33172694343","email":"info@premium-events.fr","slogan":"Hospitality & Brand Experience for Sports & Entertainment","address":{"@type":"PostalAddress","streetAddress":"7 rue du Faubourg Poissonnière","postalCode":"75009","addressLocality":"Paris","addressCountry":"FR"},"sameAs":["https://www.linkedin.com/company/premium-events/","https://www.instagram.com/premiumevents_agence","https://www.facebook.com/AgencePremiumEvents"],"description":"Agence de communication événementielle à Paris : hospitalités et expériences de marque pour le sport et le divertissement (pop-up et boutiques, activations, stands et scénographie, soirées et séminaires, hospitalités)."}</script>
+</head>
+<body id="haut">
+<div data-voile data-forme="coupe" aria-hidden="true"><div class="voile-contenu"><img src="/assets/images/logo-clair.png" alt="" width="298" height="124"><span class="voile-barre"></span><span data-voile-libelle>The Alters</span></div></div>
+<div class="ouverture-panneau" data-ouverture aria-hidden="true">
+  <img class="ouverture-logo" src="/assets/images/logo-clair.png" alt="" width="298" height="124" data-ouverture-objet>
+  <p class="ouverture-ligne">Hospitality &amp; Brand Experience</p>
+  <svg class="ouverture-coupe" viewBox="0 0 100 100" preserveAspectRatio="none" aria-hidden="true"><line x1="59" y1="0" x2="41" y2="100" pathLength="1" vector-effect="non-scaling-stroke"/></svg>
+</div>
+<a class="evitement" href="#contenu">Aller au contenu</a>
+<header data-entete>
+  <div class="entete-rangee">
+    <a class="entete-logo" aria-label="Premium Events, Accueil" href="/" data-libelle="Accueil">
+      <img src="/assets/images/logo-clair.png" alt="Premium Events" width="298" height="124">
+    </a>
+    <nav data-nav aria-label="Navigation principale">
+      <ul><li><a href="/realisations" data-libelle="Réalisations">Réalisations</a></li><li><a href="/engagements" data-libelle="Engagements">Engagements</a></li><li><a href="/contact" data-libelle="Contact">Contact</a></li></ul>
+    </nav>
+    <div class="entete-actions">
+      <a class="bouton" href="/contact#brief" data-libelle="Contact">Votre projet</a>
+      <button type="button" data-menu-bouton aria-controls="menu" aria-expanded="false" data-libelle-ouvrir="Menu" data-libelle-fermer="Fermer"><span data-libelle-bouton>Menu</span></button>
+      <a class="menu-sansjs" href="#menu" data-menu-lien>Menu</a>
+    </div>
+  </div>
+</header>
+<script>/* Avant le premier affichage : rangées de la navigation (même règle que ajusterNav dans assets/js/socle/entete.js)
+   et hauteur réelle de l'en-tête, pour que rien ne saute quand le JavaScript du site prend la main. */
+(function () {
+  var h = document.documentElement, u = document.querySelector('[data-nav] ul'), e = document.querySelector('[data-entete]');
+  if (u) {
+    var deborde = function () { return u.scrollWidth > u.clientWidth + 1; }, c = deborde();
+    if (c && window.matchMedia('(min-width: 900px)').matches) {
+      h.classList.add('nav-deux-rangees'); c = deborde();
+      if (c) { h.classList.add('nav-deux-lignes'); var a = u.querySelector('a'); c = !a || u.getBoundingClientRect().height > a.getBoundingClientRect().height * 2.5; }
+      if (c) h.classList.remove('nav-deux-rangees', 'nav-deux-lignes');
+    }
+    if (c) h.classList.add('nav-compacte');
+  }
+  if (e) h.style.setProperty('--entete-h', Math.round(e.getBoundingClientRect().height) + 'px');
+})();</script>
+<span id="menu-ferme" aria-hidden="true"></span>
+<div id="menu" data-menu role="dialog" aria-modal="true" aria-label="Menu">
+  <p class="menu-sansjs-fermer"><a href="#menu-ferme">Fermer</a></p>
+  <ul><li style="--i:0"><a href="/" class="menu-lien" data-libelle="Accueil">Accueil</a></li><li style="--i:1"><a href="/realisations" class="menu-lien" data-libelle="Réalisations">Réalisations</a></li><li style="--i:2" class="menu-sous"><a href="/the-alters" class="menu-lien" data-libelle="The Alters" aria-current="page">The Alters</a></li><li style="--i:3" class="menu-sous"><a href="/paris-games-week" class="menu-lien" data-libelle="Paris Games Week">Paris Games Week</a></li><li style="--i:4"><a href="/engagements" class="menu-lien" data-libelle="Engagements">Engagements</a></li><li style="--i:5"><a href="/contact" class="menu-lien" data-libelle="Contact">Contact</a></li></ul>
+  <p class="menu-contact"><a class="bouton" href="tel:+33172694343">Appeler 01 72 69 43 43</a> <a class="menu-mail" href="mailto:info@premium-events.fr">info@premium-events.fr</a></p>
+</div>
+<main id="contenu" tabindex="-1">
+<section class="ouv ouv--etude" id="debut">
+  <div class="ouv-etude-texte">
+    <p class="fil ouv-f masque-petit"><a href="/realisations" data-libelle="Réalisations">Réalisations</a> <span aria-hidden="true">/</span> The Alters</p>
+    <p class="surtitre ouv-f">Activation · Fashion Week, Paris</p>
+    <h1 class="ouv-titre" data-anime="gsap"><span class="ouv-m"><span class="ouv-l">The Alters</span></span><span class="ouv-m"><span class="ouv-l">infiltre la</span></span><span class="ouv-m"><span class="ouv-l"><span class="surligne surligne--fixe">Fashion Week.</span></span></span></h1>
+    <p class="ouv-intro ouv-f masque-petit">Quand le gaming croise la mode parisienne !</p>
+    <p class="ouv-actions ouv-f"><a href="/contact#brief" class="bouton bouton--noir" data-libelle="Contact" data-action-principale data-survol="magnetique">Parler de votre projet</a></p>
+    <p class="ouv-info ouv-f" data-info-cle>1 camion vitré · 5 mannequins</p>
+    <dl class="etude-fiche ouv-f masque-ecran-bas">
+      <div><dt>Pour</dt><dd>11 bit studios × ZA/UM Atelier</dd></div>
+      <div><dt>Mission</dt><dd>Conseil × Conception × Évènement</dd></div>
+    </dl>
+  </div>
+  <div class="ouv-etude-photo">
+    <figure class="media ouv-media" data-fx="parallaxe" data-fx-force="8" data-iris-centre data-boucle-css style="--cadrage:30% 55%">
+  <picture><source media="(max-width: 760px) and (orientation: portrait)" srcset="/assets/images/alters-ouverture-mobile-640.webp 640w, /assets/images/alters-ouverture-mobile-1080.webp 1080w" sizes="(max-width: 760px) 100vw, 55vw">
+    <img src="/assets/images/alters-ouverture-1280.webp" srcset="/assets/images/alters-ouverture-640.webp 640w, /assets/images/alters-ouverture-1280.webp 1280w, /assets/images/alters-ouverture-1920.webp 1920w" sizes="(max-width: 760px) 100vw, 55vw" alt="Le camion vitré The Alters stationné sous les arcades d’une rue de Paris" width="1280" height="1280" fetchpriority="high" loading="eager" decoding="async">
+  </picture>
+</figure>
+  </div>
+</section>
+<section class="etude-chiffres" id="chiffres" aria-label="En images">
+  <ul class="conteneur chiffres-bande" data-anime="cascade">
+    <li><strong><span data-compteur="1">1</span></strong><span>camion vitré</span></li><li><strong><span data-compteur="5">5</span></strong><span>mannequins à bord</span></li><li><strong><span data-compteur="2">2</span></strong><span>marques réunies</span></li>
+  </ul>
+</section>
+<section class="etude-bloc" id="idee" aria-labelledby="idee-titre">
+  <div class="conteneur etude-bloc-grille">
+    <div>
+      <p class="surtitre" data-anime>L’idée</p>
+      <h2 id="idee-titre" data-anime="lignes">Une activation immersive en plein Paris.</h2>
+      <p data-anime>Afin de célébrer leur collaboration autour du jeu The Alters, 11 bit studios et la marque ZA/UM Atelier se sont invités à la Fashion Week. Au programme : un camion vitré, entièrement habillé aux couleurs du jeu.</p>
+    </div>
+    <figure class="media etude-bloc-media" data-fx="parallaxe" style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/alters-1-1600.webp" srcset="/assets/images/alters-1-1024.webp 1024w, /assets/images/alters-1-1168.webp 1168w, /assets/images/alters-1-1600.webp 1600w" sizes="(max-width: 760px) 100vw, 45vw" alt="Passantes qui montent à bord du camion, mannequins en vitrine" width="1600" height="2000" loading="lazy" decoding="async">
+  </picture>
+</figure>
+  </div>
+</section>
+<section class="etude-fort" id="temps-fort" aria-labelledby="fort-titre">
+  <div class="conteneur etude-fort-grille">
+    <div class="etude-fort-texte">
+      <p class="surtitre surtitre--clair" data-anime>Le parcours</p>
+      <h2 id="fort-titre" data-anime="lignes">De République aux Champs-Élysées.</h2>
+      <p data-anime>Le camion a parcouru les lieux emblématiques de la capitale. À son bord, cinq mannequins portaient la collection de vêtements créée autour de l’univers du jeu, dont la combinaison rose de Jan, le personnage principal.</p>
+      <figure class="parcours parcours--clair" data-visuel>
+        <svg viewBox="0 0 400 220" role="img" aria-label="Tracé schématique : République → Champs-Élysées">
+          <path class="parcours-fond" d="M350 150 C 310 105, 262 186, 214 140 S 128 64, 52 88"/>
+          <path class="parcours-trait" d="M350 150 C 310 105, 262 186, 214 140 S 128 64, 52 88" pathLength="1"/>
+          <circle class="parcours-borne" cx="350" cy="150" r="7"/>
+          <circle class="parcours-borne parcours-borne--fin" cx="52" cy="88" r="7"/>
+          <g class="parcours-camion" data-effet="parcours" transform="translate(52 88)"><rect x="-13" y="-8" width="26" height="16" rx="3"/><line x1="-3" y1="-8" x2="-8" y2="8"/></g>
+          <text x="350" y="182" text-anchor="middle">République</text>
+          <text x="52" y="66" text-anchor="middle">Champs-Élysées</text>
+        </svg>
+        <figcaption>Tracé schématique</figcaption>
+      </figure>
+    </div>
+    <div class="etude-fort-photos" data-anime="cascade">
+      <figure class="media etude-fort-media" style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/alters-combinaison-1600.webp" srcset="/assets/images/alters-combinaison-1024.webp 1024w, /assets/images/alters-combinaison-1168.webp 1168w, /assets/images/alters-combinaison-1600.webp 1600w" sizes="(max-width: 760px) 50vw, 25vw" alt="Mannequin portant la combinaison rose de Jan à l’arrière du camion" width="1600" height="2000" loading="lazy" decoding="async">
+  </picture>
+</figure>
+      <figure class="media etude-fort-media etude-fort-media--decale" style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/alters-5-1600.webp" srcset="/assets/images/alters-5-1024.webp 1024w, /assets/images/alters-5-1168.webp 1168w, /assets/images/alters-5-1600.webp 1600w" sizes="(max-width: 760px) 50vw, 25vw" alt="Le camion devant la façade d’un hôtel parisien" width="1600" height="2000" loading="lazy" decoding="async">
+  </picture>
+</figure>
+    </div>
+  </div>
+</section>
+<section class="etude-bloc etude-bloc--inverse" id="public" aria-labelledby="public-titre">
+  <div class="conteneur etude-bloc-grille">
+    <div>
+      <p class="surtitre" data-anime>Le public</p>
+      <h2 id="public-titre" data-anime="lignes">Tout le monde à bord.</h2>
+      <p data-anime>À chaque étape du parcours, les passants étaient invités à monter à bord pour vivre une expérience au cœur de l’univers du jeu et interagir avec son esthétique singulière. Une équipe de tournage a suivi l’activation pour capturer les réactions et l’énergie du public en temps réel.</p>
+      <blockquote class="etude-citation" data-anime><p>Une opération audacieuse, mêlant mode, storytelling et immersion, en plein Paris !</p></blockquote>
+    </div>
+    <figure class="media etude-bloc-media" data-anime="rideau" style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/alters-3-1600.webp" srcset="/assets/images/alters-3-1024.webp 1024w, /assets/images/alters-3-1168.webp 1168w, /assets/images/alters-3-1600.webp 1600w" sizes="(max-width: 760px) 100vw, 45vw" alt="Visiteurs face à l’écran du jeu dans le camion" width="1600" height="2000" loading="lazy" decoding="async">
+  </picture>
+</figure>
+  </div>
+</section>
+<section class="etude-galerie" id="galerie" aria-labelledby="galerie-titre">
+  <div class="conteneur">
+    <h2 id="galerie-titre" class="surtitre-titre" data-anime>En images</h2>
+    <ul class="mosaique mosaique--etude" data-anime="cascade">
+      <li class="mosaique-1"><figure class="media mosaique-media" style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/alters-6-1600.webp" srcset="/assets/images/alters-6-1024.webp 1024w, /assets/images/alters-6-1168.webp 1168w, /assets/images/alters-6-1600.webp 1600w" sizes="(max-width: 760px) 100vw, 50vw" alt="Main qui tient un flyer rose The Alters" width="1600" height="1600" loading="lazy" decoding="async">
+  </picture><figcaption class="media-legende">Main qui tient un flyer rose The Alters</figcaption>
+</figure></li><li class="mosaique-2"><figure class="media mosaique-media" style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/alters-2-1600.webp" srcset="/assets/images/alters-2-1024.webp 1024w, /assets/images/alters-2-1168.webp 1168w, /assets/images/alters-2-1600.webp 1600w" sizes="(max-width: 760px) 50vw, 25vw" alt="Deux visiteurs devant l’écran du jeu, à bord" width="1600" height="2000" loading="lazy" decoding="async">
+  </picture><figcaption class="media-legende">Deux visiteurs devant l’écran du jeu, à bord</figcaption>
+</figure></li><li class="mosaique-3"><figure class="media mosaique-media" style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/alters-4-1600.webp" srcset="/assets/images/alters-4-1024.webp 1024w, /assets/images/alters-4-1168.webp 1168w, /assets/images/alters-4-1600.webp 1600w" sizes="(max-width: 760px) 50vw, 25vw" alt="Dos d’un tee-shirt blanc imprimé The Alters" width="1600" height="2000" loading="lazy" decoding="async">
+  </picture><figcaption class="media-legende">Dos d’un tee-shirt blanc imprimé The Alters</figcaption>
+</figure></li><li class="mosaique-4"><figure class="media mosaique-media" style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/alters-7-1600.webp" srcset="/assets/images/alters-7-1024.webp 1024w, /assets/images/alters-7-1168.webp 1168w, /assets/images/alters-7-1600.webp 1600w" sizes="(max-width: 760px) 50vw, 25vw" alt="Foule de curieux le long du camion, sur le trottoir" width="1600" height="2001" loading="lazy" decoding="async">
+  </picture><figcaption class="media-legende">Foule de curieux le long du camion, sur le trottoir</figcaption>
+</figure></li><li class="mosaique-5"><figure class="media mosaique-media" style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/alters-camion-1600.webp" srcset="/assets/images/alters-camion-1024.webp 1024w, /assets/images/alters-camion-1168.webp 1168w, /assets/images/alters-camion-1600.webp 1600w" sizes="(max-width: 760px) 50vw, 25vw" alt="Le camion vitré aux couleurs de The Alters garé dans une rue de Paris" width="1600" height="2000" loading="lazy" decoding="async">
+  </picture><figcaption class="media-legende">Le camion vitré aux couleurs de The Alters garé dans une rue de Paris</figcaption>
+</figure></li>
+    </ul>
+  </div>
+</section>
+<section class="etudes etudes--suite" id="suite" aria-labelledby="suite-titre">
+  <div class="conteneur">
+    <h2 id="suite-titre" class="surtitre-titre" data-anime>Autre étude de cas</h2>
+    <div data-anime><article class="etude-carte">
+  <figure class="media etude-carte-media" data-fx="zoom" style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/pgw-luffy-1600.webp" srcset="/assets/images/pgw-luffy-1024.webp 1024w, /assets/images/pgw-luffy-1168.webp 1168w, /assets/images/pgw-luffy-1600.webp 1600w" sizes="(max-width: 760px) 100vw, 45vw" alt="Visiteur à côté d’une statue de Luffy sur un stand One Piece" width="1600" height="2000" loading="lazy" decoding="async">
+  </picture>
+</figure>
+  <div class="etude-carte-texte">
+    <p class="surtitre">Étude de cas · Stands · Paris Games Week</p>
+    <h3>PGW et Premium Events, une partie sans fin.</h3>
+    <p>Près de 10 ans de stands au salon du jeu vidéo : mezzanine à 360°, arène géante, plateau TV tournant.</p>
+    <a href="/paris-games-week" class="lien-fleche" data-libelle="Paris Games Week">Lire l’étude de cas</a>
+  </div>
+</article></div>
+  </div>
+</section>
+<section class="fin" id="fin" aria-labelledby="fin-titre">
+  <div class="fin-signature" data-visuel aria-hidden="true" data-audit-ignorer>
+    <span class="sig-l1" data-effet="signature">we create</span>
+    <span class="sig-l2"><span class="sig-amp">&amp;</span> deliver</span>
+    <svg class="sig-barre" viewBox="0 0 100 100" preserveAspectRatio="none"><line x1="64" y1="2" x2="40" y2="98" pathLength="1" vector-effect="non-scaling-stroke"/></svg>
+  </div>
+  <div class="conteneur fin-corps">
+    <p class="surtitre surtitre--clair" data-anime>Votre prochain événement</p>
+    <h2 id="fin-titre" data-anime="lignes">Parlons de votre prochain événement.</h2>
+    <p class="fin-texte" data-anime>Un lancement, un salon, une soirée, une loge ? Décrivez votre projet en trois étapes, ou appelez directement l’agence.</p>
+    <p class="fin-actions" data-anime>
+      <a href="/contact#brief" class="bouton" data-libelle="Contact" data-survol="magnetique">Parler de votre projet</a>
+      <a class="bouton bouton--contour-clair" href="tel:+33172694343" data-survol="magnetique">01 72 69 43 43</a>
+      <a class="fin-mail" href="mailto:info@premium-events.fr">info@premium-events.fr</a>
+    </p>
+  </div>
+</section>
+</main>
+<footer class="pied" id="pied">
+  <div class="conteneur pied-grille">
+    <div class="pied-marque">
+      <img src="/assets/images/logo-clair.png" alt="Premium Events" width="298" height="124" loading="lazy">
+      <p>Hospitality &amp; Brand Experience for Sports &amp; Entertainment</p>
+    </div>
+    <div>
+      <p class="pied-titre">Adresse</p>
+      <p>7 rue du Faubourg Poissonnière<br>75009 Paris<br><span class="pied-doux">Métro Bonne Nouvelle ou Grands Boulevards, lignes 8 et 9</span></p>
+      <p><a href="tel:+33172694343">+33 (0)1 72 69 43 43</a><br><a href="mailto:info@premium-events.fr">info@premium-events.fr</a></p>
+    </div>
+    <nav aria-label="Sommaire">
+      <p class="pied-titre">Sommaire</p>
+      <ul><li><a href="/" data-libelle="Accueil">Accueil</a></li><li><a href="/realisations" data-libelle="Réalisations">Réalisations</a></li><li><a href="/the-alters" data-libelle="The Alters" aria-current="page">The Alters</a></li><li><a href="/paris-games-week" data-libelle="Paris Games Week">Paris Games Week</a></li><li><a href="/engagements" data-libelle="Engagements">Engagements</a></li><li><a href="/contact" data-libelle="Contact">Contact</a></li></ul>
+    </nav>
+    <div>
+      <p class="pied-titre">Suivre l’agence</p>
+      <ul><li><a href="https://www.linkedin.com/company/premium-events/" target="_blank" rel="noopener">LinkedIn<span class="visuellement-cache"> (nouvel onglet)</span></a></li><li><a href="https://www.instagram.com/premiumevents_agence" target="_blank" rel="noopener">Instagram<span class="visuellement-cache"> (nouvel onglet)</span></a></li><li><a href="https://www.facebook.com/AgencePremiumEvents" target="_blank" rel="noopener">Facebook<span class="visuellement-cache"> (nouvel onglet)</span></a></li>
+        <li><a href="#haut" data-sans-transition>Retour en haut</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="conteneur pied-bas">
+    <p>Mentions légales · à compléter &nbsp;/&nbsp; Politique de confidentialité · à compléter</p>
+    <p>Maquette de démonstration : les informations marquées « à compléter » seront fournies par Premium Events.</p>
+    <p>© Premium Events</p>
+  </div>
+</footer>
+<div data-barre-fixe>
+  <a class="bouton bouton--contour" href="tel:+33172694343">Appeler</a>
+  <a class="bouton" href="/contact#brief" data-libelle="Contact">Parler de votre projet</a>
+</div>
+</body>
+</html>

@@ -1,0 +1,258 @@
+{
+ "explication": "Maquettes favorites de l'utilisateur : le niveau et le style visés, sur l'accueil ET les pages intérieures. Jamais à copier (ni leur idée, ni leur mise en page) : même harmonie, même fluidité, même soin.",
+ "activite": [
+  "services-b2b",
+  "spectacle"
+ ],
+ "metier": "agence événementielle hospitalités sport divertissement",
+ "besoin": [],
+ "ton": [
+  "énergique"
+ ],
+ "univers": [],
+ "ambiance": [],
+ "concept": [],
+ "depot": "premium-events-maquette",
+ "favorites_dans_la_bibliotheque": 22,
+ "favorites": [
+  {
+   "rang": 1,
+   "maquette": "vizrok-maquette",
+   "client": "boutique de vêtements de sport, accessoires et nutrition d'une marque fabriquée à la demande",
+   "metier": "vêtements de sport",
+   "pourquoi": "Vêtements de sport : noir et vert néon, capitales, produits sur fond noir.",
+   "proche": [
+    "même métier",
+    "ambiance énergique"
+   ],
+   "lumiere": "mixte",
+   "note_maquette": 86,
+   "en_ligne": "https://vizrok-maquette.vercel.app",
+   "vues": [
+    {
+     "page": "accueil",
+     "role": "ouverture",
+     "id": "vizrok-maquette/debut",
+     "note_section": 5,
+     "titre": "Built to Perform.",
+     "capture": "medias/vizrok-maquette/debut-p1440.jpg",
+     "video": "medias/vizrok-maquette/debut-p720.mp4",
+     "fiche": "sections/vizrok-maquette/debut.json",
+     "en_ligne": "https://vizrok-maquette.vercel.app"
+    },
+    {
+     "page": "accueil",
+     "role": "produits",
+     "id": "vizrok-maquette/collections",
+     "note_section": 5,
+     "titre": "Quatre disques, dix-huit pièces.",
+     "capture": "medias/vizrok-maquette/collections-p1440.jpg",
+     "video": "medias/vizrok-maquette/collections-p720.mp4",
+     "fiche": "sections/vizrok-maquette/collections.json",
+     "en_ligne": "https://vizrok-maquette.vercel.app"
+    },
+    {
+     "page": "boutique",
+     "role": "ouverture",
+     "id": "vizrok-maquette/boutique-debut",
+     "note_section": 4,
+     "titre": "Boutique",
+     "capture": "medias/vizrok-maquette/boutique-debut-p1440.jpg",
+     "video": "medias/vizrok-maquette/boutique-debut-p720.mp4",
+     "fiche": "sections/vizrok-maquette/boutique-debut.json",
+     "en_ligne": "https://vizrok-maquette.vercel.app/boutique"
+    },
+    {
+     "page": "nutrition",
+     "role": "produits",
+     "id": "vizrok-maquette/nutrition-gamme",
+     "note_section": 5,
+     "titre": "Cinq produits, un shaker.",
+     "capture": "medias/vizrok-maquette/nutrition-gamme-p1440.jpg",
+     "video": "medias/vizrok-maquette/nutrition-gamme-p720.mp4",
+     "fiche": "sections/vizrok-maquette/nutrition-gamme.json",
+     "en_ligne": "https://vizrok-maquette.vercel.app/nutrition"
+    }
+   ]
+  },
+  {
+   "rang": 2,
+   "maquette": "skapelys-maquette",
+   "client": "agence web indépendante à Bourg-en-Bresse : création, refonte, référencement, maintenance et dépannage de sites WordPress pour artisans et commerçants",
+   "metier": "agence web",
+   "pourquoi": "Agence web : bleu nuit et jaune, net et efficace.",
+   "proche": [
+    "même activité",
+    "ambiance énergique"
+   ],
+   "lumiere": "mixte",
+   "note_maquette": 80,
+   "en_ligne": "https://skapelys-maquette.vercel.app",
+   "vues": [
+    {
+     "page": "accueil",
+     "role": "ouverture",
+     "id": "skapelys-maquette/ouverture",
+     "note_section": 3,
+     "titre": "Agence web à Bourg-en-Bresse",
+     "capture": "medias/skapelys-maquette/ouverture-p1440.jpg",
+     "video": null,
+     "fiche": "sections/skapelys-maquette/ouverture.json",
+     "en_ligne": "https://skapelys-maquette.vercel.app"
+    },
+    {
+     "page": "accueil",
+     "role": "étapes",
+     "id": "skapelys-maquette/methode",
+     "note_section": 3,
+     "titre": "Comment se passe votre projet ?",
+     "capture": "medias/skapelys-maquette/methode-p1440.jpg",
+     "video": null,
+     "fiche": "sections/skapelys-maquette/methode.json",
+     "en_ligne": "https://skapelys-maquette.vercel.app"
+    },
+    {
+     "page": "creation-site-web-bourg-en-bresse",
+     "role": "ouverture",
+     "id": "skapelys-maquette/creation-site-web-bourg-en-bresse-ouverture",
+     "note_section": 3,
+     "titre": "Création de site internet à Bourg-en-Bresse",
+     "capture": "medias/skapelys-maquette/creation-site-web-bourg-en-bresse-ouverture-p1440.jpg",
+     "video": null,
+     "fiche": "sections/skapelys-maquette/creation-site-web-bourg-en-bresse-ouverture.json",
+     "en_ligne": "https://skapelys-maquette.vercel.app/creation-site-web-bourg-en-bresse"
+    },
+    {
+     "page": "refonte-site-internet-bourg-en-bresse",
+     "role": "outil-interactif",
+     "id": "skapelys-maquette/refonte-site-internet-bourg-en-bresse-avant-apres",
+     "note_section": 4,
+     "titre": "Site vieillissant : ce que la refonte change.",
+     "capture": "medias/skapelys-maquette/refonte-site-internet-bourg-en-bresse-avant-apres-p1440.jpg",
+     "video": null,
+     "fiche": "sections/skapelys-maquette/refonte-site-internet-bourg-en-bresse-avant-apres.json",
+     "en_ligne": "https://skapelys-maquette.vercel.app/refonte-site-internet-bourg-en-bresse"
+    }
+   ]
+  },
+  {
+   "rang": 3,
+   "maquette": "nolanis-maquette",
+   "client": "Agence de communication visuelle à Strasbourg : print et web, espaces publicitaires, publipostage, photo et vidéo, objets publicitaires, sauvegarde en ligne, formation photo",
+   "metier": "agence de communication visuelle",
+   "pourquoi": "Agence de communication : beige, éventail de couleurs, cartes nettes, sommaire des métiers.",
+   "proche": [
+    "même activité",
+    "ambiance énergique"
+   ],
+   "lumiere": "clair",
+   "note_maquette": 86,
+   "en_ligne": "https://nolanis-maquette.vercel.app",
+   "vues": [
+    {
+     "page": "accueil",
+     "role": "ouverture",
+     "id": "nolanis-maquette/debut",
+     "note_section": 5,
+     "titre": "Votre agence de communication visuelle à Strasbourg",
+     "capture": "medias/nolanis-maquette/debut-p1440.jpg",
+     "video": "medias/nolanis-maquette/debut-p720.mp4",
+     "fiche": "sections/nolanis-maquette/debut.json",
+     "en_ligne": "https://nolanis-maquette.vercel.app"
+    },
+    {
+     "page": "accueil",
+     "role": "services",
+     "id": "nolanis-maquette/services",
+     "note_section": 4,
+     "titre": "La liasse des épreuves",
+     "capture": "medias/nolanis-maquette/services-p1440.jpg",
+     "video": "medias/nolanis-maquette/services-p720.mp4",
+     "fiche": "sections/nolanis-maquette/services.json",
+     "en_ligne": "https://nolanis-maquette.vercel.app"
+    },
+    {
+     "page": "formations",
+     "role": "ouverture",
+     "id": "nolanis-maquette/formations-debut",
+     "note_section": 4,
+     "titre": "Choisir l’image juste",
+     "capture": "medias/nolanis-maquette/formations-debut-p1440.jpg",
+     "video": "medias/nolanis-maquette/formations-debut-p720.mp4",
+     "fiche": "sections/nolanis-maquette/formations-debut.json",
+     "en_ligne": "https://nolanis-maquette.vercel.app/formations"
+    },
+    {
+     "page": "contact",
+     "role": "outil-interactif",
+     "id": "nolanis-maquette/contact-devis",
+     "note_section": 4,
+     "titre": "Votre demande, en trois étapes",
+     "capture": "medias/nolanis-maquette/contact-devis-p1440.jpg",
+     "video": "medias/nolanis-maquette/contact-devis-p720.mp4",
+     "fiche": "sections/nolanis-maquette/contact-devis.json",
+     "en_ligne": "https://nolanis-maquette.vercel.app/contact"
+    }
+   ]
+  },
+  {
+   "rang": 4,
+   "maquette": "laure-polin-maquette",
+   "client": "sculptrice (ardoise taillée, bronze, pneu recyclé), atelier à Bagnolet, vente d'œuvres",
+   "metier": "sculptrice",
+   "pourquoi": "Sculptrice : sombre et minimal, œuvres en grand, Cormorant Garamond.",
+   "proche": [
+    "activité proche"
+   ],
+   "lumiere": "sombre",
+   "note_maquette": 90,
+   "en_ligne": "https://laure-polin-maquette.vercel.app",
+   "vues": [
+    {
+     "page": "accueil",
+     "role": "ouverture",
+     "id": "laure-polin-maquette/hero",
+     "note_section": 5,
+     "titre": "Œuvres recomposées en poussière d'ardoise",
+     "capture": "medias/laure-polin-maquette/hero-p1440.jpg",
+     "video": "medias/laure-polin-maquette/hero-p720.mp4",
+     "fiche": "sections/laure-polin-maquette/hero.json",
+     "en_ligne": "https://laure-polin-maquette.vercel.app"
+    },
+    {
+     "page": "accueil",
+     "role": "manifeste",
+     "id": "laure-polin-maquette/manifeste",
+     "note_section": 4,
+     "titre": "Manifeste au portrait collant",
+     "capture": "medias/laure-polin-maquette/manifeste-p1440.jpg",
+     "video": "medias/laure-polin-maquette/manifeste-p720.mp4",
+     "fiche": "sections/laure-polin-maquette/manifeste.json",
+     "en_ligne": "https://laure-polin-maquette.vercel.app"
+    },
+    {
+     "page": "oeuvre",
+     "role": "ouverture",
+     "id": "laure-polin-maquette/oeuvre-fiche-entree",
+     "note_section": 3,
+     "titre": "Entrée de la fiche d'œuvre",
+     "capture": "medias/laure-polin-maquette/oeuvre-fiche-entree-p1440.jpg",
+     "video": null,
+     "fiche": "sections/laure-polin-maquette/oeuvre-fiche-entree.json",
+     "en_ligne": "https://laure-polin-maquette.vercel.app/oeuvre"
+    },
+    {
+     "page": "salle",
+     "role": "galerie",
+     "id": "laure-polin-maquette/salle-salle-zone",
+     "note_section": 4,
+     "titre": "Salle horizontale à l'échelle",
+     "capture": "medias/laure-polin-maquette/salle-salle-zone-p1440.jpg",
+     "video": "medias/laure-polin-maquette/salle-salle-zone-p720.mp4",
+     "fiche": "sections/laure-polin-maquette/salle-salle-zone.json",
+     "en_ligne": "https://laure-polin-maquette.vercel.app/salle"
+    }
+   ]
+  }
+ ]
+}

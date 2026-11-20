@@ -1,0 +1,471 @@
+<!doctype html>
+<html lang="fr" data-v="1">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Réalisations : Premium Events</title>
+<meta name="description" content="Pop-up, activations, stands, soirées et hospitalités : les réalisations de Premium Events, classées par métier.">
+<meta name="robots" content="noindex, nofollow">
+<link rel="canonical" href="https://premium-events-maquette.vercel.app/realisations">
+<style>:root{--fond:#F4F3EF;--texte:#111113;--voile-fond:#111113;--ouverture-fond:#111113;--menu-fond:#111113}:root { --entete-h: 72px; --barres-h: 0px; } html { background: var(--fond); color: var(--texte); scrollbar-gutter: stable; } body { margin: 0; background: var(--fond); } html.js:not(.secours):not([data-arrivee="retour"]) [data-anime] { opacity: 0; } html.js:not(.secours):not([data-arrivee="retour"]) [data-anime].vu { opacity: 1; } [data-voile] { position: fixed; inset: 0; z-index: 900; background: var(--voile-fond); transform: translateY(100%); visibility: hidden; pointer-events: none; } html[data-arrivee="voile"]:not(.voile-leve):not(.secours) [data-voile] { transform: none; visibility: visible; } html.secours [data-voile] { visibility: hidden !important; } .ouverture-panneau { position: fixed; inset: 0; z-index: 850; display: none; place-content: center; justify-items: center; background: var(--ouverture-fond, var(--voile-fond)); color: var(--fond); text-align: center; } html.js[data-arrivee="intro"]:not(.secours):not(.intro-finie) .ouverture-panneau { display: grid; } html.defilement-bloque, html.defilement-bloque body, html.js[data-arrivee="intro"]:not(.secours):not(.intro-finie), html.js[data-arrivee="intro"]:not(.secours):not(.intro-finie) body, html[data-arrivee="voile"]:not(.voile-leve):not(.secours), html[data-arrivee="voile"]:not(.voile-leve):not(.secours) body { overflow: hidden; } html.js[data-arrivee="intro"]:not(.secours):not(.intro-finie) { background-color: var(--ouverture-fond, var(--voile-fond)); } html[data-arrivee="voile"]:not(.voile-leve):not(.secours) { background-color: var(--voile-fond); }</style>
+<script>(function () {
+var d = document.documentElement, ss = null, ls = null;
+try { ss = window.sessionStorage; ls = window.localStorage; } catch (e) {}
+d.classList.add('js');
+var nav = performance.getEntriesByType ? performance.getEntriesByType('navigation')[0] : null;
+var type = nav ? nav.type : 'navigate';
+var depart = null;
+try { depart = JSON.parse(ss.getItem('socle:depart') || 'null'); ss.removeItem('socle:depart'); } catch (e) {}
+if (depart && !(Date.now() - depart.t < 15000)) depart = null;
+var mode = type === 'back_forward' ? 'retour' : type === 'reload' ? 'intro' : depart ? 'voile' : 'intro';
+d.setAttribute('data-arrivee', mode);
+if (mode === 'voile' && depart.couleur) d.style.setProperty('--voile-fond', depart.couleur);
+if (type === 'reload' && 'scrollRestoration' in history) {
+history.scrollRestoration = 'manual';
+}
+try {
+var choisie = ls && ls.getItem('socle:langue');
+var langue = (d.lang || '').slice(0, 2);
+if (choisie && choisie !== langue && type === 'navigate' && !depart) {
+var alt = document.querySelector('link[rel="alternate"][hreflang="' + choisie + '"]');
+if (alt) location.replace(new URL(alt.href).pathname + location.search + location.hash);
+}
+} catch (e) {}
+setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('secours'); }, 2000);
+})();</script>
+<link rel="preload" href="/assets/polices/archivo-titres.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/polices/instrument-sans.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="/assets/css/socle.css?v=1">
+<link rel="stylesheet" href="/assets/css/site.css?v=1">
+<link rel="modulepreload" href="/assets/js/site.js?v=1">
+<link rel="modulepreload" href="/assets/js/socle/index.js?v=1">
+<script src="/assets/vendor/gsap.min.js" defer></script>
+<script src="/assets/vendor/ScrollTrigger.min.js" defer></script>
+<script src="/assets/vendor/SplitText.min.js" defer></script>
+<script type="module" src="/assets/js/site.js?v=1"></script>
+<meta name="theme-color" content="#111113">
+<link rel="icon" href="/assets/images/favicon.png" type="image/png" sizes="64x64">
+<link rel="apple-touch-icon" href="/assets/images/apple-touch-icon.png">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Premium Events">
+<meta property="og:locale" content="fr_FR">
+<meta property="og:title" content="Réalisations : Premium Events">
+<meta property="og:description" content="Pop-up, activations, stands, soirées et hospitalités : les réalisations de Premium Events, classées par métier.">
+<meta property="og:url" content="https://premium-events-maquette.vercel.app/realisations">
+<meta property="og:image" content="https://premium-events-maquette.vercel.app/assets/partage/realisations-fr.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Réalisations de Premium Events">
+<meta name="twitter:card" content="summary_large_image">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"Organization","name":"Premium Events","url":"https://premium-events-maquette.vercel.app/","telephone":"+33172694343","email":"info@premium-events.fr","slogan":"Hospitality & Brand Experience for Sports & Entertainment","address":{"@type":"PostalAddress","streetAddress":"7 rue du Faubourg Poissonnière","postalCode":"75009","addressLocality":"Paris","addressCountry":"FR"},"sameAs":["https://www.linkedin.com/company/premium-events/","https://www.instagram.com/premiumevents_agence","https://www.facebook.com/AgencePremiumEvents"],"description":"Agence de communication événementielle à Paris : hospitalités et expériences de marque pour le sport et le divertissement (pop-up et boutiques, activations, stands et scénographie, soirées et séminaires, hospitalités)."}</script>
+</head>
+<body id="haut">
+<div data-voile data-forme="coupe" aria-hidden="true"><div class="voile-contenu"><img src="/assets/images/logo-clair.png" alt="" width="298" height="124"><span class="voile-barre"></span><span data-voile-libelle>Réalisations</span></div></div>
+<div class="ouverture-panneau" data-ouverture aria-hidden="true">
+  <img class="ouverture-logo" src="/assets/images/logo-clair.png" alt="" width="298" height="124" data-ouverture-objet>
+  <p class="ouverture-ligne">Hospitality &amp; Brand Experience</p>
+  <svg class="ouverture-coupe" viewBox="0 0 100 100" preserveAspectRatio="none" aria-hidden="true"><line x1="59" y1="0" x2="41" y2="100" pathLength="1" vector-effect="non-scaling-stroke"/></svg>
+</div>
+<a class="evitement" href="#contenu">Aller au contenu</a>
+<header data-entete>
+  <div class="entete-rangee">
+    <a class="entete-logo" aria-label="Premium Events, Accueil" href="/" data-libelle="Accueil">
+      <img src="/assets/images/logo-clair.png" alt="Premium Events" width="298" height="124">
+    </a>
+    <nav data-nav aria-label="Navigation principale">
+      <ul><li><a href="/realisations" data-libelle="Réalisations" aria-current="page">Réalisations</a></li><li><a href="/engagements" data-libelle="Engagements">Engagements</a></li><li><a href="/contact" data-libelle="Contact">Contact</a></li></ul>
+    </nav>
+    <div class="entete-actions">
+      <a class="bouton" href="/contact#brief" data-libelle="Contact">Votre projet</a>
+      <button type="button" data-menu-bouton aria-controls="menu" aria-expanded="false" data-libelle-ouvrir="Menu" data-libelle-fermer="Fermer"><span data-libelle-bouton>Menu</span></button>
+      <a class="menu-sansjs" href="#menu" data-menu-lien>Menu</a>
+    </div>
+  </div>
+</header>
+<script>/* Avant le premier affichage : rangées de la navigation (même règle que ajusterNav dans assets/js/socle/entete.js)
+   et hauteur réelle de l'en-tête, pour que rien ne saute quand le JavaScript du site prend la main. */
+(function () {
+  var h = document.documentElement, u = document.querySelector('[data-nav] ul'), e = document.querySelector('[data-entete]');
+  if (u) {
+    var deborde = function () { return u.scrollWidth > u.clientWidth + 1; }, c = deborde();
+    if (c && window.matchMedia('(min-width: 900px)').matches) {
+      h.classList.add('nav-deux-rangees'); c = deborde();
+      if (c) { h.classList.add('nav-deux-lignes'); var a = u.querySelector('a'); c = !a || u.getBoundingClientRect().height > a.getBoundingClientRect().height * 2.5; }
+      if (c) h.classList.remove('nav-deux-rangees', 'nav-deux-lignes');
+    }
+    if (c) h.classList.add('nav-compacte');
+  }
+  if (e) h.style.setProperty('--entete-h', Math.round(e.getBoundingClientRect().height) + 'px');
+})();</script>
+<span id="menu-ferme" aria-hidden="true"></span>
+<div id="menu" data-menu role="dialog" aria-modal="true" aria-label="Menu">
+  <p class="menu-sansjs-fermer"><a href="#menu-ferme">Fermer</a></p>
+  <ul><li style="--i:0"><a href="/" class="menu-lien" data-libelle="Accueil">Accueil</a></li><li style="--i:1"><a href="/realisations" class="menu-lien" data-libelle="Réalisations" aria-current="page">Réalisations</a></li><li style="--i:2" class="menu-sous"><a href="/the-alters" class="menu-lien" data-libelle="The Alters">The Alters</a></li><li style="--i:3" class="menu-sous"><a href="/paris-games-week" class="menu-lien" data-libelle="Paris Games Week">Paris Games Week</a></li><li style="--i:4"><a href="/engagements" class="menu-lien" data-libelle="Engagements">Engagements</a></li><li style="--i:5"><a href="/contact" class="menu-lien" data-libelle="Contact">Contact</a></li></ul>
+  <p class="menu-contact"><a class="bouton" href="tel:+33172694343">Appeler 01 72 69 43 43</a> <a class="menu-mail" href="mailto:info@premium-events.fr">info@premium-events.fr</a></p>
+</div>
+<main id="contenu" tabindex="-1">
+<section class="ouv ouv--realisations" id="debut">
+  <div class="conteneur ouv-rea">
+    <div class="ouv-rea-titre">
+      <p class="surtitre ouv-f">Réalisations</p>
+      <h1 class="ouv-titre" data-anime="gsap"><span class="ouv-m"><span class="ouv-l">Toujours</span></span><span class="ouv-m"><span class="ouv-l"><span class="surligne surligne--fixe">au cœur</span></span></span><span class="ouv-m"><span class="ouv-l">de l’événement.</span></span></h1>
+    </div>
+    <div class="ouv-rea-cote">
+      <p class="ouv-intro ouv-f masque-petit">Pop-up, activations, stands, soirées et hospitalités : une sélection de projets, classés par métier.</p>
+      <p class="ouv-actions ouv-f"><a href="/contact#brief" class="bouton bouton--noir" data-libelle="Contact" data-action-principale data-survol="magnetique">Parler de votre projet</a></p>
+      <p class="ouv-info ouv-f" data-info-cle>5 métiers · 25 marques</p>
+    </div>
+  </div>
+  <div class="bande" id="bande" data-boucle-css data-effet="bande" data-iris-centre role="region" aria-label="Photos de réalisations, en défilement">
+    <ul class="bande-piste"><li><figure class="media bande-media" style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/bande-1-1600.webp" srcset="/assets/images/bande-1-1024.webp 1024w, /assets/images/bande-1-1168.webp 1168w, /assets/images/bande-1-1600.webp 1600w" sizes="(max-width: 760px) 40vw, 18vw" alt="Le camion The Alters sous les arcades d’une rue parisienne" width="1600" height="2133" fetchpriority="high" loading="eager" decoding="async">
+  </picture>
+</figure></li><li><figure class="media bande-media" style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/bande-2-1168.webp" srcset="/assets/images/bande-2-1024.webp 1024w, /assets/images/bande-2-1168.webp 1168w" sizes="(max-width: 760px) 40vw, 18vw" alt="Gâteau d’anniversaire couvert de feux de Bengale" width="1168" height="1557" fetchpriority="high" loading="eager" decoding="async">
+  </picture>
+</figure></li><li><figure class="media bande-media" style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/bande-3-1600.webp" srcset="/assets/images/bande-3-1024.webp 1024w, /assets/images/bande-3-1168.webp 1168w, /assets/images/bande-3-1600.webp 1600w" sizes="(max-width: 760px) 40vw, 18vw" alt="Joueuse qui éclate de rire, manette en main" width="1600" height="2133" fetchpriority="high" loading="eager" decoding="async">
+  </picture>
+</figure></li><li><figure class="media bande-media" style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/bande-4-1600.webp" srcset="/assets/images/bande-4-1024.webp 1024w, /assets/images/bande-4-1168.webp 1168w, /assets/images/bande-4-1600.webp 1600w" sizes="(max-width: 760px) 40vw, 18vw" alt="Stand Xbox, visiteurs devant une roue lumineuse" width="1600" height="2133" fetchpriority="high" loading="eager" decoding="async">
+  </picture>
+</figure></li><li><figure class="media bande-media" style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/bande-5-1168.webp" srcset="/assets/images/bande-5-1024.webp 1024w, /assets/images/bande-5-1168.webp 1168w" sizes="(max-width: 760px) 40vw, 18vw" alt="Spider-Man accroupi devant une boutique, passants autour" width="1168" height="1557" loading="lazy" decoding="async">
+  </picture>
+</figure></li><li><figure class="media bande-media" style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/bande-6-1168.webp" srcset="/assets/images/bande-6-1024.webp 1024w, /assets/images/bande-6-1168.webp 1168w" sizes="(max-width: 760px) 40vw, 18vw" alt="Violoniste dans un faisceau de lumière bleue" width="1168" height="1557" loading="lazy" decoding="async">
+  </picture>
+</figure></li><li><figure class="media bande-media" style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/bande-7-1600.webp" srcset="/assets/images/bande-7-1024.webp 1024w, /assets/images/bande-7-1168.webp 1168w, /assets/images/bande-7-1600.webp 1600w" sizes="(max-width: 760px) 40vw, 18vw" alt="Équipe souriante devant un food truck à café" width="1600" height="2133" loading="lazy" decoding="async">
+  </picture>
+</figure></li><li><figure class="media bande-media" style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/bande-8-1168.webp" srcset="/assets/images/bande-8-1024.webp 1024w, /assets/images/bande-8-1168.webp 1168w" sizes="(max-width: 760px) 40vw, 18vw" alt="Deux intervenants sur un plateau, micros en main" width="1168" height="1557" loading="lazy" decoding="async">
+  </picture>
+</figure></li><li aria-hidden="true"><figure class="media bande-media" style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/bande-1-1600.webp" srcset="/assets/images/bande-1-1024.webp 1024w, /assets/images/bande-1-1168.webp 1168w, /assets/images/bande-1-1600.webp 1600w" sizes="(max-width: 760px) 40vw, 18vw" alt="" width="1600" height="2133" loading="lazy" decoding="async">
+  </picture>
+</figure></li><li aria-hidden="true"><figure class="media bande-media" style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/bande-2-1168.webp" srcset="/assets/images/bande-2-1024.webp 1024w, /assets/images/bande-2-1168.webp 1168w" sizes="(max-width: 760px) 40vw, 18vw" alt="" width="1168" height="1557" loading="lazy" decoding="async">
+  </picture>
+</figure></li><li aria-hidden="true"><figure class="media bande-media" style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/bande-3-1600.webp" srcset="/assets/images/bande-3-1024.webp 1024w, /assets/images/bande-3-1168.webp 1168w, /assets/images/bande-3-1600.webp 1600w" sizes="(max-width: 760px) 40vw, 18vw" alt="" width="1600" height="2133" loading="lazy" decoding="async">
+  </picture>
+</figure></li><li aria-hidden="true"><figure class="media bande-media" style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/bande-4-1600.webp" srcset="/assets/images/bande-4-1024.webp 1024w, /assets/images/bande-4-1168.webp 1168w, /assets/images/bande-4-1600.webp 1600w" sizes="(max-width: 760px) 40vw, 18vw" alt="" width="1600" height="2133" loading="lazy" decoding="async">
+  </picture>
+</figure></li><li aria-hidden="true"><figure class="media bande-media" style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/bande-5-1168.webp" srcset="/assets/images/bande-5-1024.webp 1024w, /assets/images/bande-5-1168.webp 1168w" sizes="(max-width: 760px) 40vw, 18vw" alt="" width="1168" height="1557" loading="lazy" decoding="async">
+  </picture>
+</figure></li><li aria-hidden="true"><figure class="media bande-media" style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/bande-6-1168.webp" srcset="/assets/images/bande-6-1024.webp 1024w, /assets/images/bande-6-1168.webp 1168w" sizes="(max-width: 760px) 40vw, 18vw" alt="" width="1168" height="1557" loading="lazy" decoding="async">
+  </picture>
+</figure></li><li aria-hidden="true"><figure class="media bande-media" style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/bande-7-1600.webp" srcset="/assets/images/bande-7-1024.webp 1024w, /assets/images/bande-7-1168.webp 1168w, /assets/images/bande-7-1600.webp 1600w" sizes="(max-width: 760px) 40vw, 18vw" alt="" width="1600" height="2133" loading="lazy" decoding="async">
+  </picture>
+</figure></li><li aria-hidden="true"><figure class="media bande-media" style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/bande-8-1168.webp" srcset="/assets/images/bande-8-1024.webp 1024w, /assets/images/bande-8-1168.webp 1168w" sizes="(max-width: 760px) 40vw, 18vw" alt="" width="1168" height="1557" loading="lazy" decoding="async">
+  </picture>
+</figure></li></ul>
+  </div>
+  <p class="bande-pause-zone conteneur"><button type="button" class="ruban-pause ruban-pause--sombre" data-pause-pour="bande" data-libelle-pause="Pause" data-libelle-lecture="Lecture"><span data-libelle-bouton>Pause</span></button></p>
+</section>
+<section class="rea" id="realisations" aria-labelledby="filtres-titre">
+  <div class="filtres" data-filtres>
+    <div class="conteneur filtres-rangee">
+      <h2 class="filtres-titre" id="filtres-titre">Filtrer par métier</h2>
+      <div class="filtres-boutons" role="group" aria-labelledby="filtres-titre">
+        <button type="button" class="filtre" data-filtre="tous" aria-pressed="true">Tous les métiers</button>
+        <button type="button" class="filtre" data-filtre="popup" aria-pressed="false">Pop-up &amp; Boutiques</button><button type="button" class="filtre" data-filtre="activations" aria-pressed="false">Activations &amp; Expériences</button><button type="button" class="filtre" data-filtre="stands" aria-pressed="false">Stands &amp; Scénographie</button><button type="button" class="filtre" data-filtre="soirees" aria-pressed="false">Soirées &amp; Séminaires</button><button type="button" class="filtre" data-filtre="hospitalites" aria-pressed="false">Hospitalités &amp; Sport</button>
+      </div>
+      <p class="filtres-etat" aria-live="polite" data-resultat-un="{n} métier affiché" data-resultat-plusieurs="{n} métiers affichés"></p>
+    </div>
+  </div>
+  <article class="chapitre" id="popup" data-metier="popup" aria-labelledby="chap-popup">
+    <div class="conteneur chapitre-tete">
+      <p class="chapitre-num" aria-hidden="true">01</p>
+      <div>
+        <p class="surtitre" data-anime>Pop-up &amp; Boutiques</p>
+        <h2 id="chap-popup" data-anime="lignes">Nos boutiques iconiques.</h2>
+      </div>
+      <div class="chapitre-texte" data-anime>
+        <p>Des boutiques éphémères pensées comme des lieux à vivre : concept stores événementiels, pop-ups, flagships éphémères ou boutiques expérientielles.</p>
+        <p class="chapitre-projets-titre">Projets cités</p>
+        <ul class="puces"><li>Le Onepieceshop Paris</li><li>La boutique Japan Expo</li><li>Les coffee carts et boutiques éphémères Lavazza</li><li>Les pop-up Winnie l’Ourson et Star Wars</li></ul>
+      </div>
+    </div>
+    <ul class="conteneur mosaique" data-anime="cascade">
+      <li class="mosaique-1"><figure class="media mosaique-media" style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/popup-1-1600.webp" srcset="/assets/images/popup-1-1024.webp 1024w, /assets/images/popup-1-1168.webp 1168w, /assets/images/popup-1-1600.webp 1600w" sizes="(max-width: 760px) 100vw, 50vw" alt="Boutique éphémère d’animation japonaise, comptoir et rayonnages" width="1600" height="1600" loading="lazy" decoding="async">
+  </picture><figcaption class="media-legende">Boutique éphémère d’animation japonaise, comptoir et rayonnages</figcaption>
+</figure></li><li class="mosaique-2"><figure class="media mosaique-media" style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/popup-2-1600.webp" srcset="/assets/images/popup-2-1024.webp 1024w, /assets/images/popup-2-1168.webp 1168w, /assets/images/popup-2-1600.webp 1600w" sizes="(max-width: 760px) 50vw, 25vw" alt="Vitrine de figurines One Piece éclairée" width="1600" height="2000" loading="lazy" decoding="async">
+  </picture><figcaption class="media-legende">Vitrine de figurines One Piece éclairée</figcaption>
+</figure></li><li class="mosaique-3"><figure class="media mosaique-media" style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/popup-3-1168.webp" srcset="/assets/images/popup-3-1024.webp 1024w, /assets/images/popup-3-1168.webp 1168w" sizes="(max-width: 760px) 50vw, 25vw" alt="Café Lavazza servi à côté d’un paquet Roma" width="1168" height="1460" loading="lazy" decoding="async">
+  </picture><figcaption class="media-legende">Café Lavazza servi à côté d’un paquet Roma</figcaption>
+</figure></li><li class="mosaique-4"><figure class="media mosaique-media" style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/popup-4-1600.webp" srcset="/assets/images/popup-4-1024.webp 1024w, /assets/images/popup-4-1168.webp 1168w, /assets/images/popup-4-1600.webp 1600w" sizes="(max-width: 760px) 50vw, 25vw" alt="Peluches de Luffy alignées en rayon" width="1600" height="2001" loading="lazy" decoding="async">
+  </picture><figcaption class="media-legende">Peluches de Luffy alignées en rayon</figcaption>
+</figure></li><li class="mosaique-5"><figure class="media mosaique-media" style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/popup-5-1168.webp" srcset="/assets/images/popup-5-1024.webp 1024w, /assets/images/popup-5-1168.webp 1168w" sizes="(max-width: 760px) 50vw, 25vw" alt="Vendeurs et clients autour de la caisse d’une boutique éphémère" width="1168" height="1461" loading="lazy" decoding="async">
+  </picture><figcaption class="media-legende">Vendeurs et clients autour de la caisse d’une boutique éphémère</figcaption>
+</figure></li>
+    </ul>
+  </article><article class="chapitre" id="activations" data-metier="activations" aria-labelledby="chap-activations">
+    <div class="conteneur chapitre-tete">
+      <p class="chapitre-num" aria-hidden="true">02</p>
+      <div>
+        <p class="surtitre" data-anime>Activations &amp; Expériences</p>
+        <h2 id="chap-activations" data-anime="lignes">Nos activations les plus captivantes.</h2>
+      </div>
+      <div class="chapitre-texte" data-anime>
+        <p>Des activations qui mettent le public au cœur de la marque, dans la rue, en boutique ou sur scène. Parmi elles :</p>
+        <p class="chapitre-projets-titre">Projets cités</p>
+        <ul class="puces"><li>Europcar</li><li>Les 101 Dalmatiens</li><li>Tôt ou Tard</li><li>La Fête de la Musique</li><li>La Tournée des Plages TF1</li><li>Spider-Man avec Sony Pictures</li><li>J One</li></ul>
+      </div>
+    </div>
+    <ul class="conteneur mosaique" data-anime="cascade">
+      <li class="mosaique-1"><figure class="media mosaique-media" style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/activations-1-1600.webp" srcset="/assets/images/activations-1-1024.webp 1024w, /assets/images/activations-1-1168.webp 1168w, /assets/images/activations-1-1600.webp 1600w" sizes="(max-width: 760px) 100vw, 50vw" alt="Bus rouge à impériale habillé pour Les 101 Dalmatiens" width="1600" height="1600" loading="lazy" decoding="async">
+  </picture><figcaption class="media-legende">Bus rouge à impériale habillé pour Les 101 Dalmatiens</figcaption>
+</figure></li><li class="mosaique-2"><figure class="media mosaique-media" style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/activations-2-1168.webp" srcset="/assets/images/activations-2-1024.webp 1024w, /assets/images/activations-2-1168.webp 1168w" sizes="(max-width: 760px) 50vw, 25vw" alt="Invités hilares sur un plateau aux couleurs vertes de Topspin 2K25" width="1168" height="1461" loading="lazy" decoding="async">
+  </picture><figcaption class="media-legende">Invités hilares sur un plateau aux couleurs vertes de Topspin 2K25</figcaption>
+</figure></li><li class="mosaique-3"><figure class="media mosaique-media" style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/activations-3-1168.webp" srcset="/assets/images/activations-3-1024.webp 1024w, /assets/images/activations-3-1168.webp 1168w" sizes="(max-width: 760px) 50vw, 25vw" alt="Batteur souriant pendant une activation musicale" width="1168" height="1461" loading="lazy" decoding="async">
+  </picture><figcaption class="media-legende">Batteur souriant pendant une activation musicale</figcaption>
+</figure></li><li class="mosaique-4"><figure class="media mosaique-media" style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/activations-4-1600.webp" srcset="/assets/images/activations-4-1024.webp 1024w, /assets/images/activations-4-1168.webp 1168w, /assets/images/activations-4-1600.webp 1600w" sizes="(max-width: 760px) 50vw, 25vw" alt="Enfant qui découvre des biscuits dalmatiens" width="1600" height="2000" loading="lazy" decoding="async">
+  </picture><figcaption class="media-legende">Enfant qui découvre des biscuits dalmatiens</figcaption>
+</figure></li><li class="mosaique-5"><figure class="media mosaique-media" style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/activations-5-1168.webp" srcset="/assets/images/activations-5-1024.webp 1024w, /assets/images/activations-5-1168.webp 1168w" sizes="(max-width: 760px) 50vw, 25vw" alt="Deux artistes en scène, bras levés" width="1168" height="1461" loading="lazy" decoding="async">
+  </picture><figcaption class="media-legende">Deux artistes en scène, bras levés</figcaption>
+</figure></li>
+    </ul>
+  </article><article class="chapitre" id="stands" data-metier="stands" aria-labelledby="chap-stands">
+    <div class="conteneur chapitre-tete">
+      <p class="chapitre-num" aria-hidden="true">03</p>
+      <div>
+        <p class="surtitre" data-anime>Stands &amp; Scénographie</p>
+        <h2 id="chap-stands" data-anime="lignes">Nos stands et scénographies emblématiques.</h2>
+      </div>
+      <div class="chapitre-texte" data-anime>
+        <p>Des stands conçus pour attirer, retenir et faire revenir les visiteurs des grands salons.</p>
+        <p class="chapitre-projets-titre">Projets cités</p>
+        <ul class="puces"><li>Xbox, Game One et Nickelodeon à la Paris Games Week</li><li>Le Biogaz Café au Salon de l’agriculture</li><li>Le stand Unigy à Viva Technology</li><li>Lavazza au Sirha</li><li>Japan Expo</li><li>Paris Café Festival</li><li>Conti Monaco</li><li>Sportel</li></ul>
+      </div>
+    </div>
+    <ul class="conteneur mosaique" data-anime="cascade">
+      <li class="mosaique-1"><figure class="media mosaique-media" style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/stands-1-1600.webp" srcset="/assets/images/stands-1-1024.webp 1024w, /assets/images/stands-1-1168.webp 1168w, /assets/images/stands-1-1600.webp 1600w" sizes="(max-width: 760px) 100vw, 50vw" alt="Voiture de sport reproduite en briques sur un stand" width="1600" height="1600" loading="lazy" decoding="async">
+  </picture><figcaption class="media-legende">Voiture de sport reproduite en briques sur un stand</figcaption>
+</figure></li><li class="mosaique-2"><figure class="media mosaique-media" style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/stands-2-1168.webp" srcset="/assets/images/stands-2-1024.webp 1024w, /assets/images/stands-2-1168.webp 1168w" sizes="(max-width: 760px) 50vw, 25vw" alt="Stand bleu avec bar et tabourets dans un hall d’exposition" width="1168" height="1460" loading="lazy" decoding="async">
+  </picture><figcaption class="media-legende">Stand bleu avec bar et tabourets dans un hall d’exposition</figcaption>
+</figure></li><li class="mosaique-3"><figure class="media mosaique-media" style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/stands-3-1600.webp" srcset="/assets/images/stands-3-1024.webp 1024w, /assets/images/stands-3-1168.webp 1168w, /assets/images/stands-3-1600.webp 1600w" sizes="(max-width: 760px) 50vw, 25vw" alt="Stand Crunchyroll pris d’assaut par les visiteurs" width="1600" height="2000" loading="lazy" decoding="async">
+  </picture><figcaption class="media-legende">Stand Crunchyroll pris d’assaut par les visiteurs</figcaption>
+</figure></li><li class="mosaique-4"><figure class="media mosaique-media" style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/stands-4-1600.webp" srcset="/assets/images/stands-4-1024.webp 1024w, /assets/images/stands-4-1168.webp 1168w, /assets/images/stands-4-1600.webp 1600w" sizes="(max-width: 760px) 50vw, 25vw" alt="Van jaune des Tortues Ninja devant un décor de rue" width="1600" height="2000" loading="lazy" decoding="async">
+  </picture><figcaption class="media-legende">Van jaune des Tortues Ninja devant un décor de rue</figcaption>
+</figure></li><li class="mosaique-5"><figure class="media mosaique-media" style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/stands-5-1600.webp" srcset="/assets/images/stands-5-1024.webp 1024w, /assets/images/stands-5-1168.webp 1168w, /assets/images/stands-5-1600.webp 1600w" sizes="(max-width: 760px) 50vw, 25vw" alt="Décor de chalet en rondins, fauteuil et magnétophone" width="1600" height="2000" loading="lazy" decoding="async">
+  </picture><figcaption class="media-legende">Décor de chalet en rondins, fauteuil et magnétophone</figcaption>
+</figure></li>
+    </ul>
+  </article><article class="chapitre" id="soirees" data-metier="soirees" aria-labelledby="chap-soirees">
+    <div class="conteneur chapitre-tete">
+      <p class="chapitre-num" aria-hidden="true">04</p>
+      <div>
+        <p class="surtitre" data-anime>Soirées &amp; Séminaires</p>
+        <h2 id="chap-soirees" data-anime="lignes">Nos rendez-vous les plus marquants.</h2>
+      </div>
+      <div class="chapitre-texte" data-anime>
+        <p>Séminaires, lancements, soirées privées et événements d’exception : conception, organisation et production, de la recherche de lieu à la scénographie, la programmation artistique, l’animation et la coordination sur site.</p>
+        <p class="chapitre-projets-titre">Ce que nous prenons en charge</p>
+        <ul class="puces"><li>Recherche de lieu</li><li>Scénographie</li><li>Programmation artistique</li><li>Animation</li><li>Coordination sur site</li></ul>
+      </div>
+    </div>
+    <ul class="conteneur mosaique" data-anime="cascade">
+      <li class="mosaique-1"><figure class="media mosaique-media" style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/soirees-1-1600.webp" srcset="/assets/images/soirees-1-1024.webp 1024w, /assets/images/soirees-1-1168.webp 1168w, /assets/images/soirees-1-1600.webp 1600w" sizes="(max-width: 760px) 100vw, 50vw" alt="Invitée en robe dorée au cœur d’une soirée" width="1600" height="1600" loading="lazy" decoding="async">
+  </picture><figcaption class="media-legende">Invitée en robe dorée au cœur d’une soirée</figcaption>
+</figure></li><li class="mosaique-2"><figure class="media mosaique-media" style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/soirees-2-1600.webp" srcset="/assets/images/soirees-2-1024.webp 1024w, /assets/images/soirees-2-1168.webp 1168w, /assets/images/soirees-2-1600.webp 1600w" sizes="(max-width: 760px) 50vw, 25vw" alt="Table ronde éclairée en violet sous l’enseigne Innovation Lab" width="1600" height="2001" loading="lazy" decoding="async">
+  </picture><figcaption class="media-legende">Table ronde éclairée en violet sous l’enseigne Innovation Lab</figcaption>
+</figure></li><li class="mosaique-3"><figure class="media mosaique-media" style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/soirees-3-1168.webp" srcset="/assets/images/soirees-3-1024.webp 1024w, /assets/images/soirees-3-1168.webp 1168w" sizes="(max-width: 760px) 50vw, 25vw" alt="Concert dans une salle baignée de rouge" width="1168" height="1461" loading="lazy" decoding="async">
+  </picture><figcaption class="media-legende">Concert dans une salle baignée de rouge</figcaption>
+</figure></li><li class="mosaique-4"><figure class="media mosaique-media" style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/soirees-4-1168.webp" srcset="/assets/images/soirees-4-1024.webp 1024w, /assets/images/soirees-4-1168.webp 1168w" sizes="(max-width: 760px) 50vw, 25vw" alt="Musiciens devant un mur de fleurs blanches" width="1168" height="1460" loading="lazy" decoding="async">
+  </picture><figcaption class="media-legende">Musiciens devant un mur de fleurs blanches</figcaption>
+</figure></li><li class="mosaique-5"><figure class="media mosaique-media" style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/soirees-5-1600.webp" srcset="/assets/images/soirees-5-1024.webp 1024w, /assets/images/soirees-5-1168.webp 1168w, /assets/images/soirees-5-1600.webp 1600w" sizes="(max-width: 760px) 50vw, 25vw" alt="Deux invitées posent devant le décor de la série Mobland" width="1600" height="2000" loading="lazy" decoding="async">
+  </picture><figcaption class="media-legende">Deux invitées posent devant le décor de la série Mobland</figcaption>
+</figure></li>
+    </ul>
+  </article><article class="chapitre" id="hospitalites" data-metier="hospitalites" aria-labelledby="chap-hospitalites">
+    <div class="conteneur chapitre-tete">
+      <p class="chapitre-num" aria-hidden="true">05</p>
+      <div>
+        <p class="surtitre" data-anime>Hospitalités &amp; Sport</p>
+        <h2 id="chap-hospitalites" data-anime="lignes">L’art de recevoir.</h2>
+      </div>
+      <div class="chapitre-texte" data-anime>
+        <p>Hospitalités, expériences VIP et dispositifs sur mesure dans le sport et au-delà : conception, installation, gestion des accréditations, accueil des invités et logistique sur site.</p>
+        <p class="chapitre-projets-titre">Ce que nous prenons en charge</p>
+        <ul class="puces"><li>Conception</li><li>Installation</li><li>Gestion des accréditations</li><li>Accueil des invités</li><li>Logistique sur site</li></ul>
+      </div>
+    </div>
+    <ul class="conteneur mosaique" data-anime="cascade">
+      <li class="mosaique-1"><figure class="media mosaique-media" style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/hospitalites-1-1600.webp" srcset="/assets/images/hospitalites-1-1024.webp 1024w, /assets/images/hospitalites-1-1168.webp 1168w, /assets/images/hospitalites-1-1600.webp 1600w" sizes="(max-width: 760px) 100vw, 50vw" alt="Hôtesses Emirates alignées en tribune, devant un court en terre battue" width="1600" height="1600" loading="lazy" decoding="async">
+  </picture><figcaption class="media-legende">Hôtesses Emirates alignées en tribune, devant un court en terre battue</figcaption>
+</figure></li><li class="mosaique-2"><figure class="media mosaique-media" style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/hospitalites-2-1600.webp" srcset="/assets/images/hospitalites-2-1024.webp 1024w, /assets/images/hospitalites-2-1168.webp 1168w, /assets/images/hospitalites-2-1600.webp 1600w" sizes="(max-width: 760px) 50vw, 25vw" alt="Barista qui verse un café latte" width="1600" height="2001" loading="lazy" decoding="async">
+  </picture><figcaption class="media-legende">Barista qui verse un café latte</figcaption>
+</figure></li><li class="mosaique-3"><figure class="media mosaique-media" style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/hospitalites-3-1600.webp" srcset="/assets/images/hospitalites-3-1024.webp 1024w, /assets/images/hospitalites-3-1168.webp 1168w, /assets/images/hospitalites-3-1600.webp 1600w" sizes="(max-width: 760px) 50vw, 25vw" alt="Service du thé dans une théière en verre" width="1600" height="2001" loading="lazy" decoding="async">
+  </picture><figcaption class="media-legende">Service du thé dans une théière en verre</figcaption>
+</figure></li><li class="mosaique-4"><figure class="media mosaique-media" style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/hospitalites-4-1600.webp" srcset="/assets/images/hospitalites-4-1024.webp 1024w, /assets/images/hospitalites-4-1168.webp 1168w, /assets/images/hospitalites-4-1600.webp 1600w" sizes="(max-width: 760px) 50vw, 25vw" alt="Invitée qui regarde passer un voilier de course" width="1600" height="2000" loading="lazy" decoding="async">
+  </picture><figcaption class="media-legende">Invitée qui regarde passer un voilier de course</figcaption>
+</figure></li><li class="mosaique-5"><figure class="media mosaique-media" style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/hospitalites-5-1600.webp" srcset="/assets/images/hospitalites-5-1024.webp 1024w, /assets/images/hospitalites-5-1168.webp 1168w, /assets/images/hospitalites-5-1600.webp 1600w" sizes="(max-width: 760px) 50vw, 25vw" alt="Spectateurs au chapeau blanc au-dessus d’un court de tennis" width="1600" height="2000" loading="lazy" decoding="async">
+  </picture><figcaption class="media-legende">Spectateurs au chapeau blanc au-dessus d’un court de tennis</figcaption>
+</figure></li>
+    </ul>
+  </article>
+</section>
+<section class="etudes" id="etudes" aria-labelledby="etudes-titre">
+  <div class="conteneur">
+    <p class="surtitre" data-anime>Études de cas</p>
+    <h2 id="etudes-titre" data-anime="lignes">Deux projets racontés de bout en bout.</h2>
+    <div class="etudes-grille" data-anime="cascade"><article class="etude-carte">
+  <figure class="media etude-carte-media" data-fx="zoom" style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/alters-camion-1600.webp" srcset="/assets/images/alters-camion-1024.webp 1024w, /assets/images/alters-camion-1168.webp 1168w, /assets/images/alters-camion-1600.webp 1600w" sizes="(max-width: 760px) 100vw, 45vw" alt="Le camion vitré aux couleurs de The Alters garé dans une rue de Paris" width="1600" height="2000" loading="lazy" decoding="async">
+  </picture>
+</figure>
+  <div class="etude-carte-texte">
+    <p class="surtitre">Étude de cas · Activation · Paris</p>
+    <h3>The Alters infiltre la Fashion Week.</h3>
+    <p>11 bit studios × ZA/UM Atelier : un camion vitré, cinq mannequins, de République aux Champs-Élysées.</p>
+    <a href="/the-alters" class="lien-fleche" data-libelle="The Alters">Lire l’étude de cas</a>
+  </div>
+</article><article class="etude-carte">
+  <figure class="media etude-carte-media" data-fx="zoom" style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/pgw-luffy-1600.webp" srcset="/assets/images/pgw-luffy-1024.webp 1024w, /assets/images/pgw-luffy-1168.webp 1168w, /assets/images/pgw-luffy-1600.webp 1600w" sizes="(max-width: 760px) 100vw, 45vw" alt="Visiteur à côté d’une statue de Luffy sur un stand One Piece" width="1600" height="2000" loading="lazy" decoding="async">
+  </picture>
+</figure>
+  <div class="etude-carte-texte">
+    <p class="surtitre">Étude de cas · Stands · Paris Games Week</p>
+    <h3>PGW et Premium Events, une partie sans fin.</h3>
+    <p>Près de 10 ans de stands au salon du jeu vidéo : mezzanine à 360°, arène géante, plateau TV tournant.</p>
+    <a href="/paris-games-week" class="lien-fleche" data-libelle="Paris Games Week">Lire l’étude de cas</a>
+  </div>
+</article></div>
+  </div>
+</section>
+<section class="index-clients" id="clients" aria-labelledby="index-titre">
+  <div class="conteneur">
+    <p class="surtitre surtitre--clair" data-anime>25 marques</p>
+    <h2 id="index-titre" data-anime="lignes">Ils nous font confiance.</h2>
+    <ul class="index-liste" data-anime="cascade"><li>Emirates</li><li>Accor</li><li>Lavazza</li><li>FNCF</li><li>Burger King</li><li>Fédération Française du Bâtiment</li><li>Coloplast</li><li>Toei Animation</li><li>Crunchyroll</li><li>Bandai</li><li>Warner Bros. Discovery</li><li>Disney</li><li>Air Caraïbes</li><li>Geekvape</li><li>Paramount</li><li>Eurosport</li><li>Carte Noire</li><li>CNC</li><li>Conti</li><li>Game One</li><li>Xbox</li><li>J One</li><li>Nickelodeon</li><li>Europcar</li><li>Orange</li></ul>
+    <p class="index-note" data-anime>Logos des marques à fournir par Premium Events.</p>
+  </div>
+</section>
+<section class="fin" id="fin" aria-labelledby="fin-titre">
+  <div class="fin-signature" data-visuel aria-hidden="true" data-audit-ignorer>
+    <span class="sig-l1" data-effet="signature">we create</span>
+    <span class="sig-l2"><span class="sig-amp">&amp;</span> deliver</span>
+    <svg class="sig-barre" viewBox="0 0 100 100" preserveAspectRatio="none"><line x1="64" y1="2" x2="40" y2="98" pathLength="1" vector-effect="non-scaling-stroke"/></svg>
+  </div>
+  <div class="conteneur fin-corps">
+    <p class="surtitre surtitre--clair" data-anime>Votre prochain événement</p>
+    <h2 id="fin-titre" data-anime="lignes">Parlons de votre prochain événement.</h2>
+    <p class="fin-texte" data-anime>Un lancement, un salon, une soirée, une loge ? Décrivez votre projet en trois étapes, ou appelez directement l’agence.</p>
+    <p class="fin-actions" data-anime>
+      <a href="/contact#brief" class="bouton" data-libelle="Contact" data-survol="magnetique">Parler de votre projet</a>
+      <a class="bouton bouton--contour-clair" href="tel:+33172694343" data-survol="magnetique">01 72 69 43 43</a>
+      <a class="fin-mail" href="mailto:info@premium-events.fr">info@premium-events.fr</a>
+    </p>
+  </div>
+</section>
+</main>
+<footer class="pied" id="pied">
+  <div class="conteneur pied-grille">
+    <div class="pied-marque">
+      <img src="/assets/images/logo-clair.png" alt="Premium Events" width="298" height="124" loading="lazy">
+      <p>Hospitality &amp; Brand Experience for Sports &amp; Entertainment</p>
+    </div>
+    <div>
+      <p class="pied-titre">Adresse</p>
+      <p>7 rue du Faubourg Poissonnière<br>75009 Paris<br><span class="pied-doux">Métro Bonne Nouvelle ou Grands Boulevards, lignes 8 et 9</span></p>
+      <p><a href="tel:+33172694343">+33 (0)1 72 69 43 43</a><br><a href="mailto:info@premium-events.fr">info@premium-events.fr</a></p>
+    </div>
+    <nav aria-label="Sommaire">
+      <p class="pied-titre">Sommaire</p>
+      <ul><li><a href="/" data-libelle="Accueil">Accueil</a></li><li><a href="/realisations" data-libelle="Réalisations" aria-current="page">Réalisations</a></li><li><a href="/the-alters" data-libelle="The Alters">The Alters</a></li><li><a href="/paris-games-week" data-libelle="Paris Games Week">Paris Games Week</a></li><li><a href="/engagements" data-libelle="Engagements">Engagements</a></li><li><a href="/contact" data-libelle="Contact">Contact</a></li></ul>
+    </nav>
+    <div>
+      <p class="pied-titre">Suivre l’agence</p>
+      <ul><li><a href="https://www.linkedin.com/company/premium-events/" target="_blank" rel="noopener">LinkedIn<span class="visuellement-cache"> (nouvel onglet)</span></a></li><li><a href="https://www.instagram.com/premiumevents_agence" target="_blank" rel="noopener">Instagram<span class="visuellement-cache"> (nouvel onglet)</span></a></li><li><a href="https://www.facebook.com/AgencePremiumEvents" target="_blank" rel="noopener">Facebook<span class="visuellement-cache"> (nouvel onglet)</span></a></li>
+        <li><a href="#haut" data-sans-transition>Retour en haut</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="conteneur pied-bas">
+    <p>Mentions légales · à compléter &nbsp;/&nbsp; Politique de confidentialité · à compléter</p>
+    <p>Maquette de démonstration : les informations marquées « à compléter » seront fournies par Premium Events.</p>
+    <p>© Premium Events</p>
+  </div>
+</footer>
+<div data-barre-fixe>
+  <a class="bouton bouton--contour" href="tel:+33172694343">Appeler</a>
+  <a class="bouton" href="/contact#brief" data-libelle="Contact">Parler de votre projet</a>
+</div>
+</body>
+</html>

@@ -1,0 +1,24 @@
+{
+  "siteActuel": "www.premium-events.fr",
+  "pagesTypes": [
+    "/",
+    "/realisations",
+    "/the-alters",
+    "/engagements",
+    "/contact"
+  ],
+  "effets": [
+    "metiers",
+    "parcours",
+    "methode",
+    "signature",
+    "ruban",
+    "bande",
+    "badge",
+    "brief",
+    "galerie-pgw"
+  ],
+  "grille": {
+    "dispenses": {}
+  }
+}

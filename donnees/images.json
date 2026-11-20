@@ -1,0 +1,5929 @@
+{
+  "logo": {
+    "nom": "logo",
+    "source": "recu/logo-clair.png",
+    "role": "logo",
+    "alt": "Premium Events",
+    "grok": false,
+    "mention": null,
+    "beaute": null,
+    "empreinte": "31e44a6ea46a9c9c",
+    "ratio": null,
+    "largeurs": [
+      240
+    ],
+    "mobile": null,
+    "cadrage": null,
+    "sujet": null,
+    "zones_calmes": null,
+    "zone_texte": null,
+    "recadrage": null,
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "logo-240.webp"
+    ],
+    "poids": {
+      "logo-240.webp": 5844
+    },
+    "media": "c.media({ nom: 'logo', alt: \"Premium Events\", sizes: '240px' })"
+  },
+  "logo-sombre": {
+    "nom": "logo-sombre",
+    "source": "recu/logo-sombre.png",
+    "role": "logo",
+    "alt": "Premium Events",
+    "grok": false,
+    "mention": null,
+    "beaute": null,
+    "empreinte": "546ad74f7e3db116",
+    "ratio": null,
+    "largeurs": [
+      240
+    ],
+    "mobile": null,
+    "cadrage": null,
+    "sujet": null,
+    "zones_calmes": null,
+    "zone_texte": null,
+    "recadrage": null,
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "logo-sombre-240.webp"
+    ],
+    "poids": {
+      "logo-sombre-240.webp": 6646
+    },
+    "media": "c.media({ nom: 'logo-sombre', alt: \"Premium Events\", sizes: '240px' })"
+  },
+  "ecovadis": {
+    "nom": "ecovadis",
+    "source": "recu/hospitality-brand-experience-sports-11.png",
+    "role": "logo",
+    "alt": "Médaille d’argent EcoVadis, top 15 %",
+    "grok": false,
+    "mention": null,
+    "beaute": null,
+    "empreinte": "3f1d20ed6b735c3d",
+    "ratio": null,
+    "largeurs": [
+      240,
+      480
+    ],
+    "mobile": null,
+    "cadrage": null,
+    "sujet": null,
+    "zones_calmes": null,
+    "zone_texte": null,
+    "recadrage": null,
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "ecovadis-240.webp",
+      "ecovadis-480.webp"
+    ],
+    "poids": {
+      "ecovadis-240.webp": 10308,
+      "ecovadis-480.webp": 20594
+    },
+    "media": "c.media({ nom: 'ecovadis', alt: \"Médaille d’argent EcoVadis, top 15 %\", sizes: '240px' })"
+  },
+  "charte-diversite": {
+    "nom": "charte-diversite",
+    "source": "recu/evenementiel-responsable-premium-events.jpg",
+    "role": "vignette",
+    "alt": "Logo de la Charte de la diversité, signataire",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "2bf3a1ba1af09da8",
+    "ratio": "4:3",
+    "largeurs": [
+      640,
+      800
+    ],
+    "mobile": null,
+    "cadrage": "48% 50%",
+    "sujet": {
+      "x": 18.8,
+      "y": 21.3,
+      "l": 59.4,
+      "h": 61.4
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.62,
+        "ton": "clair"
+      },
+      {
+        "cote": "bas",
+        "score": 0.46,
+        "ton": "clair"
+      },
+      {
+        "cote": "droite",
+        "score": 0.26,
+        "ton": "clair"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.22,
+        "ton": "clair"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 110,
+      "width": 2000,
+      "height": 1500,
+      "source": [
+        2000,
+        1719
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "charte-diversite-640.webp",
+      "charte-diversite-800.webp"
+    ],
+    "poids": {
+      "charte-diversite-640.webp": 11032,
+      "charte-diversite-800.webp": 14286
+    },
+    "media": "c.media({ nom: 'charte-diversite', alt: \"Logo de la Charte de la diversité, signataire\", cadrage: '48% 50%', sizes: '(max-width: 760px) 50vw, 25vw', ratio: '4 / 3' })"
+  },
+  "accueil-ouverture": {
+    "nom": "accueil-ouverture",
+    "source": "recu/hospitality-brand-experience-sports-26.jpg",
+    "role": "ouverture",
+    "alt": "Public qui lève les bras devant une scène, dans la lumière bleue d’un salon",
+    "grok": false,
+    "mention": null,
+    "beaute": 5,
+    "empreinte": "1ca8cd49735f01e0",
+    "ratio": null,
+    "largeurs": [
+      640,
+      1280,
+      1920
+    ],
+    "mobile": {
+      "ratio": "4:5",
+      "largeurs": [
+        640,
+        1080
+      ],
+      "cadrage": "50% 42%"
+    },
+    "cadrage": "52% 42%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 100,
+      "h": 95.5
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "sombre"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "sombre"
+      },
+      {
+        "cote": "haut",
+        "score": 0,
+        "ton": "sombre"
+      },
+      {
+        "cote": "bas",
+        "score": 0,
+        "ton": "sombre"
+      }
+    ],
+    "zone_texte": "gauche",
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 2000,
+      "height": 1334,
+      "source": [
+        2000,
+        1334
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "accueil-ouverture-640.webp",
+      "accueil-ouverture-1280.webp",
+      "accueil-ouverture-1920.webp",
+      "accueil-ouverture-mobile-640.webp",
+      "accueil-ouverture-mobile-1080.webp"
+    ],
+    "poids": {
+      "accueil-ouverture-640.webp": 54270,
+      "accueil-ouverture-1280.webp": 133370,
+      "accueil-ouverture-1920.webp": 230388,
+      "accueil-ouverture-mobile-640.webp": 72290,
+      "accueil-ouverture-mobile-1080.webp": 143980
+    },
+    "media": "c.media({ nom: 'accueil-ouverture', alt: \"Public qui lève les bras devant une scène, dans la lumière bleue d’un salon\", cadrage: '52% 42%', cadrageMobile: '50% 42%', sizes: '100vw', priorite: true })"
+  },
+  "metier-popup": {
+    "nom": "metier-popup",
+    "source": "recu/iconiques-3.jpg",
+    "role": "galerie",
+    "alt": "Comptoir du One Piece Café, machine à expresso et logo peint au mur",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "3b7f2cab07daa56f",
+    "ratio": "4:5",
+    "largeurs": [
+      1024,
+      1168,
+      1600
+    ],
+    "mobile": null,
+    "cadrage": "47% 50%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 90.9,
+      "h": 100
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.07,
+        "ton": "clair"
+      },
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 327,
+      "width": 1333,
+      "height": 1666,
+      "source": [
+        1333,
+        2000
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [
+      "agrandie 1,2 fois (source de 1333 px après recadrage)"
+    ],
+    "fichiers": [
+      "metier-popup-1024.webp",
+      "metier-popup-1168.webp",
+      "metier-popup-1600.webp"
+    ],
+    "poids": {
+      "metier-popup-1024.webp": 109692,
+      "metier-popup-1168.webp": 129332,
+      "metier-popup-1600.webp": 183646
+    },
+    "media": "c.media({ nom: 'metier-popup', alt: \"Comptoir du One Piece Café, machine à expresso et logo peint au mur\", cadrage: '47% 50%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '4 / 5' })"
+  },
+  "metier-activations": {
+    "nom": "metier-activations",
+    "source": "recu/activations-plus-captivantes-5.jpg",
+    "role": "galerie",
+    "alt": "Spider-Man accroupi sur une façade parisienne lors d’une activation",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "c4a4e5d9bdc78718",
+    "ratio": "4:5",
+    "largeurs": [
+      1024,
+      1168,
+      1600
+    ],
+    "mobile": null,
+    "cadrage": "50% 53%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 100,
+      "h": 95.5
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 527,
+      "top": 0,
+      "width": 1067,
+      "height": 1334,
+      "source": [
+        2000,
+        1334
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [
+      "agrandie 1,5 fois (source de 1067 px après recadrage)"
+    ],
+    "fichiers": [
+      "metier-activations-1024.webp",
+      "metier-activations-1168.webp",
+      "metier-activations-1600.webp"
+    ],
+    "poids": {
+      "metier-activations-1024.webp": 126896,
+      "metier-activations-1168.webp": 144938,
+      "metier-activations-1600.webp": 209716
+    },
+    "media": "c.media({ nom: 'metier-activations', alt: \"Spider-Man accroupi sur une façade parisienne lors d’une activation\", cadrage: '50% 53%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '4 / 5' })"
+  },
+  "metier-stands": {
+    "nom": "metier-stands",
+    "source": "recu/stands-scenographies-emblematiques-5.jpg",
+    "role": "galerie",
+    "alt": "Stand immersif aux murs peints d’un univers d’animation japonaise",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "18839dd3d144aa00",
+    "ratio": "4:5",
+    "largeurs": [
+      1024,
+      1168,
+      1600
+    ],
+    "mobile": null,
+    "cadrage": "50% 37%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 100,
+      "h": 87.5
+    },
+    "zones_calmes": [
+      {
+        "cote": "bas",
+        "score": 0.37,
+        "ton": "sombre"
+      },
+      {
+        "cote": "droite",
+        "score": 0.06,
+        "ton": "sombre"
+      },
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 120,
+      "top": 0,
+      "width": 1200,
+      "height": 1500,
+      "source": [
+        2000,
+        1500
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [
+      "agrandie 1,33 fois (source de 1200 px après recadrage)"
+    ],
+    "fichiers": [
+      "metier-stands-1024.webp",
+      "metier-stands-1168.webp",
+      "metier-stands-1600.webp"
+    ],
+    "poids": {
+      "metier-stands-1024.webp": 121310,
+      "metier-stands-1168.webp": 139530,
+      "metier-stands-1600.webp": 194308
+    },
+    "media": "c.media({ nom: 'metier-stands', alt: \"Stand immersif aux murs peints d’un univers d’animation japonaise\", cadrage: '50% 37%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '4 / 5' })"
+  },
+  "metier-soirees": {
+    "nom": "metier-soirees",
+    "source": "recu/rendez-vous-plus-marquants.jpg",
+    "role": "galerie",
+    "alt": "Guitariste sur scène dans une lumière rouge",
+    "grok": false,
+    "mention": null,
+    "beaute": 5,
+    "empreinte": "a5819a026de30075",
+    "ratio": "4:5",
+    "largeurs": [
+      1024,
+      1168
+    ],
+    "mobile": null,
+    "cadrage": "50% 55%",
+    "sujet": {
+      "x": 0.3,
+      "y": 13.6,
+      "l": 99.7,
+      "h": 81.8
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.53,
+        "ton": "sombre"
+      },
+      {
+        "cote": "droite",
+        "score": 0.45,
+        "ton": "sombre"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.07,
+        "ton": "sombre"
+      },
+      {
+        "cote": "bas",
+        "score": 0.07,
+        "ton": "sombre"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 247,
+      "top": 0,
+      "width": 1066,
+      "height": 1333,
+      "source": [
+        2000,
+        1333
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "largeurs retirées (source trop petite) : 1600"
+    ],
+    "avertissements": [
+      "agrandie 1,1 fois (source de 1066 px après recadrage)"
+    ],
+    "fichiers": [
+      "metier-soirees-1024.webp",
+      "metier-soirees-1168.webp"
+    ],
+    "poids": {
+      "metier-soirees-1024.webp": 97318,
+      "metier-soirees-1168.webp": 113104
+    },
+    "media": "c.media({ nom: 'metier-soirees', alt: \"Guitariste sur scène dans une lumière rouge\", cadrage: '50% 55%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '4 / 5' })"
+  },
+  "metier-hospitalites": {
+    "nom": "metier-hospitalites",
+    "source": "recu/art-recevoir-4.jpg",
+    "role": "galerie",
+    "alt": "Invité en tribune, chapeau blanc, face à un court en terre battue",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "cdacf080a1c9d99e",
+    "ratio": "4:5",
+    "largeurs": [
+      1024,
+      1168,
+      1600
+    ],
+    "mobile": null,
+    "cadrage": "50% 56%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 100,
+      "h": 100
+    },
+    "zones_calmes": [
+      {
+        "cote": "bas",
+        "score": 0.07,
+        "ton": "sombre"
+      },
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "sombre"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "clair"
+      },
+      {
+        "cote": "haut",
+        "score": 0,
+        "ton": "clair"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 220,
+      "top": 0,
+      "width": 1600,
+      "height": 2000,
+      "source": [
+        2000,
+        2000
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "metier-hospitalites-1024.webp",
+      "metier-hospitalites-1168.webp",
+      "metier-hospitalites-1600.webp"
+    ],
+    "poids": {
+      "metier-hospitalites-1024.webp": 181162,
+      "metier-hospitalites-1168.webp": 212810,
+      "metier-hospitalites-1600.webp": 255888
+    },
+    "media": "c.media({ nom: 'metier-hospitalites', alt: \"Invité en tribune, chapeau blanc, face à un court en terre battue\", cadrage: '50% 56%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '4 / 5' })"
+  },
+  "alters-camion": {
+    "nom": "alters-camion",
+    "source": "recu/alters-infiltre-fashion-week-10.jpg",
+    "role": "galerie",
+    "alt": "Le camion vitré aux couleurs de The Alters garé dans une rue de Paris",
+    "grok": false,
+    "mention": null,
+    "beaute": 5,
+    "empreinte": "33ee8ca6ee387f66",
+    "ratio": "4:5",
+    "largeurs": [
+      1024,
+      1168,
+      1600
+    ],
+    "mobile": null,
+    "cadrage": "50% 54%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 100,
+      "h": 96.9
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "sombre"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0,
+        "ton": "sombre"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 200,
+      "top": 0,
+      "width": 1600,
+      "height": 2000,
+      "source": [
+        2000,
+        2000
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "alters-camion-1024.webp",
+      "alters-camion-1168.webp",
+      "alters-camion-1600.webp"
+    ],
+    "poids": {
+      "alters-camion-1024.webp": 124584,
+      "alters-camion-1168.webp": 147120,
+      "alters-camion-1600.webp": 230020
+    },
+    "media": "c.media({ nom: 'alters-camion', alt: \"Le camion vitré aux couleurs de The Alters garé dans une rue de Paris\", cadrage: '50% 54%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '4 / 5' })"
+  },
+  "alters-combinaison": {
+    "nom": "alters-combinaison",
+    "source": "recu/alters-infiltre-fashion-week-6.jpg",
+    "role": "galerie",
+    "alt": "Mannequin portant la combinaison rose de Jan à l’arrière du camion",
+    "grok": false,
+    "mention": null,
+    "beaute": 5,
+    "empreinte": "8b9ef783c411291a",
+    "ratio": "4:5",
+    "largeurs": [
+      1024,
+      1168,
+      1600
+    ],
+    "mobile": null,
+    "cadrage": "50% 49%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 100,
+      "h": 100
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "sombre"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 120,
+      "top": 0,
+      "width": 1600,
+      "height": 2000,
+      "source": [
+        2000,
+        2000
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "alters-combinaison-1024.webp",
+      "alters-combinaison-1168.webp",
+      "alters-combinaison-1600.webp"
+    ],
+    "poids": {
+      "alters-combinaison-1024.webp": 99136,
+      "alters-combinaison-1168.webp": 118284,
+      "alters-combinaison-1600.webp": 176584
+    },
+    "media": "c.media({ nom: 'alters-combinaison', alt: \"Mannequin portant la combinaison rose de Jan à l’arrière du camion\", cadrage: '50% 49%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '4 / 5' })"
+  },
+  "alters-bord": {
+    "nom": "alters-bord",
+    "source": "recu/alters-infiltre-fashion-week-5.jpg",
+    "role": "galerie",
+    "alt": "Passants qui montent à bord du camion The Alters",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "6211129328837683",
+    "ratio": "4:5",
+    "largeurs": [
+      1024,
+      1168,
+      1600
+    ],
+    "mobile": null,
+    "cadrage": "50% 48%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 100,
+      "h": 96.9
+    },
+    "zones_calmes": [
+      {
+        "cote": "droite",
+        "score": 0.09,
+        "ton": "sombre"
+      },
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0,
+        "ton": "sombre"
+      },
+      {
+        "cote": "bas",
+        "score": 0,
+        "ton": "sombre"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 120,
+      "top": 0,
+      "width": 1600,
+      "height": 2000,
+      "source": [
+        2000,
+        2000
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "alters-bord-1024.webp",
+      "alters-bord-1168.webp",
+      "alters-bord-1600.webp"
+    ],
+    "poids": {
+      "alters-bord-1024.webp": 89272,
+      "alters-bord-1168.webp": 106756,
+      "alters-bord-1600.webp": 177536
+    },
+    "media": "c.media({ nom: 'alters-bord', alt: \"Passants qui montent à bord du camion The Alters\", cadrage: '50% 48%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '4 / 5' })"
+  },
+  "pgw-luffy": {
+    "nom": "pgw-luffy",
+    "source": "recu/pgw-premium-events-partie-12.jpg",
+    "role": "galerie",
+    "alt": "Visiteur à côté d’une statue de Luffy sur un stand One Piece",
+    "grok": false,
+    "mention": null,
+    "beaute": 5,
+    "empreinte": "eb549537201714e7",
+    "ratio": "4:5",
+    "largeurs": [
+      1024,
+      1168,
+      1600
+    ],
+    "mobile": null,
+    "cadrage": "50% 49%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 100,
+      "h": 100
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0,
+        "ton": "clair"
+      },
+      {
+        "cote": "bas",
+        "score": 0,
+        "ton": "sombre"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 240,
+      "top": 0,
+      "width": 1600,
+      "height": 2000,
+      "source": [
+        2000,
+        2000
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "pgw-luffy-1024.webp",
+      "pgw-luffy-1168.webp",
+      "pgw-luffy-1600.webp"
+    ],
+    "poids": {
+      "pgw-luffy-1024.webp": 205762,
+      "pgw-luffy-1168.webp": 282988,
+      "pgw-luffy-1600.webp": 292268
+    },
+    "media": "c.media({ nom: 'pgw-luffy', alt: \"Visiteur à côté d’une statue de Luffy sur un stand One Piece\", cadrage: '50% 49%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '4 / 5' })"
+  },
+  "pgw-joie": {
+    "nom": "pgw-joie",
+    "source": "recu/pgw-premium-events-partie-17.jpg",
+    "role": "galerie",
+    "alt": "Joueuse qui éclate de rire, manette en main, dans la foule du salon",
+    "grok": false,
+    "mention": null,
+    "beaute": 5,
+    "empreinte": "05a5336b73725e9c",
+    "ratio": "4:5",
+    "largeurs": [
+      1024,
+      1168,
+      1600
+    ],
+    "mobile": null,
+    "cadrage": "50% 47%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 100,
+      "h": 100
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "sombre"
+      },
+      {
+        "cote": "haut",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 180,
+      "top": 0,
+      "width": 1600,
+      "height": 2000,
+      "source": [
+        2000,
+        2000
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "pgw-joie-1024.webp",
+      "pgw-joie-1168.webp",
+      "pgw-joie-1600.webp"
+    ],
+    "poids": {
+      "pgw-joie-1024.webp": 235774,
+      "pgw-joie-1168.webp": 233306,
+      "pgw-joie-1600.webp": 377620
+    },
+    "media": "c.media({ nom: 'pgw-joie', alt: \"Joueuse qui éclate de rire, manette en main, dans la foule du salon\", cadrage: '50% 47%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '4 / 5' })"
+  },
+  "pgw-xbox": {
+    "nom": "pgw-xbox",
+    "source": "recu/pgw-premium-events-partie-14.jpg",
+    "role": "galerie",
+    "alt": "Scène Xbox devant une foule, écrans géants",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "65b81bbfa9a5f796",
+    "ratio": "4:5",
+    "largeurs": [
+      1024,
+      1168,
+      1600
+    ],
+    "mobile": null,
+    "cadrage": "50% 45%",
+    "sujet": {
+      "x": 0,
+      "y": 3.1,
+      "l": 100,
+      "h": 71.9
+    },
+    "zones_calmes": [
+      {
+        "cote": "bas",
+        "score": 0.21,
+        "ton": "sombre"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.04,
+        "ton": "sombre"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "sombre"
+      },
+      {
+        "cote": "haut",
+        "score": 0,
+        "ton": "sombre"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 400,
+      "top": 0,
+      "width": 1600,
+      "height": 2000,
+      "source": [
+        2000,
+        2000
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "pgw-xbox-1024.webp",
+      "pgw-xbox-1168.webp",
+      "pgw-xbox-1600.webp"
+    ],
+    "poids": {
+      "pgw-xbox-1024.webp": 98842,
+      "pgw-xbox-1168.webp": 115704,
+      "pgw-xbox-1600.webp": 165794
+    },
+    "media": "c.media({ nom: 'pgw-xbox', alt: \"Scène Xbox devant une foule, écrans géants\", cadrage: '50% 45%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '4 / 5' })"
+  },
+  "pgw-onepiece": {
+    "nom": "pgw-onepiece",
+    "source": "recu/pgw-premium-events-partie-6.jpg",
+    "role": "galerie",
+    "alt": "Stand One Piece aux couleurs vives, visiteurs devant les personnages",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "8f4447afaf4dff1d",
+    "ratio": "4:5",
+    "largeurs": [
+      1024,
+      1168,
+      1600
+    ],
+    "mobile": null,
+    "cadrage": "50% 41%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 100,
+      "h": 95.5
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "sombre"
+      },
+      {
+        "cote": "haut",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0,
+        "ton": "sombre"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 467,
+      "top": 0,
+      "width": 1067,
+      "height": 1334,
+      "source": [
+        2000,
+        1334
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [
+      "agrandie 1,5 fois (source de 1067 px après recadrage)"
+    ],
+    "fichiers": [
+      "pgw-onepiece-1024.webp",
+      "pgw-onepiece-1168.webp",
+      "pgw-onepiece-1600.webp"
+    ],
+    "poids": {
+      "pgw-onepiece-1024.webp": 228212,
+      "pgw-onepiece-1168.webp": 256424,
+      "pgw-onepiece-1600.webp": 295200
+    },
+    "media": "c.media({ nom: 'pgw-onepiece', alt: \"Stand One Piece aux couleurs vives, visiteurs devant les personnages\", cadrage: '50% 41%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '4 / 5' })"
+  },
+  "pgw-tortues": {
+    "nom": "pgw-tortues",
+    "source": "recu/pgw-premium-events-partie-8.jpg",
+    "role": "galerie",
+    "alt": "Statue géante de Leonardo, des Tortues Ninja, au-dessus de la foule",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "c74e961a7b35115d",
+    "ratio": "4:5",
+    "largeurs": [
+      1024,
+      1168
+    ],
+    "mobile": null,
+    "cadrage": "50% 54%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 100,
+      "h": 100
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "sombre"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "sombre"
+      },
+      {
+        "cote": "haut",
+        "score": 0,
+        "ton": "sombre"
+      },
+      {
+        "cote": "bas",
+        "score": 0,
+        "ton": "sombre"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 651,
+      "top": 0,
+      "width": 899,
+      "height": 1124,
+      "source": [
+        2000,
+        1124
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "largeurs retirées (source trop petite) : 1600"
+    ],
+    "avertissements": [
+      "agrandie 1,3 fois (source de 899 px après recadrage)",
+      "recadrage fort : 45 % de l'image gardée"
+    ],
+    "fichiers": [
+      "pgw-tortues-1024.webp",
+      "pgw-tortues-1168.webp"
+    ],
+    "poids": {
+      "pgw-tortues-1024.webp": 110978,
+      "pgw-tortues-1168.webp": 128396
+    },
+    "media": "c.media({ nom: 'pgw-tortues', alt: \"Statue géante de Leonardo, des Tortues Ninja, au-dessus de la foule\", cadrage: '50% 54%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '4 / 5' })"
+  },
+  "pgw-plateau": {
+    "nom": "pgw-plateau",
+    "source": "recu/pgw-premium-events-partie-16.jpg",
+    "role": "galerie",
+    "alt": "Plateau sur scène éclairé, public au premier plan",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "bd78b75242ebdbf2",
+    "ratio": "4:5",
+    "largeurs": [
+      1024,
+      1168,
+      1600
+    ],
+    "mobile": null,
+    "cadrage": "50% 29%",
+    "sujet": {
+      "x": 0,
+      "y": 12.5,
+      "l": 100,
+      "h": 59.4
+    },
+    "zones_calmes": [
+      {
+        "cote": "bas",
+        "score": 0.59,
+        "ton": "sombre"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.15,
+        "ton": "sombre"
+      },
+      {
+        "cote": "droite",
+        "score": 0.07,
+        "ton": "sombre"
+      },
+      {
+        "cote": "haut",
+        "score": 0,
+        "ton": "sombre"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 220,
+      "top": 0,
+      "width": 1600,
+      "height": 2000,
+      "source": [
+        2000,
+        2000
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "pgw-plateau-1024.webp",
+      "pgw-plateau-1168.webp",
+      "pgw-plateau-1600.webp"
+    ],
+    "poids": {
+      "pgw-plateau-1024.webp": 122974,
+      "pgw-plateau-1168.webp": 147604,
+      "pgw-plateau-1600.webp": 225620
+    },
+    "media": "c.media({ nom: 'pgw-plateau', alt: \"Plateau sur scène éclairé, public au premier plan\", cadrage: '50% 29%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '4 / 5' })"
+  },
+  "accueil-recevoir": {
+    "nom": "accueil-recevoir",
+    "source": "recu/art-recevoir-3.jpg",
+    "role": "section-fond",
+    "alt": "Table dressée en blanc, verres bleus et bouquets, dans une loge lumineuse",
+    "grok": false,
+    "mention": null,
+    "beaute": 5,
+    "empreinte": "ebbeebeb37ca015b",
+    "ratio": "16:9",
+    "largeurs": [
+      640,
+      1280,
+      1920,
+      2560
+    ],
+    "mobile": {
+      "ratio": "9:16",
+      "largeurs": [
+        640,
+        1080
+      ],
+      "cadrage": "50% 45%"
+    },
+    "cadrage": "50% 50%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 100,
+      "h": 100
+    },
+    "zones_calmes": [
+      {
+        "cote": "bas",
+        "score": 0.16,
+        "ton": "moyen"
+      },
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "clair"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "clair"
+      },
+      {
+        "cote": "haut",
+        "score": 0,
+        "ton": "clair"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 338,
+      "width": 2000,
+      "height": 1125,
+      "source": [
+        2000,
+        2000
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [
+      "agrandie 1,28 fois (source de 2000 px après recadrage)"
+    ],
+    "fichiers": [
+      "accueil-recevoir-640.webp",
+      "accueil-recevoir-1280.webp",
+      "accueil-recevoir-1920.webp",
+      "accueil-recevoir-2560.webp",
+      "accueil-recevoir-mobile-640.webp",
+      "accueil-recevoir-mobile-1080.webp"
+    ],
+    "poids": {
+      "accueil-recevoir-640.webp": 37662,
+      "accueil-recevoir-1280.webp": 105616,
+      "accueil-recevoir-1920.webp": 229786,
+      "accueil-recevoir-2560.webp": 245300,
+      "accueil-recevoir-mobile-640.webp": 59054,
+      "accueil-recevoir-mobile-1080.webp": 185906
+    },
+    "media": "c.media({ nom: 'accueil-recevoir', alt: \"Table dressée en blanc, verres bleus et bouquets, dans une loge lumineuse\", cadrageMobile: '50% 45%', sizes: '100vw' })"
+  },
+  "accueil-engagements": {
+    "nom": "accueil-engagements",
+    "source": "recu/stands-scenographies-emblematiques-10.jpg",
+    "role": "galerie",
+    "alt": "Compositions de fleurs blanches au pied d’un escalier de pierre",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "634b94d5a64157dd",
+    "ratio": "4:5",
+    "largeurs": [
+      1024,
+      1168,
+      1600
+    ],
+    "mobile": null,
+    "cadrage": "50% 53%",
+    "sujet": {
+      "x": 0,
+      "y": 3.1,
+      "l": 100,
+      "h": 96.9
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 300,
+      "top": 0,
+      "width": 1600,
+      "height": 2000,
+      "source": [
+        2000,
+        2000
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "accueil-engagements-1024.webp",
+      "accueil-engagements-1168.webp",
+      "accueil-engagements-1600.webp"
+    ],
+    "poids": {
+      "accueil-engagements-1024.webp": 247476,
+      "accueil-engagements-1168.webp": 301136,
+      "accueil-engagements-1600.webp": 298980
+    },
+    "media": "c.media({ nom: 'accueil-engagements', alt: \"Compositions de fleurs blanches au pied d’un escalier de pierre\", cadrage: '50% 53%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '4 / 5' })"
+  },
+  "bande-1": {
+    "nom": "bande-1",
+    "source": "recu/alters-infiltre-fashion-week-3.jpg",
+    "role": "galerie",
+    "alt": "Le camion The Alters sous les arcades d’une rue parisienne",
+    "grok": false,
+    "mention": null,
+    "beaute": 5,
+    "empreinte": "15af9a152d9d789a",
+    "ratio": "3:4",
+    "largeurs": [
+      1024,
+      1168,
+      1600
+    ],
+    "mobile": null,
+    "cadrage": "50% 51%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 100,
+      "h": 96.9
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 330,
+      "top": 0,
+      "width": 1500,
+      "height": 2000,
+      "source": [
+        2000,
+        2000
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [
+      "agrandie 1,07 fois (source de 1500 px après recadrage)"
+    ],
+    "fichiers": [
+      "bande-1-1024.webp",
+      "bande-1-1168.webp",
+      "bande-1-1600.webp"
+    ],
+    "poids": {
+      "bande-1-1024.webp": 155214,
+      "bande-1-1168.webp": 182734,
+      "bande-1-1600.webp": 263864
+    },
+    "media": "c.media({ nom: 'bande-1', alt: \"Le camion The Alters sous les arcades d’une rue parisienne\", cadrage: '50% 51%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '3 / 4' })"
+  },
+  "bande-2": {
+    "nom": "bande-2",
+    "source": "recu/rendez-vous-plus-marquants-4.jpg",
+    "role": "galerie",
+    "alt": "Gâteau d’anniversaire couvert de feux de Bengale",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "a1f9da09204813e2",
+    "ratio": "3:4",
+    "largeurs": [
+      1024,
+      1168
+    ],
+    "mobile": null,
+    "cadrage": "50% 53%",
+    "sujet": {
+      "x": 0,
+      "y": 27.3,
+      "l": 100,
+      "h": 40.9
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.53,
+        "ton": "sombre"
+      },
+      {
+        "cote": "bas",
+        "score": 0.45,
+        "ton": "sombre"
+      },
+      {
+        "cote": "droite",
+        "score": 0.18,
+        "ton": "sombre"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.11,
+        "ton": "sombre"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 500,
+      "top": 0,
+      "width": 1000,
+      "height": 1333,
+      "source": [
+        2000,
+        1333
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "largeurs retirées (source trop petite) : 1600"
+    ],
+    "avertissements": [
+      "agrandie 1,17 fois (source de 1000 px après recadrage)"
+    ],
+    "fichiers": [
+      "bande-2-1024.webp",
+      "bande-2-1168.webp"
+    ],
+    "poids": {
+      "bande-2-1024.webp": 76358,
+      "bande-2-1168.webp": 88288
+    },
+    "media": "c.media({ nom: 'bande-2', alt: \"Gâteau d’anniversaire couvert de feux de Bengale\", cadrage: '50% 53%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '3 / 4' })"
+  },
+  "bande-3": {
+    "nom": "bande-3",
+    "source": "recu/pgw-premium-events-partie-17.jpg",
+    "role": "galerie",
+    "alt": "Joueuse qui éclate de rire, manette en main",
+    "grok": false,
+    "mention": null,
+    "beaute": 5,
+    "empreinte": "a5749f8efd96f82f",
+    "ratio": "3:4",
+    "largeurs": [
+      1024,
+      1168,
+      1600
+    ],
+    "mobile": null,
+    "cadrage": "50% 47%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 100,
+      "h": 100
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "sombre"
+      },
+      {
+        "cote": "haut",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 230,
+      "top": 0,
+      "width": 1500,
+      "height": 2000,
+      "source": [
+        2000,
+        2000
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [
+      "agrandie 1,07 fois (source de 1500 px après recadrage)"
+    ],
+    "fichiers": [
+      "bande-3-1024.webp",
+      "bande-3-1168.webp",
+      "bande-3-1600.webp"
+    ],
+    "poids": {
+      "bande-3-1024.webp": 262712,
+      "bande-3-1168.webp": 259746,
+      "bande-3-1600.webp": 334242
+    },
+    "media": "c.media({ nom: 'bande-3', alt: \"Joueuse qui éclate de rire, manette en main\", cadrage: '50% 47%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '3 / 4' })"
+  },
+  "bande-4": {
+    "nom": "bande-4",
+    "source": "recu/stands-scenographies-emblematiques-15.jpg",
+    "role": "galerie",
+    "alt": "Stand Xbox, visiteurs devant une roue lumineuse",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "3b6e6aaa198a020a",
+    "ratio": "3:4",
+    "largeurs": [
+      1024,
+      1168,
+      1600
+    ],
+    "mobile": null,
+    "cadrage": "50% 31%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 100,
+      "h": 81.3
+    },
+    "zones_calmes": [
+      {
+        "cote": "bas",
+        "score": 0.46,
+        "ton": "sombre"
+      },
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "sombre"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "sombre"
+      },
+      {
+        "cote": "haut",
+        "score": 0,
+        "ton": "sombre"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 150,
+      "top": 0,
+      "width": 1500,
+      "height": 2000,
+      "source": [
+        2000,
+        2000
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [
+      "agrandie 1,07 fois (source de 1500 px après recadrage)"
+    ],
+    "fichiers": [
+      "bande-4-1024.webp",
+      "bande-4-1168.webp",
+      "bande-4-1600.webp"
+    ],
+    "poids": {
+      "bande-4-1024.webp": 77100,
+      "bande-4-1168.webp": 90202,
+      "bande-4-1600.webp": 130530
+    },
+    "media": "c.media({ nom: 'bande-4', alt: \"Stand Xbox, visiteurs devant une roue lumineuse\", cadrage: '50% 31%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '3 / 4' })"
+  },
+  "bande-5": {
+    "nom": "bande-5",
+    "source": "recu/hospitality-brand-experience-sports-24.jpg",
+    "role": "galerie",
+    "alt": "Spider-Man accroupi devant une boutique, passants autour",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "e5e9ef20b32d55c6",
+    "ratio": "3:4",
+    "largeurs": [
+      1024,
+      1168
+    ],
+    "mobile": null,
+    "cadrage": "50% 44%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 100,
+      "h": 90.9
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 540,
+      "top": 0,
+      "width": 1001,
+      "height": 1334,
+      "source": [
+        2000,
+        1334
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "largeurs retirées (source trop petite) : 1600"
+    ],
+    "avertissements": [
+      "agrandie 1,17 fois (source de 1001 px après recadrage)"
+    ],
+    "fichiers": [
+      "bande-5-1024.webp",
+      "bande-5-1168.webp"
+    ],
+    "poids": {
+      "bande-5-1024.webp": 190086,
+      "bande-5-1168.webp": 219492
+    },
+    "media": "c.media({ nom: 'bande-5', alt: \"Spider-Man accroupi devant une boutique, passants autour\", cadrage: '50% 44%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '3 / 4' })"
+  },
+  "bande-6": {
+    "nom": "bande-6",
+    "source": "recu/rendez-vous-plus-marquants-15.jpg",
+    "role": "galerie",
+    "alt": "Violoniste dans un faisceau de lumière bleue",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "06e68ce11a97f260",
+    "ratio": "3:4",
+    "largeurs": [
+      1024,
+      1168
+    ],
+    "mobile": null,
+    "cadrage": "50% 52%",
+    "sujet": {
+      "x": 0,
+      "y": 6.3,
+      "l": 100,
+      "h": 87.5
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.35,
+        "ton": "sombre"
+      },
+      {
+        "cote": "bas",
+        "score": 0.25,
+        "ton": "sombre"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.21,
+        "ton": "sombre"
+      },
+      {
+        "cote": "droite",
+        "score": 0.2,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 224,
+      "top": 0,
+      "width": 960,
+      "height": 1280,
+      "source": [
+        1280,
+        1280
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "largeurs retirées (source trop petite) : 1600"
+    ],
+    "avertissements": [
+      "agrandie 1,22 fois (source de 960 px après recadrage)"
+    ],
+    "fichiers": [
+      "bande-6-1024.webp",
+      "bande-6-1168.webp"
+    ],
+    "poids": {
+      "bande-6-1024.webp": 65912,
+      "bande-6-1168.webp": 78942
+    },
+    "media": "c.media({ nom: 'bande-6', alt: \"Violoniste dans un faisceau de lumière bleue\", cadrage: '50% 52%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '3 / 4' })"
+  },
+  "bande-7": {
+    "nom": "bande-7",
+    "source": "recu/iconiques-5.jpg",
+    "role": "galerie",
+    "alt": "Équipe souriante devant un food truck à café",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "68d07ef9e5484ab8",
+    "ratio": "3:4",
+    "largeurs": [
+      1024,
+      1168,
+      1600
+    ],
+    "mobile": null,
+    "cadrage": "50% 38%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 100,
+      "h": 96.9
+    },
+    "zones_calmes": [
+      {
+        "cote": "bas",
+        "score": 0.03,
+        "ton": "sombre"
+      },
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "sombre"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "sombre"
+      },
+      {
+        "cote": "haut",
+        "score": 0,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 230,
+      "top": 0,
+      "width": 1500,
+      "height": 2000,
+      "source": [
+        2000,
+        2000
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [
+      "agrandie 1,07 fois (source de 1500 px après recadrage)"
+    ],
+    "fichiers": [
+      "bande-7-1024.webp",
+      "bande-7-1168.webp",
+      "bande-7-1600.webp"
+    ],
+    "poids": {
+      "bande-7-1024.webp": 130318,
+      "bande-7-1168.webp": 153502,
+      "bande-7-1600.webp": 216462
+    },
+    "media": "c.media({ nom: 'bande-7', alt: \"Équipe souriante devant un food truck à café\", cadrage: '50% 38%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '3 / 4' })"
+  },
+  "bande-8": {
+    "nom": "bande-8",
+    "source": "recu/hospitality-brand-experience-sports-25.jpg",
+    "role": "galerie",
+    "alt": "Deux intervenants sur un plateau, micros en main",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "2dc8f0961418194b",
+    "ratio": "3:4",
+    "largeurs": [
+      1024,
+      1168
+    ],
+    "mobile": null,
+    "cadrage": "50% 45%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 96.1,
+      "h": 72.7
+    },
+    "zones_calmes": [
+      {
+        "cote": "bas",
+        "score": 0.43,
+        "ton": "sombre"
+      },
+      {
+        "cote": "haut",
+        "score": 0.38,
+        "ton": "sombre"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.36,
+        "ton": "sombre"
+      },
+      {
+        "cote": "droite",
+        "score": 0.3,
+        "ton": "sombre"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 540,
+      "top": 0,
+      "width": 1001,
+      "height": 1334,
+      "source": [
+        2000,
+        1334
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "largeurs retirées (source trop petite) : 1600"
+    ],
+    "avertissements": [
+      "agrandie 1,17 fois (source de 1001 px après recadrage)"
+    ],
+    "fichiers": [
+      "bande-8-1024.webp",
+      "bande-8-1168.webp"
+    ],
+    "poids": {
+      "bande-8-1024.webp": 86434,
+      "bande-8-1168.webp": 103054
+    },
+    "media": "c.media({ nom: 'bande-8', alt: \"Deux intervenants sur un plateau, micros en main\", cadrage: '50% 45%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '3 / 4' })"
+  },
+  "popup-1": {
+    "nom": "popup-1",
+    "source": "recu/iconiques-6.jpg",
+    "role": "galerie",
+    "alt": "Boutique éphémère d’animation japonaise, comptoir et rayonnages",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "40bd6f4e23ad1c44",
+    "ratio": "1:1",
+    "largeurs": [
+      1024,
+      1168,
+      1600
+    ],
+    "mobile": null,
+    "cadrage": "49% 49%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 100,
+      "h": 100
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0,
+        "ton": "clair"
+      },
+      {
+        "cote": "bas",
+        "score": 0,
+        "ton": "sombre"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 2000,
+      "height": 2000,
+      "source": [
+        2000,
+        2000
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "popup-1-1024.webp",
+      "popup-1-1168.webp",
+      "popup-1-1600.webp"
+    ],
+    "poids": {
+      "popup-1-1024.webp": 138058,
+      "popup-1-1168.webp": 161972,
+      "popup-1-1600.webp": 238584
+    },
+    "media": "c.media({ nom: 'popup-1', alt: \"Boutique éphémère d’animation japonaise, comptoir et rayonnages\", cadrage: '49% 49%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '1 / 1' })"
+  },
+  "popup-2": {
+    "nom": "popup-2",
+    "source": "recu/iconiques-4.jpg",
+    "role": "galerie",
+    "alt": "Vitrine de figurines One Piece éclairée",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "a533af036c483068",
+    "ratio": "4:5",
+    "largeurs": [
+      1024,
+      1168,
+      1600
+    ],
+    "mobile": null,
+    "cadrage": "50% 50%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 100,
+      "h": 100
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "sombre"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "sombre"
+      },
+      {
+        "cote": "haut",
+        "score": 0,
+        "ton": "sombre"
+      },
+      {
+        "cote": "bas",
+        "score": 0,
+        "ton": "sombre"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 340,
+      "top": 0,
+      "width": 1200,
+      "height": 1500,
+      "source": [
+        2000,
+        1500
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [
+      "agrandie 1,33 fois (source de 1200 px après recadrage)"
+    ],
+    "fichiers": [
+      "popup-2-1024.webp",
+      "popup-2-1168.webp",
+      "popup-2-1600.webp"
+    ],
+    "poids": {
+      "popup-2-1024.webp": 138420,
+      "popup-2-1168.webp": 162732,
+      "popup-2-1600.webp": 223578
+    },
+    "media": "c.media({ nom: 'popup-2', alt: \"Vitrine de figurines One Piece éclairée\", sizes: '(max-width: 760px) 100vw, 50vw', ratio: '4 / 5' })"
+  },
+  "popup-3": {
+    "nom": "popup-3",
+    "source": "recu/iconiques-8.jpg",
+    "role": "galerie",
+    "alt": "Café Lavazza servi à côté d’un paquet Roma",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "e8507e59fdc3313a",
+    "ratio": "4:5",
+    "largeurs": [
+      1024,
+      1168
+    ],
+    "mobile": null,
+    "cadrage": "50% 48%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 100,
+      "h": 96.9
+    },
+    "zones_calmes": [
+      {
+        "cote": "bas",
+        "score": 0.06,
+        "ton": "moyen"
+      },
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "clair"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 243,
+      "top": 0,
+      "width": 1024,
+      "height": 1280,
+      "source": [
+        1280,
+        1280
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "largeurs retirées (source trop petite) : 1600"
+    ],
+    "avertissements": [
+      "agrandie 1,14 fois (source de 1024 px après recadrage)"
+    ],
+    "fichiers": [
+      "popup-3-1024.webp",
+      "popup-3-1168.webp"
+    ],
+    "poids": {
+      "popup-3-1024.webp": 73672,
+      "popup-3-1168.webp": 83058
+    },
+    "media": "c.media({ nom: 'popup-3', alt: \"Café Lavazza servi à côté d’un paquet Roma\", cadrage: '50% 48%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '4 / 5' })"
+  },
+  "popup-4": {
+    "nom": "popup-4",
+    "source": "recu/hospitality-brand-experience-sports-28.jpg",
+    "role": "galerie",
+    "alt": "Peluches de Luffy alignées en rayon",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "681ed2d72e1c63fd",
+    "ratio": "4:5",
+    "largeurs": [
+      1024,
+      1168,
+      1600
+    ],
+    "mobile": null,
+    "cadrage": "50% 56%",
+    "sujet": {
+      "x": 0,
+      "y": 13,
+      "l": 100,
+      "h": 73.9
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.27,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0.1,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0.09,
+        "ton": "moyen"
+      },
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 329,
+      "top": 0,
+      "width": 1142,
+      "height": 1428,
+      "source": [
+        2000,
+        1428
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [
+      "agrandie 1,4 fois (source de 1142 px après recadrage)"
+    ],
+    "fichiers": [
+      "popup-4-1024.webp",
+      "popup-4-1168.webp",
+      "popup-4-1600.webp"
+    ],
+    "poids": {
+      "popup-4-1024.webp": 161444,
+      "popup-4-1168.webp": 193606,
+      "popup-4-1600.webp": 305878
+    },
+    "media": "c.media({ nom: 'popup-4', alt: \"Peluches de Luffy alignées en rayon\", cadrage: '50% 56%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '4 / 5' })"
+  },
+  "popup-5": {
+    "nom": "popup-5",
+    "source": "recu/iconiques-2.jpg",
+    "role": "galerie",
+    "alt": "Vendeurs et clients autour de la caisse d’une boutique éphémère",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "7e370aa0b2b13af3",
+    "ratio": "4:5",
+    "largeurs": [
+      1024,
+      1168
+    ],
+    "mobile": null,
+    "cadrage": "50% 53%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 100,
+      "h": 95.5
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "sombre"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0,
+        "ton": "sombre"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 527,
+      "top": 0,
+      "width": 1066,
+      "height": 1333,
+      "source": [
+        2000,
+        1333
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "largeurs retirées (source trop petite) : 1600"
+    ],
+    "avertissements": [
+      "agrandie 1,1 fois (source de 1066 px après recadrage)"
+    ],
+    "fichiers": [
+      "popup-5-1024.webp",
+      "popup-5-1168.webp"
+    ],
+    "poids": {
+      "popup-5-1024.webp": 122902,
+      "popup-5-1168.webp": 142860
+    },
+    "media": "c.media({ nom: 'popup-5', alt: \"Vendeurs et clients autour de la caisse d’une boutique éphémère\", cadrage: '50% 53%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '4 / 5' })"
+  },
+  "popup-6": {
+    "nom": "popup-6",
+    "source": "recu/iconiques.jpg",
+    "role": "galerie",
+    "alt": "Vendeur qui présente un article dans une boutique éphémère",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "1a54fe7ea7ad6375",
+    "ratio": "4:5",
+    "largeurs": [
+      1024,
+      1168,
+      1600
+    ],
+    "mobile": null,
+    "cadrage": "51% 50%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 95.5,
+      "h": 100
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "sombre"
+      },
+      {
+        "cote": "haut",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 247,
+      "width": 1333,
+      "height": 1666,
+      "source": [
+        1333,
+        2000
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [
+      "agrandie 1,2 fois (source de 1333 px après recadrage)"
+    ],
+    "fichiers": [
+      "popup-6-1024.webp",
+      "popup-6-1168.webp",
+      "popup-6-1600.webp"
+    ],
+    "poids": {
+      "popup-6-1024.webp": 89968,
+      "popup-6-1168.webp": 105704,
+      "popup-6-1600.webp": 146818
+    },
+    "media": "c.media({ nom: 'popup-6', alt: \"Vendeur qui présente un article dans une boutique éphémère\", cadrage: '51% 50%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '4 / 5' })"
+  },
+  "activations-1": {
+    "nom": "activations-1",
+    "source": "recu/hospitality-brand-experience-sports-21.jpg",
+    "role": "galerie",
+    "alt": "Bus rouge à impériale habillé pour Les 101 Dalmatiens",
+    "grok": false,
+    "mention": null,
+    "beaute": 5,
+    "empreinte": "4cf9b28f443f9d58",
+    "ratio": "1:1",
+    "largeurs": [
+      1024,
+      1168,
+      1600
+    ],
+    "mobile": null,
+    "cadrage": "50% 53%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 100,
+      "h": 95.5
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "clair"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0,
+        "ton": "clair"
+      },
+      {
+        "cote": "bas",
+        "score": 0,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 334,
+      "top": 0,
+      "width": 1333,
+      "height": 1333,
+      "source": [
+        2000,
+        1333
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [
+      "agrandie 1,2 fois (source de 1333 px après recadrage)"
+    ],
+    "fichiers": [
+      "activations-1-1024.webp",
+      "activations-1-1168.webp",
+      "activations-1-1600.webp"
+    ],
+    "poids": {
+      "activations-1-1024.webp": 108614,
+      "activations-1-1168.webp": 128782,
+      "activations-1-1600.webp": 177314
+    },
+    "media": "c.media({ nom: 'activations-1', alt: \"Bus rouge à impériale habillé pour Les 101 Dalmatiens\", cadrage: '50% 53%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '1 / 1' })"
+  },
+  "activations-2": {
+    "nom": "activations-2",
+    "source": "recu/activations-plus-captivantes-12.jpg",
+    "role": "galerie",
+    "alt": "Invités hilares sur un plateau aux couleurs vertes de Topspin 2K25",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "668890801ca1d92d",
+    "ratio": "4:5",
+    "largeurs": [
+      1024,
+      1168
+    ],
+    "mobile": null,
+    "cadrage": "50% 55%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 100,
+      "h": 95.5
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.13,
+        "ton": "clair"
+      },
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "clair"
+      },
+      {
+        "cote": "bas",
+        "score": 0,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 567,
+      "top": 0,
+      "width": 1066,
+      "height": 1333,
+      "source": [
+        2000,
+        1333
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "largeurs retirées (source trop petite) : 1600"
+    ],
+    "avertissements": [
+      "agrandie 1,1 fois (source de 1066 px après recadrage)"
+    ],
+    "fichiers": [
+      "activations-2-1024.webp",
+      "activations-2-1168.webp"
+    ],
+    "poids": {
+      "activations-2-1024.webp": 71258,
+      "activations-2-1168.webp": 83518
+    },
+    "media": "c.media({ nom: 'activations-2', alt: \"Invités hilares sur un plateau aux couleurs vertes de Topspin 2K25\", cadrage: '50% 55%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '4 / 5' })"
+  },
+  "activations-3": {
+    "nom": "activations-3",
+    "source": "recu/activations-plus-captivantes.jpg",
+    "role": "galerie",
+    "alt": "Batteur souriant pendant une activation musicale",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "253efdfd0d4bab39",
+    "ratio": "4:5",
+    "largeurs": [
+      1024,
+      1168
+    ],
+    "mobile": null,
+    "cadrage": "50% 61%",
+    "sujet": {
+      "x": 0,
+      "y": 13.6,
+      "l": 100,
+      "h": 81.8
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.43,
+        "ton": "sombre"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.05,
+        "ton": "sombre"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "sombre"
+      },
+      {
+        "cote": "bas",
+        "score": 0,
+        "ton": "sombre"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 587,
+      "top": 0,
+      "width": 1066,
+      "height": 1333,
+      "source": [
+        2000,
+        1333
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "largeurs retirées (source trop petite) : 1600"
+    ],
+    "avertissements": [
+      "agrandie 1,1 fois (source de 1066 px après recadrage)"
+    ],
+    "fichiers": [
+      "activations-3-1024.webp",
+      "activations-3-1168.webp"
+    ],
+    "poids": {
+      "activations-3-1024.webp": 83120,
+      "activations-3-1168.webp": 95230
+    },
+    "media": "c.media({ nom: 'activations-3', alt: \"Batteur souriant pendant une activation musicale\", cadrage: '50% 61%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '4 / 5' })"
+  },
+  "activations-4": {
+    "nom": "activations-4",
+    "source": "recu/activations-plus-captivantes-14.jpg",
+    "role": "galerie",
+    "alt": "Enfant qui découvre des biscuits dalmatiens",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "a98cc0eca866316a",
+    "ratio": "4:5",
+    "largeurs": [
+      1024,
+      1168,
+      1600
+    ],
+    "mobile": null,
+    "cadrage": "50% 47%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 100,
+      "h": 95.5
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "sombre"
+      },
+      {
+        "cote": "haut",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0,
+        "ton": "sombre"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 487,
+      "top": 0,
+      "width": 1067,
+      "height": 1334,
+      "source": [
+        2000,
+        1334
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [
+      "agrandie 1,5 fois (source de 1067 px après recadrage)"
+    ],
+    "fichiers": [
+      "activations-4-1024.webp",
+      "activations-4-1168.webp",
+      "activations-4-1600.webp"
+    ],
+    "poids": {
+      "activations-4-1024.webp": 160216,
+      "activations-4-1168.webp": 182458,
+      "activations-4-1600.webp": 262108
+    },
+    "media": "c.media({ nom: 'activations-4', alt: \"Enfant qui découvre des biscuits dalmatiens\", cadrage: '50% 47%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '4 / 5' })"
+  },
+  "activations-5": {
+    "nom": "activations-5",
+    "source": "recu/activations-plus-captivantes-2.jpg",
+    "role": "galerie",
+    "alt": "Deux artistes en scène, bras levés",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "d2ae2cf05b9dce9c",
+    "ratio": "4:5",
+    "largeurs": [
+      1024,
+      1168
+    ],
+    "mobile": null,
+    "cadrage": "50% 52%",
+    "sujet": {
+      "x": 0,
+      "y": 13.6,
+      "l": 100,
+      "h": 68.2
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.14,
+        "ton": "sombre"
+      },
+      {
+        "cote": "bas",
+        "score": 0.04,
+        "ton": "sombre"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.01,
+        "ton": "sombre"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "sombre"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 567,
+      "top": 0,
+      "width": 1066,
+      "height": 1333,
+      "source": [
+        2000,
+        1333
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "largeurs retirées (source trop petite) : 1600"
+    ],
+    "avertissements": [
+      "agrandie 1,1 fois (source de 1066 px après recadrage)"
+    ],
+    "fichiers": [
+      "activations-5-1024.webp",
+      "activations-5-1168.webp"
+    ],
+    "poids": {
+      "activations-5-1024.webp": 90890,
+      "activations-5-1168.webp": 103174
+    },
+    "media": "c.media({ nom: 'activations-5', alt: \"Deux artistes en scène, bras levés\", cadrage: '50% 52%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '4 / 5' })"
+  },
+  "activations-6": {
+    "nom": "activations-6",
+    "source": "recu/activations-plus-captivantes-5.jpg",
+    "role": "galerie",
+    "alt": "Spider-Man accroupi sur une façade parisienne",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "a06990d929a4f9a1",
+    "ratio": "4:5",
+    "largeurs": [
+      1024,
+      1168,
+      1600
+    ],
+    "mobile": null,
+    "cadrage": "50% 53%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 100,
+      "h": 95.5
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 527,
+      "top": 0,
+      "width": 1067,
+      "height": 1334,
+      "source": [
+        2000,
+        1334
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [
+      "agrandie 1,5 fois (source de 1067 px après recadrage)"
+    ],
+    "fichiers": [
+      "activations-6-1024.webp",
+      "activations-6-1168.webp",
+      "activations-6-1600.webp"
+    ],
+    "poids": {
+      "activations-6-1024.webp": 126896,
+      "activations-6-1168.webp": 144938,
+      "activations-6-1600.webp": 209716
+    },
+    "media": "c.media({ nom: 'activations-6', alt: \"Spider-Man accroupi sur une façade parisienne\", cadrage: '50% 53%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '4 / 5' })"
+  },
+  "stands-1": {
+    "nom": "stands-1",
+    "source": "recu/stands-scenographies-emblematiques-16.jpg",
+    "role": "galerie",
+    "alt": "Voiture de sport reproduite en briques sur un stand",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "e4c05e2758799359",
+    "ratio": "1:1",
+    "largeurs": [
+      1024,
+      1168,
+      1600
+    ],
+    "mobile": null,
+    "cadrage": "48% 45%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 100,
+      "h": 100
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1667,
+      "height": 1667,
+      "source": [
+        1667,
+        1667
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "stands-1-1024.webp",
+      "stands-1-1168.webp",
+      "stands-1-1600.webp"
+    ],
+    "poids": {
+      "stands-1-1024.webp": 218314,
+      "stands-1-1168.webp": 270966,
+      "stands-1-1600.webp": 300514
+    },
+    "media": "c.media({ nom: 'stands-1', alt: \"Voiture de sport reproduite en briques sur un stand\", cadrage: '48% 45%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '1 / 1' })"
+  },
+  "stands-2": {
+    "nom": "stands-2",
+    "source": "recu/stands-scenographies-emblematiques-19.png",
+    "role": "galerie",
+    "alt": "Stand bleu avec bar et tabourets dans un hall d’exposition",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "25ffcceb01ba8b70",
+    "ratio": "4:5",
+    "largeurs": [
+      1024,
+      1168
+    ],
+    "mobile": null,
+    "cadrage": "50% 52%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 100,
+      "h": 95.5
+    },
+    "zones_calmes": [
+      {
+        "cote": "bas",
+        "score": 0.07,
+        "ton": "sombre"
+      },
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "sombre"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0,
+        "ton": "sombre"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 297,
+      "top": 0,
+      "width": 819,
+      "height": 1024,
+      "source": [
+        1536,
+        1024
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "largeurs retirées (source trop petite) : 1600"
+    ],
+    "avertissements": [
+      "agrandie 1,43 fois (source de 819 px après recadrage)"
+    ],
+    "fichiers": [
+      "stands-2-1024.webp",
+      "stands-2-1168.webp"
+    ],
+    "poids": {
+      "stands-2-1024.webp": 88030,
+      "stands-2-1168.webp": 101664
+    },
+    "media": "c.media({ nom: 'stands-2', alt: \"Stand bleu avec bar et tabourets dans un hall d’exposition\", cadrage: '50% 52%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '4 / 5' })"
+  },
+  "stands-3": {
+    "nom": "stands-3",
+    "source": "recu/stands-scenographies-emblematiques-17.jpg",
+    "role": "galerie",
+    "alt": "Stand Crunchyroll pris d’assaut par les visiteurs",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "fa262eaa47a33dd0",
+    "ratio": "4:5",
+    "largeurs": [
+      1024,
+      1168,
+      1600
+    ],
+    "mobile": null,
+    "cadrage": "50% 50%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 100,
+      "h": 100
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 178,
+      "top": 0,
+      "width": 1292,
+      "height": 1615,
+      "source": [
+        1615,
+        1615
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [
+      "agrandie 1,24 fois (source de 1292 px après recadrage)"
+    ],
+    "fichiers": [
+      "stands-3-1024.webp",
+      "stands-3-1168.webp",
+      "stands-3-1600.webp"
+    ],
+    "poids": {
+      "stands-3-1024.webp": 107454,
+      "stands-3-1168.webp": 121626,
+      "stands-3-1600.webp": 170822
+    },
+    "media": "c.media({ nom: 'stands-3', alt: \"Stand Crunchyroll pris d’assaut par les visiteurs\", sizes: '(max-width: 760px) 100vw, 50vw', ratio: '4 / 5' })"
+  },
+  "stands-4": {
+    "nom": "stands-4",
+    "source": "recu/stands-scenographies-emblematiques-13.jpg",
+    "role": "galerie",
+    "alt": "Van jaune des Tortues Ninja devant un décor de rue",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "3cbf88d7e70c5d4b",
+    "ratio": "4:5",
+    "largeurs": [
+      1024,
+      1168,
+      1600
+    ],
+    "mobile": null,
+    "cadrage": "50% 41%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 100,
+      "h": 96.9
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "sombre"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "sombre"
+      },
+      {
+        "cote": "haut",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0,
+        "ton": "sombre"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 160,
+      "top": 0,
+      "width": 1600,
+      "height": 2000,
+      "source": [
+        2000,
+        2000
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "stands-4-1024.webp",
+      "stands-4-1168.webp",
+      "stands-4-1600.webp"
+    ],
+    "poids": {
+      "stands-4-1024.webp": 222878,
+      "stands-4-1168.webp": 287300,
+      "stands-4-1600.webp": 285924
+    },
+    "media": "c.media({ nom: 'stands-4', alt: \"Van jaune des Tortues Ninja devant un décor de rue\", cadrage: '50% 41%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '4 / 5' })"
+  },
+  "stands-5": {
+    "nom": "stands-5",
+    "source": "recu/stands-scenographies-emblematiques-7.jpg",
+    "role": "galerie",
+    "alt": "Décor de chalet en rondins, fauteuil et magnétophone",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "99adc1f14e270eb5",
+    "ratio": "4:5",
+    "largeurs": [
+      1024,
+      1168,
+      1600
+    ],
+    "mobile": null,
+    "cadrage": "50% 60%",
+    "sujet": {
+      "x": 0,
+      "y": 3.1,
+      "l": 100,
+      "h": 96.9
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 160,
+      "top": 0,
+      "width": 1600,
+      "height": 2000,
+      "source": [
+        2000,
+        2000
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "stands-5-1024.webp",
+      "stands-5-1168.webp",
+      "stands-5-1600.webp"
+    ],
+    "poids": {
+      "stands-5-1024.webp": 206290,
+      "stands-5-1168.webp": 245612,
+      "stands-5-1600.webp": 289116
+    },
+    "media": "c.media({ nom: 'stands-5', alt: \"Décor de chalet en rondins, fauteuil et magnétophone\", cadrage: '50% 60%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '4 / 5' })"
+  },
+  "stands-6": {
+    "nom": "stands-6",
+    "source": "recu/stands-scenographies-emblematiques-3.jpg",
+    "role": "galerie",
+    "alt": "Plateau télévisé sous des lustres, public en arc de cercle",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "a4bd5d305621d483",
+    "ratio": "4:5",
+    "largeurs": [
+      1024,
+      1168,
+      1600
+    ],
+    "mobile": null,
+    "cadrage": "50% 45%",
+    "sujet": {
+      "x": 0,
+      "y": 20.8,
+      "l": 100,
+      "h": 62.5
+    },
+    "zones_calmes": [
+      {
+        "cote": "bas",
+        "score": 0.47,
+        "ton": "sombre"
+      },
+      {
+        "cote": "haut",
+        "score": 0.12,
+        "ton": "sombre"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.06,
+        "ton": "sombre"
+      },
+      {
+        "cote": "droite",
+        "score": 0.04,
+        "ton": "sombre"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 300,
+      "top": 0,
+      "width": 1200,
+      "height": 1500,
+      "source": [
+        2000,
+        1500
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [
+      "agrandie 1,33 fois (source de 1200 px après recadrage)"
+    ],
+    "fichiers": [
+      "stands-6-1024.webp",
+      "stands-6-1168.webp",
+      "stands-6-1600.webp"
+    ],
+    "poids": {
+      "stands-6-1024.webp": 163248,
+      "stands-6-1168.webp": 193764,
+      "stands-6-1600.webp": 271550
+    },
+    "media": "c.media({ nom: 'stands-6', alt: \"Plateau télévisé sous des lustres, public en arc de cercle\", cadrage: '50% 45%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '4 / 5' })"
+  },
+  "soirees-1": {
+    "nom": "soirees-1",
+    "source": "recu/rendez-vous-plus-marquants-6.jpg",
+    "role": "galerie",
+    "alt": "Invitée en robe dorée au cœur d’une soirée",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "77bcd87a08e98c2e",
+    "ratio": "1:1",
+    "largeurs": [
+      1024,
+      1168,
+      1600
+    ],
+    "mobile": null,
+    "cadrage": "49% 31%",
+    "sujet": {
+      "x": 15.6,
+      "y": 0,
+      "l": 84.4,
+      "h": 75
+    },
+    "zones_calmes": [
+      {
+        "cote": "bas",
+        "score": 0.52,
+        "ton": "sombre"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.15,
+        "ton": "sombre"
+      },
+      {
+        "cote": "droite",
+        "score": 0.06,
+        "ton": "sombre"
+      },
+      {
+        "cote": "haut",
+        "score": 0,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 2000,
+      "height": 2000,
+      "source": [
+        2000,
+        2000
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "soirees-1-1024.webp",
+      "soirees-1-1168.webp",
+      "soirees-1-1600.webp"
+    ],
+    "poids": {
+      "soirees-1-1024.webp": 99748,
+      "soirees-1-1168.webp": 121846,
+      "soirees-1-1600.webp": 200162
+    },
+    "media": "c.media({ nom: 'soirees-1', alt: \"Invitée en robe dorée au cœur d’une soirée\", cadrage: '49% 31%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '1 / 1' })"
+  },
+  "soirees-2": {
+    "nom": "soirees-2",
+    "source": "recu/rendez-vous-plus-marquants-8.jpg",
+    "role": "galerie",
+    "alt": "Table ronde éclairée en violet sous l’enseigne Innovation Lab",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "6e88bc5e789a6681",
+    "ratio": "4:5",
+    "largeurs": [
+      1024,
+      1168,
+      1600
+    ],
+    "mobile": null,
+    "cadrage": "51% 52%",
+    "sujet": {
+      "x": 0,
+      "y": 31.3,
+      "l": 97.7,
+      "h": 50
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.74,
+        "ton": "sombre"
+      },
+      {
+        "cote": "bas",
+        "score": 0.52,
+        "ton": "sombre"
+      },
+      {
+        "cote": "droite",
+        "score": 0.39,
+        "ton": "sombre"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.3,
+        "ton": "sombre"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 106,
+      "top": 0,
+      "width": 1350,
+      "height": 1688,
+      "source": [
+        1688,
+        1688
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [
+      "agrandie 1,19 fois (source de 1350 px après recadrage)"
+    ],
+    "fichiers": [
+      "soirees-2-1024.webp",
+      "soirees-2-1168.webp",
+      "soirees-2-1600.webp"
+    ],
+    "poids": {
+      "soirees-2-1024.webp": 90716,
+      "soirees-2-1168.webp": 107180,
+      "soirees-2-1600.webp": 152612
+    },
+    "media": "c.media({ nom: 'soirees-2', alt: \"Table ronde éclairée en violet sous l’enseigne Innovation Lab\", cadrage: '51% 52%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '4 / 5' })"
+  },
+  "soirees-3": {
+    "nom": "soirees-3",
+    "source": "recu/rendez-vous-plus-marquants-2.jpg",
+    "role": "galerie",
+    "alt": "Concert dans une salle baignée de rouge",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "76928339324e6010",
+    "ratio": "4:5",
+    "largeurs": [
+      1024,
+      1168
+    ],
+    "mobile": null,
+    "cadrage": "48% 47%",
+    "sujet": {
+      "x": 12,
+      "y": 31.8,
+      "l": 88,
+      "h": 45.5
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0.8,
+        "ton": "sombre"
+      },
+      {
+        "cote": "haut",
+        "score": 0.76,
+        "ton": "sombre"
+      },
+      {
+        "cote": "bas",
+        "score": 0.56,
+        "ton": "sombre"
+      },
+      {
+        "cote": "droite",
+        "score": 0.35,
+        "ton": "sombre"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 684,
+      "top": 0,
+      "width": 1066,
+      "height": 1333,
+      "source": [
+        2000,
+        1333
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "largeurs retirées (source trop petite) : 1600"
+    ],
+    "avertissements": [
+      "agrandie 1,1 fois (source de 1066 px après recadrage)"
+    ],
+    "fichiers": [
+      "soirees-3-1024.webp",
+      "soirees-3-1168.webp"
+    ],
+    "poids": {
+      "soirees-3-1024.webp": 110544,
+      "soirees-3-1168.webp": 124582
+    },
+    "media": "c.media({ nom: 'soirees-3', alt: \"Concert dans une salle baignée de rouge\", cadrage: '48% 47%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '4 / 5' })"
+  },
+  "soirees-4": {
+    "nom": "soirees-4",
+    "source": "recu/hospitality-brand-experience-sports-19.jpg",
+    "role": "galerie",
+    "alt": "Musiciens devant un mur de fleurs blanches",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "dc64b3fc537a791a",
+    "ratio": "4:5",
+    "largeurs": [
+      1024,
+      1168
+    ],
+    "mobile": null,
+    "cadrage": "50% 56%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 100,
+      "h": 100
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0,
+        "ton": "sombre"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 166,
+      "top": 0,
+      "width": 1024,
+      "height": 1280,
+      "source": [
+        1280,
+        1280
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "largeurs retirées (source trop petite) : 1600"
+    ],
+    "avertissements": [
+      "agrandie 1,14 fois (source de 1024 px après recadrage)"
+    ],
+    "fichiers": [
+      "soirees-4-1024.webp",
+      "soirees-4-1168.webp"
+    ],
+    "poids": {
+      "soirees-4-1024.webp": 215378,
+      "soirees-4-1168.webp": 237604
+    },
+    "media": "c.media({ nom: 'soirees-4', alt: \"Musiciens devant un mur de fleurs blanches\", cadrage: '50% 56%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '4 / 5' })"
+  },
+  "soirees-5": {
+    "nom": "soirees-5",
+    "source": "recu/rendez-vous-plus-marquants-14.jpg",
+    "role": "galerie",
+    "alt": "Deux invitées posent devant le décor de la série Mobland",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "93c0530fdd09e0f1",
+    "ratio": "4:5",
+    "largeurs": [
+      1024,
+      1168,
+      1600
+    ],
+    "mobile": null,
+    "cadrage": "50% 39%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 100,
+      "h": 87.5
+    },
+    "zones_calmes": [
+      {
+        "cote": "bas",
+        "score": 0.32,
+        "ton": "sombre"
+      },
+      {
+        "cote": "droite",
+        "score": 0.09,
+        "ton": "sombre"
+      },
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "sombre"
+      },
+      {
+        "cote": "haut",
+        "score": 0,
+        "ton": "sombre"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 137,
+      "top": 0,
+      "width": 1092,
+      "height": 1365,
+      "source": [
+        1365,
+        1365
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [
+      "agrandie 1,47 fois (source de 1092 px après recadrage)"
+    ],
+    "fichiers": [
+      "soirees-5-1024.webp",
+      "soirees-5-1168.webp",
+      "soirees-5-1600.webp"
+    ],
+    "poids": {
+      "soirees-5-1024.webp": 94402,
+      "soirees-5-1168.webp": 108676,
+      "soirees-5-1600.webp": 152612
+    },
+    "media": "c.media({ nom: 'soirees-5', alt: \"Deux invitées posent devant le décor de la série Mobland\", cadrage: '50% 39%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '4 / 5' })"
+  },
+  "soirees-6": {
+    "nom": "soirees-6",
+    "source": "recu/rendez-vous-plus-marquants-12.jpg",
+    "role": "galerie",
+    "alt": "Enseigne lumineuse au néon au-dessus d’une rampe de skate",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "fe61664516f6ecee",
+    "ratio": "4:5",
+    "largeurs": [
+      1024,
+      1168,
+      1600
+    ],
+    "mobile": null,
+    "cadrage": "50% 49%",
+    "sujet": {
+      "x": 0,
+      "y": 3.1,
+      "l": 100,
+      "h": 93.8
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "sombre"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 169,
+      "top": 0,
+      "width": 1229,
+      "height": 1536,
+      "source": [
+        1536,
+        1536
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [
+      "agrandie 1,3 fois (source de 1229 px après recadrage)"
+    ],
+    "fichiers": [
+      "soirees-6-1024.webp",
+      "soirees-6-1168.webp",
+      "soirees-6-1600.webp"
+    ],
+    "poids": {
+      "soirees-6-1024.webp": 130836,
+      "soirees-6-1168.webp": 157902,
+      "soirees-6-1600.webp": 221694
+    },
+    "media": "c.media({ nom: 'soirees-6', alt: \"Enseigne lumineuse au néon au-dessus d’une rampe de skate\", cadrage: '50% 49%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '4 / 5' })"
+  },
+  "hospitalites-1": {
+    "nom": "hospitalites-1",
+    "source": "recu/hospitality-brand-experience-sports-9.jpg",
+    "role": "galerie",
+    "alt": "Hôtesses Emirates alignées en tribune, devant un court en terre battue",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "08bcdf5ec7868334",
+    "ratio": "1:1",
+    "largeurs": [
+      1024,
+      1168,
+      1600
+    ],
+    "mobile": null,
+    "cadrage": "50% 53%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 100,
+      "h": 100
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 310,
+      "top": 0,
+      "width": 1500,
+      "height": 1500,
+      "source": [
+        2000,
+        1500
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [
+      "agrandie 1,07 fois (source de 1500 px après recadrage)"
+    ],
+    "fichiers": [
+      "hospitalites-1-1024.webp",
+      "hospitalites-1-1168.webp",
+      "hospitalites-1-1600.webp"
+    ],
+    "poids": {
+      "hospitalites-1-1024.webp": 165982,
+      "hospitalites-1-1168.webp": 203058,
+      "hospitalites-1-1600.webp": 293558
+    },
+    "media": "c.media({ nom: 'hospitalites-1', alt: \"Hôtesses Emirates alignées en tribune, devant un court en terre battue\", cadrage: '50% 53%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '1 / 1' })"
+  },
+  "hospitalites-2": {
+    "nom": "hospitalites-2",
+    "source": "recu/art-recevoir.jpg",
+    "role": "galerie",
+    "alt": "Barista qui verse un café latte",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "da1b9114d052c56b",
+    "ratio": "4:5",
+    "largeurs": [
+      1024,
+      1168,
+      1600
+    ],
+    "mobile": null,
+    "cadrage": "46% 50%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 95.5,
+      "h": 100
+    },
+    "zones_calmes": [
+      {
+        "cote": "bas",
+        "score": 0.02,
+        "ton": "sombre"
+      },
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 246,
+      "width": 1334,
+      "height": 1668,
+      "source": [
+        1334,
+        2000
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [
+      "agrandie 1,2 fois (source de 1334 px après recadrage)"
+    ],
+    "fichiers": [
+      "hospitalites-2-1024.webp",
+      "hospitalites-2-1168.webp",
+      "hospitalites-2-1600.webp"
+    ],
+    "poids": {
+      "hospitalites-2-1024.webp": 57902,
+      "hospitalites-2-1168.webp": 69754,
+      "hospitalites-2-1600.webp": 106096
+    },
+    "media": "c.media({ nom: 'hospitalites-2', alt: \"Barista qui verse un café latte\", cadrage: '46% 50%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '4 / 5' })"
+  },
+  "hospitalites-3": {
+    "nom": "hospitalites-3",
+    "source": "recu/art-recevoir-2.jpg",
+    "role": "galerie",
+    "alt": "Service du thé dans une théière en verre",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "e9b3c05943ba908b",
+    "ratio": "4:5",
+    "largeurs": [
+      1024,
+      1168,
+      1600
+    ],
+    "mobile": null,
+    "cadrage": "48% 50%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 95.5,
+      "h": 100
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.04,
+        "ton": "sombre"
+      },
+      {
+        "cote": "droite",
+        "score": 0.02,
+        "ton": "sombre"
+      },
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0,
+        "ton": "sombre"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 66,
+      "width": 1334,
+      "height": 1668,
+      "source": [
+        1334,
+        2000
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [
+      "agrandie 1,2 fois (source de 1334 px après recadrage)"
+    ],
+    "fichiers": [
+      "hospitalites-3-1024.webp",
+      "hospitalites-3-1168.webp",
+      "hospitalites-3-1600.webp"
+    ],
+    "poids": {
+      "hospitalites-3-1024.webp": 76042,
+      "hospitalites-3-1168.webp": 89896,
+      "hospitalites-3-1600.webp": 126756
+    },
+    "media": "c.media({ nom: 'hospitalites-3', alt: \"Service du thé dans une théière en verre\", cadrage: '48% 50%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '4 / 5' })"
+  },
+  "hospitalites-4": {
+    "nom": "hospitalites-4",
+    "source": "recu/art-recevoir-7.jpg",
+    "role": "galerie",
+    "alt": "Invitée qui regarde passer un voilier de course",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "558a03579f47b35e",
+    "ratio": "4:5",
+    "largeurs": [
+      1024,
+      1168,
+      1600
+    ],
+    "mobile": null,
+    "cadrage": "50% 52%",
+    "sujet": {
+      "x": 0,
+      "y": 12.5,
+      "l": 100,
+      "h": 71.9
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.6,
+        "ton": "clair"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.28,
+        "ton": "clair"
+      },
+      {
+        "cote": "droite",
+        "score": 0.22,
+        "ton": "clair"
+      },
+      {
+        "cote": "bas",
+        "score": 0.14,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 218,
+      "top": 0,
+      "width": 1093,
+      "height": 1366,
+      "source": [
+        1366,
+        1366
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [
+      "agrandie 1,46 fois (source de 1093 px après recadrage)"
+    ],
+    "fichiers": [
+      "hospitalites-4-1024.webp",
+      "hospitalites-4-1168.webp",
+      "hospitalites-4-1600.webp"
+    ],
+    "poids": {
+      "hospitalites-4-1024.webp": 70114,
+      "hospitalites-4-1168.webp": 79946,
+      "hospitalites-4-1600.webp": 117276
+    },
+    "media": "c.media({ nom: 'hospitalites-4', alt: \"Invitée qui regarde passer un voilier de course\", cadrage: '50% 52%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '4 / 5' })"
+  },
+  "hospitalites-5": {
+    "nom": "hospitalites-5",
+    "source": "recu/hospitality-brand-experience-sports-18.jpg",
+    "role": "galerie",
+    "alt": "Spectateurs au chapeau blanc au-dessus d’un court de tennis",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "41560fcae683c4d2",
+    "ratio": "4:5",
+    "largeurs": [
+      1024,
+      1168,
+      1600
+    ],
+    "mobile": null,
+    "cadrage": "50% 54%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 100,
+      "h": 100
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 116,
+      "top": 0,
+      "width": 1319,
+      "height": 1649,
+      "source": [
+        1649,
+        1649
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [
+      "agrandie 1,21 fois (source de 1319 px après recadrage)"
+    ],
+    "fichiers": [
+      "hospitalites-5-1024.webp",
+      "hospitalites-5-1168.webp",
+      "hospitalites-5-1600.webp"
+    ],
+    "poids": {
+      "hospitalites-5-1024.webp": 94836,
+      "hospitalites-5-1168.webp": 113262,
+      "hospitalites-5-1600.webp": 164306
+    },
+    "media": "c.media({ nom: 'hospitalites-5', alt: \"Spectateurs au chapeau blanc au-dessus d’un court de tennis\", cadrage: '50% 54%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '4 / 5' })"
+  },
+  "hospitalites-6": {
+    "nom": "hospitalites-6",
+    "source": "recu/art-recevoir-6.jpg",
+    "role": "galerie",
+    "alt": "Salle de réception dressée sous une enseigne lumineuse Emirates",
+    "grok": false,
+    "mention": null,
+    "beaute": 3,
+    "empreinte": "a000cd9b7695a11c",
+    "ratio": "4:5",
+    "largeurs": [
+      1024,
+      1168,
+      1600
+    ],
+    "mobile": null,
+    "cadrage": "50% 42%",
+    "sujet": {
+      "x": 0,
+      "y": 3.1,
+      "l": 100,
+      "h": 90.6
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0.37,
+        "ton": "sombre"
+      },
+      {
+        "cote": "droite",
+        "score": 0.25,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0.06,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0.01,
+        "ton": "sombre"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 260,
+      "top": 0,
+      "width": 1600,
+      "height": 2000,
+      "source": [
+        2000,
+        2000
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "hospitalites-6-1024.webp",
+      "hospitalites-6-1168.webp",
+      "hospitalites-6-1600.webp"
+    ],
+    "poids": {
+      "hospitalites-6-1024.webp": 56202,
+      "hospitalites-6-1168.webp": 66172,
+      "hospitalites-6-1600.webp": 100744
+    },
+    "media": "c.media({ nom: 'hospitalites-6', alt: \"Salle de réception dressée sous une enseigne lumineuse Emirates\", cadrage: '50% 42%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '4 / 5' })"
+  },
+  "alters-ouverture": {
+    "nom": "alters-ouverture",
+    "source": "recu/alters-infiltre-fashion-week-3.jpg",
+    "role": "ouverture",
+    "alt": "Le camion vitré The Alters stationné sous les arcades d’une rue de Paris",
+    "grok": false,
+    "mention": null,
+    "beaute": 5,
+    "empreinte": "4d0f85f69c8f8578",
+    "ratio": null,
+    "largeurs": [
+      640,
+      1280,
+      1920
+    ],
+    "mobile": {
+      "ratio": "4:5",
+      "largeurs": [
+        640,
+        1080
+      ],
+      "cadrage": "50% 49%"
+    },
+    "cadrage": "54% 51%",
+    "sujet": {
+      "x": 3.1,
+      "y": 0,
+      "l": 96.9,
+      "h": 96.9
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 2000,
+      "height": 2000,
+      "source": [
+        2000,
+        2000
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "alters-ouverture-640.webp",
+      "alters-ouverture-1280.webp",
+      "alters-ouverture-1920.webp",
+      "alters-ouverture-mobile-640.webp",
+      "alters-ouverture-mobile-1080.webp"
+    ],
+    "poids": {
+      "alters-ouverture-640.webp": 66032,
+      "alters-ouverture-1280.webp": 186036,
+      "alters-ouverture-1920.webp": 253966,
+      "alters-ouverture-mobile-640.webp": 51556,
+      "alters-ouverture-mobile-1080.webp": 101092
+    },
+    "media": "c.media({ nom: 'alters-ouverture', alt: \"Le camion vitré The Alters stationné sous les arcades d’une rue de Paris\", cadrage: '54% 51%', cadrageMobile: '50% 49%', sizes: '100vw', priorite: true })"
+  },
+  "alters-1": {
+    "nom": "alters-1",
+    "source": "recu/alters-infiltre-fashion-week.jpg",
+    "role": "galerie",
+    "alt": "Passantes qui montent à bord du camion, mannequins en vitrine",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "408ad53d4bf38a9c",
+    "ratio": "4:5",
+    "largeurs": [
+      1024,
+      1168,
+      1600
+    ],
+    "mobile": null,
+    "cadrage": "50% 56%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 100,
+      "h": 100
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0,
+        "ton": "sombre"
+      },
+      {
+        "cote": "bas",
+        "score": 0,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 220,
+      "top": 0,
+      "width": 1600,
+      "height": 2000,
+      "source": [
+        2000,
+        2000
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "alters-1-1024.webp",
+      "alters-1-1168.webp",
+      "alters-1-1600.webp"
+    ],
+    "poids": {
+      "alters-1-1024.webp": 93020,
+      "alters-1-1168.webp": 108132,
+      "alters-1-1600.webp": 168942
+    },
+    "media": "c.media({ nom: 'alters-1', alt: \"Passantes qui montent à bord du camion, mannequins en vitrine\", cadrage: '50% 56%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '4 / 5' })"
+  },
+  "alters-2": {
+    "nom": "alters-2",
+    "source": "recu/alters-infiltre-fashion-week-2.jpg",
+    "role": "galerie",
+    "alt": "Deux visiteurs devant l’écran du jeu, à bord",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "ba0c57d610be7473",
+    "ratio": "4:5",
+    "largeurs": [
+      1024,
+      1168,
+      1600
+    ],
+    "mobile": null,
+    "cadrage": "50% 44%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 100,
+      "h": 100
+    },
+    "zones_calmes": [
+      {
+        "cote": "bas",
+        "score": 0.38,
+        "ton": "sombre"
+      },
+      {
+        "cote": "haut",
+        "score": 0.24,
+        "ton": "sombre"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.15,
+        "ton": "sombre"
+      },
+      {
+        "cote": "droite",
+        "score": 0.15,
+        "ton": "sombre"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 400,
+      "top": 0,
+      "width": 1600,
+      "height": 2000,
+      "source": [
+        2000,
+        2000
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "alters-2-1024.webp",
+      "alters-2-1168.webp",
+      "alters-2-1600.webp"
+    ],
+    "poids": {
+      "alters-2-1024.webp": 53768,
+      "alters-2-1168.webp": 66592,
+      "alters-2-1600.webp": 111902
+    },
+    "media": "c.media({ nom: 'alters-2', alt: \"Deux visiteurs devant l’écran du jeu, à bord\", cadrage: '50% 44%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '4 / 5' })"
+  },
+  "alters-3": {
+    "nom": "alters-3",
+    "source": "recu/alters-infiltre-fashion-week-4.jpg",
+    "role": "galerie",
+    "alt": "Visiteurs face à l’écran du jeu dans le camion",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "c33820577e06a911",
+    "ratio": "4:5",
+    "largeurs": [
+      1024,
+      1168,
+      1600
+    ],
+    "mobile": null,
+    "cadrage": "50% 53%",
+    "sujet": {
+      "x": 3.9,
+      "y": 3.1,
+      "l": 96.1,
+      "h": 84.4
+    },
+    "zones_calmes": [
+      {
+        "cote": "bas",
+        "score": 0.25,
+        "ton": "sombre"
+      },
+      {
+        "cote": "haut",
+        "score": 0.23,
+        "ton": "sombre"
+      },
+      {
+        "cote": "droite",
+        "score": 0.22,
+        "ton": "sombre"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.03,
+        "ton": "sombre"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1600,
+      "height": 2000,
+      "source": [
+        2000,
+        2000
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "alters-3-1024.webp",
+      "alters-3-1168.webp",
+      "alters-3-1600.webp"
+    ],
+    "poids": {
+      "alters-3-1024.webp": 72482,
+      "alters-3-1168.webp": 89500,
+      "alters-3-1600.webp": 152410
+    },
+    "media": "c.media({ nom: 'alters-3', alt: \"Visiteurs face à l’écran du jeu dans le camion\", cadrage: '50% 53%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '4 / 5' })"
+  },
+  "alters-4": {
+    "nom": "alters-4",
+    "source": "recu/alters-infiltre-fashion-week-7.jpg",
+    "role": "galerie",
+    "alt": "Dos d’un tee-shirt blanc imprimé The Alters",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "daa62fd382839a1b",
+    "ratio": "4:5",
+    "largeurs": [
+      1024,
+      1168,
+      1600
+    ],
+    "mobile": null,
+    "cadrage": "50% 56%",
+    "sujet": {
+      "x": 0,
+      "y": 6.3,
+      "l": 100,
+      "h": 93.7
+    },
+    "zones_calmes": [
+      {
+        "cote": "droite",
+        "score": 0.21,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0.18,
+        "ton": "sombre"
+      },
+      {
+        "cote": "bas",
+        "score": 0.11,
+        "ton": "moyen"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.08,
+        "ton": "sombre"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 100,
+      "top": 0,
+      "width": 1600,
+      "height": 2000,
+      "source": [
+        2000,
+        2000
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "alters-4-1024.webp",
+      "alters-4-1168.webp",
+      "alters-4-1600.webp"
+    ],
+    "poids": {
+      "alters-4-1024.webp": 64048,
+      "alters-4-1168.webp": 76798,
+      "alters-4-1600.webp": 120738
+    },
+    "media": "c.media({ nom: 'alters-4', alt: \"Dos d’un tee-shirt blanc imprimé The Alters\", cadrage: '50% 56%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '4 / 5' })"
+  },
+  "alters-5": {
+    "nom": "alters-5",
+    "source": "recu/alters-infiltre-fashion-week-8.jpg",
+    "role": "galerie",
+    "alt": "Le camion devant la façade d’un hôtel parisien",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "2ab097c246ca1477",
+    "ratio": "4:5",
+    "largeurs": [
+      1024,
+      1168,
+      1600
+    ],
+    "mobile": null,
+    "cadrage": "50% 50%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 100,
+      "h": 100
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "sombre"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0,
+        "ton": "sombre"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 160,
+      "top": 0,
+      "width": 1600,
+      "height": 2000,
+      "source": [
+        2000,
+        2000
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "alters-5-1024.webp",
+      "alters-5-1168.webp",
+      "alters-5-1600.webp"
+    ],
+    "poids": {
+      "alters-5-1024.webp": 131640,
+      "alters-5-1168.webp": 155742,
+      "alters-5-1600.webp": 223706
+    },
+    "media": "c.media({ nom: 'alters-5', alt: \"Le camion devant la façade d’un hôtel parisien\", sizes: '(max-width: 760px) 100vw, 50vw', ratio: '4 / 5' })"
+  },
+  "alters-6": {
+    "nom": "alters-6",
+    "source": "recu/alters-infiltre-fashion-week-11.jpg",
+    "role": "galerie",
+    "alt": "Main qui tient un flyer rose The Alters",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "5cc8751dbd0b959e",
+    "ratio": "1:1",
+    "largeurs": [
+      1024,
+      1168,
+      1600
+    ],
+    "mobile": null,
+    "cadrage": "57% 58%",
+    "sujet": {
+      "x": 12.5,
+      "y": 3.1,
+      "l": 84.4,
+      "h": 96.9
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0.45,
+        "ton": "clair"
+      },
+      {
+        "cote": "haut",
+        "score": 0.37,
+        "ton": "clair"
+      },
+      {
+        "cote": "bas",
+        "score": 0.22,
+        "ton": "clair"
+      },
+      {
+        "cote": "droite",
+        "score": 0.2,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1911,
+      "height": 1911,
+      "source": [
+        1911,
+        1911
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "alters-6-1024.webp",
+      "alters-6-1168.webp",
+      "alters-6-1600.webp"
+    ],
+    "poids": {
+      "alters-6-1024.webp": 60662,
+      "alters-6-1168.webp": 70128,
+      "alters-6-1600.webp": 104164
+    },
+    "media": "c.media({ nom: 'alters-6', alt: \"Main qui tient un flyer rose The Alters\", cadrage: '57% 58%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '1 / 1' })"
+  },
+  "alters-7": {
+    "nom": "alters-7",
+    "source": "recu/alters-infiltre-fashion-week-12.jpg",
+    "role": "galerie",
+    "alt": "Foule de curieux le long du camion, sur le trottoir",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "2c82c20882cf4565",
+    "ratio": "4:5",
+    "largeurs": [
+      1024,
+      1168,
+      1600
+    ],
+    "mobile": null,
+    "cadrage": "50% 48%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 100,
+      "h": 100
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0,
+        "ton": "clair"
+      },
+      {
+        "cote": "bas",
+        "score": 0,
+        "ton": "sombre"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 186,
+      "top": 0,
+      "width": 1350,
+      "height": 1688,
+      "source": [
+        1688,
+        1688
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [
+      "agrandie 1,19 fois (source de 1350 px après recadrage)"
+    ],
+    "fichiers": [
+      "alters-7-1024.webp",
+      "alters-7-1168.webp",
+      "alters-7-1600.webp"
+    ],
+    "poids": {
+      "alters-7-1024.webp": 126974,
+      "alters-7-1168.webp": 148096,
+      "alters-7-1600.webp": 215878
+    },
+    "media": "c.media({ nom: 'alters-7', alt: \"Foule de curieux le long du camion, sur le trottoir\", cadrage: '50% 48%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '4 / 5' })"
+  },
+  "pgw-ouverture": {
+    "nom": "pgw-ouverture",
+    "source": "recu/pgw-premium-events-partie-4.jpg",
+    "role": "ouverture",
+    "alt": "Arène de jeu vidéo pleine à craquer, joueurs sur scène",
+    "grok": false,
+    "mention": null,
+    "beaute": 5,
+    "empreinte": "eb68b4f17e0c48f2",
+    "ratio": null,
+    "largeurs": [
+      640,
+      1280,
+      1920
+    ],
+    "mobile": {
+      "ratio": "4:5",
+      "largeurs": [
+        640,
+        1080
+      ],
+      "cadrage": "50% 45%"
+    },
+    "cadrage": "45% 45%",
+    "sujet": {
+      "x": 0,
+      "y": 4.2,
+      "l": 96.9,
+      "h": 95.8
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "sombre"
+      },
+      {
+        "cote": "haut",
+        "score": 0,
+        "ton": "sombre"
+      },
+      {
+        "cote": "bas",
+        "score": 0,
+        "ton": "sombre"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 2000,
+      "height": 1500,
+      "source": [
+        2000,
+        1500
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "pgw-ouverture-640.webp",
+      "pgw-ouverture-1280.webp",
+      "pgw-ouverture-1920.webp",
+      "pgw-ouverture-mobile-640.webp",
+      "pgw-ouverture-mobile-1080.webp"
+    ],
+    "poids": {
+      "pgw-ouverture-640.webp": 69170,
+      "pgw-ouverture-1280.webp": 203966,
+      "pgw-ouverture-1920.webp": 296412,
+      "pgw-ouverture-mobile-640.webp": 104748,
+      "pgw-ouverture-mobile-1080.webp": 231054
+    },
+    "media": "c.media({ nom: 'pgw-ouverture', alt: \"Arène de jeu vidéo pleine à craquer, joueurs sur scène\", cadrage: '45% 45%', cadrageMobile: '50% 45%', sizes: '100vw', priorite: true })"
+  },
+  "pgw-1": {
+    "nom": "pgw-1",
+    "source": "recu/pgw-premium-events-partie-5.jpg",
+    "role": "galerie",
+    "alt": "Visiteur dans une méduse géante sur le stand Nickelodeon",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "fbe70394bffae84c",
+    "ratio": "4:5",
+    "largeurs": [
+      1024,
+      1168,
+      1600
+    ],
+    "mobile": null,
+    "cadrage": "50% 47%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 100,
+      "h": 95.5
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 447,
+      "top": 0,
+      "width": 1067,
+      "height": 1334,
+      "source": [
+        2000,
+        1334
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [
+      "agrandie 1,5 fois (source de 1067 px après recadrage)"
+    ],
+    "fichiers": [
+      "pgw-1-1024.webp",
+      "pgw-1-1168.webp",
+      "pgw-1-1600.webp"
+    ],
+    "poids": {
+      "pgw-1-1024.webp": 135948,
+      "pgw-1-1168.webp": 153222,
+      "pgw-1-1600.webp": 227394
+    },
+    "media": "c.media({ nom: 'pgw-1', alt: \"Visiteur dans une méduse géante sur le stand Nickelodeon\", cadrage: '50% 47%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '4 / 5' })"
+  },
+  "pgw-2": {
+    "nom": "pgw-2",
+    "source": "recu/pgw-premium-events-partie-7.jpg",
+    "role": "galerie",
+    "alt": "Trois invités sur le plateau Game One",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "c3e475da6f8fbf62",
+    "ratio": "4:5",
+    "largeurs": [
+      1024,
+      1168,
+      1600
+    ],
+    "mobile": null,
+    "cadrage": "50% 40%",
+    "sujet": {
+      "x": 0,
+      "y": 13.6,
+      "l": 100,
+      "h": 68.2
+    },
+    "zones_calmes": [
+      {
+        "cote": "bas",
+        "score": 0.39,
+        "ton": "sombre"
+      },
+      {
+        "cote": "haut",
+        "score": 0.17,
+        "ton": "sombre"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.15,
+        "ton": "sombre"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "sombre"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 527,
+      "top": 0,
+      "width": 1067,
+      "height": 1334,
+      "source": [
+        2000,
+        1334
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [
+      "agrandie 1,5 fois (source de 1067 px après recadrage)"
+    ],
+    "fichiers": [
+      "pgw-2-1024.webp",
+      "pgw-2-1168.webp",
+      "pgw-2-1600.webp"
+    ],
+    "poids": {
+      "pgw-2-1024.webp": 85650,
+      "pgw-2-1168.webp": 97914,
+      "pgw-2-1600.webp": 142568
+    },
+    "media": "c.media({ nom: 'pgw-2', alt: \"Trois invités sur le plateau Game One\", cadrage: '50% 40%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '4 / 5' })"
+  },
+  "pgw-3": {
+    "nom": "pgw-3",
+    "source": "recu/pgw-premium-events-partie-9.jpg",
+    "role": "galerie",
+    "alt": "Plateau aux néons verts et violets",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "bf13f275896afddf",
+    "ratio": "4:5",
+    "largeurs": [
+      1024,
+      1168
+    ],
+    "mobile": null,
+    "cadrage": "50% 43%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 100,
+      "h": 100
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0.09,
+        "ton": "sombre"
+      },
+      {
+        "cote": "bas",
+        "score": 0.09,
+        "ton": "sombre"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "sombre"
+      },
+      {
+        "cote": "haut",
+        "score": 0,
+        "ton": "sombre"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 670,
+      "top": 0,
+      "width": 900,
+      "height": 1125,
+      "source": [
+        2000,
+        1125
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "largeurs retirées (source trop petite) : 1600"
+    ],
+    "avertissements": [
+      "agrandie 1,3 fois (source de 900 px après recadrage)"
+    ],
+    "fichiers": [
+      "pgw-3-1024.webp",
+      "pgw-3-1168.webp"
+    ],
+    "poids": {
+      "pgw-3-1024.webp": 112356,
+      "pgw-3-1168.webp": 130588
+    },
+    "media": "c.media({ nom: 'pgw-3', alt: \"Plateau aux néons verts et violets\", cadrage: '50% 43%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '4 / 5' })"
+  },
+  "pgw-4": {
+    "nom": "pgw-4",
+    "source": "recu/pgw-premium-events-partie-11.jpg",
+    "role": "galerie",
+    "alt": "Foule dense dans les allées du salon",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "e87533f309b6a0cb",
+    "ratio": "4:5",
+    "largeurs": [
+      1024,
+      1168,
+      1600
+    ],
+    "mobile": null,
+    "cadrage": "50% 65%",
+    "sujet": {
+      "x": 0,
+      "y": 9.4,
+      "l": 100,
+      "h": 90.6
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.06,
+        "ton": "sombre"
+      },
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "sombre"
+      },
+      {
+        "cote": "bas",
+        "score": 0,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 80,
+      "top": 0,
+      "width": 1600,
+      "height": 2000,
+      "source": [
+        2000,
+        2000
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "pgw-4-1024.webp",
+      "pgw-4-1168.webp",
+      "pgw-4-1600.webp"
+    ],
+    "poids": {
+      "pgw-4-1024.webp": 221452,
+      "pgw-4-1168.webp": 265982,
+      "pgw-4-1600.webp": 305922
+    },
+    "media": "c.media({ nom: 'pgw-4', alt: \"Foule dense dans les allées du salon\", cadrage: '50% 65%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '4 / 5' })"
+  },
+  "pgw-5": {
+    "nom": "pgw-5",
+    "source": "recu/pgw-premium-events-partie-15.jpg",
+    "role": "galerie",
+    "alt": "Voiture de sport en briques, portes papillon ouvertes",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "fcfb8c9c614c78a5",
+    "ratio": "1:1",
+    "largeurs": [
+      1024,
+      1168,
+      1600
+    ],
+    "mobile": null,
+    "cadrage": "47% 61%",
+    "sujet": {
+      "x": 0,
+      "y": 6.3,
+      "l": 100,
+      "h": 93.7
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "sombre"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "sombre"
+      },
+      {
+        "cote": "haut",
+        "score": 0,
+        "ton": "sombre"
+      },
+      {
+        "cote": "bas",
+        "score": 0,
+        "ton": "sombre"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 2000,
+      "height": 2000,
+      "source": [
+        2000,
+        2000
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "pgw-5-1024.webp",
+      "pgw-5-1168.webp",
+      "pgw-5-1600.webp"
+    ],
+    "poids": {
+      "pgw-5-1024.webp": 130178,
+      "pgw-5-1168.webp": 152008,
+      "pgw-5-1600.webp": 220378
+    },
+    "media": "c.media({ nom: 'pgw-5', alt: \"Voiture de sport en briques, portes papillon ouvertes\", cadrage: '47% 61%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '1 / 1' })"
+  },
+  "pgw-6": {
+    "nom": "pgw-6",
+    "source": "recu/pgw-premium-events-partie-3.jpg",
+    "role": "galerie",
+    "alt": "Stand coloré aux personnages de jeu vidéo",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "a3f26e375cfadbc7",
+    "ratio": "4:5",
+    "largeurs": [
+      1024,
+      1168
+    ],
+    "mobile": null,
+    "cadrage": "50% 45%",
+    "sujet": {
+      "x": 0,
+      "y": 13.6,
+      "l": 100,
+      "h": 72.7
+    },
+    "zones_calmes": [
+      {
+        "cote": "bas",
+        "score": 0.05,
+        "ton": "sombre"
+      },
+      {
+        "cote": "haut",
+        "score": 0.04,
+        "ton": "sombre"
+      },
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "sombre"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "sombre"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 487,
+      "top": 0,
+      "width": 1066,
+      "height": 1333,
+      "source": [
+        2000,
+        1333
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "largeurs retirées (source trop petite) : 1600"
+    ],
+    "avertissements": [
+      "agrandie 1,1 fois (source de 1066 px après recadrage)"
+    ],
+    "fichiers": [
+      "pgw-6-1024.webp",
+      "pgw-6-1168.webp"
+    ],
+    "poids": {
+      "pgw-6-1024.webp": 140780,
+      "pgw-6-1168.webp": 157786
+    },
+    "media": "c.media({ nom: 'pgw-6', alt: \"Stand coloré aux personnages de jeu vidéo\", cadrage: '50% 45%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '4 / 5' })"
+  },
+  "pgw-7": {
+    "nom": "pgw-7",
+    "source": "recu/pgw-premium-events-partie-10.jpg",
+    "role": "galerie",
+    "alt": "Visiteur en sweat rouge face à un robot de dessin animé",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "dc88923599a7fbfb",
+    "ratio": "4:5",
+    "largeurs": [
+      1024,
+      1168,
+      1600
+    ],
+    "mobile": null,
+    "cadrage": "54% 52%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 100,
+      "h": 100
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0.27,
+        "ton": "sombre"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0,
+        "ton": "sombre"
+      },
+      {
+        "cote": "bas",
+        "score": 0,
+        "ton": "sombre"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 400,
+      "top": 0,
+      "width": 1600,
+      "height": 2000,
+      "source": [
+        2000,
+        2000
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "pgw-7-1024.webp",
+      "pgw-7-1168.webp",
+      "pgw-7-1600.webp"
+    ],
+    "poids": {
+      "pgw-7-1024.webp": 182128,
+      "pgw-7-1168.webp": 237730,
+      "pgw-7-1600.webp": 283234
+    },
+    "media": "c.media({ nom: 'pgw-7', alt: \"Visiteur en sweat rouge face à un robot de dessin animé\", cadrage: '54% 52%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '4 / 5' })"
+  },
+  "pgw-8": {
+    "nom": "pgw-8",
+    "source": "recu/pgw-premium-events-partie-13.jpg",
+    "role": "galerie",
+    "alt": "Van jaune des Tortues Ninja sur un stand",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "613b3be7ce4ac64d",
+    "ratio": "4:5",
+    "largeurs": [
+      1024,
+      1168,
+      1600
+    ],
+    "mobile": null,
+    "cadrage": "51% 57%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 100,
+      "h": 96.9
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "sombre"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "sombre"
+      },
+      {
+        "cote": "haut",
+        "score": 0,
+        "ton": "sombre"
+      },
+      {
+        "cote": "bas",
+        "score": 0,
+        "ton": "sombre"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 400,
+      "top": 0,
+      "width": 1600,
+      "height": 2000,
+      "source": [
+        2000,
+        2000
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "pgw-8-1024.webp",
+      "pgw-8-1168.webp",
+      "pgw-8-1600.webp"
+    ],
+    "poids": {
+      "pgw-8-1024.webp": 186128,
+      "pgw-8-1168.webp": 229398,
+      "pgw-8-1600.webp": 295344
+    },
+    "media": "c.media({ nom: 'pgw-8', alt: \"Van jaune des Tortues Ninja sur un stand\", cadrage: '51% 57%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '4 / 5' })"
+  },
+  "engagements-ouverture": {
+    "nom": "engagements-ouverture",
+    "source": "recu/stands-scenographies-emblematiques-10.jpg",
+    "role": "ouverture",
+    "alt": "Compositions de fleurs blanches au pied d’un escalier de pierre",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "bfbb72379a19d5ac",
+    "ratio": null,
+    "largeurs": [
+      640,
+      1280,
+      1920
+    ],
+    "mobile": {
+      "ratio": "4:5",
+      "largeurs": [
+        640,
+        1080
+      ],
+      "cadrage": "50% 53%"
+    },
+    "cadrage": "55% 53%",
+    "sujet": {
+      "x": 0,
+      "y": 3.1,
+      "l": 100,
+      "h": 96.9
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 2000,
+      "height": 2000,
+      "source": [
+        2000,
+        2000
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "engagements-ouverture-640.webp",
+      "engagements-ouverture-1280.webp",
+      "engagements-ouverture-1920.webp",
+      "engagements-ouverture-mobile-640.webp",
+      "engagements-ouverture-mobile-1080.webp"
+    ],
+    "poids": {
+      "engagements-ouverture-640.webp": 101576,
+      "engagements-ouverture-1280.webp": 254200,
+      "engagements-ouverture-1920.webp": 358394,
+      "engagements-ouverture-mobile-640.webp": 116402,
+      "engagements-ouverture-mobile-1080.webp": 268818
+    },
+    "media": "c.media({ nom: 'engagements-ouverture', alt: \"Compositions de fleurs blanches au pied d’un escalier de pierre\", cadrage: '55% 53%', cadrageMobile: '50% 53%', sizes: '100vw', priorite: true })"
+  },
+  "engagements-nature": {
+    "nom": "engagements-nature",
+    "source": "recu/art-recevoir-7.jpg",
+    "role": "galerie",
+    "alt": "Invitée qui regarde passer un voilier de course, en mer",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "60d8a04c32e452f7",
+    "ratio": "4:5",
+    "largeurs": [
+      1024,
+      1168,
+      1600
+    ],
+    "mobile": null,
+    "cadrage": "50% 52%",
+    "sujet": {
+      "x": 0,
+      "y": 12.5,
+      "l": 100,
+      "h": 71.9
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.6,
+        "ton": "clair"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.28,
+        "ton": "clair"
+      },
+      {
+        "cote": "droite",
+        "score": 0.22,
+        "ton": "clair"
+      },
+      {
+        "cote": "bas",
+        "score": 0.14,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 218,
+      "top": 0,
+      "width": 1093,
+      "height": 1366,
+      "source": [
+        1366,
+        1366
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [
+      "agrandie 1,46 fois (source de 1093 px après recadrage)"
+    ],
+    "fichiers": [
+      "engagements-nature-1024.webp",
+      "engagements-nature-1168.webp",
+      "engagements-nature-1600.webp"
+    ],
+    "poids": {
+      "engagements-nature-1024.webp": 70114,
+      "engagements-nature-1168.webp": 79946,
+      "engagements-nature-1600.webp": 117276
+    },
+    "media": "c.media({ nom: 'engagements-nature', alt: \"Invitée qui regarde passer un voilier de course, en mer\", cadrage: '50% 52%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '4 / 5' })"
+  },
+  "engagements-table": {
+    "nom": "engagements-table",
+    "source": "recu/art-recevoir-3.jpg",
+    "role": "galerie",
+    "alt": "Table dressée en blanc, verres bleus et bouquets",
+    "grok": false,
+    "mention": null,
+    "beaute": 5,
+    "empreinte": "9977421956b08b3d",
+    "ratio": "4:5",
+    "largeurs": [
+      1024,
+      1168,
+      1600
+    ],
+    "mobile": null,
+    "cadrage": "50% 41%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 100,
+      "h": 100
+    },
+    "zones_calmes": [
+      {
+        "cote": "bas",
+        "score": 0.16,
+        "ton": "moyen"
+      },
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "clair"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "clair"
+      },
+      {
+        "cote": "haut",
+        "score": 0,
+        "ton": "clair"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 300,
+      "top": 0,
+      "width": 1600,
+      "height": 2000,
+      "source": [
+        2000,
+        2000
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "engagements-table-1024.webp",
+      "engagements-table-1168.webp",
+      "engagements-table-1600.webp"
+    ],
+    "poids": {
+      "engagements-table-1024.webp": 106632,
+      "engagements-table-1168.webp": 138508,
+      "engagements-table-1600.webp": 239416
+    },
+    "media": "c.media({ nom: 'engagements-table', alt: \"Table dressée en blanc, verres bleus et bouquets\", cadrage: '50% 41%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '4 / 5' })"
+  },
+  "contact-paris": {
+    "nom": "contact-paris",
+    "source": "recu/hospitality-brand-experience-sports-16.jpg",
+    "role": "galerie",
+    "alt": "Toits de Paris au coucher du soleil",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "818a648057efac5c",
+    "ratio": "11:3",
+    "largeurs": [
+      1024,
+      1168,
+      1600
+    ],
+    "mobile": {
+      "ratio": "4:3",
+      "largeurs": [
+        640
+      ],
+      "cadrage": "50% 55%"
+    },
+    "cadrage": "54% 55%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 100,
+      "h": 100
+    },
+    "zones_calmes": [
+      {
+        "cote": "haut",
+        "score": 0.1,
+        "ton": "clair"
+      },
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "clair"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "clair"
+      },
+      {
+        "cote": "bas",
+        "score": 0,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 1920,
+      "height": 524,
+      "source": [
+        1920,
+        524
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [
+      "version téléphone sans 1080 px (source trop petite)"
+    ],
+    "fichiers": [
+      "contact-paris-1024.webp",
+      "contact-paris-1168.webp",
+      "contact-paris-1600.webp",
+      "contact-paris-mobile-640.webp"
+    ],
+    "poids": {
+      "contact-paris-1024.webp": 37318,
+      "contact-paris-1168.webp": 44904,
+      "contact-paris-1600.webp": 69236,
+      "contact-paris-mobile-640.webp": 29298
+    },
+    "media": "c.media({ nom: 'contact-paris', alt: \"Toits de Paris au coucher du soleil\", cadrage: '54% 55%', cadrageMobile: '50% 55%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '11 / 3' })"
+  },
+  "contact-equipe": {
+    "nom": "contact-equipe",
+    "source": "recu/stands-scenographies-emblematiques-3.jpg",
+    "role": "galerie",
+    "alt": "Plateau télévisé sous des lustres, public en arc de cercle",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "f06651bb491b7e96",
+    "ratio": "4:5",
+    "largeurs": [
+      1024,
+      1168,
+      1600
+    ],
+    "mobile": null,
+    "cadrage": "50% 45%",
+    "sujet": {
+      "x": 0,
+      "y": 20.8,
+      "l": 100,
+      "h": 62.5
+    },
+    "zones_calmes": [
+      {
+        "cote": "bas",
+        "score": 0.47,
+        "ton": "sombre"
+      },
+      {
+        "cote": "haut",
+        "score": 0.12,
+        "ton": "sombre"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.06,
+        "ton": "sombre"
+      },
+      {
+        "cote": "droite",
+        "score": 0.04,
+        "ton": "sombre"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 300,
+      "top": 0,
+      "width": 1200,
+      "height": 1500,
+      "source": [
+        2000,
+        1500
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [
+      "agrandie 1,33 fois (source de 1200 px après recadrage)"
+    ],
+    "fichiers": [
+      "contact-equipe-1024.webp",
+      "contact-equipe-1168.webp",
+      "contact-equipe-1600.webp"
+    ],
+    "poids": {
+      "contact-equipe-1024.webp": 163248,
+      "contact-equipe-1168.webp": 193764,
+      "contact-equipe-1600.webp": 271550
+    },
+    "media": "c.media({ nom: 'contact-equipe', alt: \"Plateau télévisé sous des lustres, public en arc de cercle\", cadrage: '50% 45%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '4 / 5' })"
+  },
+  "page-404": {
+    "nom": "page-404",
+    "source": "recu/pgw-premium-events-partie.jpg",
+    "role": "ouverture",
+    "alt": "Régie plongée dans la pénombre, écrans allumés",
+    "grok": false,
+    "mention": null,
+    "beaute": 4,
+    "empreinte": "b3eca9c99637f77e",
+    "ratio": null,
+    "largeurs": [
+      640,
+      1280,
+      1920
+    ],
+    "mobile": {
+      "ratio": "4:5",
+      "largeurs": [
+        640,
+        1080
+      ],
+      "cadrage": "50% 26%"
+    },
+    "cadrage": "51% 26%",
+    "sujet": {
+      "x": 15.6,
+      "y": 0,
+      "l": 81.3,
+      "h": 68.2
+    },
+    "zones_calmes": [
+      {
+        "cote": "bas",
+        "score": 0.81,
+        "ton": "sombre"
+      },
+      {
+        "cote": "gauche",
+        "score": 0.38,
+        "ton": "sombre"
+      },
+      {
+        "cote": "droite",
+        "score": 0.02,
+        "ton": "sombre"
+      },
+      {
+        "cote": "haut",
+        "score": 0,
+        "ton": "sombre"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 2000,
+      "height": 1333,
+      "source": [
+        2000,
+        1333
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "page-404-640.webp",
+      "page-404-1280.webp",
+      "page-404-1920.webp",
+      "page-404-mobile-640.webp",
+      "page-404-mobile-1080.webp"
+    ],
+    "poids": {
+      "page-404-640.webp": 30114,
+      "page-404-1280.webp": 80540,
+      "page-404-1920.webp": 133816,
+      "page-404-mobile-640.webp": 52426,
+      "page-404-mobile-1080.webp": 98398
+    },
+    "media": "c.media({ nom: 'page-404', alt: \"Régie plongée dans la pénombre, écrans allumés\", cadrage: '51% 26%', cadrageMobile: '50% 26%', sizes: '100vw', priorite: true })"
+  },
+  "realisations-partage": {
+    "nom": "realisations-partage",
+    "source": "recu/hospitality-brand-experience-sports-21.jpg",
+    "role": "galerie",
+    "alt": "Bus rouge à impériale habillé pour Les 101 Dalmatiens",
+    "grok": false,
+    "mention": null,
+    "beaute": 5,
+    "empreinte": "c98312744ba87b50",
+    "ratio": "4:5",
+    "largeurs": [
+      1024,
+      1168
+    ],
+    "mobile": null,
+    "cadrage": "50% 53%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 100,
+      "h": 95.5
+    },
+    "zones_calmes": [
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "clair"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "moyen"
+      },
+      {
+        "cote": "haut",
+        "score": 0,
+        "ton": "clair"
+      },
+      {
+        "cote": "bas",
+        "score": 0,
+        "ton": "moyen"
+      }
+    ],
+    "zone_texte": null,
+    "recadrage": {
+      "left": 467,
+      "top": 0,
+      "width": 1066,
+      "height": 1333,
+      "source": [
+        2000,
+        1333
+      ]
+    },
+    "faible": true,
+    "raisons_faible": [
+      "largeurs retirées (source trop petite) : 1600"
+    ],
+    "avertissements": [
+      "agrandie 1,1 fois (source de 1066 px après recadrage)"
+    ],
+    "fichiers": [
+      "realisations-partage-1024.webp",
+      "realisations-partage-1168.webp"
+    ],
+    "poids": {
+      "realisations-partage-1024.webp": 125064,
+      "realisations-partage-1168.webp": 142794
+    },
+    "media": "c.media({ nom: 'realisations-partage', alt: \"Bus rouge à impériale habillé pour Les 101 Dalmatiens\", cadrage: '50% 53%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '4 / 5' })"
+  }
+}

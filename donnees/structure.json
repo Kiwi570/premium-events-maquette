@@ -1,0 +1,12 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "Premium Events",
+  "url": "https://premium-events-maquette.vercel.app/",
+  "telephone": "+33172694343",
+  "email": "info@premium-events.fr",
+  "slogan": "Hospitality & Brand Experience for Sports & Entertainment",
+  "address": { "@type": "PostalAddress", "streetAddress": "7 rue du Faubourg Poissonnière", "postalCode": "75009", "addressLocality": "Paris", "addressCountry": "FR" },
+  "sameAs": ["https://www.linkedin.com/company/premium-events/", "https://www.instagram.com/premiumevents_agence", "https://www.facebook.com/AgencePremiumEvents"],
+  "description": { "fr": "Agence de communication événementielle à Paris : hospitalités et expériences de marque pour le sport et le divertissement (pop-up et boutiques, activations, stands et scénographie, soirées et séminaires, hospitalités)." }
+}

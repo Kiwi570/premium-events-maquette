@@ -1,0 +1,3372 @@
+{
+  "echecs": [
+    {
+      "niveau": "echec",
+      "controle": "lien vers le site actuel",
+      "detail": "mailto:info@premium-events.fr",
+      "etape": "fichiers",
+      "page": "404.html",
+      "lieux": [
+        ""
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "lien vers le site actuel",
+      "detail": "mailto:info@premium-events.fr",
+      "etape": "fichiers",
+      "page": "contact.html",
+      "lieux": [
+        ""
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "lien vers le site actuel",
+      "detail": "mailto:recrutement@premium-events.fr",
+      "etape": "fichiers",
+      "page": "contact.html",
+      "lieux": [
+        ""
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "lien vers le site actuel",
+      "detail": "mailto:info@premium-events.fr",
+      "etape": "fichiers",
+      "page": "engagements.html",
+      "lieux": [
+        ""
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "lien vers le site actuel",
+      "detail": "mailto:info@premium-events.fr",
+      "etape": "fichiers",
+      "page": "index.html",
+      "lieux": [
+        ""
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "lien vers le site actuel",
+      "detail": "mailto:info@premium-events.fr",
+      "etape": "fichiers",
+      "page": "paris-games-week.html",
+      "lieux": [
+        ""
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "lien vers le site actuel",
+      "detail": "mailto:info@premium-events.fr",
+      "etape": "fichiers",
+      "page": "realisations.html",
+      "lieux": [
+        ""
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "lien vers le site actuel",
+      "detail": "mailto:info@premium-events.fr",
+      "etape": "fichiers",
+      "page": "the-alters.html",
+      "lieux": [
+        ""
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "premier écran : information clé hors de l’écran",
+      "detail": "",
+      "etape": "mesures",
+      "page": "/",
+      "taille": "320×568",
+      "mode": "normal",
+      "selecteur": "section#debut > div.ouv-texte:nth-of-type(1) > p.ouv-info.ouv-f:nth-of-type(4) « Paris 9e · 01 72 69 43 43 »",
+      "lieux": [
+        "320×568 normal",
+        "1366×768 sansJs",
+        "320×568 sansJs"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "zone tactile sous 44 px",
+      "detail": "166 × 25 px",
+      "etape": "mesures",
+      "page": "/",
+      "taille": "390×844",
+      "mode": "normal",
+      "selecteur": "li#metier-popup > div.metier-texte > a.lien-fleche « Voir les réalisations : Pop-up & Boutiques »",
+      "lieux": [
+        "390×844 normal",
+        "768×1024 normal",
+        "320×568 normal",
+        "844×390 normal",
+        "390×844 sansJs",
+        "390×844 sansWebgl",
+        "320×568 sansJs"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "zone tactile sous 44 px",
+      "detail": "166 × 25 px",
+      "etape": "mesures",
+      "page": "/",
+      "taille": "390×844",
+      "mode": "normal",
+      "selecteur": "li#metier-activations > div.metier-texte > a.lien-fleche « Voir les réalisations : Activations & Expériences »",
+      "lieux": [
+        "390×844 normal",
+        "768×1024 normal",
+        "320×568 normal",
+        "844×390 normal",
+        "390×844 sansJs",
+        "390×844 sansWebgl",
+        "320×568 sansJs"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "zone tactile sous 44 px",
+      "detail": "166 × 25 px",
+      "etape": "mesures",
+      "page": "/",
+      "taille": "390×844",
+      "mode": "normal",
+      "selecteur": "li#metier-stands > div.metier-texte > a.lien-fleche « Voir les réalisations : Stands & Scénographie »",
+      "lieux": [
+        "390×844 normal",
+        "768×1024 normal",
+        "320×568 normal",
+        "844×390 normal",
+        "390×844 sansJs",
+        "390×844 sansWebgl",
+        "320×568 sansJs"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "zone tactile sous 44 px",
+      "detail": "166 × 25 px",
+      "etape": "mesures",
+      "page": "/",
+      "taille": "390×844",
+      "mode": "normal",
+      "selecteur": "li#metier-soirees > div.metier-texte > a.lien-fleche « Voir les réalisations : Soirées & Séminaires »",
+      "lieux": [
+        "390×844 normal",
+        "768×1024 normal",
+        "320×568 normal",
+        "844×390 normal",
+        "390×844 sansJs",
+        "390×844 sansWebgl",
+        "320×568 sansJs"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "zone tactile sous 44 px",
+      "detail": "166 × 25 px",
+      "etape": "mesures",
+      "page": "/",
+      "taille": "390×844",
+      "mode": "normal",
+      "selecteur": "li#metier-hospitalites > div.metier-texte > a.lien-fleche « Voir les réalisations : Hospitalités & Sport »",
+      "lieux": [
+        "390×844 normal",
+        "768×1024 normal",
+        "320×568 normal",
+        "844×390 normal",
+        "390×844 sansJs",
+        "390×844 sansWebgl",
+        "320×568 sansJs"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "zone tactile sous 44 px",
+      "detail": "159 × 25 px",
+      "etape": "mesures",
+      "page": "/",
+      "taille": "390×844",
+      "mode": "normal",
+      "selecteur": "div.conteneur.engage-grille > div.engage-texte:nth-of-type(1) > p:nth-of-type(3) > a.lien-fleche « Nos engagements »",
+      "lieux": [
+        "390×844 normal",
+        "768×1024 normal",
+        "320×568 normal",
+        "844×390 normal",
+        "390×844 sansJs",
+        "390×844 sansWebgl",
+        "320×568 sansJs"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "texte coupé",
+      "detail": "coupé par section#methode « NOTRE FAÇON DE FAIRE Conseil Conception Évènement  »",
+      "etape": "mesures",
+      "page": "/",
+      "taille": "390×844",
+      "mode": "normal",
+      "selecteur": "h2#methode-titre > span.methode-mot:nth-of-type(1) « Conseil »",
+      "lieux": [
+        "390×844 normal",
+        "320×568 normal",
+        "390×844 sansWebgl"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "texte coupé",
+      "detail": "coupé par section#methode « NOTRE FAÇON DE FAIRE Conseil Conception Évènement  »",
+      "etape": "mesures",
+      "page": "/",
+      "taille": "390×844",
+      "mode": "normal",
+      "selecteur": "h2#methode-titre > span.methode-mot:nth-of-type(3) « Évènement »",
+      "lieux": [
+        "390×844 normal",
+        "320×568 normal",
+        "390×844 sansWebgl"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "texte coupé",
+      "detail": "coupé par section#fin « we create & deliver VOTRE PROCHAIN ÉVÉNEMENT Parlo »",
+      "etape": "mesures",
+      "page": "/",
+      "taille": "390×844",
+      "mode": "normal",
+      "selecteur": "section#fin > div.fin-signature:nth-of-type(1) > span.sig-l1:nth-of-type(1) « we create »",
+      "lieux": [
+        "390×844 normal",
+        "768×1024 normal",
+        "320×568 normal",
+        "844×390 normal",
+        "1366×768 normal",
+        "390×844 sansWebgl",
+        "1366×768 sansWebgl"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "textes qui se chevauchent",
+      "detail": "avec section#fin > div.fin-signature:nth-of-type(1) > span.sig-l2:nth-of-type(2) « & deliver »",
+      "etape": "mesures",
+      "page": "/",
+      "taille": "390×844",
+      "mode": "normal",
+      "selecteur": "section#fin > div.fin-signature:nth-of-type(1) > span.sig-l1:nth-of-type(1) « we create »",
+      "lieux": [
+        "390×844 normal",
+        "768×1024 normal",
+        "320×568 normal",
+        "844×390 normal",
+        "390×844 sansJs",
+        "1366×768 normal",
+        "1920×1080 normal",
+        "390×844 sansWebgl",
+        "1366×768 sansJs",
+        "1366×768 sansWebgl",
+        "320×568 sansJs"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "contraste insuffisant",
+      "detail": "1.00:1 (minimum 3:1)",
+      "etape": "mesures",
+      "page": "/",
+      "taille": "390×844",
+      "mode": "normal",
+      "selecteur": "div#ruban-clients > div.ruban-piste.ruban-piste--inverse:nth-of-type(2) > p.ruban-rangee:nth-of-type(1) > span:nth-of-type(1) « Orange »",
+      "lieux": [
+        "390×844 normal",
+        "768×1024 normal",
+        "320×568 normal",
+        "844×390 normal",
+        "390×844 sansJs",
+        "1366×768 normal",
+        "1920×1080 normal",
+        "390×844 sansWebgl",
+        "1366×768 sansJs",
+        "1366×768 sansWebgl",
+        "320×568 sansJs"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "contraste insuffisant",
+      "detail": "1.00:1 (minimum 3:1)",
+      "etape": "mesures",
+      "page": "/",
+      "taille": "390×844",
+      "mode": "normal",
+      "selecteur": "div#ruban-clients > div.ruban-piste.ruban-piste--inverse:nth-of-type(2) > p.ruban-rangee:nth-of-type(1) > span:nth-of-type(2) « Europcar »",
+      "lieux": [
+        "390×844 normal",
+        "768×1024 normal",
+        "320×568 normal",
+        "844×390 normal",
+        "390×844 sansJs",
+        "1366×768 normal",
+        "1920×1080 normal",
+        "390×844 sansWebgl",
+        "1366×768 sansJs",
+        "1366×768 sansWebgl",
+        "320×568 sansJs"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "contraste insuffisant",
+      "detail": "1.00:1 (minimum 3:1)",
+      "etape": "mesures",
+      "page": "/",
+      "taille": "390×844",
+      "mode": "normal",
+      "selecteur": "div#ruban-clients > div.ruban-piste.ruban-piste--inverse:nth-of-type(2) > p.ruban-rangee:nth-of-type(1) > span:nth-of-type(3) « Nickelodeon »",
+      "lieux": [
+        "390×844 normal",
+        "768×1024 normal",
+        "320×568 normal",
+        "844×390 normal",
+        "390×844 sansJs",
+        "1366×768 normal",
+        "1920×1080 normal",
+        "390×844 sansWebgl",
+        "1366×768 sansJs",
+        "1366×768 sansWebgl",
+        "320×568 sansJs"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "contraste insuffisant",
+      "detail": "1.00:1 (minimum 3:1)",
+      "etape": "mesures",
+      "page": "/",
+      "taille": "390×844",
+      "mode": "normal",
+      "selecteur": "div#ruban-clients > div.ruban-piste.ruban-piste--inverse:nth-of-type(2) > p.ruban-rangee:nth-of-type(1) > span:nth-of-type(4) « J One »",
+      "lieux": [
+        "390×844 normal",
+        "768×1024 normal",
+        "320×568 normal",
+        "844×390 normal",
+        "390×844 sansJs",
+        "1366×768 normal",
+        "1920×1080 normal",
+        "390×844 sansWebgl",
+        "1366×768 sansJs",
+        "1366×768 sansWebgl",
+        "320×568 sansJs"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "contraste insuffisant",
+      "detail": "1.00:1 (minimum 3:1)",
+      "etape": "mesures",
+      "page": "/",
+      "taille": "390×844",
+      "mode": "normal",
+      "selecteur": "div#ruban-clients > div.ruban-piste.ruban-piste--inverse:nth-of-type(2) > p.ruban-rangee:nth-of-type(1) > span:nth-of-type(5) « Xbox »",
+      "lieux": [
+        "390×844 normal",
+        "768×1024 normal",
+        "320×568 normal",
+        "844×390 normal",
+        "390×844 sansJs",
+        "1366×768 normal",
+        "1920×1080 normal",
+        "390×844 sansWebgl",
+        "1366×768 sansJs",
+        "1366×768 sansWebgl",
+        "320×568 sansJs"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "contraste insuffisant",
+      "detail": "1.00:1 (minimum 3:1)",
+      "etape": "mesures",
+      "page": "/",
+      "taille": "390×844",
+      "mode": "normal",
+      "selecteur": "div#ruban-clients > div.ruban-piste.ruban-piste--inverse:nth-of-type(2) > p.ruban-rangee:nth-of-type(1) > span:nth-of-type(6) « Game One »",
+      "lieux": [
+        "390×844 normal",
+        "768×1024 normal",
+        "320×568 normal",
+        "844×390 normal",
+        "390×844 sansJs",
+        "1366×768 normal",
+        "1920×1080 normal",
+        "390×844 sansWebgl",
+        "1366×768 sansJs",
+        "1366×768 sansWebgl",
+        "320×568 sansJs"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "contraste insuffisant",
+      "detail": "1.00:1 (minimum 3:1)",
+      "etape": "mesures",
+      "page": "/",
+      "taille": "390×844",
+      "mode": "normal",
+      "selecteur": "div#ruban-clients > div.ruban-piste.ruban-piste--inverse:nth-of-type(2) > p.ruban-rangee:nth-of-type(1) > span:nth-of-type(7) « Conti »",
+      "lieux": [
+        "390×844 normal",
+        "768×1024 normal",
+        "320×568 normal",
+        "844×390 normal",
+        "390×844 sansJs",
+        "1366×768 normal",
+        "1920×1080 normal",
+        "390×844 sansWebgl",
+        "1366×768 sansJs",
+        "1366×768 sansWebgl",
+        "320×568 sansJs"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "contraste insuffisant",
+      "detail": "1.00:1 (minimum 3:1)",
+      "etape": "mesures",
+      "page": "/",
+      "taille": "390×844",
+      "mode": "normal",
+      "selecteur": "div#ruban-clients > div.ruban-piste.ruban-piste--inverse:nth-of-type(2) > p.ruban-rangee:nth-of-type(1) > span:nth-of-type(8) « CNC »",
+      "lieux": [
+        "390×844 normal",
+        "768×1024 normal",
+        "320×568 normal",
+        "844×390 normal",
+        "390×844 sansJs",
+        "1366×768 normal",
+        "1920×1080 normal",
+        "390×844 sansWebgl",
+        "1366×768 sansJs",
+        "1366×768 sansWebgl",
+        "320×568 sansJs"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "contraste insuffisant",
+      "detail": "1.00:1 (minimum 3:1)",
+      "etape": "mesures",
+      "page": "/",
+      "taille": "390×844",
+      "mode": "normal",
+      "selecteur": "div#ruban-clients > div.ruban-piste.ruban-piste--inverse:nth-of-type(2) > p.ruban-rangee:nth-of-type(1) > span:nth-of-type(9) « Carte Noire »",
+      "lieux": [
+        "390×844 normal",
+        "768×1024 normal",
+        "320×568 normal",
+        "844×390 normal",
+        "390×844 sansJs",
+        "1366×768 normal",
+        "1920×1080 normal",
+        "390×844 sansWebgl",
+        "1366×768 sansJs",
+        "1366×768 sansWebgl",
+        "320×568 sansJs"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "contraste insuffisant",
+      "detail": "1.00:1 (minimum 3:1)",
+      "etape": "mesures",
+      "page": "/",
+      "taille": "390×844",
+      "mode": "normal",
+      "selecteur": "div#ruban-clients > div.ruban-piste.ruban-piste--inverse:nth-of-type(2) > p.ruban-rangee:nth-of-type(1) > span:nth-of-type(10) « Eurosport »",
+      "lieux": [
+        "390×844 normal",
+        "768×1024 normal",
+        "320×568 normal",
+        "844×390 normal",
+        "390×844 sansJs",
+        "1366×768 normal",
+        "1920×1080 normal",
+        "390×844 sansWebgl",
+        "1366×768 sansJs",
+        "1366×768 sansWebgl",
+        "320×568 sansJs"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "contraste insuffisant",
+      "detail": "1.00:1 (minimum 3:1)",
+      "etape": "mesures",
+      "page": "/",
+      "taille": "390×844",
+      "mode": "normal",
+      "selecteur": "div#ruban-clients > div.ruban-piste.ruban-piste--inverse:nth-of-type(2) > p.ruban-rangee:nth-of-type(1) > span:nth-of-type(11) « Paramount »",
+      "lieux": [
+        "390×844 normal",
+        "768×1024 normal",
+        "320×568 normal",
+        "844×390 normal",
+        "390×844 sansJs",
+        "1366×768 normal",
+        "1920×1080 normal",
+        "390×844 sansWebgl",
+        "1366×768 sansJs",
+        "1366×768 sansWebgl",
+        "320×568 sansJs"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "contraste insuffisant",
+      "detail": "1.00:1 (minimum 3:1)",
+      "etape": "mesures",
+      "page": "/",
+      "taille": "390×844",
+      "mode": "normal",
+      "selecteur": "div#ruban-clients > div.ruban-piste.ruban-piste--inverse:nth-of-type(2) > p.ruban-rangee:nth-of-type(1) > span:nth-of-type(12) « Geekvape »",
+      "lieux": [
+        "390×844 normal",
+        "768×1024 normal",
+        "320×568 normal",
+        "844×390 normal",
+        "390×844 sansJs",
+        "1366×768 normal",
+        "1920×1080 normal",
+        "390×844 sansWebgl",
+        "1366×768 sansJs",
+        "1366×768 sansWebgl",
+        "320×568 sansJs"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "contraste insuffisant",
+      "detail": "1.00:1 (minimum 3:1)",
+      "etape": "mesures",
+      "page": "/",
+      "taille": "390×844",
+      "mode": "normal",
+      "selecteur": "div#ruban-clients > div.ruban-piste.ruban-piste--inverse:nth-of-type(2) > p.ruban-rangee:nth-of-type(1) > span:nth-of-type(13) « Air Caraïbes »",
+      "lieux": [
+        "390×844 normal",
+        "768×1024 normal",
+        "320×568 normal",
+        "844×390 normal",
+        "390×844 sansJs",
+        "1366×768 normal",
+        "1920×1080 normal",
+        "390×844 sansWebgl",
+        "1366×768 sansJs",
+        "1366×768 sansWebgl",
+        "320×568 sansJs"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "contraste insuffisant",
+      "detail": "1.00:1 (minimum 3:1)",
+      "etape": "mesures",
+      "page": "/",
+      "taille": "390×844",
+      "mode": "normal",
+      "selecteur": "div#ruban-clients > div.ruban-piste.ruban-piste--inverse:nth-of-type(2) > p.ruban-rangee:nth-of-type(1) > span:nth-of-type(14) « Disney »",
+      "lieux": [
+        "390×844 normal",
+        "768×1024 normal",
+        "320×568 normal",
+        "844×390 normal",
+        "390×844 sansJs",
+        "1366×768 normal",
+        "1920×1080 normal",
+        "390×844 sansWebgl",
+        "1366×768 sansJs",
+        "1366×768 sansWebgl",
+        "320×568 sansJs"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "contraste insuffisant",
+      "detail": "1.00:1 (minimum 3:1)",
+      "etape": "mesures",
+      "page": "/",
+      "taille": "390×844",
+      "mode": "normal",
+      "selecteur": "div#ruban-clients > div.ruban-piste.ruban-piste--inverse:nth-of-type(2) > p.ruban-rangee:nth-of-type(1) > span:nth-of-type(15) « Warner Bros. Discovery »",
+      "lieux": [
+        "390×844 normal",
+        "768×1024 normal",
+        "320×568 normal",
+        "844×390 normal",
+        "390×844 sansJs",
+        "1366×768 normal",
+        "1920×1080 normal",
+        "390×844 sansWebgl",
+        "1366×768 sansJs",
+        "1366×768 sansWebgl",
+        "320×568 sansJs"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "contraste insuffisant",
+      "detail": "1.00:1 (minimum 3:1)",
+      "etape": "mesures",
+      "page": "/",
+      "taille": "390×844",
+      "mode": "normal",
+      "selecteur": "div#ruban-clients > div.ruban-piste.ruban-piste--inverse:nth-of-type(2) > p.ruban-rangee:nth-of-type(1) > span:nth-of-type(16) « Bandai »",
+      "lieux": [
+        "390×844 normal",
+        "768×1024 normal",
+        "320×568 normal",
+        "844×390 normal",
+        "390×844 sansJs",
+        "1366×768 normal",
+        "1920×1080 normal",
+        "390×844 sansWebgl",
+        "1366×768 sansJs",
+        "1366×768 sansWebgl",
+        "320×568 sansJs"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "contraste insuffisant",
+      "detail": "1.00:1 (minimum 3:1)",
+      "etape": "mesures",
+      "page": "/",
+      "taille": "390×844",
+      "mode": "normal",
+      "selecteur": "div#ruban-clients > div.ruban-piste.ruban-piste--inverse:nth-of-type(2) > p.ruban-rangee:nth-of-type(1) > span:nth-of-type(17) « Crunchyroll »",
+      "lieux": [
+        "390×844 normal",
+        "768×1024 normal",
+        "320×568 normal",
+        "844×390 normal",
+        "390×844 sansJs",
+        "1366×768 normal",
+        "1920×1080 normal",
+        "390×844 sansWebgl",
+        "1366×768 sansJs",
+        "1366×768 sansWebgl",
+        "320×568 sansJs"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "contraste insuffisant",
+      "detail": "1.00:1 (minimum 3:1)",
+      "etape": "mesures",
+      "page": "/",
+      "taille": "390×844",
+      "mode": "normal",
+      "selecteur": "div#ruban-clients > div.ruban-piste.ruban-piste--inverse:nth-of-type(2) > p.ruban-rangee:nth-of-type(1) > span:nth-of-type(18) « Toei Animation »",
+      "lieux": [
+        "390×844 normal",
+        "768×1024 normal",
+        "320×568 normal",
+        "844×390 normal",
+        "390×844 sansJs",
+        "1366×768 normal",
+        "1920×1080 normal",
+        "390×844 sansWebgl",
+        "1366×768 sansJs",
+        "1366×768 sansWebgl",
+        "320×568 sansJs"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "contraste insuffisant",
+      "detail": "1.00:1 (minimum 3:1)",
+      "etape": "mesures",
+      "page": "/",
+      "taille": "390×844",
+      "mode": "normal",
+      "selecteur": "div#ruban-clients > div.ruban-piste.ruban-piste--inverse:nth-of-type(2) > p.ruban-rangee:nth-of-type(1) > span:nth-of-type(19) « Coloplast »",
+      "lieux": [
+        "390×844 normal",
+        "768×1024 normal",
+        "320×568 normal",
+        "844×390 normal",
+        "390×844 sansJs",
+        "1366×768 normal",
+        "1920×1080 normal",
+        "390×844 sansWebgl",
+        "1366×768 sansJs",
+        "1366×768 sansWebgl",
+        "320×568 sansJs"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "contraste insuffisant",
+      "detail": "1.00:1 (minimum 3:1)",
+      "etape": "mesures",
+      "page": "/",
+      "taille": "390×844",
+      "mode": "normal",
+      "selecteur": "div#ruban-clients > div.ruban-piste.ruban-piste--inverse:nth-of-type(2) > p.ruban-rangee:nth-of-type(1) > span:nth-of-type(20) « Fédération Française du Bâtiment »",
+      "lieux": [
+        "390×844 normal",
+        "768×1024 normal",
+        "320×568 normal",
+        "844×390 normal",
+        "390×844 sansJs",
+        "1366×768 normal",
+        "1920×1080 normal",
+        "390×844 sansWebgl",
+        "1366×768 sansJs",
+        "1366×768 sansWebgl",
+        "320×568 sansJs"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "contraste insuffisant",
+      "detail": "1.00:1 (minimum 3:1)",
+      "etape": "mesures",
+      "page": "/",
+      "taille": "390×844",
+      "mode": "normal",
+      "selecteur": "div#ruban-clients > div.ruban-piste.ruban-piste--inverse:nth-of-type(2) > p.ruban-rangee:nth-of-type(1) > span:nth-of-type(21) « Burger King »",
+      "lieux": [
+        "390×844 normal",
+        "768×1024 normal",
+        "320×568 normal",
+        "844×390 normal",
+        "390×844 sansJs",
+        "1366×768 normal",
+        "1920×1080 normal",
+        "390×844 sansWebgl",
+        "1366×768 sansJs",
+        "1366×768 sansWebgl",
+        "320×568 sansJs"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "contraste insuffisant",
+      "detail": "1.00:1 (minimum 3:1)",
+      "etape": "mesures",
+      "page": "/",
+      "taille": "390×844",
+      "mode": "normal",
+      "selecteur": "div#ruban-clients > div.ruban-piste.ruban-piste--inverse:nth-of-type(2) > p.ruban-rangee:nth-of-type(1) > span:nth-of-type(22) « FNCF »",
+      "lieux": [
+        "390×844 normal",
+        "768×1024 normal",
+        "320×568 normal",
+        "844×390 normal",
+        "390×844 sansJs",
+        "1366×768 normal",
+        "1920×1080 normal",
+        "390×844 sansWebgl",
+        "1366×768 sansJs",
+        "1366×768 sansWebgl",
+        "320×568 sansJs"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "contraste insuffisant",
+      "detail": "1.00:1 (minimum 3:1)",
+      "etape": "mesures",
+      "page": "/",
+      "taille": "390×844",
+      "mode": "normal",
+      "selecteur": "div#ruban-clients > div.ruban-piste.ruban-piste--inverse:nth-of-type(2) > p.ruban-rangee:nth-of-type(1) > span:nth-of-type(23) « Lavazza »",
+      "lieux": [
+        "390×844 normal",
+        "768×1024 normal",
+        "320×568 normal",
+        "844×390 normal",
+        "390×844 sansJs",
+        "1366×768 normal",
+        "1920×1080 normal",
+        "390×844 sansWebgl",
+        "1366×768 sansJs",
+        "1366×768 sansWebgl",
+        "320×568 sansJs"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "contraste insuffisant",
+      "detail": "1.00:1 (minimum 3:1)",
+      "etape": "mesures",
+      "page": "/",
+      "taille": "390×844",
+      "mode": "normal",
+      "selecteur": "div#ruban-clients > div.ruban-piste.ruban-piste--inverse:nth-of-type(2) > p.ruban-rangee:nth-of-type(1) > span:nth-of-type(24) « Accor »",
+      "lieux": [
+        "390×844 normal",
+        "768×1024 normal",
+        "320×568 normal",
+        "844×390 normal",
+        "390×844 sansJs",
+        "1366×768 normal",
+        "1920×1080 normal",
+        "390×844 sansWebgl",
+        "1366×768 sansJs",
+        "1366×768 sansWebgl",
+        "320×568 sansJs"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "contraste insuffisant",
+      "detail": "1.00:1 (minimum 3:1)",
+      "etape": "mesures",
+      "page": "/",
+      "taille": "390×844",
+      "mode": "normal",
+      "selecteur": "div#ruban-clients > div.ruban-piste.ruban-piste--inverse:nth-of-type(2) > p.ruban-rangee:nth-of-type(1) > span:nth-of-type(25) « Emirates »",
+      "lieux": [
+        "390×844 normal",
+        "768×1024 normal",
+        "320×568 normal",
+        "844×390 normal",
+        "390×844 sansJs",
+        "1366×768 normal",
+        "1920×1080 normal",
+        "390×844 sansWebgl",
+        "1366×768 sansJs",
+        "1366×768 sansWebgl",
+        "320×568 sansJs"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "contraste insuffisant",
+      "detail": "1.00:1 (minimum 3:1)",
+      "etape": "mesures",
+      "page": "/",
+      "taille": "390×844",
+      "mode": "normal",
+      "selecteur": "div#ruban-clients > div.ruban-piste.ruban-piste--inverse:nth-of-type(2) > p.ruban-rangee:nth-of-type(2) > span:nth-of-type(1) « Orange »",
+      "lieux": [
+        "390×844 normal",
+        "768×1024 normal",
+        "320×568 normal",
+        "844×390 normal",
+        "390×844 sansJs",
+        "1366×768 normal",
+        "1920×1080 normal",
+        "390×844 sansWebgl",
+        "1366×768 sansJs",
+        "1366×768 sansWebgl",
+        "320×568 sansJs"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "contraste insuffisant",
+      "detail": "1.00:1 (minimum 3:1)",
+      "etape": "mesures",
+      "page": "/",
+      "taille": "390×844",
+      "mode": "normal",
+      "selecteur": "div#ruban-clients > div.ruban-piste.ruban-piste--inverse:nth-of-type(2) > p.ruban-rangee:nth-of-type(2) > span:nth-of-type(2) « Europcar »",
+      "lieux": [
+        "390×844 normal",
+        "768×1024 normal",
+        "320×568 normal",
+        "844×390 normal",
+        "390×844 sansJs",
+        "1366×768 normal",
+        "1920×1080 normal",
+        "390×844 sansWebgl",
+        "1366×768 sansJs",
+        "1366×768 sansWebgl",
+        "320×568 sansJs"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "contraste insuffisant",
+      "detail": "1.00:1 (minimum 3:1)",
+      "etape": "mesures",
+      "page": "/",
+      "taille": "390×844",
+      "mode": "normal",
+      "selecteur": "div#ruban-clients > div.ruban-piste.ruban-piste--inverse:nth-of-type(2) > p.ruban-rangee:nth-of-type(2) > span:nth-of-type(3) « Nickelodeon »",
+      "lieux": [
+        "390×844 normal",
+        "768×1024 normal",
+        "320×568 normal",
+        "844×390 normal",
+        "390×844 sansJs",
+        "1366×768 normal",
+        "1920×1080 normal",
+        "390×844 sansWebgl",
+        "1366×768 sansJs",
+        "1366×768 sansWebgl",
+        "320×568 sansJs"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "contraste insuffisant",
+      "detail": "1.00:1 (minimum 3:1)",
+      "etape": "mesures",
+      "page": "/",
+      "taille": "390×844",
+      "mode": "normal",
+      "selecteur": "div#ruban-clients > div.ruban-piste.ruban-piste--inverse:nth-of-type(2) > p.ruban-rangee:nth-of-type(2) > span:nth-of-type(4) « J One »",
+      "lieux": [
+        "390×844 normal",
+        "768×1024 normal",
+        "320×568 normal",
+        "844×390 normal",
+        "390×844 sansJs",
+        "1366×768 normal",
+        "1920×1080 normal",
+        "390×844 sansWebgl",
+        "1366×768 sansJs",
+        "1366×768 sansWebgl",
+        "320×568 sansJs"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "contraste insuffisant",
+      "detail": "1.00:1 (minimum 3:1)",
+      "etape": "mesures",
+      "page": "/",
+      "taille": "390×844",
+      "mode": "normal",
+      "selecteur": "div#ruban-clients > div.ruban-piste.ruban-piste--inverse:nth-of-type(2) > p.ruban-rangee:nth-of-type(2) > span:nth-of-type(5) « Xbox »",
+      "lieux": [
+        "390×844 normal",
+        "768×1024 normal",
+        "320×568 normal",
+        "844×390 normal",
+        "390×844 sansJs",
+        "1366×768 normal",
+        "1920×1080 normal",
+        "390×844 sansWebgl",
+        "1366×768 sansJs",
+        "1366×768 sansWebgl",
+        "320×568 sansJs"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "contraste insuffisant",
+      "detail": "1.00:1 (minimum 3:1)",
+      "etape": "mesures",
+      "page": "/",
+      "taille": "390×844",
+      "mode": "normal",
+      "selecteur": "div#ruban-clients > div.ruban-piste.ruban-piste--inverse:nth-of-type(2) > p.ruban-rangee:nth-of-type(2) > span:nth-of-type(6) « Game One »",
+      "lieux": [
+        "390×844 normal",
+        "768×1024 normal",
+        "320×568 normal",
+        "844×390 normal",
+        "390×844 sansJs",
+        "1366×768 normal",
+        "1920×1080 normal",
+        "390×844 sansWebgl",
+        "1366×768 sansJs",
+        "1366×768 sansWebgl",
+        "320×568 sansJs"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "contraste insuffisant",
+      "detail": "1.00:1 (minimum 3:1)",
+      "etape": "mesures",
+      "page": "/",
+      "taille": "390×844",
+      "mode": "normal",
+      "selecteur": "div#ruban-clients > div.ruban-piste.ruban-piste--inverse:nth-of-type(2) > p.ruban-rangee:nth-of-type(2) > span:nth-of-type(7) « Conti »",
+      "lieux": [
+        "390×844 normal",
+        "768×1024 normal",
+        "320×568 normal",
+        "844×390 normal",
+        "390×844 sansJs",
+        "1366×768 normal",
+        "1920×1080 normal",
+        "390×844 sansWebgl",
+        "1366×768 sansJs",
+        "1366×768 sansWebgl",
+        "320×568 sansJs"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "contraste insuffisant",
+      "detail": "1.00:1 (minimum 3:1)",
+      "etape": "mesures",
+      "page": "/",
+      "taille": "390×844",
+      "mode": "normal",
+      "selecteur": "div#ruban-clients > div.ruban-piste.ruban-piste--inverse:nth-of-type(2) > p.ruban-rangee:nth-of-type(2) > span:nth-of-type(8) « CNC »",
+      "lieux": [
+        "390×844 normal",
+        "768×1024 normal",
+        "320×568 normal",
+        "844×390 normal",
+        "390×844 sansJs",
+        "1366×768 normal",
+        "1920×1080 normal",
+        "390×844 sansWebgl",
+        "1366×768 sansJs",
+        "1366×768 sansWebgl",
+        "320×568 sansJs"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "contraste insuffisant",
+      "detail": "1.00:1 (minimum 3:1)",
+      "etape": "mesures",
+      "page": "/",
+      "taille": "390×844",
+      "mode": "normal",
+      "selecteur": "div#ruban-clients > div.ruban-piste.ruban-piste--inverse:nth-of-type(2) > p.ruban-rangee:nth-of-type(2) > span:nth-of-type(9) « Carte Noire »",
+      "lieux": [
+        "390×844 normal",
+        "768×1024 normal",
+        "320×568 normal",
+        "844×390 normal",
+        "390×844 sansJs",
+        "1366×768 normal",
+        "1920×1080 normal",
+        "390×844 sansWebgl",
+        "1366×768 sansJs",
+        "1366×768 sansWebgl",
+        "320×568 sansJs"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "contraste insuffisant",
+      "detail": "1.00:1 (minimum 3:1)",
+      "etape": "mesures",
+      "page": "/",
+      "taille": "390×844",
+      "mode": "normal",
+      "selecteur": "div#ruban-clients > div.ruban-piste.ruban-piste--inverse:nth-of-type(2) > p.ruban-rangee:nth-of-type(2) > span:nth-of-type(10) « Eurosport »",
+      "lieux": [
+        "390×844 normal",
+        "768×1024 normal",
+        "320×568 normal",
+        "844×390 normal",
+        "390×844 sansJs",
+        "1366×768 normal",
+        "1920×1080 normal",
+        "390×844 sansWebgl",
+        "1366×768 sansJs",
+        "1366×768 sansWebgl",
+        "320×568 sansJs"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "contraste insuffisant",
+      "detail": "1.00:1 (minimum 3:1)",
+      "etape": "mesures",
+      "page": "/",
+      "taille": "390×844",
+      "mode": "normal",
+      "selecteur": "div#ruban-clients > div.ruban-piste.ruban-piste--inverse:nth-of-type(2) > p.ruban-rangee:nth-of-type(2) > span:nth-of-type(11) « Paramount »",
+      "lieux": [
+        "390×844 normal",
+        "768×1024 normal",
+        "320×568 normal",
+        "844×390 normal",
+        "390×844 sansJs",
+        "1366×768 normal",
+        "1920×1080 normal",
+        "390×844 sansWebgl",
+        "1366×768 sansJs",
+        "1366×768 sansWebgl",
+        "320×568 sansJs"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "contraste insuffisant",
+      "detail": "1.00:1 (minimum 3:1)",
+      "etape": "mesures",
+      "page": "/",
+      "taille": "390×844",
+      "mode": "normal",
+      "selecteur": "div#ruban-clients > div.ruban-piste.ruban-piste--inverse:nth-of-type(2) > p.ruban-rangee:nth-of-type(2) > span:nth-of-type(12) « Geekvape »",
+      "lieux": [
+        "390×844 normal",
+        "768×1024 normal",
+        "320×568 normal",
+        "844×390 normal",
+        "390×844 sansJs",
+        "1366×768 normal",
+        "1920×1080 normal",
+        "390×844 sansWebgl",
+        "1366×768 sansJs",
+        "1366×768 sansWebgl",
+        "320×568 sansJs"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "contraste insuffisant",
+      "detail": "1.00:1 (minimum 3:1)",
+      "etape": "mesures",
+      "page": "/",
+      "taille": "390×844",
+      "mode": "normal",
+      "selecteur": "div#ruban-clients > div.ruban-piste.ruban-piste--inverse:nth-of-type(2) > p.ruban-rangee:nth-of-type(2) > span:nth-of-type(13) « Air Caraïbes »",
+      "lieux": [
+        "390×844 normal",
+        "768×1024 normal",
+        "320×568 normal",
+        "844×390 normal",
+        "390×844 sansJs",
+        "1366×768 normal",
+        "1920×1080 normal",
+        "390×844 sansWebgl",
+        "1366×768 sansJs",
+        "1366×768 sansWebgl",
+        "320×568 sansJs"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "contraste insuffisant",
+      "detail": "1.00:1 (minimum 3:1)",
+      "etape": "mesures",
+      "page": "/",
+      "taille": "390×844",
+      "mode": "normal",
+      "selecteur": "div#ruban-clients > div.ruban-piste.ruban-piste--inverse:nth-of-type(2) > p.ruban-rangee:nth-of-type(2) > span:nth-of-type(14) « Disney »",
+      "lieux": [
+        "390×844 normal",
+        "768×1024 normal",
+        "320×568 normal",
+        "844×390 normal",
+        "390×844 sansJs",
+        "1366×768 normal",
+        "1920×1080 normal",
+        "390×844 sansWebgl",
+        "1366×768 sansJs",
+        "1366×768 sansWebgl",
+        "320×568 sansJs"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "contraste insuffisant",
+      "detail": "1.00:1 (minimum 3:1)",
+      "etape": "mesures",
+      "page": "/",
+      "taille": "390×844",
+      "mode": "normal",
+      "selecteur": "div#ruban-clients > div.ruban-piste.ruban-piste--inverse:nth-of-type(2) > p.ruban-rangee:nth-of-type(2) > span:nth-of-type(15) « Warner Bros. Discovery »",
+      "lieux": [
+        "390×844 normal",
+        "768×1024 normal",
+        "320×568 normal",
+        "844×390 normal",
+        "390×844 sansJs",
+        "1366×768 normal",
+        "1920×1080 normal",
+        "390×844 sansWebgl",
+        "1366×768 sansJs",
+        "1366×768 sansWebgl",
+        "320×568 sansJs"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "contraste insuffisant",
+      "detail": "1.00:1 (minimum 3:1)",
+      "etape": "mesures",
+      "page": "/",
+      "taille": "390×844",
+      "mode": "normal",
+      "selecteur": "div#ruban-clients > div.ruban-piste.ruban-piste--inverse:nth-of-type(2) > p.ruban-rangee:nth-of-type(2) > span:nth-of-type(16) « Bandai »",
+      "lieux": [
+        "390×844 normal",
+        "768×1024 normal",
+        "320×568 normal",
+        "844×390 normal",
+        "390×844 sansJs",
+        "1366×768 normal",
+        "1920×1080 normal",
+        "390×844 sansWebgl",
+        "1366×768 sansJs",
+        "1366×768 sansWebgl",
+        "320×568 sansJs"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "contraste insuffisant",
+      "detail": "1.00:1 (minimum 3:1)",
+      "etape": "mesures",
+      "page": "/",
+      "taille": "390×844",
+      "mode": "normal",
+      "selecteur": "div#ruban-clients > div.ruban-piste.ruban-piste--inverse:nth-of-type(2) > p.ruban-rangee:nth-of-type(2) > span:nth-of-type(17) « Crunchyroll »",
+      "lieux": [
+        "390×844 normal",
+        "768×1024 normal",
+        "320×568 normal",
+        "844×390 normal",
+        "390×844 sansJs",
+        "1366×768 normal",
+        "1920×1080 normal",
+        "390×844 sansWebgl",
+        "1366×768 sansJs",
+        "1366×768 sansWebgl",
+        "320×568 sansJs"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "contraste insuffisant",
+      "detail": "1.00:1 (minimum 3:1)",
+      "etape": "mesures",
+      "page": "/",
+      "taille": "390×844",
+      "mode": "normal",
+      "selecteur": "div#ruban-clients > div.ruban-piste.ruban-piste--inverse:nth-of-type(2) > p.ruban-rangee:nth-of-type(2) > span:nth-of-type(18) « Toei Animation »",
+      "lieux": [
+        "390×844 normal",
+        "768×1024 normal",
+        "320×568 normal",
+        "844×390 normal",
+        "390×844 sansJs",
+        "1366×768 normal",
+        "1920×1080 normal",
+        "390×844 sansWebgl",
+        "1366×768 sansJs",
+        "1366×768 sansWebgl",
+        "320×568 sansJs"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "contraste insuffisant",
+      "detail": "1.00:1 (minimum 3:1)",
+      "etape": "mesures",
+      "page": "/",
+      "taille": "390×844",
+      "mode": "normal",
+      "selecteur": "div#ruban-clients > div.ruban-piste.ruban-piste--inverse:nth-of-type(2) > p.ruban-rangee:nth-of-type(2) > span:nth-of-type(19) « Coloplast »",
+      "lieux": [
+        "390×844 normal",
+        "768×1024 normal",
+        "320×568 normal",
+        "844×390 normal",
+        "390×844 sansJs",
+        "1366×768 normal",
+        "1920×1080 normal",
+        "390×844 sansWebgl",
+        "1366×768 sansJs",
+        "1366×768 sansWebgl",
+        "320×568 sansJs"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "contraste insuffisant",
+      "detail": "1.00:1 (minimum 3:1)",
+      "etape": "mesures",
+      "page": "/",
+      "taille": "390×844",
+      "mode": "normal",
+      "selecteur": "div#ruban-clients > div.ruban-piste.ruban-piste--inverse:nth-of-type(2) > p.ruban-rangee:nth-of-type(2) > span:nth-of-type(20) « Fédération Française du Bâtiment »",
+      "lieux": [
+        "390×844 normal",
+        "768×1024 normal",
+        "320×568 normal",
+        "844×390 normal",
+        "390×844 sansJs",
+        "1366×768 normal",
+        "1920×1080 normal",
+        "390×844 sansWebgl",
+        "1366×768 sansJs",
+        "1366×768 sansWebgl",
+        "320×568 sansJs"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "contraste insuffisant",
+      "detail": "1.00:1 (minimum 3:1)",
+      "etape": "mesures",
+      "page": "/",
+      "taille": "390×844",
+      "mode": "normal",
+      "selecteur": "div#ruban-clients > div.ruban-piste.ruban-piste--inverse:nth-of-type(2) > p.ruban-rangee:nth-of-type(2) > span:nth-of-type(21) « Burger King »",
+      "lieux": [
+        "390×844 normal",
+        "768×1024 normal",
+        "320×568 normal",
+        "844×390 normal",
+        "390×844 sansJs",
+        "1366×768 normal",
+        "1920×1080 normal",
+        "390×844 sansWebgl",
+        "1366×768 sansJs",
+        "1366×768 sansWebgl",
+        "320×568 sansJs"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "contraste insuffisant",
+      "detail": "1.00:1 (minimum 3:1)",
+      "etape": "mesures",
+      "page": "/",
+      "taille": "390×844",
+      "mode": "normal",
+      "selecteur": "div#ruban-clients > div.ruban-piste.ruban-piste--inverse:nth-of-type(2) > p.ruban-rangee:nth-of-type(2) > span:nth-of-type(22) « FNCF »",
+      "lieux": [
+        "390×844 normal",
+        "768×1024 normal",
+        "320×568 normal",
+        "844×390 normal",
+        "390×844 sansJs",
+        "1366×768 normal",
+        "1920×1080 normal",
+        "390×844 sansWebgl",
+        "1366×768 sansJs",
+        "1366×768 sansWebgl",
+        "320×568 sansJs"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "contraste insuffisant",
+      "detail": "1.00:1 (minimum 3:1)",
+      "etape": "mesures",
+      "page": "/",
+      "taille": "390×844",
+      "mode": "normal",
+      "selecteur": "div#ruban-clients > div.ruban-piste.ruban-piste--inverse:nth-of-type(2) > p.ruban-rangee:nth-of-type(2) > span:nth-of-type(23) « Lavazza »",
+      "lieux": [
+        "390×844 normal",
+        "768×1024 normal",
+        "320×568 normal",
+        "844×390 normal",
+        "390×844 sansJs",
+        "1366×768 normal",
+        "1920×1080 normal",
+        "390×844 sansWebgl",
+        "1366×768 sansJs",
+        "1366×768 sansWebgl",
+        "320×568 sansJs"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "contraste insuffisant",
+      "detail": "1.00:1 (minimum 3:1)",
+      "etape": "mesures",
+      "page": "/",
+      "taille": "390×844",
+      "mode": "normal",
+      "selecteur": "div#ruban-clients > div.ruban-piste.ruban-piste--inverse:nth-of-type(2) > p.ruban-rangee:nth-of-type(2) > span:nth-of-type(24) « Accor »",
+      "lieux": [
+        "390×844 normal",
+        "768×1024 normal",
+        "320×568 normal",
+        "844×390 normal",
+        "390×844 sansJs",
+        "1366×768 normal",
+        "1920×1080 normal",
+        "390×844 sansWebgl",
+        "1366×768 sansJs",
+        "1366×768 sansWebgl",
+        "320×568 sansJs"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "contraste insuffisant",
+      "detail": "1.00:1 (minimum 3:1)",
+      "etape": "mesures",
+      "page": "/",
+      "taille": "390×844",
+      "mode": "normal",
+      "selecteur": "div#ruban-clients > div.ruban-piste.ruban-piste--inverse:nth-of-type(2) > p.ruban-rangee:nth-of-type(2) > span:nth-of-type(25) « Emirates »",
+      "lieux": [
+        "390×844 normal",
+        "768×1024 normal",
+        "320×568 normal",
+        "844×390 normal",
+        "390×844 sansJs",
+        "1366×768 normal",
+        "1920×1080 normal",
+        "390×844 sansWebgl",
+        "1366×768 sansJs",
+        "1366×768 sansWebgl",
+        "320×568 sansJs"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "élément sans nom accessible",
+      "detail": "",
+      "etape": "mesures",
+      "page": "/",
+      "taille": "390×844",
+      "mode": "normal",
+      "selecteur": "body#haut > header > div.entete-rangee > a.entete-logo",
+      "lieux": [
+        "390×844 normal",
+        "390×844 sansJs",
+        "1366×768 normal",
+        "1366×768 sansJs"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "texte coupé",
+      "detail": "coupé par section#fin « we create & deliver VOTRE PROCHAIN ÉVÉNEMENT Parlo »",
+      "etape": "mesures",
+      "page": "/",
+      "taille": "320×568",
+      "mode": "normal",
+      "selecteur": "section#fin > div.fin-signature:nth-of-type(1) > span.sig-l2:nth-of-type(2) « & deliver »",
+      "lieux": [
+        "320×568 normal"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "zone tactile sous 44 px",
+      "detail": "174 × 25 px",
+      "etape": "mesures",
+      "page": "/",
+      "taille": "390×844",
+      "mode": "sansJs",
+      "selecteur": "section#art-de-recevoir > div > div.recevoir-carte > a.lien-fleche.lien-fleche--clair « Voir nos hospitalités »",
+      "lieux": [
+        "390×844 sansJs",
+        "320×568 sansJs"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "textes qui se chevauchent",
+      "detail": "avec section#fin > div.fin-signature:nth-of-type(1) > span.sig-l2:nth-of-type(2) > span.sig-amp « & »",
+      "etape": "mesures",
+      "page": "/",
+      "taille": "390×844",
+      "mode": "sansJs",
+      "selecteur": "section#fin > div.fin-signature:nth-of-type(1) > span.sig-l1:nth-of-type(1) « we create »",
+      "lieux": [
+        "390×844 sansJs",
+        "1366×768 sansJs",
+        "320×568 sansJs"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "premier écran : bouton principal hors de l’écran",
+      "detail": "",
+      "etape": "mesures",
+      "page": "/",
+      "taille": "1366×768",
+      "mode": "sansJs",
+      "selecteur": "section#debut > div.ouv-texte:nth-of-type(1) > p.ouv-actions.ouv-f:nth-of-type(3) > a.bouton:nth-of-type(1) « Parler de votre projet »",
+      "lieux": [
+        "1366×768 sansJs"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "zone tactile sous 44 px",
+      "detail": "106 × 20 px",
+      "etape": "mesures",
+      "page": "/404",
+      "taille": "320×568",
+      "mode": "normal",
+      "selecteur": "section#debut > div.conteneur.ouv-404-texte > p.ouv-info.ouv-f:nth-of-type(4) > a « 01 72 69 43 43 »",
+      "lieux": [
+        "320×568 normal",
+        "390×844 normal",
+        "844×390 normal",
+        "768×1024 normal",
+        "390×844 sansJs",
+        "390×844 sansWebgl",
+        "320×568 sansJs"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "élément sans nom accessible",
+      "detail": "",
+      "etape": "mesures",
+      "page": "/404",
+      "taille": "390×844",
+      "mode": "normal",
+      "selecteur": "body#haut > header > div.entete-rangee > a.entete-logo",
+      "lieux": [
+        "390×844 normal",
+        "390×844 sansJs",
+        "1366×768 normal",
+        "1366×768 sansJs"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "premier écran : bouton principal hors de l’écran",
+      "detail": "",
+      "etape": "mesures",
+      "page": "/404",
+      "taille": "390×844",
+      "mode": "sansJs",
+      "selecteur": "section#debut > div.conteneur.ouv-404-texte > p.ouv-actions.ouv-f:nth-of-type(3) > a.bouton:nth-of-type(1) « Revenir à l’accueil »",
+      "lieux": [
+        "390×844 sansJs"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "premier écran : information clé hors de l’écran",
+      "detail": "",
+      "etape": "mesures",
+      "page": "/404",
+      "taille": "390×844",
+      "mode": "sansJs",
+      "selecteur": "section#debut > div.conteneur.ouv-404-texte > p.ouv-info.ouv-f:nth-of-type(4) « 01 72 69 43 43 »",
+      "lieux": [
+        "390×844 sansJs",
+        "1366×768 sansJs",
+        "320×568 sansJs"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "zone tactile sous 44 px",
+      "detail": "147 × 28 px",
+      "etape": "mesures",
+      "page": "/contact",
+      "taille": "390×844",
+      "mode": "normal",
+      "selecteur": "dl.coordonnees.ouv-f > div:nth-of-type(1) > dd > a « +33 (0)1 72 69 43 43 »",
+      "lieux": [
+        "390×844 normal",
+        "768×1024 normal",
+        "320×568 normal",
+        "844×390 normal",
+        "390×844 sansJs",
+        "390×844 sansWebgl",
+        "320×568 sansJs"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "zone tactile sous 44 px",
+      "detail": "186 × 28 px",
+      "etape": "mesures",
+      "page": "/contact",
+      "taille": "390×844",
+      "mode": "normal",
+      "selecteur": "dl.coordonnees.ouv-f > div:nth-of-type(2) > dd > a « info@premium-events.fr »",
+      "lieux": [
+        "390×844 normal",
+        "768×1024 normal",
+        "844×390 normal",
+        "390×844 sansJs",
+        "390×844 sansWebgl"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "zone tactile sous 44 px",
+      "detail": "147 × 28 px",
+      "etape": "mesures",
+      "page": "/contact",
+      "taille": "390×844",
+      "mode": "normal",
+      "selecteur": "dl.coordonnees.coordonnees--clair > div:nth-of-type(3) > dd > a « +33 (0)1 72 69 43 43 »",
+      "lieux": [
+        "390×844 normal",
+        "768×1024 normal",
+        "320×568 normal",
+        "844×390 normal",
+        "390×844 sansJs",
+        "390×844 sansWebgl",
+        "320×568 sansJs"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "textes qui se chevauchent",
+      "detail": "avec section#fin > div.fin-signature:nth-of-type(1) > span.sig-l2:nth-of-type(2) > span.sig-amp « & »",
+      "etape": "mesures",
+      "page": "/contact",
+      "taille": "390×844",
+      "mode": "normal",
+      "selecteur": "section#fin > div.fin-signature:nth-of-type(1) > span.sig-l1:nth-of-type(1) « we create »",
+      "lieux": [
+        "390×844 normal",
+        "390×844 sansJs",
+        "390×844 sansWebgl",
+        "1366×768 sansJs",
+        "320×568 sansJs"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "textes qui se chevauchent",
+      "detail": "avec section#fin > div.fin-signature:nth-of-type(1) > span.sig-l2:nth-of-type(2) « & deliver »",
+      "etape": "mesures",
+      "page": "/contact",
+      "taille": "390×844",
+      "mode": "normal",
+      "selecteur": "section#fin > div.fin-signature:nth-of-type(1) > span.sig-l1:nth-of-type(1) « we create »",
+      "lieux": [
+        "390×844 normal",
+        "768×1024 normal",
+        "320×568 normal",
+        "844×390 normal",
+        "390×844 sansJs",
+        "1366×768 normal",
+        "1920×1080 normal",
+        "390×844 sansWebgl",
+        "1366×768 sansWebgl",
+        "1366×768 sansJs",
+        "320×568 sansJs"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "élément sans nom accessible",
+      "detail": "",
+      "etape": "mesures",
+      "page": "/contact",
+      "taille": "390×844",
+      "mode": "normal",
+      "selecteur": "body#haut > header > div.entete-rangee > a.entete-logo",
+      "lieux": [
+        "390×844 normal",
+        "390×844 sansJs",
+        "1366×768 normal",
+        "1366×768 sansJs"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "texte coupé",
+      "detail": "coupé par section#fin « we create & deliver VOTRE PROCHAIN ÉVÉNEMENT Toujo »",
+      "etape": "mesures",
+      "page": "/contact",
+      "taille": "768×1024",
+      "mode": "normal",
+      "selecteur": "section#fin > div.fin-signature:nth-of-type(1) > span.sig-l1:nth-of-type(1) « we create »",
+      "lieux": [
+        "768×1024 normal",
+        "320×568 normal",
+        "844×390 normal",
+        "1366×768 normal",
+        "1366×768 sansWebgl"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "texte coupé",
+      "detail": "coupé par section#fin « we create & deliver VOTRE PROCHAIN ÉVÉNEMENT Toujo »",
+      "etape": "mesures",
+      "page": "/contact",
+      "taille": "320×568",
+      "mode": "normal",
+      "selecteur": "section#fin > div.fin-signature:nth-of-type(1) > span.sig-l2:nth-of-type(2) « & deliver »",
+      "lieux": [
+        "320×568 normal"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "premier écran : information clé hors de l’écran",
+      "detail": "",
+      "etape": "mesures",
+      "page": "/contact",
+      "taille": "320×568",
+      "mode": "sansJs",
+      "selecteur": "section#debut > div.conteneur.ouv-contact > div.ouv-contact-texte:nth-of-type(1) > dl.coordonnees.ouv-f « Téléphone +33 (0)1 72 69 43 43 E-mail info@premium »",
+      "lieux": [
+        "320×568 sansJs"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "texte coupé",
+      "detail": "coupé par section#fin « we create & deliver VOTRE PROCHAIN ÉVÉNEMENT Parlo »",
+      "etape": "mesures",
+      "page": "/engagements",
+      "taille": "390×844",
+      "mode": "normal",
+      "selecteur": "section#fin > div.fin-signature:nth-of-type(1) > span.sig-l1:nth-of-type(1) « we create »",
+      "lieux": [
+        "390×844 normal",
+        "320×568 normal",
+        "768×1024 normal",
+        "844×390 normal",
+        "1366×768 normal",
+        "390×844 sansWebgl",
+        "1366×768 sansWebgl"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "textes qui se chevauchent",
+      "detail": "avec section#fin > div.fin-signature:nth-of-type(1) > span.sig-l2:nth-of-type(2) « & deliver »",
+      "etape": "mesures",
+      "page": "/engagements",
+      "taille": "390×844",
+      "mode": "normal",
+      "selecteur": "section#fin > div.fin-signature:nth-of-type(1) > span.sig-l1:nth-of-type(1) « we create »",
+      "lieux": [
+        "390×844 normal",
+        "320×568 normal",
+        "768×1024 normal",
+        "844×390 normal",
+        "390×844 sansJs",
+        "1366×768 normal",
+        "1920×1080 normal",
+        "390×844 sansWebgl",
+        "1366×768 sansJs",
+        "1366×768 sansWebgl",
+        "320×568 sansJs"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "élément sans nom accessible",
+      "detail": "",
+      "etape": "mesures",
+      "page": "/engagements",
+      "taille": "390×844",
+      "mode": "normal",
+      "selecteur": "body#haut > header > div.entete-rangee > a.entete-logo",
+      "lieux": [
+        "390×844 normal",
+        "390×844 sansJs",
+        "1366×768 normal",
+        "1366×768 sansJs"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "photo faible affichée en grand",
+      "detail": "engagements-nature (4/5, faible, 65 % de l'écran) : en vignette, ou une meilleure image",
+      "etape": "mesures",
+      "page": "/engagements",
+      "taille": "390×844",
+      "mode": "normal",
+      "selecteur": "div.conteneur.etude-bloc-grille > figure.media.etude-bloc-media > picture > img « Sous-bois de fougères dans une lumière douce »",
+      "lieux": [
+        "390×844 normal"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "texte coupé",
+      "detail": "coupé par section#fin « we create & deliver VOTRE PROCHAIN ÉVÉNEMENT Parlo »",
+      "etape": "mesures",
+      "page": "/engagements",
+      "taille": "320×568",
+      "mode": "normal",
+      "selecteur": "section#fin > div.fin-signature:nth-of-type(1) > span.sig-l2:nth-of-type(2) « & deliver »",
+      "lieux": [
+        "320×568 normal"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "textes qui se chevauchent",
+      "detail": "avec section#fin > div.fin-signature:nth-of-type(1) > span.sig-l2:nth-of-type(2) > span.sig-amp « & »",
+      "etape": "mesures",
+      "page": "/engagements",
+      "taille": "390×844",
+      "mode": "sansJs",
+      "selecteur": "section#fin > div.fin-signature:nth-of-type(1) > span.sig-l1:nth-of-type(1) « we create »",
+      "lieux": [
+        "390×844 sansJs",
+        "1366×768 sansJs",
+        "320×568 sansJs"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "photo faible affichée en grand",
+      "detail": "engagements-nature (4/5, faible, 53 % de l'écran) : en vignette, ou une meilleure image",
+      "etape": "mesures",
+      "page": "/engagements",
+      "taille": "1366×768",
+      "mode": "normal",
+      "selecteur": "div.conteneur.etude-bloc-grille > figure.media.etude-bloc-media > picture > img « Sous-bois de fougères dans une lumière douce »",
+      "lieux": [
+        "1366×768 normal"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "photo faible affichée en grand",
+      "detail": "engagements-nature (4/5, faible, 34 % de l'écran) : en vignette, ou une meilleure image",
+      "etape": "mesures",
+      "page": "/engagements",
+      "taille": "1920×1080",
+      "mode": "normal",
+      "selecteur": "div.conteneur.etude-bloc-grille > figure.media.etude-bloc-media > picture > img « Sous-bois de fougères dans une lumière douce »",
+      "lieux": [
+        "1920×1080 normal"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "premier écran : titre hors de l’écran",
+      "detail": "haut 358 px, bas 518 px, zone 64–490 px",
+      "etape": "mesures",
+      "page": "/paris-games-week",
+      "taille": "320×568",
+      "mode": "normal",
+      "selecteur": "section#debut > div.ouv-etude-texte:nth-of-type(1) > h1.ouv-titre « PGW et Premium Events, une partie sans fin. »",
+      "lieux": [
+        "320×568 normal",
+        "320×568 sansJs"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "premier écran : bouton principal hors de l’écran",
+      "detail": "",
+      "etape": "mesures",
+      "page": "/paris-games-week",
+      "taille": "320×568",
+      "mode": "normal",
+      "selecteur": "section#debut > div.ouv-etude-texte:nth-of-type(1) > p.ouv-actions.ouv-f:nth-of-type(4) > a.bouton.bouton--noir « Parler de votre projet »",
+      "lieux": [
+        "320×568 normal",
+        "390×844 normal",
+        "390×844 sansJs",
+        "390×844 sansWebgl",
+        "1366×768 sansJs",
+        "320×568 sansJs"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "premier écran : information clé hors de l’écran",
+      "detail": "",
+      "etape": "mesures",
+      "page": "/paris-games-week",
+      "taille": "320×568",
+      "mode": "normal",
+      "selecteur": "section#debut > div.ouv-etude-texte:nth-of-type(1) > p.ouv-info.ouv-f:nth-of-type(5) « Près de 10 ans à la PGW »",
+      "lieux": [
+        "320×568 normal",
+        "390×844 normal",
+        "390×844 sansJs",
+        "390×844 sansWebgl",
+        "1366×768 sansJs",
+        "320×568 sansJs"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "zone tactile sous 44 px",
+      "detail": "153 × 25 px",
+      "etape": "mesures",
+      "page": "/paris-games-week",
+      "taille": "320×568",
+      "mode": "normal",
+      "selecteur": "div > article.etude-carte > div.etude-carte-texte > a.lien-fleche « Lire l’étude de cas »",
+      "lieux": [
+        "320×568 normal",
+        "390×844 normal",
+        "768×1024 normal",
+        "844×390 normal",
+        "390×844 sansJs",
+        "390×844 sansWebgl",
+        "320×568 sansJs"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "texte coupé",
+      "detail": "coupé par section#fin « we create & deliver VOTRE PROCHAIN ÉVÉNEMENT Parlo »",
+      "etape": "mesures",
+      "page": "/paris-games-week",
+      "taille": "320×568",
+      "mode": "normal",
+      "selecteur": "section#fin > div.fin-signature:nth-of-type(1) > span.sig-l1:nth-of-type(1) « we create »",
+      "lieux": [
+        "320×568 normal",
+        "390×844 normal",
+        "768×1024 normal",
+        "844×390 normal",
+        "1366×768 normal",
+        "390×844 sansWebgl",
+        "1366×768 sansWebgl"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "texte coupé",
+      "detail": "coupé par section#fin « we create & deliver VOTRE PROCHAIN ÉVÉNEMENT Parlo »",
+      "etape": "mesures",
+      "page": "/paris-games-week",
+      "taille": "320×568",
+      "mode": "normal",
+      "selecteur": "section#fin > div.fin-signature:nth-of-type(1) > span.sig-l2:nth-of-type(2) « & deliver »",
+      "lieux": [
+        "320×568 normal"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "textes qui se chevauchent",
+      "detail": "avec section#fin > div.fin-signature:nth-of-type(1) > span.sig-l2:nth-of-type(2) « & deliver »",
+      "etape": "mesures",
+      "page": "/paris-games-week",
+      "taille": "320×568",
+      "mode": "normal",
+      "selecteur": "section#fin > div.fin-signature:nth-of-type(1) > span.sig-l1:nth-of-type(1) « we create »",
+      "lieux": [
+        "320×568 normal",
+        "390×844 normal",
+        "768×1024 normal",
+        "844×390 normal",
+        "390×844 sansJs",
+        "1366×768 normal",
+        "1920×1080 normal",
+        "390×844 sansWebgl",
+        "1366×768 sansJs",
+        "1366×768 sansWebgl",
+        "320×568 sansJs"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "élément sans nom accessible",
+      "detail": "",
+      "etape": "mesures",
+      "page": "/paris-games-week",
+      "taille": "390×844",
+      "mode": "normal",
+      "selecteur": "body#haut > header > div.entete-rangee > a.entete-logo",
+      "lieux": [
+        "390×844 normal",
+        "390×844 sansJs",
+        "1366×768 normal",
+        "1366×768 sansJs"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "textes qui se chevauchent",
+      "detail": "avec section#fin > div.fin-signature:nth-of-type(1) > span.sig-l2:nth-of-type(2) > span.sig-amp « & »",
+      "etape": "mesures",
+      "page": "/paris-games-week",
+      "taille": "390×844",
+      "mode": "sansJs",
+      "selecteur": "section#fin > div.fin-signature:nth-of-type(1) > span.sig-l1:nth-of-type(1) « we create »",
+      "lieux": [
+        "390×844 sansJs",
+        "1366×768 sansJs",
+        "320×568 sansJs"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "zone tactile sous 44 px",
+      "detail": "161 × 26 px",
+      "etape": "mesures",
+      "page": "/realisations",
+      "taille": "768×1024",
+      "mode": "normal",
+      "selecteur": "div.etudes-grille.fx-fini > article.etude-carte:nth-of-type(1) > div.etude-carte-texte > a.lien-fleche « Lire l’étude de cas »",
+      "lieux": [
+        "768×1024 normal",
+        "390×844 normal",
+        "320×568 normal",
+        "844×390 normal",
+        "390×844 sansWebgl"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "zone tactile sous 44 px",
+      "detail": "161 × 26 px",
+      "etape": "mesures",
+      "page": "/realisations",
+      "taille": "768×1024",
+      "mode": "normal",
+      "selecteur": "div.etudes-grille.fx-fini > article.etude-carte:nth-of-type(2) > div.etude-carte-texte > a.lien-fleche « Lire l’étude de cas »",
+      "lieux": [
+        "768×1024 normal",
+        "390×844 normal",
+        "320×568 normal",
+        "844×390 normal",
+        "390×844 sansWebgl"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "texte coupé",
+      "detail": "coupé par section#fin « we create & deliver VOTRE PROCHAIN ÉVÉNEMENT Parlo »",
+      "etape": "mesures",
+      "page": "/realisations",
+      "taille": "768×1024",
+      "mode": "normal",
+      "selecteur": "section#fin > div.fin-signature:nth-of-type(1) > span.sig-l1:nth-of-type(1) « we create »",
+      "lieux": [
+        "768×1024 normal",
+        "390×844 normal",
+        "320×568 normal",
+        "844×390 normal",
+        "1366×768 normal",
+        "390×844 sansWebgl",
+        "1366×768 sansWebgl"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "textes qui se chevauchent",
+      "detail": "avec section#fin > div.fin-signature:nth-of-type(1) > span.sig-l2:nth-of-type(2) « & deliver »",
+      "etape": "mesures",
+      "page": "/realisations",
+      "taille": "768×1024",
+      "mode": "normal",
+      "selecteur": "section#fin > div.fin-signature:nth-of-type(1) > span.sig-l1:nth-of-type(1) « we create »",
+      "lieux": [
+        "768×1024 normal",
+        "390×844 normal",
+        "320×568 normal",
+        "844×390 normal",
+        "390×844 sansJs",
+        "1366×768 normal",
+        "1920×1080 normal",
+        "390×844 sansWebgl",
+        "1366×768 sansJs",
+        "1366×768 sansWebgl",
+        "320×568 sansJs"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "élément sans nom accessible",
+      "detail": "",
+      "etape": "mesures",
+      "page": "/realisations",
+      "taille": "390×844",
+      "mode": "normal",
+      "selecteur": "body#haut > header > div.entete-rangee > a.entete-logo",
+      "lieux": [
+        "390×844 normal",
+        "390×844 sansJs",
+        "1366×768 normal",
+        "1366×768 sansJs"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "texte coupé",
+      "detail": "coupé par section#fin « we create & deliver VOTRE PROCHAIN ÉVÉNEMENT Parlo »",
+      "etape": "mesures",
+      "page": "/realisations",
+      "taille": "320×568",
+      "mode": "normal",
+      "selecteur": "section#fin > div.fin-signature:nth-of-type(1) > span.sig-l2:nth-of-type(2) « & deliver »",
+      "lieux": [
+        "320×568 normal"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "zone tactile sous 44 px",
+      "detail": "155 × 25 px",
+      "etape": "mesures",
+      "page": "/realisations",
+      "taille": "390×844",
+      "mode": "sansJs",
+      "selecteur": "div.etudes-grille > article.etude-carte:nth-of-type(1) > div.etude-carte-texte > a.lien-fleche « Lire l’étude de cas »",
+      "lieux": [
+        "390×844 sansJs",
+        "320×568 sansJs"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "zone tactile sous 44 px",
+      "detail": "155 × 25 px",
+      "etape": "mesures",
+      "page": "/realisations",
+      "taille": "390×844",
+      "mode": "sansJs",
+      "selecteur": "div.etudes-grille > article.etude-carte:nth-of-type(2) > div.etude-carte-texte > a.lien-fleche « Lire l’étude de cas »",
+      "lieux": [
+        "390×844 sansJs",
+        "320×568 sansJs"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "textes qui se chevauchent",
+      "detail": "avec section#fin > div.fin-signature:nth-of-type(1) > span.sig-l2:nth-of-type(2) > span.sig-amp « & »",
+      "etape": "mesures",
+      "page": "/realisations",
+      "taille": "390×844",
+      "mode": "sansJs",
+      "selecteur": "section#fin > div.fin-signature:nth-of-type(1) > span.sig-l1:nth-of-type(1) « we create »",
+      "lieux": [
+        "390×844 sansJs",
+        "1366×768 sansJs",
+        "320×568 sansJs"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "photo faible affichée en grand",
+      "detail": "activations-1 (5/5, faible, 28 % de l'écran) : en vignette, ou une meilleure image",
+      "etape": "mesures",
+      "page": "/realisations",
+      "taille": "1366×768",
+      "mode": "normal",
+      "selecteur": "li.mosaique-1:nth-of-type(1) > figure.media.mosaique-media > picture > img « Bus rouge à impériale habillé pour Les 101 Dalmati »",
+      "lieux": [
+        "1366×768 normal"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "photo faible affichée en grand",
+      "detail": "stands-1 (4/5, faible, 28 % de l'écran) : en vignette, ou une meilleure image",
+      "etape": "mesures",
+      "page": "/realisations",
+      "taille": "1366×768",
+      "mode": "normal",
+      "selecteur": "li.mosaique-1:nth-of-type(1) > figure.media.mosaique-media > picture > img « Stand bleu avec bar et tabourets dans un hall d’ex »",
+      "lieux": [
+        "1366×768 normal"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "premier écran : bouton principal hors de l’écran",
+      "detail": "",
+      "etape": "mesures",
+      "page": "/the-alters",
+      "taille": "320×568",
+      "mode": "normal",
+      "selecteur": "section#debut > div.ouv-etude-texte:nth-of-type(1) > p.ouv-actions.ouv-f:nth-of-type(4) > a.bouton.bouton--noir « Parler de votre projet »",
+      "lieux": [
+        "320×568 normal",
+        "390×844 normal",
+        "390×844 sansJs",
+        "390×844 sansWebgl",
+        "1366×768 sansJs",
+        "320×568 sansJs"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "premier écran : information clé hors de l’écran",
+      "detail": "",
+      "etape": "mesures",
+      "page": "/the-alters",
+      "taille": "320×568",
+      "mode": "normal",
+      "selecteur": "section#debut > div.ouv-etude-texte:nth-of-type(1) > p.ouv-info.ouv-f:nth-of-type(5) « 1 camion vitré · 5 mannequins »",
+      "lieux": [
+        "320×568 normal",
+        "390×844 normal",
+        "390×844 sansJs",
+        "390×844 sansWebgl",
+        "1366×768 sansJs",
+        "320×568 sansJs"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "zone tactile sous 44 px",
+      "detail": "155 × 25 px",
+      "etape": "mesures",
+      "page": "/the-alters",
+      "taille": "390×844",
+      "mode": "normal",
+      "selecteur": "div > article.etude-carte > div.etude-carte-texte > a.lien-fleche « Lire l’étude de cas »",
+      "lieux": [
+        "390×844 normal",
+        "320×568 normal",
+        "768×1024 normal",
+        "844×390 normal",
+        "390×844 sansJs",
+        "390×844 sansWebgl",
+        "320×568 sansJs"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "texte coupé",
+      "detail": "coupé par section#fin « we create & deliver VOTRE PROCHAIN ÉVÉNEMENT Parlo »",
+      "etape": "mesures",
+      "page": "/the-alters",
+      "taille": "390×844",
+      "mode": "normal",
+      "selecteur": "section#fin > div.fin-signature:nth-of-type(1) > span.sig-l1:nth-of-type(1) « we create »",
+      "lieux": [
+        "390×844 normal",
+        "320×568 normal",
+        "768×1024 normal",
+        "844×390 normal",
+        "1366×768 normal",
+        "390×844 sansWebgl",
+        "1366×768 sansWebgl"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "textes qui se chevauchent",
+      "detail": "avec section#fin > div.fin-signature:nth-of-type(1) > span.sig-l2:nth-of-type(2) « & deliver »",
+      "etape": "mesures",
+      "page": "/the-alters",
+      "taille": "390×844",
+      "mode": "normal",
+      "selecteur": "section#fin > div.fin-signature:nth-of-type(1) > span.sig-l1:nth-of-type(1) « we create »",
+      "lieux": [
+        "390×844 normal",
+        "320×568 normal",
+        "768×1024 normal",
+        "844×390 normal",
+        "390×844 sansJs",
+        "1366×768 normal",
+        "1920×1080 normal",
+        "390×844 sansWebgl",
+        "1366×768 sansJs",
+        "320×568 sansJs",
+        "1366×768 sansWebgl"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "élément sans nom accessible",
+      "detail": "",
+      "etape": "mesures",
+      "page": "/the-alters",
+      "taille": "390×844",
+      "mode": "normal",
+      "selecteur": "body#haut > header > div.entete-rangee > a.entete-logo",
+      "lieux": [
+        "390×844 normal",
+        "390×844 sansJs",
+        "1366×768 normal",
+        "1366×768 sansJs"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "texte coupé",
+      "detail": "coupé par section#fin « we create & deliver VOTRE PROCHAIN ÉVÉNEMENT Parlo »",
+      "etape": "mesures",
+      "page": "/the-alters",
+      "taille": "320×568",
+      "mode": "normal",
+      "selecteur": "section#fin > div.fin-signature:nth-of-type(1) > span.sig-l2:nth-of-type(2) « & deliver »",
+      "lieux": [
+        "320×568 normal"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "textes qui se chevauchent",
+      "detail": "avec section#fin > div.fin-signature:nth-of-type(1) > span.sig-l2:nth-of-type(2) > span.sig-amp « & »",
+      "etape": "mesures",
+      "page": "/the-alters",
+      "taille": "390×844",
+      "mode": "sansJs",
+      "selecteur": "section#fin > div.fin-signature:nth-of-type(1) > span.sig-l1:nth-of-type(1) « we create »",
+      "lieux": [
+        "390×844 sansJs",
+        "1366×768 sansJs",
+        "320×568 sansJs"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "épinglage : image isolée différente (flash)",
+      "detail": "à 300 ms (films/epinglage-1.png)",
+      "etape": "ecran",
+      "page": "/",
+      "taille": "1366×768",
+      "lieux": [
+        "1366×768"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "épinglage : image isolée différente (flash)",
+      "detail": "à 317 ms (films/epinglage-1.png)",
+      "etape": "ecran",
+      "page": "/",
+      "taille": "1366×768",
+      "lieux": [
+        "1366×768"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "épinglage : image isolée différente (flash)",
+      "detail": "à 450 ms (films/epinglage-1.png)",
+      "etape": "ecran",
+      "page": "/",
+      "taille": "1366×768",
+      "lieux": [
+        "1366×768"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "épinglage : image isolée différente (flash)",
+      "detail": "à 467 ms (films/epinglage-1.png)",
+      "etape": "ecran",
+      "page": "/",
+      "taille": "1366×768",
+      "lieux": [
+        "1366×768"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "épinglage : image isolée différente (flash)",
+      "detail": "à 1583 ms (films/epinglage-1.png)",
+      "etape": "ecran",
+      "page": "/",
+      "taille": "1366×768",
+      "lieux": [
+        "1366×768"
+      ]
+    }
+  ],
+  "aRegarder": [
+    {
+      "niveau": "regarder",
+      "controle": "« à compléter » visible",
+      "detail": "1 fois hors du pied de page : remplacer par une phrase vraie qui oriente le visiteur (« Tarifs selon la saison, donnés à la réservation ») ou retirer l'élément, et le noter dans la fiche du README (sauf sens propre : « dossier à compléter »)",
+      "etape": "fichiers",
+      "page": "contact.html",
+      "lieux": [
+        ""
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "journal du projet",
+      "detail": "version 1 : aucune étape notée",
+      "etape": "fichiers",
+      "lieux": [
+        ""
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "grille : effet signature qui ne se manipule pas (point 1)",
+      "detail": "aucun élément data-grille=\"manipuler\" sur l’accueil : objet à attraper, faire tourner ou glisser (module objet-a-faire-tourner, lumiere-au-pointeur…)",
+      "etape": "grille",
+      "page": "/",
+      "lieux": [
+        ""
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "grille : l’intro ne finit pas sur la page (point 2)",
+      "detail": "versObjet(tl, …) absent de assets/js : l’intro doit finir sur l’objet d’ouverture (socle : import { versObjet } from './socle/index.js')",
+      "etape": "grille",
+      "lieux": [
+        ""
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "grille : rien ne relie les sections (point 4)",
+      "detail": "sur aucune page : élément du métier qui relie les sections et les pages (fil dans la marge, objet unique qui change, lumière qui passe, carte, folio, frise), marqué data-grille=\"fil\"",
+      "etape": "grille",
+      "lieux": [
+        ""
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "grille : aucun titre ne fait l’événement (point 5)",
+      "detail": "sur aucune page : titre fabriqué par le métier, axe de police animé ou titre joué avec l’image (modules axes-au-defilement, titre-cousu, texte-grave-en-direct), marqué data-grille=\"typo\"",
+      "etape": "grille",
+      "lieux": [
+        ""
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "grille : galerie horizontale générique (point 6)",
+      "detail": "le métier a-t-il son geste (feuilleter un bac, empiler des planches, tourner les pages, ouvrir un tiroir) ? Modules bac-a-feuilleter, planches-empilees ; si la rangée qui défile est le geste du métier, ajouter data-grille=\"scene\"",
+      "etape": "grille",
+      "page": "/",
+      "lieux": [
+        ""
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "grille : action principale sans retour physique (point 7)",
+      "detail": "ajout au panier, réservation, envoi ou filtre : quelque chose de l’objet part, se pose ou se transforme (module envol-vers-le-panier, tampon « reçu »), marqué data-grille=\"retour\"",
+      "etape": "grille",
+      "lieux": [
+        ""
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "section sans visuel",
+      "detail": "une belle photo ou un visuel animé quand le contenu s’y prête ; une section de texte peut rester typographique (v11)",
+      "etape": "mesures",
+      "page": "/",
+      "taille": "390×844",
+      "mode": "normal",
+      "selecteur": "section#clients « ILS NOUS FONT CONFIANCE 25 Emirates Accor Lavazza  »",
+      "lieux": [
+        "390×844 normal",
+        "768×1024 normal",
+        "320×568 normal",
+        "844×390 normal",
+        "390×844 sansJs",
+        "1366×768 normal",
+        "1920×1080 normal",
+        "390×844 sansWebgl",
+        "1366×768 sansJs",
+        "1366×768 sansWebgl",
+        "320×568 sansJs"
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "section sans visuel",
+      "detail": "une belle photo ou un visuel animé quand le contenu s’y prête ; une section de texte peut rester typographique (v11)",
+      "etape": "mesures",
+      "page": "/contact",
+      "taille": "390×844",
+      "mode": "normal",
+      "selecteur": "section#debut « CONTACT Parlons de votre prochain événement. Décri »",
+      "lieux": [
+        "390×844 normal",
+        "768×1024 normal",
+        "390×844 sansJs",
+        "1366×768 normal",
+        "1920×1080 normal",
+        "390×844 sansWebgl",
+        "1366×768 sansWebgl",
+        "1366×768 sansJs"
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "section sans visuel",
+      "detail": "une belle photo ou un visuel animé quand le contenu s’y prête ; une section de texte peut rester typographique (v11)",
+      "etape": "mesures",
+      "page": "/contact",
+      "taille": "320×568",
+      "mode": "normal",
+      "selecteur": "section#debut « CONTACT Parlons de votre prochain événement. Comme »",
+      "lieux": [
+        "320×568 normal",
+        "320×568 sansJs"
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "section sans visuel",
+      "detail": "une belle photo ou un visuel animé quand le contenu s’y prête ; une section de texte peut rester typographique (v11)",
+      "etape": "mesures",
+      "page": "/contact",
+      "taille": "844×390",
+      "mode": "normal",
+      "selecteur": "section#debut « Parlons de votre prochain événement. Commencer la  »",
+      "lieux": [
+        "844×390 normal"
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "texte de contenu sous 13 px (ordinateur)",
+      "detail": "12.8 px : surtitres et légendes à 13 px au moins, textes de cartes à 15 px",
+      "etape": "mesures",
+      "page": "/contact",
+      "taille": "1366×768",
+      "mode": "normal",
+      "selecteur": "form.brief > fieldset.brief-etape:nth-of-type(1) > legend > span.brief-n « ÉTAPE 1 SUR 3 »",
+      "lieux": [
+        "1366×768 normal",
+        "1920×1080 normal",
+        "1366×768 sansWebgl",
+        "1366×768 sansJs"
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "texte de contenu sous 13 px (ordinateur)",
+      "detail": "12.8 px : surtitres et légendes à 13 px au moins, textes de cartes à 15 px",
+      "etape": "mesures",
+      "page": "/contact",
+      "taille": "1366×768",
+      "mode": "sansJs",
+      "selecteur": "form.brief > fieldset.brief-etape:nth-of-type(2) > legend > span.brief-n « ÉTAPE 2 SUR 3 »",
+      "lieux": [
+        "1366×768 sansJs"
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "texte de contenu sous 13 px (ordinateur)",
+      "detail": "12.8 px : surtitres et légendes à 13 px au moins, textes de cartes à 15 px",
+      "etape": "mesures",
+      "page": "/contact",
+      "taille": "1366×768",
+      "mode": "sansJs",
+      "selecteur": "form.brief > fieldset.brief-etape:nth-of-type(3) > legend > span.brief-n « ÉTAPE 3 SUR 3 »",
+      "lieux": [
+        "1366×768 sansJs"
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "section sans visuel",
+      "detail": "une belle photo ou un visuel animé quand le contenu s’y prête ; une section de texte peut rester typographique (v11)",
+      "etape": "mesures",
+      "page": "/paris-games-week",
+      "taille": "320×568",
+      "mode": "normal",
+      "selecteur": "section#chiffres « près de 10 ans à la Paris Games Week 8 marques acc »",
+      "lieux": [
+        "320×568 normal",
+        "390×844 normal",
+        "768×1024 normal",
+        "844×390 normal",
+        "390×844 sansJs",
+        "1366×768 normal",
+        "1920×1080 normal",
+        "390×844 sansWebgl",
+        "1366×768 sansJs",
+        "1366×768 sansWebgl",
+        "320×568 sansJs"
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "texte de contenu sous 13 px (ordinateur)",
+      "detail": "12.8 px : surtitres et légendes à 13 px au moins, textes de cartes à 15 px",
+      "etape": "mesures",
+      "page": "/paris-games-week",
+      "taille": "1366×768",
+      "mode": "normal",
+      "selecteur": "ul.mosaique.mosaique--etude > li.mosaique-1:nth-of-type(1) > figure.media.mosaique-media > figcaption.media-legende « Voiture de sport en briques, portes papillon ouver »",
+      "lieux": [
+        "1366×768 normal",
+        "1920×1080 normal",
+        "1366×768 sansJs",
+        "1366×768 sansWebgl"
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "texte de contenu sous 13 px (ordinateur)",
+      "detail": "12.8 px : surtitres et légendes à 13 px au moins, textes de cartes à 15 px",
+      "etape": "mesures",
+      "page": "/paris-games-week",
+      "taille": "1366×768",
+      "mode": "normal",
+      "selecteur": "ul.mosaique.mosaique--etude > li.mosaique-2:nth-of-type(2) > figure.media.mosaique-media > figcaption.media-legende « Plateau aux néons verts et violets »",
+      "lieux": [
+        "1366×768 normal",
+        "1920×1080 normal",
+        "1366×768 sansJs",
+        "1366×768 sansWebgl"
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "texte de contenu sous 13 px (ordinateur)",
+      "detail": "12.8 px : surtitres et légendes à 13 px au moins, textes de cartes à 15 px",
+      "etape": "mesures",
+      "page": "/paris-games-week",
+      "taille": "1366×768",
+      "mode": "normal",
+      "selecteur": "ul.mosaique.mosaique--etude > li.mosaique-3:nth-of-type(3) > figure.media.mosaique-media > figcaption.media-legende « Visiteur en sweat rouge face à un robot de dessin  »",
+      "lieux": [
+        "1366×768 normal",
+        "1920×1080 normal",
+        "1366×768 sansJs",
+        "1366×768 sansWebgl"
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "texte de contenu sous 13 px (ordinateur)",
+      "detail": "12.8 px : surtitres et légendes à 13 px au moins, textes de cartes à 15 px",
+      "etape": "mesures",
+      "page": "/paris-games-week",
+      "taille": "1366×768",
+      "mode": "normal",
+      "selecteur": "ul.mosaique.mosaique--etude > li.mosaique-4:nth-of-type(4) > figure.media.mosaique-media > figcaption.media-legende « Van jaune des Tortues Ninja sur un stand »",
+      "lieux": [
+        "1366×768 normal",
+        "1920×1080 normal",
+        "1366×768 sansJs",
+        "1366×768 sansWebgl"
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "texte de contenu sous 13 px (ordinateur)",
+      "detail": "12.8 px : surtitres et légendes à 13 px au moins, textes de cartes à 15 px",
+      "etape": "mesures",
+      "page": "/paris-games-week",
+      "taille": "1366×768",
+      "mode": "normal",
+      "selecteur": "ul.mosaique.mosaique--etude > li.mosaique-5:nth-of-type(5) > figure.media.mosaique-media > figcaption.media-legende « Joueuse qui éclate de rire, manette en main, dans  »",
+      "lieux": [
+        "1366×768 normal",
+        "1920×1080 normal",
+        "1366×768 sansJs",
+        "1366×768 sansWebgl"
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "section sans visuel",
+      "detail": "une belle photo ou un visuel animé quand le contenu s’y prête ; une section de texte peut rester typographique (v11)",
+      "etape": "mesures",
+      "page": "/realisations",
+      "taille": "768×1024",
+      "mode": "normal",
+      "selecteur": "section#clients « 25 MARQUES Ils nous font confiance. Emirates Accor »",
+      "lieux": [
+        "768×1024 normal",
+        "390×844 normal",
+        "320×568 normal",
+        "844×390 normal",
+        "390×844 sansJs",
+        "1366×768 normal",
+        "1920×1080 normal",
+        "390×844 sansWebgl",
+        "1366×768 sansJs",
+        "1366×768 sansWebgl",
+        "320×568 sansJs"
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "texte de contenu sous 13 px (ordinateur)",
+      "detail": "12.8 px : surtitres et légendes à 13 px au moins, textes de cartes à 15 px",
+      "etape": "mesures",
+      "page": "/realisations",
+      "taille": "1366×768",
+      "mode": "normal",
+      "selecteur": "ul.conteneur.mosaique > li.mosaique-1:nth-of-type(1) > figure.media.mosaique-media > figcaption.media-legende « Boutique éphémère d’animation japonaise, comptoir  »",
+      "lieux": [
+        "1366×768 normal",
+        "1920×1080 normal",
+        "1366×768 sansJs",
+        "1366×768 sansWebgl"
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "texte de contenu sous 13 px (ordinateur)",
+      "detail": "12.8 px : surtitres et légendes à 13 px au moins, textes de cartes à 15 px",
+      "etape": "mesures",
+      "page": "/realisations",
+      "taille": "1366×768",
+      "mode": "normal",
+      "selecteur": "ul.conteneur.mosaique > li.mosaique-2:nth-of-type(2) > figure.media.mosaique-media > figcaption.media-legende « Vitrine de figurines One Piece éclairée »",
+      "lieux": [
+        "1366×768 normal",
+        "1920×1080 normal",
+        "1366×768 sansJs",
+        "1366×768 sansWebgl"
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "texte de contenu sous 13 px (ordinateur)",
+      "detail": "12.8 px : surtitres et légendes à 13 px au moins, textes de cartes à 15 px",
+      "etape": "mesures",
+      "page": "/realisations",
+      "taille": "1366×768",
+      "mode": "normal",
+      "selecteur": "ul.conteneur.mosaique > li.mosaique-3:nth-of-type(3) > figure.media.mosaique-media > figcaption.media-legende « Café Lavazza servi à côté d’un paquet Roma »",
+      "lieux": [
+        "1366×768 normal",
+        "1920×1080 normal",
+        "1366×768 sansJs",
+        "1366×768 sansWebgl"
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "texte de contenu sous 13 px (ordinateur)",
+      "detail": "12.8 px : surtitres et légendes à 13 px au moins, textes de cartes à 15 px",
+      "etape": "mesures",
+      "page": "/realisations",
+      "taille": "1366×768",
+      "mode": "normal",
+      "selecteur": "ul.conteneur.mosaique > li.mosaique-4:nth-of-type(4) > figure.media.mosaique-media > figcaption.media-legende « Peluches de Luffy alignées en rayon »",
+      "lieux": [
+        "1366×768 normal",
+        "1920×1080 normal",
+        "1366×768 sansJs",
+        "1366×768 sansWebgl"
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "texte de contenu sous 13 px (ordinateur)",
+      "detail": "12.8 px : surtitres et légendes à 13 px au moins, textes de cartes à 15 px",
+      "etape": "mesures",
+      "page": "/realisations",
+      "taille": "1366×768",
+      "mode": "normal",
+      "selecteur": "ul.conteneur.mosaique > li.mosaique-5:nth-of-type(5) > figure.media.mosaique-media > figcaption.media-legende « Vendeurs et clients autour de la caisse d’une bout »",
+      "lieux": [
+        "1366×768 normal",
+        "1920×1080 normal",
+        "1366×768 sansJs",
+        "1366×768 sansWebgl"
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "texte de contenu sous 13 px (ordinateur)",
+      "detail": "12.8 px : surtitres et légendes à 13 px au moins, textes de cartes à 15 px",
+      "etape": "mesures",
+      "page": "/realisations",
+      "taille": "1366×768",
+      "mode": "normal",
+      "selecteur": "ul.conteneur.mosaique > li.mosaique-1:nth-of-type(1) > figure.media.mosaique-media > figcaption.media-legende « Bus rouge à impériale habillé pour Les 101 Dalmati »",
+      "lieux": [
+        "1366×768 normal",
+        "1920×1080 normal",
+        "1366×768 sansJs",
+        "1366×768 sansWebgl"
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "texte de contenu sous 13 px (ordinateur)",
+      "detail": "12.8 px : surtitres et légendes à 13 px au moins, textes de cartes à 15 px",
+      "etape": "mesures",
+      "page": "/realisations",
+      "taille": "1366×768",
+      "mode": "normal",
+      "selecteur": "ul.conteneur.mosaique > li.mosaique-2:nth-of-type(2) > figure.media.mosaique-media > figcaption.media-legende « Invités hilares sur un plateau aux couleurs vertes »",
+      "lieux": [
+        "1366×768 normal",
+        "1920×1080 normal",
+        "1366×768 sansJs",
+        "1366×768 sansWebgl"
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "texte de contenu sous 13 px (ordinateur)",
+      "detail": "12.8 px : surtitres et légendes à 13 px au moins, textes de cartes à 15 px",
+      "etape": "mesures",
+      "page": "/realisations",
+      "taille": "1366×768",
+      "mode": "normal",
+      "selecteur": "ul.conteneur.mosaique > li.mosaique-3:nth-of-type(3) > figure.media.mosaique-media > figcaption.media-legende « Batteur souriant pendant une activation musicale »",
+      "lieux": [
+        "1366×768 normal",
+        "1920×1080 normal",
+        "1366×768 sansJs",
+        "1366×768 sansWebgl"
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "texte de contenu sous 13 px (ordinateur)",
+      "detail": "12.8 px : surtitres et légendes à 13 px au moins, textes de cartes à 15 px",
+      "etape": "mesures",
+      "page": "/realisations",
+      "taille": "1366×768",
+      "mode": "normal",
+      "selecteur": "ul.conteneur.mosaique > li.mosaique-4:nth-of-type(4) > figure.media.mosaique-media > figcaption.media-legende « Enfant qui découvre des biscuits dalmatiens »",
+      "lieux": [
+        "1366×768 normal",
+        "1920×1080 normal",
+        "1366×768 sansJs",
+        "1366×768 sansWebgl"
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "texte de contenu sous 13 px (ordinateur)",
+      "detail": "12.8 px : surtitres et légendes à 13 px au moins, textes de cartes à 15 px",
+      "etape": "mesures",
+      "page": "/realisations",
+      "taille": "1366×768",
+      "mode": "normal",
+      "selecteur": "ul.conteneur.mosaique > li.mosaique-5:nth-of-type(5) > figure.media.mosaique-media > figcaption.media-legende « Deux artistes en scène, bras levés »",
+      "lieux": [
+        "1366×768 normal",
+        "1920×1080 normal",
+        "1366×768 sansJs",
+        "1366×768 sansWebgl"
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "texte de contenu sous 13 px (ordinateur)",
+      "detail": "12.8 px : surtitres et légendes à 13 px au moins, textes de cartes à 15 px",
+      "etape": "mesures",
+      "page": "/realisations",
+      "taille": "1366×768",
+      "mode": "normal",
+      "selecteur": "ul.conteneur.mosaique > li.mosaique-1:nth-of-type(1) > figure.media.mosaique-media > figcaption.media-legende « Stand bleu avec bar et tabourets dans un hall d’ex »",
+      "lieux": [
+        "1366×768 normal",
+        "1920×1080 normal",
+        "1366×768 sansJs",
+        "1366×768 sansWebgl"
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "texte de contenu sous 13 px (ordinateur)",
+      "detail": "12.8 px : surtitres et légendes à 13 px au moins, textes de cartes à 15 px",
+      "etape": "mesures",
+      "page": "/realisations",
+      "taille": "1366×768",
+      "mode": "normal",
+      "selecteur": "ul.conteneur.mosaique > li.mosaique-2:nth-of-type(2) > figure.media.mosaique-media > figcaption.media-legende « Voiture de sport reproduite en briques sur un stan »",
+      "lieux": [
+        "1366×768 normal",
+        "1920×1080 normal",
+        "1366×768 sansJs",
+        "1366×768 sansWebgl"
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "texte de contenu sous 13 px (ordinateur)",
+      "detail": "12.8 px : surtitres et légendes à 13 px au moins, textes de cartes à 15 px",
+      "etape": "mesures",
+      "page": "/realisations",
+      "taille": "1366×768",
+      "mode": "normal",
+      "selecteur": "ul.conteneur.mosaique > li.mosaique-3:nth-of-type(3) > figure.media.mosaique-media > figcaption.media-legende « Stand Crunchyroll pris d’assaut par les visiteurs »",
+      "lieux": [
+        "1366×768 normal",
+        "1920×1080 normal",
+        "1366×768 sansJs",
+        "1366×768 sansWebgl"
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "texte de contenu sous 13 px (ordinateur)",
+      "detail": "12.8 px : surtitres et légendes à 13 px au moins, textes de cartes à 15 px",
+      "etape": "mesures",
+      "page": "/realisations",
+      "taille": "1366×768",
+      "mode": "normal",
+      "selecteur": "ul.conteneur.mosaique > li.mosaique-4:nth-of-type(4) > figure.media.mosaique-media > figcaption.media-legende « Van jaune des Tortues Ninja devant un décor de rue »",
+      "lieux": [
+        "1366×768 normal",
+        "1920×1080 normal",
+        "1366×768 sansJs",
+        "1366×768 sansWebgl"
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "texte de contenu sous 13 px (ordinateur)",
+      "detail": "12.8 px : surtitres et légendes à 13 px au moins, textes de cartes à 15 px",
+      "etape": "mesures",
+      "page": "/realisations",
+      "taille": "1366×768",
+      "mode": "normal",
+      "selecteur": "ul.conteneur.mosaique > li.mosaique-5:nth-of-type(5) > figure.media.mosaique-media > figcaption.media-legende « Décor de chalet en rondins, fauteuil et magnétopho »",
+      "lieux": [
+        "1366×768 normal",
+        "1920×1080 normal",
+        "1366×768 sansJs",
+        "1366×768 sansWebgl"
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "texte de contenu sous 13 px (ordinateur)",
+      "detail": "12.8 px : surtitres et légendes à 13 px au moins, textes de cartes à 15 px",
+      "etape": "mesures",
+      "page": "/realisations",
+      "taille": "1366×768",
+      "mode": "normal",
+      "selecteur": "ul.conteneur.mosaique > li.mosaique-1:nth-of-type(1) > figure.media.mosaique-media > figcaption.media-legende « Invitée en robe dorée au cœur d’une soirée »",
+      "lieux": [
+        "1366×768 normal",
+        "1920×1080 normal",
+        "1366×768 sansJs",
+        "1366×768 sansWebgl"
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "texte de contenu sous 13 px (ordinateur)",
+      "detail": "12.8 px : surtitres et légendes à 13 px au moins, textes de cartes à 15 px",
+      "etape": "mesures",
+      "page": "/realisations",
+      "taille": "1366×768",
+      "mode": "normal",
+      "selecteur": "ul.conteneur.mosaique > li.mosaique-2:nth-of-type(2) > figure.media.mosaique-media > figcaption.media-legende « Table ronde éclairée en violet sous l’enseigne Inn »",
+      "lieux": [
+        "1366×768 normal",
+        "1920×1080 normal",
+        "1366×768 sansJs",
+        "1366×768 sansWebgl"
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "texte de contenu sous 13 px (ordinateur)",
+      "detail": "12.8 px : surtitres et légendes à 13 px au moins, textes de cartes à 15 px",
+      "etape": "mesures",
+      "page": "/realisations",
+      "taille": "1366×768",
+      "mode": "normal",
+      "selecteur": "ul.conteneur.mosaique > li.mosaique-3:nth-of-type(3) > figure.media.mosaique-media > figcaption.media-legende « Concert dans une salle baignée de rouge »",
+      "lieux": [
+        "1366×768 normal",
+        "1920×1080 normal",
+        "1366×768 sansJs",
+        "1366×768 sansWebgl"
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "texte de contenu sous 13 px (ordinateur)",
+      "detail": "12.8 px : surtitres et légendes à 13 px au moins, textes de cartes à 15 px",
+      "etape": "mesures",
+      "page": "/realisations",
+      "taille": "1366×768",
+      "mode": "normal",
+      "selecteur": "ul.conteneur.mosaique > li.mosaique-4:nth-of-type(4) > figure.media.mosaique-media > figcaption.media-legende « Musiciens devant un mur de fleurs blanches »",
+      "lieux": [
+        "1366×768 normal",
+        "1920×1080 normal",
+        "1366×768 sansJs",
+        "1366×768 sansWebgl"
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "texte de contenu sous 13 px (ordinateur)",
+      "detail": "12.8 px : surtitres et légendes à 13 px au moins, textes de cartes à 15 px",
+      "etape": "mesures",
+      "page": "/realisations",
+      "taille": "1366×768",
+      "mode": "normal",
+      "selecteur": "ul.conteneur.mosaique > li.mosaique-5:nth-of-type(5) > figure.media.mosaique-media > figcaption.media-legende « Deux invitées posent devant le décor de la série M »",
+      "lieux": [
+        "1366×768 normal",
+        "1920×1080 normal",
+        "1366×768 sansJs",
+        "1366×768 sansWebgl"
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "texte de contenu sous 13 px (ordinateur)",
+      "detail": "12.8 px : surtitres et légendes à 13 px au moins, textes de cartes à 15 px",
+      "etape": "mesures",
+      "page": "/realisations",
+      "taille": "1366×768",
+      "mode": "normal",
+      "selecteur": "ul.conteneur.mosaique > li.mosaique-1:nth-of-type(1) > figure.media.mosaique-media > figcaption.media-legende « Hôtesses Emirates alignées en tribune, devant un c »",
+      "lieux": [
+        "1366×768 normal",
+        "1920×1080 normal",
+        "1366×768 sansJs",
+        "1366×768 sansWebgl"
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "texte de contenu sous 13 px (ordinateur)",
+      "detail": "12.8 px : surtitres et légendes à 13 px au moins, textes de cartes à 15 px",
+      "etape": "mesures",
+      "page": "/realisations",
+      "taille": "1366×768",
+      "mode": "normal",
+      "selecteur": "ul.conteneur.mosaique > li.mosaique-2:nth-of-type(2) > figure.media.mosaique-media > figcaption.media-legende « Barista qui verse un café latte »",
+      "lieux": [
+        "1366×768 normal",
+        "1920×1080 normal",
+        "1366×768 sansJs",
+        "1366×768 sansWebgl"
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "texte de contenu sous 13 px (ordinateur)",
+      "detail": "12.8 px : surtitres et légendes à 13 px au moins, textes de cartes à 15 px",
+      "etape": "mesures",
+      "page": "/realisations",
+      "taille": "1366×768",
+      "mode": "normal",
+      "selecteur": "ul.conteneur.mosaique > li.mosaique-3:nth-of-type(3) > figure.media.mosaique-media > figcaption.media-legende « Service du thé dans une théière en verre »",
+      "lieux": [
+        "1366×768 normal",
+        "1920×1080 normal",
+        "1366×768 sansJs",
+        "1366×768 sansWebgl"
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "texte de contenu sous 13 px (ordinateur)",
+      "detail": "12.8 px : surtitres et légendes à 13 px au moins, textes de cartes à 15 px",
+      "etape": "mesures",
+      "page": "/realisations",
+      "taille": "1366×768",
+      "mode": "normal",
+      "selecteur": "ul.conteneur.mosaique > li.mosaique-4:nth-of-type(4) > figure.media.mosaique-media > figcaption.media-legende « Invitée qui regarde passer un voilier de course »",
+      "lieux": [
+        "1366×768 normal",
+        "1920×1080 normal",
+        "1366×768 sansJs",
+        "1366×768 sansWebgl"
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "texte de contenu sous 13 px (ordinateur)",
+      "detail": "12.8 px : surtitres et légendes à 13 px au moins, textes de cartes à 15 px",
+      "etape": "mesures",
+      "page": "/realisations",
+      "taille": "1366×768",
+      "mode": "normal",
+      "selecteur": "ul.conteneur.mosaique > li.mosaique-5:nth-of-type(5) > figure.media.mosaique-media > figcaption.media-legende « Spectateurs au chapeau blanc au-dessus d’un court  »",
+      "lieux": [
+        "1366×768 normal",
+        "1920×1080 normal",
+        "1366×768 sansJs",
+        "1366×768 sansWebgl"
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "section sans visuel",
+      "detail": "une belle photo ou un visuel animé quand le contenu s’y prête ; une section de texte peut rester typographique (v11)",
+      "etape": "mesures",
+      "page": "/the-alters",
+      "taille": "390×844",
+      "mode": "normal",
+      "selecteur": "section#chiffres « 1 camion vitré 5 mannequins à bord 2 marques réuni »",
+      "lieux": [
+        "390×844 normal",
+        "320×568 normal",
+        "768×1024 normal",
+        "844×390 normal",
+        "390×844 sansJs",
+        "1366×768 normal",
+        "1920×1080 normal",
+        "390×844 sansWebgl",
+        "1366×768 sansJs",
+        "320×568 sansJs",
+        "1366×768 sansWebgl"
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "texte de contenu sous 13 px (ordinateur)",
+      "detail": "12.8 px : surtitres et légendes à 13 px au moins, textes de cartes à 15 px",
+      "etape": "mesures",
+      "page": "/the-alters",
+      "taille": "1366×768",
+      "mode": "normal",
+      "selecteur": "ul.mosaique.mosaique--etude > li.mosaique-1:nth-of-type(1) > figure.media.mosaique-media > figcaption.media-legende « Main qui tient un flyer rose The Alters »",
+      "lieux": [
+        "1366×768 normal",
+        "1920×1080 normal",
+        "1366×768 sansJs",
+        "1366×768 sansWebgl"
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "texte de contenu sous 13 px (ordinateur)",
+      "detail": "12.8 px : surtitres et légendes à 13 px au moins, textes de cartes à 15 px",
+      "etape": "mesures",
+      "page": "/the-alters",
+      "taille": "1366×768",
+      "mode": "normal",
+      "selecteur": "ul.mosaique.mosaique--etude > li.mosaique-2:nth-of-type(2) > figure.media.mosaique-media > figcaption.media-legende « Deux visiteurs devant l’écran du jeu, à bord »",
+      "lieux": [
+        "1366×768 normal",
+        "1920×1080 normal",
+        "1366×768 sansJs",
+        "1366×768 sansWebgl"
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "texte de contenu sous 13 px (ordinateur)",
+      "detail": "12.8 px : surtitres et légendes à 13 px au moins, textes de cartes à 15 px",
+      "etape": "mesures",
+      "page": "/the-alters",
+      "taille": "1366×768",
+      "mode": "normal",
+      "selecteur": "ul.mosaique.mosaique--etude > li.mosaique-3:nth-of-type(3) > figure.media.mosaique-media > figcaption.media-legende « Dos d’un tee-shirt blanc imprimé The Alters »",
+      "lieux": [
+        "1366×768 normal",
+        "1920×1080 normal",
+        "1366×768 sansJs",
+        "1366×768 sansWebgl"
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "texte de contenu sous 13 px (ordinateur)",
+      "detail": "12.8 px : surtitres et légendes à 13 px au moins, textes de cartes à 15 px",
+      "etape": "mesures",
+      "page": "/the-alters",
+      "taille": "1366×768",
+      "mode": "normal",
+      "selecteur": "ul.mosaique.mosaique--etude > li.mosaique-4:nth-of-type(4) > figure.media.mosaique-media > figcaption.media-legende « Foule de curieux le long du camion, sur le trottoi »",
+      "lieux": [
+        "1366×768 normal",
+        "1920×1080 normal",
+        "1366×768 sansJs",
+        "1366×768 sansWebgl"
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "texte de contenu sous 13 px (ordinateur)",
+      "detail": "12.8 px : surtitres et légendes à 13 px au moins, textes de cartes à 15 px",
+      "etape": "mesures",
+      "page": "/the-alters",
+      "taille": "1366×768",
+      "mode": "normal",
+      "selecteur": "ul.mosaique.mosaique--etude > li.mosaique-5:nth-of-type(5) > figure.media.mosaique-media > figcaption.media-legende « Le camion vitré aux couleurs de The Alters garé da »",
+      "lieux": [
+        "1366×768 normal",
+        "1920×1080 normal",
+        "1366×768 sansJs",
+        "1366×768 sansWebgl"
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "retour arrière : changement brusque",
+      "detail": "à 246 ms (différence 32 %) (films/retour-arrière-1366.png)",
+      "etape": "films",
+      "page": "/",
+      "taille": "1366×768",
+      "mode": "retour arrière",
+      "lieux": [
+        "1366×768 retour arrière"
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "retour arrière : changement brusque",
+      "detail": "à 74 ms (différence 35 %) (films/retour-arrière-390.png)",
+      "etape": "films",
+      "page": "/",
+      "taille": "390×844",
+      "mode": "retour arrière",
+      "lieux": [
+        "390×844 retour arrière"
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "rechargement au milieu de la page",
+      "detail": "écran différent à la même position après rechargement (10.6 %), voir comparaisons/rechargement-engagements-*.png",
+      "etape": "parcours",
+      "page": "/engagements",
+      "taille": "1366×768",
+      "lieux": [
+        "1366×768"
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "rechargement au milieu de la page",
+      "detail": "écran différent à la même position après rechargement (18.3 %), voir comparaisons/rechargement-the-alters-*.png",
+      "etape": "parcours",
+      "page": "/the-alters",
+      "taille": "1366×768",
+      "lieux": [
+        "1366×768"
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "effet qui ne bouge pas au défilement",
+      "detail": "surligne : il ne bouge ni au défilement ni tout seul à cette taille (effet au survol, au clic, ou réservé à l'ordinateur ?) ; il ne compte pas comme effet de section",
+      "etape": "mouvement",
+      "page": "/",
+      "taille": "1366×768",
+      "mode": "normal",
+      "selecteur": "span.surligne",
+      "lieux": [
+        "1366×768 normal",
+        "390×844 normal"
+      ]
+    }
+  ],
+  "nonLances": [
+    {
+      "controle": "Safari (WebKit)",
+      "raison": "WebKit ne peut pas s’installer ici : vérification à faire dans Safari sur le Mac (liste dans le rapport)",
+      "etape": "safari"
+    }
+  ],
+  "oks": {
+    "vercel.json": 1,
+    ".vercelignore": 1,
+    "robots.txt": 1,
+    "numéro de version": 1,
+    "langues": 1,
+    "grille wouahou": 1,
+    "mesures": 77,
+    "balayage": 6,
+    "films d’ouverture": 10,
+    "films de transition": 10,
+    "bords de l’écran": 6,
+    "intro accélérable et passable": 7,
+    "menu": 1,
+    "clavier": 7,
+    "liens et boutons": 7,
+    "liens profonds": 10,
+    "liens vers la page en cours": 6,
+    "changements de hauteur": 5,
+    "tient dans l’écran": 5,
+    "films des épinglages": 1,
+    "fluidité": 10,
+    "défilement selon l’appareil": 5,
+    "mouvement": 10,
+    "effets du plan": 8,
+    "souris immobile": 5,
+    "vitesse": 6,
+    "captures": 1
+  },
+  "infos": [
+    "Numéro de version des fichiers : ?v=1",
+    "Journal v1 : 0 étape(s) notée(s), 0 min de travail, 0 min d’attente de l’utilisateur.",
+    "Audit standard : étapes lourdes sur /, /contact, /engagements, /realisations, /the-alters.",
+    "Accessibilité : axe-core 4.12.1 en plus des contrôles intégrés.",
+    "Ouverture / (1366×768) : 2501 ms depuis le premier octet",
+    "film de l'ouverture / 1366×768 : réussi à la tentative 2 (avant : cdpSession.send: Protocol error (Page.startScreencast): Not attached to an active page)",
+    "Ouverture /contact (1366×768) : 2324 ms depuis le premier octet",
+    "Ouverture /engagements (1366×768) : 2349 ms depuis le premier octet",
+    "Ouverture /realisations (1366×768) : 2501 ms depuis le premier octet",
+    "Ouverture /the-alters (1366×768) : 2440 ms depuis le premier octet",
+    "Ouverture / (390×844) : 2482 ms depuis le premier octet",
+    "Ouverture /contact (390×844) : 2349 ms depuis le premier octet",
+    "Ouverture /engagements (390×844) : 2323 ms depuis le premier octet",
+    "film de l'ouverture /engagements 390×844 : réussi à la tentative 3 (avant : cdpSession.send: Protocol error (Page.startScreencast): Not attached to an active page)",
+    "Ouverture /realisations (390×844) : 2405 ms depuis le premier octet",
+    "Ouverture /the-alters (390×844) : 2418 ms depuis le premier octet",
+    "Bords de l’écran : 305 images d’intro, 36 de voile et 182 de menu jugées (panneau immobile couvrant tout l’écran), barre de défilement classique de 15 px.",
+    "Aucun parcours propre au projet (_audit/parcours.mjs) : filtres, calculateurs, panier, réservation, fenêtres testés seulement par les contrôles généraux.",
+    "Tient dans l'écran /contact : aucune section épinglée ou plein écran.",
+    "Tient dans l'écran /engagements : aucune section épinglée ou plein écran.",
+    "Tient dans l'écran /paris-games-week : aucune section épinglée ou plein écran.",
+    "Tient dans l'écran /realisations : aucune section épinglée ou plein écran.",
+    "Tient dans l'écran /the-alters : aucune section épinglée ou plein écran.",
+    "Fluidité / 1366×768 (molette) : 0 % d'images lentes sur 442, tâche la plus longue 0 ms",
+    "Fluidité /contact 1366×768 (molette) : 0 % d'images lentes sur 185, tâche la plus longue 0 ms",
+    "Fluidité /engagements 1366×768 (molette) : 0 % d'images lentes sur 295, tâche la plus longue 0 ms",
+    "Fluidité /realisations 1366×768 (molette) : 0 % d'images lentes sur 398, tâche la plus longue 0 ms",
+    "Fluidité /the-alters 1366×768 (molette) : 0 % d'images lentes sur 332, tâche la plus longue 0 ms",
+    "Fluidité / 390×844 (doigt) : 0 % d'images lentes sur 1367, tâche la plus longue 0 ms",
+    "Fluidité /contact 390×844 (doigt) : 0 % d'images lentes sur 1349, tâche la plus longue 0 ms",
+    "Fluidité /engagements 390×844 (doigt) : 0 % d'images lentes sur 1351, tâche la plus longue 0 ms",
+    "Fluidité /realisations 390×844 (doigt) : 0 % d'images lentes sur 1367, tâche la plus longue 0 ms",
+    "Fluidité /the-alters 390×844 (doigt) : 0 % d'images lentes sur 1368, tâche la plus longue 0 ms",
+    "Vitesse / : 0.44 s de calcul au chargement (téléphone ralenti).",
+    "Vitesse /contact : 0.34 s de calcul au chargement (téléphone ralenti).",
+    "Vitesse /engagements : 0.29 s de calcul au chargement (téléphone ralenti).",
+    "Vitesse /paris-games-week : 0.31 s de calcul au chargement (téléphone ralenti).",
+    "Vitesse /realisations : 0.54 s de calcul au chargement (téléphone ralenti).",
+    "Vitesse /the-alters : 0.38 s de calcul au chargement (téléphone ralenti)."
+  ],
+  "grille": [
+    {
+      "cle": "manipuler",
+      "nom": "1. L’effet signature se manipule",
+      "statut": "absent",
+      "detail": "aucun data-grille=\"manipuler\" sur l’accueil"
+    },
+    {
+      "cle": "intro",
+      "nom": "2. L’intro devient la page",
+      "statut": "absent",
+      "detail": "versObjet absent"
+    },
+    {
+      "cle": "voile",
+      "nom": "3. La transition reprend le motif",
+      "statut": "présent",
+      "detail": "voile en coupe"
+    },
+    {
+      "cle": "fil",
+      "nom": "4. Quelque chose relie les sections et les pages",
+      "statut": "absent",
+      "detail": "sur aucune page"
+    },
+    {
+      "cle": "typo",
+      "nom": "5. Un titre fait l’événement sur chaque page",
+      "statut": "absent",
+      "detail": "sur aucune page"
+    },
+    {
+      "cle": "scene",
+      "nom": "6. La scène est un geste du métier",
+      "statut": "à regarder",
+      "detail": "galerie générique sur /"
+    },
+    {
+      "cle": "retour",
+      "nom": "7. L’action principale a un retour physique",
+      "statut": "absent",
+      "detail": "sur aucune page"
+    }
+  ]
+}

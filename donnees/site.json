@@ -1,0 +1,65 @@
+{
+  "nom": "Premium Events",
+  "adresse": "https://premium-events-maquette.vercel.app",
+  "siteActuel": "www.premium-events.fr",
+  "version": 1,
+  "langues": [
+    "fr"
+  ],
+  "navigation": [
+    "accueil",
+    "realisations",
+    "the-alters",
+    "paris-games-week",
+    "engagements",
+    "contact"
+  ],
+  "navEntete": [
+    "realisations",
+    "engagements",
+    "contact"
+  ],
+  "actionEntete": {
+    "page": "contact",
+    "ancre": "brief"
+  },
+  "couleurs": {
+    "fond": "#F4F3EF",
+    "texte": "#111113",
+    "voile": "#111113",
+    "theme": "#111113",
+    "ouverture": "#111113",
+    "menu": "#111113"
+  },
+  "formeVoile": "coupe",
+  "contact": {
+    "telephone": "01 72 69 43 43",
+    "telephoneInter": "+33 (0)1 72 69 43 43",
+    "telephoneLien": "+33172694343",
+    "email": "info@premium-events.fr",
+    "emailRecrutement": "recrutement@premium-events.fr",
+    "adresse": "7 rue du Faubourg Poissonnière, 75009 Paris",
+    "rue": "7 rue du Faubourg Poissonnière",
+    "ville": "75009 Paris"
+  },
+  "reseaux": [
+    {
+      "nom": "LinkedIn",
+      "url": "https://www.linkedin.com/company/premium-events/"
+    },
+    {
+      "nom": "Instagram",
+      "url": "https://www.instagram.com/premiumevents_agence"
+    },
+    {
+      "nom": "Facebook",
+      "url": "https://www.facebook.com/AgencePremiumEvents"
+    }
+  ],
+  "polices": [
+    "/assets/polices/archivo-titres.woff2",
+    "/assets/polices/instrument-sans.woff2"
+  ],
+  "imagePartage": "accueil-ouverture-1280.webp",
+  "curseur": false
+}
