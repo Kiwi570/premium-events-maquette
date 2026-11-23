@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="fr" data-v="1">
+<html lang="fr" data-v="2" data-curseur>
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
@@ -35,14 +35,14 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
 })();</script>
 <link rel="preload" href="/assets/polices/archivo-titres.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="/assets/polices/instrument-sans.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="stylesheet" href="/assets/css/socle.css?v=1">
-<link rel="stylesheet" href="/assets/css/site.css?v=1">
-<link rel="modulepreload" href="/assets/js/site.js?v=1">
-<link rel="modulepreload" href="/assets/js/socle/index.js?v=1">
+<link rel="stylesheet" href="/assets/css/socle.css?v=2">
+<link rel="stylesheet" href="/assets/css/site.css?v=2">
+<link rel="modulepreload" href="/assets/js/site.js?v=2">
+<link rel="modulepreload" href="/assets/js/socle/index.js?v=2">
 <script src="/assets/vendor/gsap.min.js" defer></script>
 <script src="/assets/vendor/ScrollTrigger.min.js" defer></script>
 <script src="/assets/vendor/SplitText.min.js" defer></script>
-<script type="module" src="/assets/js/site.js?v=1"></script>
+<script type="module" src="/assets/js/site.js?v=2"></script>
 <meta name="theme-color" content="#111113">
 <link rel="icon" href="/assets/images/favicon.png" type="image/png" sizes="64x64">
 <link rel="apple-touch-icon" href="/assets/images/apple-touch-icon.png">
@@ -115,13 +115,22 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
     </p>
     <p class="ouv-info ouv-f" data-info-cle>Paris 9e · <a href="tel:+33172694343">01 72 69 43 43</a></p>
   </div>
-  <div class="ouv-photo">
-    <figure class="media ouv-media" data-fx="parallaxe" data-fx-force="8" data-iris-centre data-boucle-css style="--cadrage:52% 42%;--cadrage-mobile:50% 40%">
+  <div class="ouv-photo" data-separation data-grille="manipuler" data-effet="separation" data-souris style="--p:56">
+    <figure class="media ouv-media ouv-media--sport" data-boucle-css style="--cadrage:45% 48%;--cadrage-mobile:45% 45%">
+  <picture><source media="(max-width: 760px) and (orientation: portrait)" srcset="/assets/images/accueil-sport-mobile-640.webp 640w, /assets/images/accueil-sport-mobile-1080.webp 1080w" sizes="(max-width: 760px) 100vw, 62vw">
+    <img src="/assets/images/accueil-sport-1280.webp" srcset="/assets/images/accueil-sport-640.webp 640w, /assets/images/accueil-sport-1280.webp 1280w, /assets/images/accueil-sport-1920.webp 1920w" sizes="(max-width: 760px) 100vw, 62vw" alt="Invité au chapeau blanc qui suit un match depuis une loge, au-dessus d’un court en terre battue" width="1280" height="1280" fetchpriority="high" loading="eager" decoding="async">
+  </picture>
+</figure>
+    <figure class="media ouv-media ouv-media--show" data-iris-centre data-boucle-css style="--cadrage:52% 42%;--cadrage-mobile:50% 40%">
   <picture><source media="(max-width: 760px) and (orientation: portrait)" srcset="/assets/images/accueil-ouverture-mobile-640.webp 640w, /assets/images/accueil-ouverture-mobile-1080.webp 1080w" sizes="(max-width: 760px) 100vw, 62vw">
     <img src="/assets/images/accueil-ouverture-1280.webp" srcset="/assets/images/accueil-ouverture-640.webp 640w, /assets/images/accueil-ouverture-1280.webp 1280w, /assets/images/accueil-ouverture-1920.webp 1920w" sizes="(max-width: 760px) 100vw, 62vw" alt="Public qui lève les bras devant une scène, dans la lumière bleue d’un salon" width="1280" height="854" fetchpriority="high" loading="eager" decoding="async">
   </picture>
 </figure>
     <svg class="ouv-trait" viewBox="0 0 100 100" preserveAspectRatio="none" aria-hidden="true"><line x1="24" y1="0" x2="0" y2="100" vector-effect="non-scaling-stroke"/></svg>
+    <span class="partage-ligne" aria-hidden="true"></span>
+    <span class="partage-etiquette partage-etiquette--sport" aria-hidden="true">Sport</span>
+    <span class="partage-etiquette partage-etiquette--show" aria-hidden="true">Divertissement</span>
+    <button type="button" class="partage-poignee" role="slider" aria-label="Faire glisser la séparation entre sport et divertissement" aria-valuemin="0" aria-valuemax="100" aria-valuenow="56" aria-valuetext="Sport à gauche, divertissement à droite"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 6 L3 12 L9 18 M15 6 L21 12 L15 18"/></svg></button>
   </div>
 </section>
 <section class="clients-ruban" id="clients" aria-labelledby="clients-titre">
@@ -201,7 +210,7 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
         </div>
         <figure class="media metier-media" data-effet="metiers" style="--cadrage:50% 50%">
   <picture>
-    <img src="/assets/images/metier-hospitalites-1600.webp" srcset="/assets/images/metier-hospitalites-1024.webp 1024w, /assets/images/metier-hospitalites-1168.webp 1168w, /assets/images/metier-hospitalites-1600.webp 1600w" sizes="(max-width: 760px) 100vw, 30vw" alt="Invité en tribune, chapeau blanc, face à un court en terre battue" width="1600" height="2000" loading="lazy" decoding="async">
+    <img src="/assets/images/metier-hospitalites-1600.webp" srcset="/assets/images/metier-hospitalites-1024.webp 1024w, /assets/images/metier-hospitalites-1168.webp 1168w, /assets/images/metier-hospitalites-1600.webp 1600w" sizes="(max-width: 760px) 100vw, 30vw" alt="Hôtesses Emirates alignées en tribune, devant un court en terre battue" width="1600" height="2000" loading="lazy" decoding="async">
   </picture>
 </figure>
       </li>
@@ -317,7 +326,7 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
     <img src="/assets/images/accueil-recevoir-1280.webp" srcset="/assets/images/accueil-recevoir-640.webp 640w, /assets/images/accueil-recevoir-1280.webp 1280w, /assets/images/accueil-recevoir-1920.webp 1920w, /assets/images/accueil-recevoir-2560.webp 2560w" sizes="100vw" alt="Table dressée en blanc, verres bleus et bouquets, dans une loge lumineuse" width="1280" height="720" loading="lazy" decoding="async">
   </picture>
 </figure>
-    <p class="recevoir-mots" aria-hidden="true" data-visuel><span data-fx-ecarte="g">L’art</span> <span data-fx-ecarte="d">de recevoir</span></p>
+    <p class="recevoir-mots" aria-hidden="true" data-visuel data-audit-ignorer data-grille="typo"><span data-fx-ecarte="g">L’art</span> <span data-fx-ecarte="d">de recevoir</span></p>
     <div class="recevoir-carte" data-fx-apres>
       <h2 id="recevoir-titre">L’art de recevoir</h2>
       <p>Hospitalités, expériences VIP et dispositifs sur mesure, dans le sport et au-delà : conception, installation, gestion des accréditations, accueil des invités, logistique sur site.</p>
@@ -363,7 +372,7 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
   </div>
 </section>
 <section class="fin" id="fin" aria-labelledby="fin-titre">
-  <div class="fin-signature" data-visuel aria-hidden="true" data-audit-ignorer>
+  <div class="fin-signature" data-visuel aria-hidden="true" data-audit-ignorer data-grille="typo">
     <span class="sig-l1" data-effet="signature">we create</span>
     <span class="sig-l2"><span class="sig-amp">&amp;</span> deliver</span>
     <svg class="sig-barre" viewBox="0 0 100 100" preserveAspectRatio="none"><line x1="64" y1="2" x2="40" y2="98" pathLength="1" vector-effect="non-scaling-stroke"/></svg>

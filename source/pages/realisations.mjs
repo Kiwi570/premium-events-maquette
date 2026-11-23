@@ -1,6 +1,6 @@
 /* Réalisations : bande de photos, filtres des 5 métiers (gardés dans l'adresse), chapitres, études de cas, clients. */
 import { html, brut } from '../../outils/gabarit.mjs';
-import { lignesOuverture, alt, appelFinal, carteEtude } from '../gabarits/blocs.mjs';
+import { lignesOuverture, alt, appelFinal, carteEtude, photoZoom, visionneuse } from '../gabarits/blocs.mjs';
 
 export const page = { cle: 'realisations', fichier: 'realisations', imagePartage: 'realisations-partage-1168.webp' };
 
@@ -52,7 +52,7 @@ export default (c) => {
       </div>
     </div>
     <ul class="conteneur mosaique" data-anime="cascade">
-      ${m.photos.slice(0, 5).map((nom, i) => html`<li class="mosaique-${i + 1}">${c.media({ nom, alt: alt(c, nom), legende: alt(c, nom), classe: 'mosaique-media', sizes: i === 0 ? '(max-width: 760px) 100vw, 50vw' : '(max-width: 760px) 50vw, 25vw' })}</li>`)}
+      ${m.photos.slice(0, 5).map((nom, i) => photoZoom(c, nom, i))}
     </ul>
   </article>`)}
 </section>
@@ -75,5 +75,6 @@ export default (c) => {
 </section>
 
 ${appelFinal(c)}
+${visionneuse(c)}
 `;
 };

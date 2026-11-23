@@ -12,7 +12,7 @@ export const alt = (c, nom) => (c.donnees.images && c.donnees.images[nom] && c.d
 export function appelFinal(c, { sansFormulaire = false, titre, texte } = {}) {
   const ct = c.site.contact;
   return html`<section class="fin" id="fin" aria-labelledby="fin-titre">
-  <div class="fin-signature" data-visuel aria-hidden="true" data-audit-ignorer>
+  <div class="fin-signature" data-visuel aria-hidden="true" data-audit-ignorer data-grille="typo">
     <span class="sig-l1" data-effet="signature">${c.t('commun.fin.signature1')}</span>
     <span class="sig-l2"><span class="sig-amp">&amp;</span> ${c.t('commun.fin.signature2')}</span>
     <svg class="sig-barre" viewBox="0 0 100 100" preserveAspectRatio="none"><line x1="64" y1="2" x2="40" y2="98" pathLength="1" vector-effect="non-scaling-stroke"/></svg>
@@ -43,4 +43,24 @@ export function carteEtude(c, cle) {
     ${c.lien(cle, { classe: 'lien-fleche', texte: c.t('commun.lireEtude') })}
   </div>
 </article>`;
+}
+
+/* Photo d'une mosaïque qui s'ouvre en grand dans la visionneuse (lien propre : #photo-<nom>). */
+export const idPhoto = (nom) => 'photo-' + nom.replace(/[^a-z0-9-]/gi, '-');
+export function photoZoom(c, nom, i, legende = true) {
+  const texte = alt(c, nom);
+  return html`<li class="mosaique-${i + 1}" id="${idPhoto(nom)}"><a class="zoom" href="#${idPhoto(nom)}" data-visionneuse data-sans-transition aria-label="${c.s('commun.visionneuse.agrandir', { alt: texte })}">${c.media({ nom, alt: texte, legende: legende ? texte : undefined, classe: 'mosaique-media', sizes: i === 0 ? '(max-width: 760px) 100vw, 50vw' : '(max-width: 760px) 50vw, 25vw' })}<span class="zoom-signe" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M12 5v14M5 12h14"/></svg></span></a></li>`;
+}
+
+/* Visionneuse : une par page, ouverte par les liens [data-visionneuse]. */
+export function visionneuse(c) {
+  const v = (k) => c.s('commun.visionneuse.' + k);
+  return html`<div class="visionneuse" role="dialog" aria-modal="true" aria-label="${v('titre')}" data-visionneuse-fenetre data-recouvrement data-gouttiere="#111113" hidden data-compte="${v('compte')}">
+  <figure class="vis-cadre"><figcaption class="vis-legende" aria-live="polite"></figcaption></figure>
+  <p class="vis-compte" aria-hidden="true"></p>
+  <p class="vis-aide masque-petit">${v('aide')}</p>
+  <button type="button" class="vis-bouton vis-fermer" data-vis-fermer aria-label="${v('fermer')}"><svg viewBox="0 0 24 24"><path d="M6 6l12 12M18 6L6 18"/></svg></button>
+  <button type="button" class="vis-bouton vis-prec" data-vis-prec aria-label="${v('precedente')}"><svg viewBox="0 0 24 24"><path d="M15 5l-7 7 7 7"/></svg></button>
+  <button type="button" class="vis-bouton vis-suiv" data-vis-suiv aria-label="${v('suivante')}"><svg viewBox="0 0 24 24"><path d="M9 5l7 7-7 7"/></svg></button>
+</div>`;
 }

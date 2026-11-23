@@ -4,7 +4,7 @@
    Ici : l'intro coupée en biais, les métiers, le parcours de The Alters, la méthode, la signature de fin,
    la médaille EcoVadis, les filtres des réalisations et la demande de projet en 3 étapes.
    Chaque effet propre porte data-effet="nom-du-plan". */
-import { demarrer, rafraichir, aller, quand } from './socle/index.js?v=1';
+import { demarrer, rafraichir, aller, quand, boucle, bloquerDefilement, debloquerDefilement, suivre, lacher } from './socle/index.js?v=2';
 
 const gsap = window.gsap;
 const $ = (s, r = document) => r.querySelector(s);
@@ -17,6 +17,9 @@ function animerOuverture(tl, t) {
   if ($$('.ouv-l').length) tl.fromTo('.ouv-l', { y: 0, yPercent: 120 }, { y: 0, yPercent: 0, duration: 0.85, stagger: 0.09, ease: 'power3.out' }, t);
   if ($$('.ouv-f').length) tl.fromTo('.ouv-f', { opacity: 0, y: 14 }, { opacity: 1, y: 0, duration: 0.6, stagger: 0.06, ease: 'power2.out' }, t + 0.18);
   if ($('.ouv-trait line')) tl.fromTo('.ouv-trait line', { opacity: 0 }, { opacity: 1, duration: 0.5 }, t);
+  if ($('.partage-ligne')) tl.fromTo('.partage-ligne', { clipPath: 'inset(50% 0 50% 0)' }, { clipPath: 'inset(0% 0 0% 0)', duration: 0.6, ease: 'power3.inOut', clearProps: 'clip-path' }, t + 0.1);
+  if ($('.partage-poignee')) tl.fromTo('.partage-poignee', { opacity: 0, scale: 0.4 }, { opacity: 1, scale: 1, duration: 0.55, ease: 'back.out(1.8)', clearProps: 'transform,opacity' }, t + 0.4);
+  if ($('.partage-etiquette')) tl.fromTo('.partage-etiquette', { opacity: 0 }, { opacity: 1, duration: 0.45, stagger: 0.1, clearProps: 'opacity' }, t + 0.55);
   const medaille = $('.medaille--grande');
   if (medaille) tl.fromTo(medaille, { rotate: -120, scale: 0.7 }, { rotate: 0, scale: 1, duration: 1, ease: 'back.out(1.4)' }, t);
   return tl;
@@ -44,6 +47,200 @@ function jouerCoupe() {
   if (ligne) tl.to(ligne, { opacity: 0, duration: 0.25 }, 0.95);
   animerOuverture(tl, 1.15);
   return tl;
+}
+
+
+/* ——— Ouverture de l'accueil : séparation en biais entre sport et divertissement, à faire glisser. ———
+   Elle oscille doucement seule jusqu'au premier geste du visiteur (souris, toucher, clavier), puis suit le pointeur
+   au survol (lissage rapide, stable en moins d'une seconde), se tire au doigt ou à la souris, et se règle au clavier. */
+function separation() {
+  const bloc = $('[data-separation]');
+  if (!bloc) return;
+  const poignee = bloc.querySelector('.partage-poignee');
+  const MIN = ordinateur() ? 22 : 34, MAX = ordinateur() ? 84 : 72, REPOS = 56;
+  let p = REPOS, cible = REPOS, demo = true, tire = false;
+  const angle = () => {
+    const r = bloc.getBoundingClientRect();
+    const pente = ordinateur() ? 0.24 : 0.16;
+    bloc.style.setProperty('--biais-angle', `${(-Math.atan((pente * r.width) / Math.max(1, r.height)) * 180) / Math.PI}deg`);
+  };
+  angle();
+  window.addEventListener('resize', angle);
+  const poser = (v) => {
+    p = Math.min(MAX, Math.max(MIN, v));
+    bloc.style.setProperty('--p', p.toFixed(2));
+    if (poignee) poignee.setAttribute('aria-valuenow', String(Math.round(p)));
+  };
+  const arreterDemo = () => { if (demo) { demo = false; cible = p; } };
+  ['pointerdown', 'keydown', 'wheel', 'touchstart'].forEach((ev) => window.addEventListener(ev, arreterDemo, { passive: true, once: true }));
+  window.addEventListener('pointermove', (e) => { if (e.pointerType === 'mouse') arreterDemo(); }, { passive: true });
+  const depuisX = (x) => { const r = bloc.getBoundingClientRect(); return ((x - r.left) / r.width) * 100; };
+  /* Dès que le visiteur prend la séparation en main, les deux photos cessent de respirer : seul son geste les fait bouger. */
+  const tenir = () => bloc.classList.add('tenu');
+  bloc.addEventListener('pointermove', (e) => {
+    if (e.pointerType === 'mouse' && !tire) { arreterDemo(); tenir(); cible = depuisX(e.clientX); }
+    else if (tire) cible = depuisX(e.clientX);
+  });
+  bloc.addEventListener('pointerdown', (e) => { arreterDemo(); tenir(); tire = true; cible = depuisX(e.clientX); if (e.pointerType !== 'touch') bloc.setPointerCapture?.(e.pointerId); });
+  const lacherPointeur = () => { tire = false; };
+  bloc.addEventListener('pointerup', lacherPointeur);
+  bloc.addEventListener('pointercancel', lacherPointeur);
+  if (poignee) poignee.addEventListener('keydown', (e) => {
+    const pas = { ArrowLeft: -5, ArrowDown: -5, ArrowRight: 5, ArrowUp: 5 }[e.key];
+    if (!pas && e.key !== 'Home' && e.key !== 'End') return;
+    e.preventDefault();
+    arreterDemo();
+    tenir();
+    cible = pas ? Math.min(MAX, Math.max(MIN, cible + pas)) : e.key === 'Home' ? MIN : MAX;
+  });
+  /* Démonstration : un aller-retour d'environ 4,5 s après l'intro, puis retour au repos (jamais plus de 5 s de mouvement seul). */
+  if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) demo = false;
+  let debut = 0;
+  quand('pret', () => { debut = performance.now(); });
+  boucle(bloc, (dt) => {
+    if (demo) {
+      if (!debut) return;
+      const t = (performance.now() - debut) / 1000;
+      if (t > 4.6) { demo = false; cible = REPOS; return; }
+      const enveloppe = Math.sin(Math.min(1, t / 4.6) * Math.PI);
+      poser(REPOS + 10 * enveloppe * Math.sin(t * 1.37));
+      return;
+    }
+    const k = 1 - Math.pow(0.0005, Math.min(0.1, dt)); /* lissage selon le temps écoulé : même vitesse partout */
+    if (Math.abs(cible - p) < 0.05) { if (p !== cible) poser(cible); return; }
+    poser(p + (cible - p) * k);
+  });
+  bloc.__repos = () => { demo = false; cible = REPOS; poser(REPOS); };
+}
+
+
+/* ——— Visionneuse : les photos des mosaïques en grand. ———
+   Ouverte par chaque lien [data-visionneuse] (adresse propre #photo-<nom>, qui l'ouvre aussi à l'arrivée),
+   photo qui grandit depuis sa vignette, flèches, clavier (← → Échap), glisser du doigt, focus gardé dans la fenêtre
+   et rendu au lien d'origine à la fermeture. Les photos d'un chapitre masqué par les filtres sont sautées. */
+function visionneuseProjet() {
+  const fen = $('[data-visionneuse-fenetre]');
+  if (!fen) return;
+  const legende = fen.querySelector('.vis-legende'), compte = fen.querySelector('.vis-compte');
+  /* L'image n'existe qu'à la première ouverture : aucune image vide dans la page fermée. */
+  const img = document.createElement('img');
+  img.className = 'vis-image';
+  img.decoding = 'async';
+  img.alt = '';
+  const boutons = $$('.vis-bouton', fen);
+  let liste = [], i = 0, origine = null, ouverte = false;
+  const visibles = () => $$('[data-visionneuse]').filter((a) => a.offsetParent !== null);
+  const plusGrande = (im) => {
+    const set = (im.getAttribute('srcset') || '').split(',').map((x) => x.trim().split(/\s+/)).filter((x) => x[0]);
+    const tri = set.map(([u, w]) => [u, parseInt(w, 10) || 0]).sort((a, b) => a[1] - b[1]);
+    const choix = tri.filter(([, w]) => w <= 1600).pop() || tri.pop();
+    return choix ? choix[0] : im.currentSrc || im.src;
+  };
+  const charger = (n, sens) => {
+    i = (n + liste.length) % liste.length;
+    const lien = liste[i], vignette = lien.querySelector('img');
+    const w = vignette.getAttribute('width'), h = vignette.getAttribute('height');
+    if (w && h) { img.setAttribute('width', w); img.setAttribute('height', h); img.style.setProperty('--ratio', (w / h).toFixed(4)); }
+    img.src = plusGrande(vignette);
+    img.alt = vignette.alt;
+    legende.textContent = vignette.alt;
+    compte.textContent = fen.dataset.compte.replace('{n}', i + 1).replace('{total}', liste.length);
+    history.replaceState(history.state, '', '#' + lien.closest('[id]').id);
+    if (sens) gsap.fromTo(img, { x: 60 * sens, opacity: 0 }, { x: 0, opacity: 1, duration: 0.45, ease: 'power3.out' });
+    /* photo suivante préchargée : pas d'attente au prochain clic */
+    const suiv = liste[(i + 1) % liste.length].querySelector('img');
+    if (suiv) { const pre = new Image(); pre.src = plusGrande(suiv); }
+  };
+  const ouvrir = (lien, instant) => {
+    liste = visibles();
+    const n = liste.indexOf(lien);
+    if (n < 0) return;
+    origine = lien; ouverte = true;
+    if (!img.isConnected) fen.querySelector('.vis-cadre').prepend(img);
+    fen.hidden = false;
+    bloquerDefilement('visionneuse');
+    suivre(fen);
+    charger(n, 0);
+    const r = lien.getBoundingClientRect();
+    const f = img.getBoundingClientRect();
+    if (!instant && r.width && f.width) {
+      const dx = r.left + r.width / 2 - (f.left + f.width / 2), dy = r.top + r.height / 2 - (f.top + f.height / 2);
+      gsap.fromTo(fen, { backgroundColor: 'rgba(17,17,19,0)' }, { backgroundColor: 'rgba(17,17,19,.96)', duration: 0.35, clearProps: 'backgroundColor' });
+      gsap.fromTo(img, { x: dx, y: dy, scale: Math.max(r.width / f.width, r.height / f.height) * 0.98 }, { x: 0, y: 0, scale: 1, duration: 0.6, ease: 'power3.out', clearProps: 'transform' });
+      gsap.fromTo([legende, compte, ...boutons], { opacity: 0 }, { opacity: 1, duration: 0.3, delay: 0.25, clearProps: 'opacity' });
+    }
+    fen.querySelector('[data-vis-fermer]').focus({ preventScroll: true });
+  };
+  const fermer = () => {
+    if (!ouverte) return;
+    ouverte = false;
+    const fin = () => { fen.hidden = true; lacher(fen); debloquerDefilement('visionneuse'); if (origine) origine.focus({ preventScroll: true }); };
+    history.replaceState(history.state, '', location.pathname + location.search);
+    gsap.to(fen, { opacity: 0, duration: 0.25, onComplete: () => { gsap.set(fen, { clearProps: 'opacity' }); fin(); } });
+  };
+  document.addEventListener('click', (e) => {
+    const lien = e.target.closest('[data-visionneuse]');
+    if (!lien) return;
+    e.preventDefault();
+    ouvrir(lien);
+  });
+  fen.addEventListener('click', (e) => {
+    if (e.target.closest('[data-vis-fermer]') || e.target === fen) fermer();
+    else if (e.target.closest('[data-vis-prec]')) charger(i - 1, -1);
+    else if (e.target.closest('[data-vis-suiv]')) charger(i + 1, 1);
+  });
+  document.addEventListener('keydown', (e) => {
+    if (!ouverte) return;
+    if (e.key === 'Escape') { e.preventDefault(); fermer(); }
+    else if (e.key === 'ArrowLeft') { e.preventDefault(); charger(i - 1, -1); }
+    else if (e.key === 'ArrowRight') { e.preventDefault(); charger(i + 1, 1); }
+    else if (e.key === 'Tab') {
+      const premier = boutons[0], dernier = boutons[boutons.length - 1];
+      if (!fen.contains(document.activeElement)) { e.preventDefault(); premier.focus(); }
+      else if (e.shiftKey && document.activeElement === premier) { e.preventDefault(); dernier.focus(); }
+      else if (!e.shiftKey && document.activeElement === dernier) { e.preventDefault(); premier.focus(); }
+    }
+  });
+  let x0 = null;
+  fen.addEventListener('pointerdown', (e) => { if (e.pointerType !== 'mouse') x0 = e.clientX; });
+  fen.addEventListener('pointerup', (e) => {
+    if (x0 === null) return;
+    const dx = e.clientX - x0; x0 = null;
+    if (Math.abs(dx) > 50) charger(i + (dx < 0 ? 1 : -1), dx < 0 ? 1 : -1);
+  });
+  /* Lien propre : #photo-<nom> ouvre la photo à l'arrivée. */
+  const depuisAdresse = () => {
+    const id = decodeURIComponent(location.hash.slice(1));
+    if (!id.startsWith('photo-')) return;
+    const lien = document.getElementById(id)?.querySelector('[data-visionneuse]');
+    if (lien && !ouverte) ouvrir(lien, true);
+  };
+  quand('pret', depuisAdresse);
+  window.addEventListener('hashchange', depuisAdresse);
+}
+
+
+/* ——— Ruban des clients : il accélère avec le défilement et repart en arrière quand on remonte. ——— */
+function rubanVitesse() {
+  const ruban = $('#ruban-clients');
+  if (!ruban || window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+  const anims = () => $$('.ruban-piste', ruban).flatMap((p) => p.getAnimations ? p.getAnimations() : []);
+  let dernierY = window.scrollY, vitesse = 0, taux = 1;
+  /* Les pistes partent loin dans leur boucle (multiple commun des deux durées, 80 s et 95 s : aucun saut visible),
+     pour qu'en marche arrière elles n'atteignent jamais le début, où une animation CSS s'arrêterait. */
+  anims().forEach((a) => { a.currentTime = (a.currentTime || 0) + 7600 * 1000 * 4; });
+  window.addEventListener('scroll', () => {
+    const d = window.scrollY - dernierY; dernierY = window.scrollY;
+    vitesse = Math.max(-1, Math.min(1, vitesse + d / 400));
+  }, { passive: true });
+  boucle(ruban, (dt) => {
+    vitesse *= Math.pow(0.04, dt); /* l'élan retombe en moins d'une seconde */
+    const cible = 1 + vitesse * 7;
+    const suivant = taux + (cible - taux) * (1 - Math.pow(0.002, dt));
+    if (Math.abs(suivant - taux) < 0.002) return;
+    taux = suivant;
+    anims().forEach((a) => { a.playbackRate = taux; });
+  });
 }
 
 /* ——— Les 5 métiers : la photo s'ouvre en biais quand la ligne arrive, glisse au défilement ; ligne active repérée. ——— */
@@ -135,6 +332,13 @@ function badge() {
   });
 }
 
+/* ——— Engagements : les quatre thèmes EcoVadis sont cochés un à un à leur arrivée. ——— */
+function coches() {
+  const liste = $('[data-effet="coches"]');
+  if (!liste) return;
+  ST().create({ trigger: liste, start: 'top 80%', once: true, onEnter: () => liste.classList.add('coche') });
+}
+
 /* ——— Réalisations : filtres des 5 métiers, gardés dans l'adresse (?metier=). ——— */
 function filtres() {
   const zone = $('[data-filtres]');
@@ -171,7 +375,9 @@ function brief() {
   const f = $('[data-brief]');
   if (!f) return;
   const etapes = $$('.brief-etape', f), puces = $$('.brief-etapes li', f), recap = $('[data-recap]');
-  let courante = 0;
+  const pendule = recap && recap.querySelector('[data-pendule]');
+  let courante = 0, theta = 0, omega = 0;
+  const pousser = (force, sens = Math.random() < 0.5 ? -1 : 1) => { if (pendule) omega += force * sens; };
   const montrer = (n, focus) => {
     const h0 = f.offsetHeight;
     etapes.forEach((e, i) => { e.hidden = i !== n; });
@@ -205,18 +411,44 @@ function brief() {
       invites: f.invites && f.invites.value ? f.invites.options[f.invites.selectedIndex].text : '',
       societe: [f.societe?.value.trim(), f.nom?.value.trim()].filter(Boolean).join(' · '),
     };
+    let remplis = 0;
     $$('[data-recap-champ]', recap).forEach((dd) => {
       const v = val[dd.dataset.recapChamp];
+      const avant = dd.textContent;
       dd.textContent = v || dd.dataset.vide;
+      if (v) remplis += 1;
+      if (v && !dd.classList.contains('rempli')) { dd.classList.add('vient'); pousser(0.9); }
+      else if (v && avant !== dd.textContent) pousser(0.25);
       dd.classList.toggle('rempli', !!v);
+      if (!v) dd.classList.remove('vient');
     });
+    const jauge = recap.querySelector('[data-pass-jauge]');
+    if (jauge) jauge.style.width = `${(remplis / 5) * 100}%`;
   };
   f.addEventListener('input', maj);
   f.addEventListener('change', maj);
   montrer(0, false);
   maj();
-  /* Le récapitulatif glisse doucement au défilement. */
-  if (recap) gsap.fromTo(recap, { y: 24 }, { y: -24, ease: 'none', scrollTrigger: { trigger: recap, start: 'top bottom', end: 'bottom top', scrub: 0.6 } });
+  /* Le pass se balance au bout de son cordon : petite poussée à chaque champ rempli et selon la vitesse de défilement,
+     ressort amorti (revient au calme en environ 2 s). */
+  if (pendule) {
+    let dernierY = window.scrollY;
+    window.addEventListener('scroll', () => { const d = window.scrollY - dernierY; dernierY = window.scrollY; pousser(Math.min(1, Math.abs(d) / 120) * 0.35, d > 0 ? 1 : -1); }, { passive: true });
+    boucle(pendule, (dt) => {
+      const raideur = 38, amorti = 3.4;
+      omega += (-raideur * theta - amorti * omega) * dt;
+      theta += omega * dt;
+      if (Math.abs(theta) < 0.002 && Math.abs(omega) < 0.002) { if (theta !== 0) { theta = 0; omega = 0; pendule.style.transform = ''; } return; }
+      pendule.style.transform = `rotate(${(theta * 30).toFixed(3)}deg)`;
+    });
+  }
+  /* Demande valide (simulée) : le pass est tamponné. */
+  f.addEventListener('submit', () => {
+    setTimeout(() => {
+      const msg = f.querySelector('[data-message-envoi]');
+      if (msg && !msg.hidden && recap) { recap.classList.add('valide'); pousser(1.4); }
+    }, 0);
+  });
 }
 
 /* Images des scènes à venir (galerie PGW, plein écran) : chargées juste après l'ouverture, jamais une case vide à l'épinglage. */
@@ -231,17 +463,21 @@ function prechargerScenes() {
 
 function etatFinalProjet() {
   if (!gsap) return;
-  gsap.set('.ouv-l, .ouv-f, .ouv-trait line, .medaille', { clearProps: 'transform,opacity' });
+  gsap.set('.ouv-l, .ouv-f, .ouv-trait line, .medaille, .partage-poignee, .partage-etiquette', { clearProps: 'transform,opacity' });
+  gsap.set('.partage-ligne', { clearProps: 'clip-path' });
   const panneau = $('[data-ouverture]');
   if (panneau) panneau.style.removeProperty('clip-path');
   $$('.metier').forEach((l) => l.classList.add('ouvert'));
   $$('.parcours').forEach((fig) => fig.__poser && fig.__poser(1));
+  const sep = $('[data-separation]');
+  if (sep && sep.__repos) sep.__repos();
+  $$('[data-effet="coches"]').forEach((l) => l.classList.add('coche'));
 }
 
 demarrer({
   preparer() {
     if (!gsap || !ST()) return;
-    [metiers, parcours, rangeePgw, methode, signature, badge, filtres, brief, prechargerScenes].forEach((f) => {
+    [separation, rubanVitesse, metiers, parcours, rangeePgw, methode, signature, badge, coches, filtres, brief, visionneuseProjet, prechargerScenes].forEach((f) => {
       try { f(); } catch (err) { console.error('[projet]', f.name, err); }
     });
   },

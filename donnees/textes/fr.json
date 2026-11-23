@@ -35,6 +35,15 @@
       "action": "Parler de votre projet",
       "signature1": "we create",
       "signature2": "deliver"
+    },
+    "visionneuse": {
+      "titre": "Photos en grand",
+      "fermer": "Fermer la visionneuse",
+      "precedente": "Photo précédente",
+      "suivante": "Photo suivante",
+      "agrandir": "Agrandir la photo : {alt}",
+      "compte": "{n} sur {total}",
+      "aide": "Flèches ← → pour naviguer, Échap pour fermer"
     }
   },
   "pages": {
@@ -99,7 +108,11 @@
       "action": "Parler de votre projet",
       "secondaire": "Voir les réalisations",
       "info": "Paris 9e",
-      "l4": "premium."
+      "l4": "premium.",
+      "sport": "Sport",
+      "show": "Divertissement",
+      "poignee": "Faire glisser la séparation entre sport et divertissement",
+      "poigneeTexte": "Sport à gauche, divertissement à droite"
     },
     "ruban": {
       "titre": "Ils nous font confiance",
@@ -313,7 +326,7 @@
       "suivant": "Étape suivante",
       "precedent": "Retour",
       "envoyer": "Envoyer la demande",
-      "donnees": "Vos informations servent uniquement à répondre à votre demande. Politique de confidentialité : à compléter.",
+      "donnees": "Vos informations servent uniquement à répondre à votre demande.",
       "envoye": "Demande simulée : rien n’a été envoyé. Sur le site final, elle partira vers l’équipe de Premium Events. En attendant : info@premium-events.fr ou 01 72 69 43 43.",
       "recap": "Votre brief",
       "recapVide": "à préciser",
@@ -321,7 +334,11 @@
       "rPeriode": "Période",
       "rLieu": "Lieu",
       "rInvites": "Invités",
-      "rContact": "Contact"
+      "rContact": "Contact",
+      "passTete": "Pass projet",
+      "passNum": "N° PE-2026",
+      "passTampon": "Prête",
+      "passValide": "Accès équipe"
     },
     "venirSur": "L’agence",
     "venirTitre": "Au cœur de Paris, entre les Grands Boulevards et le Faubourg Poissonnière.",

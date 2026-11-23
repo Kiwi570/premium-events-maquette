@@ -29,9 +29,14 @@ export default (c) => {
     </p>
     <p class="ouv-info ouv-f" data-info-cle>${c.t('accueil.hero.info')} · <a href="tel:${ct.telephoneLien}">${ct.telephone}</a></p>
   </div>
-  <div class="ouv-photo">
-    ${c.media({ nom: 'accueil-ouverture', alt: alt(c, 'accueil-ouverture'), cadrage: '52% 42%', cadrageMobile: '50% 40%', priorite: true, classe: 'ouv-media', sizes: '(max-width: 760px) 100vw, 62vw', attrs: 'data-fx="parallaxe" data-fx-force="8" data-iris-centre data-boucle-css' })}
+  <div class="ouv-photo" data-separation data-grille="manipuler" data-effet="separation" data-souris style="--p:56">
+    ${c.media({ nom: 'accueil-sport', alt: alt(c, 'accueil-sport'), cadrage: '45% 48%', cadrageMobile: '45% 45%', priorite: true, classe: 'ouv-media ouv-media--sport', sizes: '(max-width: 760px) 100vw, 62vw', attrs: 'data-boucle-css' })}
+    ${c.media({ nom: 'accueil-ouverture', alt: alt(c, 'accueil-ouverture'), cadrage: '52% 42%', cadrageMobile: '50% 40%', priorite: true, classe: 'ouv-media ouv-media--show', sizes: '(max-width: 760px) 100vw, 62vw', attrs: 'data-iris-centre data-boucle-css' })}
     <svg class="ouv-trait" viewBox="0 0 100 100" preserveAspectRatio="none" aria-hidden="true"><line x1="24" y1="0" x2="0" y2="100" vector-effect="non-scaling-stroke"/></svg>
+    <span class="partage-ligne" aria-hidden="true"></span>
+    <span class="partage-etiquette partage-etiquette--sport" aria-hidden="true">${c.t('accueil.hero.sport')}</span>
+    <span class="partage-etiquette partage-etiquette--show" aria-hidden="true">${c.t('accueil.hero.show')}</span>
+    <button type="button" class="partage-poignee" role="slider" aria-label="${c.s('accueil.hero.poignee')}" aria-valuemin="0" aria-valuemax="100" aria-valuenow="56" aria-valuetext="${c.s('accueil.hero.poigneeTexte')}"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 6 L3 12 L9 18 M15 6 L21 12 L15 18"/></svg></button>
   </div>
 </section>
 
@@ -121,7 +126,7 @@ export default (c) => {
 <section class="recevoir" id="art-de-recevoir" data-fx="plein-ecran" aria-labelledby="recevoir-titre">
   <div data-collant>
     ${c.media({ nom: 'accueil-recevoir', alt: alt(c, 'accueil-recevoir'), classe: 'recevoir-media', sizes: '100vw' })}
-    <p class="recevoir-mots" aria-hidden="true" data-visuel><span data-fx-ecarte="g">${c.t('accueil.recevoir.mot1')}</span> <span data-fx-ecarte="d">${c.t('accueil.recevoir.mot2')}</span></p>
+    <p class="recevoir-mots" aria-hidden="true" data-visuel data-audit-ignorer data-grille="typo"><span data-fx-ecarte="g">${c.t('accueil.recevoir.mot1')}</span> <span data-fx-ecarte="d">${c.t('accueil.recevoir.mot2')}</span></p>
     <div class="recevoir-carte" data-fx-apres>
       <h2 id="recevoir-titre">${c.t('accueil.recevoir.titre')}</h2>
       <p>${c.t('accueil.recevoir.texte')}</p>

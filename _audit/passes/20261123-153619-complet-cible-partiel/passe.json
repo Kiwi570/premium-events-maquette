@@ -1,0 +1,16 @@
+{
+ "id": "20261123-153619-complet-cible-partiel",
+ "date": "2026-11-23T15:36:43.104Z",
+ "niveau": "complet",
+ "pages": "/engagements",
+ "etapes": [
+  "fichiers",
+  "bords"
+ ],
+ "version": "2",
+ "echecs": 0,
+ "aRegarder": 0,
+ "nonLances": 0,
+ "manquants": 0,
+ "statut": "complet"
+}

@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="fr" data-v="1">
+<html lang="fr" data-v="2" data-curseur>
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
@@ -35,14 +35,14 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
 })();</script>
 <link rel="preload" href="/assets/polices/archivo-titres.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="/assets/polices/instrument-sans.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="stylesheet" href="/assets/css/socle.css?v=1">
-<link rel="stylesheet" href="/assets/css/site.css?v=1">
-<link rel="modulepreload" href="/assets/js/site.js?v=1">
-<link rel="modulepreload" href="/assets/js/socle/index.js?v=1">
+<link rel="stylesheet" href="/assets/css/socle.css?v=2">
+<link rel="stylesheet" href="/assets/css/site.css?v=2">
+<link rel="modulepreload" href="/assets/js/site.js?v=2">
+<link rel="modulepreload" href="/assets/js/socle/index.js?v=2">
 <script src="/assets/vendor/gsap.min.js" defer></script>
 <script src="/assets/vendor/ScrollTrigger.min.js" defer></script>
 <script src="/assets/vendor/SplitText.min.js" defer></script>
-<script type="module" src="/assets/js/site.js?v=1"></script>
+<script type="module" src="/assets/js/site.js?v=2"></script>
 <meta name="theme-color" content="#111113">
 <link rel="icon" href="/assets/images/favicon.png" type="image/png" sizes="64x64">
 <link rel="apple-touch-icon" href="/assets/images/apple-touch-icon.png">
@@ -148,21 +148,33 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
           <div class="champ"><label for="societe">Société</label><input id="societe" name="societe" type="text" autocomplete="organization" required></div>
           <div class="champ"><label for="email">E-mail professionnel</label><input id="email" name="email" type="email" autocomplete="email" required></div>
           <div class="champ"><label for="telephone">Téléphone (facultatif)</label><input id="telephone" name="telephone" type="tel" autocomplete="tel"></div>
-          <p class="mention-donnees">Vos informations servent uniquement à répondre à votre demande. Politique de confidentialité : à compléter.</p>
+          <p class="mention-donnees">Vos informations servent uniquement à répondre à votre demande.</p>
           <p class="brief-nav"><button type="button" class="bouton bouton--contour" data-precedent>Retour</button> <button type="submit" class="bouton">Envoyer la demande</button></p>
           <p data-message-envoi hidden tabindex="-1" data-texte="Demande simulée : rien n’a été envoyé. Sur le site final, elle partira vers l’équipe de Premium Events. En attendant : info@premium-events.fr ou 01 72 69 43 43."></p>
         </fieldset>
       </form>
-      <aside class="recap" aria-labelledby="recap-titre" data-recap data-effet="brief">
-        <p class="recap-titre" id="recap-titre">Votre brief</p>
-        <svg class="recap-barre" viewBox="0 0 10 100" preserveAspectRatio="none" aria-hidden="true"><line x1="9" y1="0" x2="1" y2="100" vector-effect="non-scaling-stroke"/></svg>
-        <dl>
-          <div><dt>Événement</dt><dd data-recap-champ="metier" data-vide="à préciser">à préciser</dd></div>
-          <div><dt>Période</dt><dd data-recap-champ="periode" data-vide="à préciser">à préciser</dd></div>
-          <div><dt>Lieu</dt><dd data-recap-champ="lieu" data-vide="à préciser">à préciser</dd></div>
-          <div><dt>Invités</dt><dd data-recap-champ="invites" data-vide="à préciser">à préciser</dd></div>
-          <div><dt>Contact</dt><dd data-recap-champ="societe" data-vide="à préciser">à préciser</dd></div>
-        </dl>
+      <aside class="recap pass" aria-labelledby="recap-titre" data-recap data-effet="brief" data-grille="retour">
+        <div class="pass-pendule" data-pendule>
+          <span class="pass-cordon" aria-hidden="true"></span>
+          <span class="pass-pince" aria-hidden="true"></span>
+          <div class="pass-carte">
+            <div class="pass-tete">
+              <img src="/assets/images/logo-clair.png" alt="" width="298" height="124" loading="lazy">
+              <span>Pass projet</span>
+            </div>
+            <p class="recap-titre" id="recap-titre">Votre brief</p>
+            <dl>
+              <div><dt>Événement</dt><dd data-recap-champ="metier" data-vide="à préciser">à préciser</dd></div>
+              <div><dt>Période</dt><dd data-recap-champ="periode" data-vide="à préciser">à préciser</dd></div>
+              <div><dt>Lieu</dt><dd data-recap-champ="lieu" data-vide="à préciser">à préciser</dd></div>
+              <div><dt>Invités</dt><dd data-recap-champ="invites" data-vide="à préciser">à préciser</dd></div>
+              <div><dt>Contact</dt><dd data-recap-champ="societe" data-vide="à préciser">à préciser</dd></div>
+            </dl>
+            <div class="pass-pied" aria-hidden="true"><span class="pass-code"></span><span class="pass-num">N° PE-2026</span></div>
+            <p class="pass-jauge" aria-hidden="true"><span data-pass-jauge></span></p>
+            <p class="pass-tampon" aria-hidden="true" data-pass-tampon data-audit-ignorer><span>Prête</span><small>Accès équipe</small></p>
+          </div>
+        </div>
       </aside>
     </div>
   </div>
@@ -200,7 +212,7 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
   </div>
 </section>
 <section class="fin" id="fin" aria-labelledby="fin-titre">
-  <div class="fin-signature" data-visuel aria-hidden="true" data-audit-ignorer>
+  <div class="fin-signature" data-visuel aria-hidden="true" data-audit-ignorer data-grille="typo">
     <span class="sig-l1" data-effet="signature">we create</span>
     <span class="sig-l2"><span class="sig-amp">&amp;</span> deliver</span>
     <svg class="sig-barre" viewBox="0 0 100 100" preserveAspectRatio="none"><line x1="64" y1="2" x2="40" y2="98" pathLength="1" vector-effect="non-scaling-stroke"/></svg>

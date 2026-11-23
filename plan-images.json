@@ -39,6 +39,19 @@
   "page": "accueil"
  },
  {
+  "source": "recu/art-recevoir-4.jpg",
+  "nom": "accueil-sport",
+  "role": "ouverture",
+  "beaute": 5,
+  "alt": "Invité au chapeau blanc qui suit un match depuis une loge, au-dessus d’un court en terre battue",
+  "mobile": "4:5",
+  "cadrage": [
+   45,
+   48
+  ],
+  "zone_texte": "gauche"
+ },
+ {
   "source": "recu/iconiques-3.jpg",
   "nom": "metier-popup",
   "role": "galerie",
@@ -67,11 +80,11 @@
   "alt": "Guitariste sur scène dans une lumière rouge"
  },
  {
-  "source": "recu/art-recevoir-4.jpg",
+  "source": "recu/hospitality-brand-experience-sports-9.jpg",
   "nom": "metier-hospitalites",
   "role": "galerie",
   "beaute": 4,
-  "alt": "Invité en tribune, chapeau blanc, face à un court en terre battue"
+  "alt": "Hôtesses Emirates alignées en tribune, devant un court en terre battue"
  },
  {
   "source": "recu/alters-infiltre-fashion-week-10.jpg",

@@ -1,0 +1,19 @@
+{
+ "id": "20261123-144856-complet-cible-partiel",
+ "date": "2026-11-23T15:01:46.533Z",
+ "niveau": "complet",
+ "pages": "/,/contact,/paris-games-week,/realisations,/the-alters",
+ "etapes": [
+  "fichiers",
+  "grille",
+  "mesures",
+  "parcours",
+  "mouvement"
+ ],
+ "version": "2",
+ "echecs": 1,
+ "aRegarder": 12,
+ "nonLances": 0,
+ "manquants": 0,
+ "statut": "échecs"
+}

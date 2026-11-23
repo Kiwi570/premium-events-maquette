@@ -2,7 +2,7 @@
   "nom": "Premium Events",
   "adresse": "https://premium-events-maquette.vercel.app",
   "siteActuel": "www.premium-events.fr",
-  "version": 1,
+  "version": 2,
   "langues": [
     "fr"
   ],
@@ -61,5 +61,5 @@
     "/assets/polices/instrument-sans.woff2"
   ],
   "imagePartage": "accueil-ouverture-1280.webp",
-  "curseur": false
+  "curseur": true
 }

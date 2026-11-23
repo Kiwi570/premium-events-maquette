@@ -58,16 +58,28 @@ export default (c) => {
           <p data-message-envoi hidden tabindex="-1" data-texte="${c.s('contact.form.envoye')}"></p>
         </fieldset>
       </form>
-      <aside class="recap" aria-labelledby="recap-titre" data-recap data-effet="brief">
-        <p class="recap-titre" id="recap-titre">${f('recap')}</p>
-        <svg class="recap-barre" viewBox="0 0 10 100" preserveAspectRatio="none" aria-hidden="true"><line x1="9" y1="0" x2="1" y2="100" vector-effect="non-scaling-stroke"/></svg>
-        <dl>
-          <div><dt>${f('rType')}</dt><dd data-recap-champ="metier" data-vide="${c.s('contact.form.recapVide')}">${f('recapVide')}</dd></div>
-          <div><dt>${f('rPeriode')}</dt><dd data-recap-champ="periode" data-vide="${c.s('contact.form.recapVide')}">${f('recapVide')}</dd></div>
-          <div><dt>${f('rLieu')}</dt><dd data-recap-champ="lieu" data-vide="${c.s('contact.form.recapVide')}">${f('recapVide')}</dd></div>
-          <div><dt>${f('rInvites')}</dt><dd data-recap-champ="invites" data-vide="${c.s('contact.form.recapVide')}">${f('recapVide')}</dd></div>
-          <div><dt>${f('rContact')}</dt><dd data-recap-champ="societe" data-vide="${c.s('contact.form.recapVide')}">${f('recapVide')}</dd></div>
-        </dl>
+      <aside class="recap pass" aria-labelledby="recap-titre" data-recap data-effet="brief" data-grille="retour">
+        <div class="pass-pendule" data-pendule>
+          <span class="pass-cordon" aria-hidden="true"></span>
+          <span class="pass-pince" aria-hidden="true"></span>
+          <div class="pass-carte">
+            <div class="pass-tete">
+              <img src="/assets/images/logo-clair.png" alt="" width="298" height="124" loading="lazy">
+              <span>${f('passTete')}</span>
+            </div>
+            <p class="recap-titre" id="recap-titre">${f('recap')}</p>
+            <dl>
+              <div><dt>${f('rType')}</dt><dd data-recap-champ="metier" data-vide="${c.s('contact.form.recapVide')}">${f('recapVide')}</dd></div>
+              <div><dt>${f('rPeriode')}</dt><dd data-recap-champ="periode" data-vide="${c.s('contact.form.recapVide')}">${f('recapVide')}</dd></div>
+              <div><dt>${f('rLieu')}</dt><dd data-recap-champ="lieu" data-vide="${c.s('contact.form.recapVide')}">${f('recapVide')}</dd></div>
+              <div><dt>${f('rInvites')}</dt><dd data-recap-champ="invites" data-vide="${c.s('contact.form.recapVide')}">${f('recapVide')}</dd></div>
+              <div><dt>${f('rContact')}</dt><dd data-recap-champ="societe" data-vide="${c.s('contact.form.recapVide')}">${f('recapVide')}</dd></div>
+            </dl>
+            <div class="pass-pied" aria-hidden="true"><span class="pass-code"></span><span class="pass-num">${f('passNum')}</span></div>
+            <p class="pass-jauge" aria-hidden="true"><span data-pass-jauge></span></p>
+            <p class="pass-tampon" aria-hidden="true" data-pass-tampon data-audit-ignorer><span>${f('passTampon')}</span><small>${f('passValide')}</small></p>
+          </div>
+        </div>
       </aside>
     </div>
   </div>

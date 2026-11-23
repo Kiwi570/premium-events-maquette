@@ -1,5 +1,19 @@
 # Journal des versions — Premium Events
 
+## v2 — 23 novembre 2026
+
+Audit complet de tout le site et version plus vivante, plus ludique.
+
+- **Accueil, ouverture** : deux photos côte à côte, sport et divertissement, séparées par la barre oblique jaune du logo. On la fait glisser (souris, doigt ou clavier) ; elle suit la souris au survol et fait un aller-retour seule après l'intro pour montrer qu'elle bouge.
+- **Ruban des clients** : il accélère quand on fait défiler la page et repart en arrière quand on remonte ; un nom survolé passe au jaune.
+- **Métiers** : au survol, la photo se coupe en biais comme la barre du logo, le numéro passe au jaune.
+- **L'art de recevoir** : les deux mots géants s'inversent en passant sur la photo (plus de cadres clairs derrière eux).
+- **Réalisations et études** : chaque photo s'ouvre en grand dans une visionneuse (flèches, clavier, glisser du doigt), avec son propre lien.
+- **Engagements** : les quatre thèmes EcoVadis sont cochés un à un à leur arrivée.
+- **Contact** : le récapitulatif de la demande devient un pass d'accréditation suspendu à son cordon, qui se balance à chaque champ rempli, avec une jauge, et reçoit un tampon « Prête » quand la demande (simulée) est envoyée.
+- **Curseur** : point jaune qui s'ouvre en anneau sur ce qui se clique (souris seulement).
+- Photo des hospitalités remplacée par une image plus nette ; nouvelle photo « sport » (Roland-Garros) pour l'ouverture.
+
 ## v1 — 20 novembre 2026
 
 Première version de la maquette, direction « Coup d'envoi ».

@@ -1,7 +1,7 @@
 /* Modèle d'étude de cas (The Alters, Paris Games Week) : ouverture scindée photo et chiffres, l'idée, le temps fort,
    le public ou les marques, galerie, autre étude, appel final. */
 import { html, brut } from '../../outils/gabarit.mjs';
-import { lignesOuverture, alt, appelFinal, carteEtude } from './blocs.mjs';
+import { lignesOuverture, alt, appelFinal, carteEtude, photoZoom, visionneuse } from './blocs.mjs';
 
 export function etude(c, o) {
   const k = (s) => `etude.${o.cle}.${s}`;
@@ -71,7 +71,7 @@ export function etude(c, o) {
   <div class="conteneur">
     <h2 id="galerie-titre" class="surtitre-titre" data-anime>${c.t('etude.galerie')}</h2>
     <ul class="mosaique mosaique--etude" data-anime="cascade">
-      ${o.galerie.slice(0, 5).map((nom, i) => html`<li class="mosaique-${i + 1}">${c.media({ nom, alt: alt(c, nom), legende: alt(c, nom), classe: 'mosaique-media', sizes: i === 0 ? '(max-width: 760px) 100vw, 50vw' : '(max-width: 760px) 50vw, 25vw' })}</li>`)}
+      ${o.galerie.slice(0, 5).map((nom, i) => photoZoom(c, nom, i))}
     </ul>
   </div>
 </section>
@@ -84,5 +84,6 @@ export function etude(c, o) {
 </section>
 
 ${appelFinal(c)}
+${visionneuse(c)}
 `;
 }

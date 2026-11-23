@@ -61,8 +61,8 @@ export default (c) => {
     <p class="surtitre" data-anime>${c.t('engagements.ecovadisSur')}</p>
     <h2 id="themes-titre" data-anime="lignes">${c.t('engagements.ecovadisTitre')}</h2>
     <p class="themes-texte" data-anime>${c.t('engagements.ecovadisTexte')}</p>
-    <ol class="themes-liste" data-anime="cascade" data-visuel>
-      ${['th1', 'th2', 'th3', 'th4'].map((t, i) => html`<li><span>${String(i + 1).padStart(2, '0')}</span>${c.t('engagements.' + t)}</li>`)}
+    <ol class="themes-liste" data-anime="cascade" data-visuel data-effet="coches">
+      ${['th1', 'th2', 'th3', 'th4'].map((t, i) => html`<li style="--i:${i}"><span>${String(i + 1).padStart(2, '0')}</span>${c.t('engagements.' + t)}<svg class="theme-coche" viewBox="0 0 48 48" aria-hidden="true"><circle cx="24" cy="24" r="21"/><path d="M14 25l7 7 13-15" pathLength="1"/></svg></li>`)}
     </ol>
   </div>
 </section>

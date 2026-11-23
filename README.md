@@ -1,4 +1,4 @@
-# Premium Events — maquette v1
+# Premium Events — maquette v2
 
 Maquette du futur site de Premium Events (agence événementielle, Paris 9e), direction « Coup d'envoi » : le noir et le blanc du logo, le jaune du « & », la barre oblique de « /events », et les vraies photos d'événements de l'agence en grand.
 
@@ -8,15 +8,15 @@ Adresse prévue : https://premium-events-maquette.vercel.app
 
 | Page | Adresse | Contenu |
 |---|---|---|
-| Accueil | `/` | Ouverture coupée en biais, 25 clients, 5 métiers, The Alters, Paris Games Week, L'art de recevoir, méthode, engagements, appel final |
-| Réalisations | `/realisations` | Filtres des 5 métiers (gardés dans l'adresse : `/realisations?metier=stands`), photos légendées, études de cas, index des clients |
+| Accueil | `/` | Ouverture sport / divertissement à faire glisser, 25 clients, 5 métiers, The Alters, Paris Games Week, L'art de recevoir, méthode, engagements, appel final |
+| Réalisations | `/realisations` | Filtres des 5 métiers (gardés dans l'adresse : `/realisations?metier=stands`), photos légendées qui s'ouvrent en grand (lien propre `#photo-…`), études de cas, index des clients |
 | The Alters | `/the-alters` | Étude de cas (texte repris du site actuel) |
 | Paris Games Week | `/paris-games-week` | Étude de cas (texte repris du site actuel) |
 | Engagements | `/engagements` | EcoVadis, CLIMEET, achats, 9 chartes, Charte de la diversité |
-| Contact | `/contact` | Demande de projet en 3 étapes (simulée), coordonnées, accès, carrière |
+| Contact | `/contact` | Demande de projet en 3 étapes (simulée) et son pass d'accréditation, coordonnées, accès, carrière |
 | 404 | — | « Vous êtes en coulisses. » |
 
-Pages du site actuel non reprises en v1 (possibles en v2) : une page par métier, une page Clients à part, la page Carrière (offres d'emploi), d'autres études de cas dès que les textes existent.
+Pages du site actuel non reprises (possibles plus tard) : une page par métier, une page Clients à part, la page Carrière (offres d'emploi), d'autres études de cas dès que les textes existent.
 
 ## Travailler sur la maquette
 
@@ -24,11 +24,12 @@ Pages du site actuel non reprises en v1 (possibles en v2) : une page par métier
 node outils/generer.mjs                        pages HTML depuis donnees/ et source/
 node _biblio/images/produire.mjs plan-images.json   images WebP (pipeline de la bibliothèque)
 node _biblio/images/partage.mjs                images de partage 1200×630
-node _audit/audit.mjs                          audit standard
+node _audit/audit.mjs                          audit standard (--complet avant une livraison)
 ```
 
 - Textes : `donnees/textes/fr.json` ; métiers, clients, chartes : `donnees/*.json`. Ne jamais modifier les pages `.html` à la main.
 - Styles : `assets/css/site.css` ; effets propres : `assets/js/site.js` ; forme de voile « coupe » ajoutée dans `assets/js/socle/voile.js`.
+- Parcours propres au projet (visionneuse, séparation, pass du brief) : `_audit/parcours.mjs`, lancés par l'audit.
 - `_suivi/` : relevé du site actuel, directions, plans (jamais mis en ligne).
 
 ## Fiche à compléter par Premium Events

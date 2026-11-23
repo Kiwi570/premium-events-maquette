@@ -7,7 +7,7 @@
     "grok": false,
     "mention": null,
     "beaute": null,
-    "empreinte": "31e44a6ea46a9c9c",
+    "empreinte": "385566f0ec08327a",
     "ratio": null,
     "largeurs": [
       240
@@ -37,7 +37,7 @@
     "grok": false,
     "mention": null,
     "beaute": null,
-    "empreinte": "546ad74f7e3db116",
+    "empreinte": "ff033c94c5edc3b5",
     "ratio": null,
     "largeurs": [
       240
@@ -67,7 +67,7 @@
     "grok": false,
     "mention": null,
     "beaute": null,
-    "empreinte": "3f1d20ed6b735c3d",
+    "empreinte": "4e97ba29604b306f",
     "ratio": null,
     "largeurs": [
       240,
@@ -100,7 +100,7 @@
     "grok": false,
     "mention": null,
     "beaute": 3,
-    "empreinte": "2bf3a1ba1af09da8",
+    "empreinte": "60930f3fc3b04dd1",
     "ratio": "4:3",
     "largeurs": [
       640,
@@ -168,7 +168,7 @@
     "grok": false,
     "mention": null,
     "beaute": 5,
-    "empreinte": "1ca8cd49735f01e0",
+    "empreinte": "9d9a74c996188011",
     "ratio": null,
     "largeurs": [
       640,
@@ -242,6 +242,88 @@
     },
     "media": "c.media({ nom: 'accueil-ouverture', alt: \"Public qui lève les bras devant une scène, dans la lumière bleue d’un salon\", cadrage: '52% 42%', cadrageMobile: '50% 42%', sizes: '100vw', priorite: true })"
   },
+  "accueil-sport": {
+    "nom": "accueil-sport",
+    "source": "recu/art-recevoir-4.jpg",
+    "role": "ouverture",
+    "alt": "Invité au chapeau blanc qui suit un match depuis une loge, au-dessus d’un court en terre battue",
+    "grok": false,
+    "mention": null,
+    "beaute": 5,
+    "empreinte": "132ca17abf5f2371",
+    "ratio": null,
+    "largeurs": [
+      640,
+      1280,
+      1920
+    ],
+    "mobile": {
+      "ratio": "4:5",
+      "largeurs": [
+        640,
+        1080
+      ],
+      "cadrage": "50% 48%"
+    },
+    "cadrage": "45% 48%",
+    "sujet": {
+      "x": 0,
+      "y": 0,
+      "l": 100,
+      "h": 100
+    },
+    "zones_calmes": [
+      {
+        "cote": "bas",
+        "score": 0.07,
+        "ton": "sombre"
+      },
+      {
+        "cote": "gauche",
+        "score": 0,
+        "ton": "sombre"
+      },
+      {
+        "cote": "droite",
+        "score": 0,
+        "ton": "clair"
+      },
+      {
+        "cote": "haut",
+        "score": 0,
+        "ton": "clair"
+      }
+    ],
+    "zone_texte": "gauche",
+    "recadrage": {
+      "left": 0,
+      "top": 0,
+      "width": 2000,
+      "height": 2000,
+      "source": [
+        2000,
+        2000
+      ]
+    },
+    "faible": false,
+    "raisons_faible": [],
+    "avertissements": [],
+    "fichiers": [
+      "accueil-sport-640.webp",
+      "accueil-sport-1280.webp",
+      "accueil-sport-1920.webp",
+      "accueil-sport-mobile-640.webp",
+      "accueil-sport-mobile-1080.webp"
+    ],
+    "poids": {
+      "accueil-sport-640.webp": 81668,
+      "accueil-sport-1280.webp": 222488,
+      "accueil-sport-1920.webp": 298204,
+      "accueil-sport-mobile-640.webp": 92474,
+      "accueil-sport-mobile-1080.webp": 192484
+    },
+    "media": "c.media({ nom: 'accueil-sport', alt: \"Invité au chapeau blanc qui suit un match depuis une loge, au-dessus d’un court en terre battue\", cadrage: '45% 48%', cadrageMobile: '50% 48%', sizes: '100vw', priorite: true })"
+  },
   "metier-popup": {
     "nom": "metier-popup",
     "source": "recu/iconiques-3.jpg",
@@ -250,7 +332,7 @@
     "grok": false,
     "mention": null,
     "beaute": 4,
-    "empreinte": "3b7f2cab07daa56f",
+    "empreinte": "fd2a2d7106bccd88",
     "ratio": "4:5",
     "largeurs": [
       1024,
@@ -323,7 +405,7 @@
     "grok": false,
     "mention": null,
     "beaute": 4,
-    "empreinte": "c4a4e5d9bdc78718",
+    "empreinte": "cdf9b7a723fe1d14",
     "ratio": "4:5",
     "largeurs": [
       1024,
@@ -396,7 +478,7 @@
     "grok": false,
     "mention": null,
     "beaute": 4,
-    "empreinte": "18839dd3d144aa00",
+    "empreinte": "872bb0bfc8b6a21a",
     "ratio": "4:5",
     "largeurs": [
       1024,
@@ -469,7 +551,7 @@
     "grok": false,
     "mention": null,
     "beaute": 5,
-    "empreinte": "a5819a026de30075",
+    "empreinte": "bd3cdaa6a17313ac",
     "ratio": "4:5",
     "largeurs": [
       1024,
@@ -535,13 +617,13 @@
   },
   "metier-hospitalites": {
     "nom": "metier-hospitalites",
-    "source": "recu/art-recevoir-4.jpg",
+    "source": "recu/hospitality-brand-experience-sports-9.jpg",
     "role": "galerie",
-    "alt": "Invité en tribune, chapeau blanc, face à un court en terre battue",
+    "alt": "Hôtesses Emirates alignées en tribune, devant un court en terre battue",
     "grok": false,
     "mention": null,
     "beaute": 4,
-    "empreinte": "cdacf080a1c9d99e",
+    "empreinte": "b6429c4811897326",
     "ratio": "4:5",
     "largeurs": [
       1024,
@@ -549,7 +631,7 @@
       1600
     ],
     "mobile": null,
-    "cadrage": "50% 56%",
+    "cadrage": "50% 53%",
     "sujet": {
       "x": 0,
       "y": 0,
@@ -558,51 +640,53 @@
     },
     "zones_calmes": [
       {
-        "cote": "bas",
-        "score": 0.07,
-        "ton": "sombre"
-      },
-      {
         "cote": "gauche",
         "score": 0,
-        "ton": "sombre"
+        "ton": "moyen"
       },
       {
         "cote": "droite",
         "score": 0,
-        "ton": "clair"
+        "ton": "moyen"
       },
       {
         "cote": "haut",
         "score": 0,
-        "ton": "clair"
+        "ton": "moyen"
+      },
+      {
+        "cote": "bas",
+        "score": 0,
+        "ton": "moyen"
       }
     ],
     "zone_texte": null,
     "recadrage": {
-      "left": 220,
+      "left": 460,
       "top": 0,
-      "width": 1600,
-      "height": 2000,
+      "width": 1200,
+      "height": 1500,
       "source": [
         2000,
-        2000
+        1500
       ]
     },
     "faible": false,
     "raisons_faible": [],
-    "avertissements": [],
+    "avertissements": [
+      "agrandie 1,33 fois (source de 1200 px après recadrage)"
+    ],
     "fichiers": [
       "metier-hospitalites-1024.webp",
       "metier-hospitalites-1168.webp",
       "metier-hospitalites-1600.webp"
     ],
     "poids": {
-      "metier-hospitalites-1024.webp": 181162,
-      "metier-hospitalites-1168.webp": 212810,
-      "metier-hospitalites-1600.webp": 255888
+      "metier-hospitalites-1024.webp": 185526,
+      "metier-hospitalites-1168.webp": 221688,
+      "metier-hospitalites-1600.webp": 248940
     },
-    "media": "c.media({ nom: 'metier-hospitalites', alt: \"Invité en tribune, chapeau blanc, face à un court en terre battue\", cadrage: '50% 56%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '4 / 5' })"
+    "media": "c.media({ nom: 'metier-hospitalites', alt: \"Hôtesses Emirates alignées en tribune, devant un court en terre battue\", cadrage: '50% 53%', sizes: '(max-width: 760px) 100vw, 50vw', ratio: '4 / 5' })"
   },
   "alters-camion": {
     "nom": "alters-camion",
@@ -612,7 +696,7 @@
     "grok": false,
     "mention": null,
     "beaute": 5,
-    "empreinte": "33ee8ca6ee387f66",
+    "empreinte": "46a6924723be8515",
     "ratio": "4:5",
     "largeurs": [
       1024,
@@ -683,7 +767,7 @@
     "grok": false,
     "mention": null,
     "beaute": 5,
-    "empreinte": "8b9ef783c411291a",
+    "empreinte": "2bd1b3606319d7f0",
     "ratio": "4:5",
     "largeurs": [
       1024,
@@ -754,7 +838,7 @@
     "grok": false,
     "mention": null,
     "beaute": 4,
-    "empreinte": "6211129328837683",
+    "empreinte": "b656d98863a58281",
     "ratio": "4:5",
     "largeurs": [
       1024,
@@ -825,7 +909,7 @@
     "grok": false,
     "mention": null,
     "beaute": 5,
-    "empreinte": "eb549537201714e7",
+    "empreinte": "a6e91b1a971bd2bc",
     "ratio": "4:5",
     "largeurs": [
       1024,
@@ -896,7 +980,7 @@
     "grok": false,
     "mention": null,
     "beaute": 5,
-    "empreinte": "05a5336b73725e9c",
+    "empreinte": "0393754103021dd9",
     "ratio": "4:5",
     "largeurs": [
       1024,
@@ -967,7 +1051,7 @@
     "grok": false,
     "mention": null,
     "beaute": 4,
-    "empreinte": "65b81bbfa9a5f796",
+    "empreinte": "46ebdb00ee69569e",
     "ratio": "4:5",
     "largeurs": [
       1024,
@@ -1038,7 +1122,7 @@
     "grok": false,
     "mention": null,
     "beaute": 4,
-    "empreinte": "8f4447afaf4dff1d",
+    "empreinte": "5f429598ac487462",
     "ratio": "4:5",
     "largeurs": [
       1024,
@@ -1111,7 +1195,7 @@
     "grok": false,
     "mention": null,
     "beaute": 4,
-    "empreinte": "c74e961a7b35115d",
+    "empreinte": "2c8d2afc3f63ee23",
     "ratio": "4:5",
     "largeurs": [
       1024,
@@ -1184,7 +1268,7 @@
     "grok": false,
     "mention": null,
     "beaute": 4,
-    "empreinte": "bd78b75242ebdbf2",
+    "empreinte": "37735957e9568d74",
     "ratio": "4:5",
     "largeurs": [
       1024,
@@ -1255,7 +1339,7 @@
     "grok": false,
     "mention": null,
     "beaute": 5,
-    "empreinte": "ebbeebeb37ca015b",
+    "empreinte": "3a714a6d5e825ec2",
     "ratio": "16:9",
     "largeurs": [
       640,
@@ -1342,7 +1426,7 @@
     "grok": false,
     "mention": null,
     "beaute": 4,
-    "empreinte": "634b94d5a64157dd",
+    "empreinte": "0a7ac919614dee3a",
     "ratio": "4:5",
     "largeurs": [
       1024,
@@ -1413,7 +1497,7 @@
     "grok": false,
     "mention": null,
     "beaute": 5,
-    "empreinte": "15af9a152d9d789a",
+    "empreinte": "2dc6e5e427327975",
     "ratio": "3:4",
     "largeurs": [
       1024,
@@ -1486,7 +1570,7 @@
     "grok": false,
     "mention": null,
     "beaute": 4,
-    "empreinte": "a1f9da09204813e2",
+    "empreinte": "e2b390534b92ed78",
     "ratio": "3:4",
     "largeurs": [
       1024,
@@ -1558,7 +1642,7 @@
     "grok": false,
     "mention": null,
     "beaute": 5,
-    "empreinte": "a5749f8efd96f82f",
+    "empreinte": "ad6ed1a166351fdb",
     "ratio": "3:4",
     "largeurs": [
       1024,
@@ -1631,7 +1715,7 @@
     "grok": false,
     "mention": null,
     "beaute": 4,
-    "empreinte": "3b6e6aaa198a020a",
+    "empreinte": "427d64dd8659cbc1",
     "ratio": "3:4",
     "largeurs": [
       1024,
@@ -1704,7 +1788,7 @@
     "grok": false,
     "mention": null,
     "beaute": 4,
-    "empreinte": "e5e9ef20b32d55c6",
+    "empreinte": "df92c188ee099c62",
     "ratio": "3:4",
     "largeurs": [
       1024,
@@ -1776,7 +1860,7 @@
     "grok": false,
     "mention": null,
     "beaute": 4,
-    "empreinte": "06e68ce11a97f260",
+    "empreinte": "5c79e4c2dc33c427",
     "ratio": "3:4",
     "largeurs": [
       1024,
@@ -1848,7 +1932,7 @@
     "grok": false,
     "mention": null,
     "beaute": 4,
-    "empreinte": "68d07ef9e5484ab8",
+    "empreinte": "47903707736d111e",
     "ratio": "3:4",
     "largeurs": [
       1024,
@@ -1921,7 +2005,7 @@
     "grok": false,
     "mention": null,
     "beaute": 4,
-    "empreinte": "2dc8f0961418194b",
+    "empreinte": "2f55a40d99141bb2",
     "ratio": "3:4",
     "largeurs": [
       1024,
@@ -1993,7 +2077,7 @@
     "grok": false,
     "mention": null,
     "beaute": 4,
-    "empreinte": "40bd6f4e23ad1c44",
+    "empreinte": "87c2b07d9f42bd26",
     "ratio": "1:1",
     "largeurs": [
       1024,
@@ -2064,7 +2148,7 @@
     "grok": false,
     "mention": null,
     "beaute": 4,
-    "empreinte": "a533af036c483068",
+    "empreinte": "a56c21ea77469cb6",
     "ratio": "4:5",
     "largeurs": [
       1024,
@@ -2137,7 +2221,7 @@
     "grok": false,
     "mention": null,
     "beaute": 4,
-    "empreinte": "e8507e59fdc3313a",
+    "empreinte": "c428b80f3a05e1cf",
     "ratio": "4:5",
     "largeurs": [
       1024,
@@ -2209,7 +2293,7 @@
     "grok": false,
     "mention": null,
     "beaute": 4,
-    "empreinte": "681ed2d72e1c63fd",
+    "empreinte": "61ce8b4b01c016db",
     "ratio": "4:5",
     "largeurs": [
       1024,
@@ -2282,7 +2366,7 @@
     "grok": false,
     "mention": null,
     "beaute": 4,
-    "empreinte": "7e370aa0b2b13af3",
+    "empreinte": "8ba4323e8e3a954b",
     "ratio": "4:5",
     "largeurs": [
       1024,
@@ -2354,7 +2438,7 @@
     "grok": false,
     "mention": null,
     "beaute": 4,
-    "empreinte": "1a54fe7ea7ad6375",
+    "empreinte": "06b66392aef0edac",
     "ratio": "4:5",
     "largeurs": [
       1024,
@@ -2427,7 +2511,7 @@
     "grok": false,
     "mention": null,
     "beaute": 5,
-    "empreinte": "4cf9b28f443f9d58",
+    "empreinte": "6cfe2ff183a5ebe2",
     "ratio": "1:1",
     "largeurs": [
       1024,
@@ -2500,7 +2584,7 @@
     "grok": false,
     "mention": null,
     "beaute": 4,
-    "empreinte": "668890801ca1d92d",
+    "empreinte": "b2f8fccf86e96a72",
     "ratio": "4:5",
     "largeurs": [
       1024,
@@ -2572,7 +2656,7 @@
     "grok": false,
     "mention": null,
     "beaute": 4,
-    "empreinte": "253efdfd0d4bab39",
+    "empreinte": "ea829b53ba1a4547",
     "ratio": "4:5",
     "largeurs": [
       1024,
@@ -2644,7 +2728,7 @@
     "grok": false,
     "mention": null,
     "beaute": 4,
-    "empreinte": "a98cc0eca866316a",
+    "empreinte": "705791d38d4bd958",
     "ratio": "4:5",
     "largeurs": [
       1024,
@@ -2717,7 +2801,7 @@
     "grok": false,
     "mention": null,
     "beaute": 4,
-    "empreinte": "d2ae2cf05b9dce9c",
+    "empreinte": "557ae14eb94f824e",
     "ratio": "4:5",
     "largeurs": [
       1024,
@@ -2789,7 +2873,7 @@
     "grok": false,
     "mention": null,
     "beaute": 4,
-    "empreinte": "a06990d929a4f9a1",
+    "empreinte": "788646fb80db2636",
     "ratio": "4:5",
     "largeurs": [
       1024,
@@ -2862,7 +2946,7 @@
     "grok": false,
     "mention": null,
     "beaute": 4,
-    "empreinte": "e4c05e2758799359",
+    "empreinte": "295809e5c98c755d",
     "ratio": "1:1",
     "largeurs": [
       1024,
@@ -2933,7 +3017,7 @@
     "grok": false,
     "mention": null,
     "beaute": 4,
-    "empreinte": "25ffcceb01ba8b70",
+    "empreinte": "d4fb003d9fdcaed9",
     "ratio": "4:5",
     "largeurs": [
       1024,
@@ -3005,7 +3089,7 @@
     "grok": false,
     "mention": null,
     "beaute": 4,
-    "empreinte": "fa262eaa47a33dd0",
+    "empreinte": "06fb1877b0aa5bd0",
     "ratio": "4:5",
     "largeurs": [
       1024,
@@ -3078,7 +3162,7 @@
     "grok": false,
     "mention": null,
     "beaute": 4,
-    "empreinte": "3cbf88d7e70c5d4b",
+    "empreinte": "5a2d26b74e62c722",
     "ratio": "4:5",
     "largeurs": [
       1024,
@@ -3149,7 +3233,7 @@
     "grok": false,
     "mention": null,
     "beaute": 4,
-    "empreinte": "99adc1f14e270eb5",
+    "empreinte": "f5d3b7b2c751491b",
     "ratio": "4:5",
     "largeurs": [
       1024,
@@ -3220,7 +3304,7 @@
     "grok": false,
     "mention": null,
     "beaute": 4,
-    "empreinte": "a4bd5d305621d483",
+    "empreinte": "b1f77114c1937e07",
     "ratio": "4:5",
     "largeurs": [
       1024,
@@ -3293,7 +3377,7 @@
     "grok": false,
     "mention": null,
     "beaute": 4,
-    "empreinte": "77bcd87a08e98c2e",
+    "empreinte": "31ff31345e40d5f8",
     "ratio": "1:1",
     "largeurs": [
       1024,
@@ -3364,7 +3448,7 @@
     "grok": false,
     "mention": null,
     "beaute": 4,
-    "empreinte": "6e88bc5e789a6681",
+    "empreinte": "3c7c544df993a560",
     "ratio": "4:5",
     "largeurs": [
       1024,
@@ -3437,7 +3521,7 @@
     "grok": false,
     "mention": null,
     "beaute": 4,
-    "empreinte": "76928339324e6010",
+    "empreinte": "55e1a10bb9455129",
     "ratio": "4:5",
     "largeurs": [
       1024,
@@ -3509,7 +3593,7 @@
     "grok": false,
     "mention": null,
     "beaute": 4,
-    "empreinte": "dc64b3fc537a791a",
+    "empreinte": "a807afec6d301b0f",
     "ratio": "4:5",
     "largeurs": [
       1024,
@@ -3581,7 +3665,7 @@
     "grok": false,
     "mention": null,
     "beaute": 4,
-    "empreinte": "93c0530fdd09e0f1",
+    "empreinte": "5993293fe4fb99df",
     "ratio": "4:5",
     "largeurs": [
       1024,
@@ -3654,7 +3738,7 @@
     "grok": false,
     "mention": null,
     "beaute": 4,
-    "empreinte": "fe61664516f6ecee",
+    "empreinte": "1fab49e443c8e4f7",
     "ratio": "4:5",
     "largeurs": [
       1024,
@@ -3727,7 +3811,7 @@
     "grok": false,
     "mention": null,
     "beaute": 4,
-    "empreinte": "08bcdf5ec7868334",
+    "empreinte": "4e66e1ccd040434b",
     "ratio": "1:1",
     "largeurs": [
       1024,
@@ -3800,7 +3884,7 @@
     "grok": false,
     "mention": null,
     "beaute": 4,
-    "empreinte": "da1b9114d052c56b",
+    "empreinte": "72fa64a4ab464d03",
     "ratio": "4:5",
     "largeurs": [
       1024,
@@ -3873,7 +3957,7 @@
     "grok": false,
     "mention": null,
     "beaute": 4,
-    "empreinte": "e9b3c05943ba908b",
+    "empreinte": "c370e909a5c91097",
     "ratio": "4:5",
     "largeurs": [
       1024,
@@ -3946,7 +4030,7 @@
     "grok": false,
     "mention": null,
     "beaute": 4,
-    "empreinte": "558a03579f47b35e",
+    "empreinte": "b58619088849c865",
     "ratio": "4:5",
     "largeurs": [
       1024,
@@ -4019,7 +4103,7 @@
     "grok": false,
     "mention": null,
     "beaute": 4,
-    "empreinte": "41560fcae683c4d2",
+    "empreinte": "dd01bb30062c48df",
     "ratio": "4:5",
     "largeurs": [
       1024,
@@ -4092,7 +4176,7 @@
     "grok": false,
     "mention": null,
     "beaute": 3,
-    "empreinte": "a000cd9b7695a11c",
+    "empreinte": "67b5dd0dbeea32be",
     "ratio": "4:5",
     "largeurs": [
       1024,
@@ -4163,7 +4247,7 @@
     "grok": false,
     "mention": null,
     "beaute": 5,
-    "empreinte": "4d0f85f69c8f8578",
+    "empreinte": "793560a4117ea3af",
     "ratio": null,
     "largeurs": [
       640,
@@ -4245,7 +4329,7 @@
     "grok": false,
     "mention": null,
     "beaute": 4,
-    "empreinte": "408ad53d4bf38a9c",
+    "empreinte": "1aa883969e22bf9a",
     "ratio": "4:5",
     "largeurs": [
       1024,
@@ -4316,7 +4400,7 @@
     "grok": false,
     "mention": null,
     "beaute": 4,
-    "empreinte": "ba0c57d610be7473",
+    "empreinte": "4baf88bb045621a5",
     "ratio": "4:5",
     "largeurs": [
       1024,
@@ -4387,7 +4471,7 @@
     "grok": false,
     "mention": null,
     "beaute": 4,
-    "empreinte": "c33820577e06a911",
+    "empreinte": "4c08af35f1e24802",
     "ratio": "4:5",
     "largeurs": [
       1024,
@@ -4458,7 +4542,7 @@
     "grok": false,
     "mention": null,
     "beaute": 4,
-    "empreinte": "daa62fd382839a1b",
+    "empreinte": "3056aa76b7126c39",
     "ratio": "4:5",
     "largeurs": [
       1024,
@@ -4529,7 +4613,7 @@
     "grok": false,
     "mention": null,
     "beaute": 4,
-    "empreinte": "2ab097c246ca1477",
+    "empreinte": "33e42b8c411eedef",
     "ratio": "4:5",
     "largeurs": [
       1024,
@@ -4600,7 +4684,7 @@
     "grok": false,
     "mention": null,
     "beaute": 4,
-    "empreinte": "5cc8751dbd0b959e",
+    "empreinte": "6c866789d2b0ceea",
     "ratio": "1:1",
     "largeurs": [
       1024,
@@ -4671,7 +4755,7 @@
     "grok": false,
     "mention": null,
     "beaute": 4,
-    "empreinte": "2c82c20882cf4565",
+    "empreinte": "98c10464f1838649",
     "ratio": "4:5",
     "largeurs": [
       1024,
@@ -4744,7 +4828,7 @@
     "grok": false,
     "mention": null,
     "beaute": 5,
-    "empreinte": "eb68b4f17e0c48f2",
+    "empreinte": "865d37889615e2e6",
     "ratio": null,
     "largeurs": [
       640,
@@ -4826,7 +4910,7 @@
     "grok": false,
     "mention": null,
     "beaute": 4,
-    "empreinte": "fbe70394bffae84c",
+    "empreinte": "0650e296d93d18a5",
     "ratio": "4:5",
     "largeurs": [
       1024,
@@ -4899,7 +4983,7 @@
     "grok": false,
     "mention": null,
     "beaute": 4,
-    "empreinte": "c3e475da6f8fbf62",
+    "empreinte": "002f0dfeb85735c0",
     "ratio": "4:5",
     "largeurs": [
       1024,
@@ -4972,7 +5056,7 @@
     "grok": false,
     "mention": null,
     "beaute": 4,
-    "empreinte": "bf13f275896afddf",
+    "empreinte": "b36e6927471b042c",
     "ratio": "4:5",
     "largeurs": [
       1024,
@@ -5044,7 +5128,7 @@
     "grok": false,
     "mention": null,
     "beaute": 4,
-    "empreinte": "e87533f309b6a0cb",
+    "empreinte": "d444765c2bb52a03",
     "ratio": "4:5",
     "largeurs": [
       1024,
@@ -5115,7 +5199,7 @@
     "grok": false,
     "mention": null,
     "beaute": 4,
-    "empreinte": "fcfb8c9c614c78a5",
+    "empreinte": "87d333a2b614b010",
     "ratio": "1:1",
     "largeurs": [
       1024,
@@ -5186,7 +5270,7 @@
     "grok": false,
     "mention": null,
     "beaute": 4,
-    "empreinte": "a3f26e375cfadbc7",
+    "empreinte": "b976a43d1f9a306a",
     "ratio": "4:5",
     "largeurs": [
       1024,
@@ -5258,7 +5342,7 @@
     "grok": false,
     "mention": null,
     "beaute": 4,
-    "empreinte": "dc88923599a7fbfb",
+    "empreinte": "2edf92a9fd958b70",
     "ratio": "4:5",
     "largeurs": [
       1024,
@@ -5329,7 +5413,7 @@
     "grok": false,
     "mention": null,
     "beaute": 4,
-    "empreinte": "613b3be7ce4ac64d",
+    "empreinte": "141cbf3c1350bf4a",
     "ratio": "4:5",
     "largeurs": [
       1024,
@@ -5400,7 +5484,7 @@
     "grok": false,
     "mention": null,
     "beaute": 4,
-    "empreinte": "bfbb72379a19d5ac",
+    "empreinte": "f84918cb0fc4772a",
     "ratio": null,
     "largeurs": [
       640,
@@ -5482,7 +5566,7 @@
     "grok": false,
     "mention": null,
     "beaute": 4,
-    "empreinte": "60d8a04c32e452f7",
+    "empreinte": "9dcca86087a96229",
     "ratio": "4:5",
     "largeurs": [
       1024,
@@ -5555,7 +5639,7 @@
     "grok": false,
     "mention": null,
     "beaute": 5,
-    "empreinte": "9977421956b08b3d",
+    "empreinte": "951b05f1ba3f264d",
     "ratio": "4:5",
     "largeurs": [
       1024,
@@ -5626,7 +5710,7 @@
     "grok": false,
     "mention": null,
     "beaute": 4,
-    "empreinte": "818a648057efac5c",
+    "empreinte": "9e53856f6dcb084e",
     "ratio": "11:3",
     "largeurs": [
       1024,
@@ -5707,7 +5791,7 @@
     "grok": false,
     "mention": null,
     "beaute": 4,
-    "empreinte": "f06651bb491b7e96",
+    "empreinte": "9b941d3cff9a83bf",
     "ratio": "4:5",
     "largeurs": [
       1024,
@@ -5780,7 +5864,7 @@
     "grok": false,
     "mention": null,
     "beaute": 4,
-    "empreinte": "b3eca9c99637f77e",
+    "empreinte": "00d10cc34cbde1f5",
     "ratio": null,
     "largeurs": [
       640,
@@ -5862,7 +5946,7 @@
     "grok": false,
     "mention": null,
     "beaute": 5,
-    "empreinte": "c98312744ba87b50",
+    "empreinte": "a219da67cd2eb7d0",
     "ratio": "4:5",
     "largeurs": [
       1024,

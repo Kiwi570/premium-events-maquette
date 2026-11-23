@@ -92,6 +92,56 @@
       "effetsRetires": [],
       "grilleDispenses": {},
       "notes": "Aucune image Grok : les photos du client suffisent, deuxième attente supprimée."
+    },
+    {
+      "version": 2,
+      "skill": "v11.1",
+      "perimetre": [
+        "accueil",
+        "realisations",
+        "the-alters",
+        "paris-games-week",
+        "engagements",
+        "contact",
+        "404"
+      ],
+      "etapes": [
+        {
+          "etape": "regard neuf sur tout le site (v2)",
+          "budget": 15,
+          "debut": "2026-11-23T15:01:16+01:00",
+          "fin": "2026-11-23T15:18:51+01:00"
+        },
+        {
+          "etape": "améliorations v2 (séparation, visionneuse, pass, ruban, métiers, coches, curseur)",
+          "budget": 60,
+          "debut": "2026-11-23T15:18:51+01:00",
+          "fin": "2026-11-23T15:18:51+01:00"
+        },
+        {
+          "etape": "audit complet v2",
+          "budget": 45,
+          "debut": "2026-11-23T15:18:51+01:00",
+          "fin": "2026-11-23T16:37:03+01:00"
+        }
+      ],
+      "attentes": [],
+      "allersRetours": 0,
+      "modules": [
+        "separation",
+        "visionneuse",
+        "pass-brief",
+        "ruban-vitesse",
+        "coches"
+      ],
+      "audit": {
+        "niveau": "complet",
+        "passe": "20261123-150600-complet",
+        "relance": "20261123-153619-complet-cible-partiel (bords /engagements)",
+        "echecs": 0,
+        "aRegarder": 15
+      },
+      "notes": "Demande du client : dernier audit complet, analyse de chaque page et améliorations (plus ludique, plus attrayant)."
     }
   ]
 }

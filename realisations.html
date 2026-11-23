@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="fr" data-v="1">
+<html lang="fr" data-v="2" data-curseur>
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
@@ -35,14 +35,14 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
 })();</script>
 <link rel="preload" href="/assets/polices/archivo-titres.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="/assets/polices/instrument-sans.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="stylesheet" href="/assets/css/socle.css?v=1">
-<link rel="stylesheet" href="/assets/css/site.css?v=1">
-<link rel="modulepreload" href="/assets/js/site.js?v=1">
-<link rel="modulepreload" href="/assets/js/socle/index.js?v=1">
+<link rel="stylesheet" href="/assets/css/socle.css?v=2">
+<link rel="stylesheet" href="/assets/css/site.css?v=2">
+<link rel="modulepreload" href="/assets/js/site.js?v=2">
+<link rel="modulepreload" href="/assets/js/socle/index.js?v=2">
 <script src="/assets/vendor/gsap.min.js" defer></script>
 <script src="/assets/vendor/ScrollTrigger.min.js" defer></script>
 <script src="/assets/vendor/SplitText.min.js" defer></script>
-<script type="module" src="/assets/js/site.js?v=1"></script>
+<script type="module" src="/assets/js/site.js?v=2"></script>
 <meta name="theme-color" content="#111113">
 <link rel="icon" href="/assets/images/favicon.png" type="image/png" sizes="64x64">
 <link rel="apple-touch-icon" href="/assets/images/apple-touch-icon.png">
@@ -210,27 +210,27 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
       </div>
     </div>
     <ul class="conteneur mosaique" data-anime="cascade">
-      <li class="mosaique-1"><figure class="media mosaique-media" style="--cadrage:50% 50%">
+      <li class="mosaique-1" id="photo-popup-1"><a class="zoom" href="#photo-popup-1" data-visionneuse data-sans-transition aria-label="Agrandir la photo : Boutique éphémère d’animation japonaise, comptoir et rayonnages"><figure class="media mosaique-media" style="--cadrage:50% 50%">
   <picture>
     <img src="/assets/images/popup-1-1600.webp" srcset="/assets/images/popup-1-1024.webp 1024w, /assets/images/popup-1-1168.webp 1168w, /assets/images/popup-1-1600.webp 1600w" sizes="(max-width: 760px) 100vw, 50vw" alt="Boutique éphémère d’animation japonaise, comptoir et rayonnages" width="1600" height="1600" loading="lazy" decoding="async">
   </picture><figcaption class="media-legende">Boutique éphémère d’animation japonaise, comptoir et rayonnages</figcaption>
-</figure></li><li class="mosaique-2"><figure class="media mosaique-media" style="--cadrage:50% 50%">
+</figure><span class="zoom-signe" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M12 5v14M5 12h14"/></svg></span></a></li><li class="mosaique-2" id="photo-popup-2"><a class="zoom" href="#photo-popup-2" data-visionneuse data-sans-transition aria-label="Agrandir la photo : Vitrine de figurines One Piece éclairée"><figure class="media mosaique-media" style="--cadrage:50% 50%">
   <picture>
     <img src="/assets/images/popup-2-1600.webp" srcset="/assets/images/popup-2-1024.webp 1024w, /assets/images/popup-2-1168.webp 1168w, /assets/images/popup-2-1600.webp 1600w" sizes="(max-width: 760px) 50vw, 25vw" alt="Vitrine de figurines One Piece éclairée" width="1600" height="2000" loading="lazy" decoding="async">
   </picture><figcaption class="media-legende">Vitrine de figurines One Piece éclairée</figcaption>
-</figure></li><li class="mosaique-3"><figure class="media mosaique-media" style="--cadrage:50% 50%">
+</figure><span class="zoom-signe" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M12 5v14M5 12h14"/></svg></span></a></li><li class="mosaique-3" id="photo-popup-3"><a class="zoom" href="#photo-popup-3" data-visionneuse data-sans-transition aria-label="Agrandir la photo : Café Lavazza servi à côté d’un paquet Roma"><figure class="media mosaique-media" style="--cadrage:50% 50%">
   <picture>
     <img src="/assets/images/popup-3-1168.webp" srcset="/assets/images/popup-3-1024.webp 1024w, /assets/images/popup-3-1168.webp 1168w" sizes="(max-width: 760px) 50vw, 25vw" alt="Café Lavazza servi à côté d’un paquet Roma" width="1168" height="1460" loading="lazy" decoding="async">
   </picture><figcaption class="media-legende">Café Lavazza servi à côté d’un paquet Roma</figcaption>
-</figure></li><li class="mosaique-4"><figure class="media mosaique-media" style="--cadrage:50% 50%">
+</figure><span class="zoom-signe" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M12 5v14M5 12h14"/></svg></span></a></li><li class="mosaique-4" id="photo-popup-4"><a class="zoom" href="#photo-popup-4" data-visionneuse data-sans-transition aria-label="Agrandir la photo : Peluches de Luffy alignées en rayon"><figure class="media mosaique-media" style="--cadrage:50% 50%">
   <picture>
     <img src="/assets/images/popup-4-1600.webp" srcset="/assets/images/popup-4-1024.webp 1024w, /assets/images/popup-4-1168.webp 1168w, /assets/images/popup-4-1600.webp 1600w" sizes="(max-width: 760px) 50vw, 25vw" alt="Peluches de Luffy alignées en rayon" width="1600" height="2001" loading="lazy" decoding="async">
   </picture><figcaption class="media-legende">Peluches de Luffy alignées en rayon</figcaption>
-</figure></li><li class="mosaique-5"><figure class="media mosaique-media" style="--cadrage:50% 50%">
+</figure><span class="zoom-signe" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M12 5v14M5 12h14"/></svg></span></a></li><li class="mosaique-5" id="photo-popup-5"><a class="zoom" href="#photo-popup-5" data-visionneuse data-sans-transition aria-label="Agrandir la photo : Vendeurs et clients autour de la caisse d’une boutique éphémère"><figure class="media mosaique-media" style="--cadrage:50% 50%">
   <picture>
     <img src="/assets/images/popup-5-1168.webp" srcset="/assets/images/popup-5-1024.webp 1024w, /assets/images/popup-5-1168.webp 1168w" sizes="(max-width: 760px) 50vw, 25vw" alt="Vendeurs et clients autour de la caisse d’une boutique éphémère" width="1168" height="1461" loading="lazy" decoding="async">
   </picture><figcaption class="media-legende">Vendeurs et clients autour de la caisse d’une boutique éphémère</figcaption>
-</figure></li>
+</figure><span class="zoom-signe" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M12 5v14M5 12h14"/></svg></span></a></li>
     </ul>
   </article><article class="chapitre" id="activations" data-metier="activations" aria-labelledby="chap-activations">
     <div class="conteneur chapitre-tete">
@@ -246,27 +246,27 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
       </div>
     </div>
     <ul class="conteneur mosaique" data-anime="cascade">
-      <li class="mosaique-1"><figure class="media mosaique-media" style="--cadrage:50% 50%">
+      <li class="mosaique-1" id="photo-activations-1"><a class="zoom" href="#photo-activations-1" data-visionneuse data-sans-transition aria-label="Agrandir la photo : Bus rouge à impériale habillé pour Les 101 Dalmatiens"><figure class="media mosaique-media" style="--cadrage:50% 50%">
   <picture>
     <img src="/assets/images/activations-1-1600.webp" srcset="/assets/images/activations-1-1024.webp 1024w, /assets/images/activations-1-1168.webp 1168w, /assets/images/activations-1-1600.webp 1600w" sizes="(max-width: 760px) 100vw, 50vw" alt="Bus rouge à impériale habillé pour Les 101 Dalmatiens" width="1600" height="1600" loading="lazy" decoding="async">
   </picture><figcaption class="media-legende">Bus rouge à impériale habillé pour Les 101 Dalmatiens</figcaption>
-</figure></li><li class="mosaique-2"><figure class="media mosaique-media" style="--cadrage:50% 50%">
+</figure><span class="zoom-signe" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M12 5v14M5 12h14"/></svg></span></a></li><li class="mosaique-2" id="photo-activations-2"><a class="zoom" href="#photo-activations-2" data-visionneuse data-sans-transition aria-label="Agrandir la photo : Invités hilares sur un plateau aux couleurs vertes de Topspin 2K25"><figure class="media mosaique-media" style="--cadrage:50% 50%">
   <picture>
     <img src="/assets/images/activations-2-1168.webp" srcset="/assets/images/activations-2-1024.webp 1024w, /assets/images/activations-2-1168.webp 1168w" sizes="(max-width: 760px) 50vw, 25vw" alt="Invités hilares sur un plateau aux couleurs vertes de Topspin 2K25" width="1168" height="1461" loading="lazy" decoding="async">
   </picture><figcaption class="media-legende">Invités hilares sur un plateau aux couleurs vertes de Topspin 2K25</figcaption>
-</figure></li><li class="mosaique-3"><figure class="media mosaique-media" style="--cadrage:50% 50%">
+</figure><span class="zoom-signe" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M12 5v14M5 12h14"/></svg></span></a></li><li class="mosaique-3" id="photo-activations-3"><a class="zoom" href="#photo-activations-3" data-visionneuse data-sans-transition aria-label="Agrandir la photo : Batteur souriant pendant une activation musicale"><figure class="media mosaique-media" style="--cadrage:50% 50%">
   <picture>
     <img src="/assets/images/activations-3-1168.webp" srcset="/assets/images/activations-3-1024.webp 1024w, /assets/images/activations-3-1168.webp 1168w" sizes="(max-width: 760px) 50vw, 25vw" alt="Batteur souriant pendant une activation musicale" width="1168" height="1461" loading="lazy" decoding="async">
   </picture><figcaption class="media-legende">Batteur souriant pendant une activation musicale</figcaption>
-</figure></li><li class="mosaique-4"><figure class="media mosaique-media" style="--cadrage:50% 50%">
+</figure><span class="zoom-signe" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M12 5v14M5 12h14"/></svg></span></a></li><li class="mosaique-4" id="photo-activations-4"><a class="zoom" href="#photo-activations-4" data-visionneuse data-sans-transition aria-label="Agrandir la photo : Enfant qui découvre des biscuits dalmatiens"><figure class="media mosaique-media" style="--cadrage:50% 50%">
   <picture>
     <img src="/assets/images/activations-4-1600.webp" srcset="/assets/images/activations-4-1024.webp 1024w, /assets/images/activations-4-1168.webp 1168w, /assets/images/activations-4-1600.webp 1600w" sizes="(max-width: 760px) 50vw, 25vw" alt="Enfant qui découvre des biscuits dalmatiens" width="1600" height="2000" loading="lazy" decoding="async">
   </picture><figcaption class="media-legende">Enfant qui découvre des biscuits dalmatiens</figcaption>
-</figure></li><li class="mosaique-5"><figure class="media mosaique-media" style="--cadrage:50% 50%">
+</figure><span class="zoom-signe" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M12 5v14M5 12h14"/></svg></span></a></li><li class="mosaique-5" id="photo-activations-5"><a class="zoom" href="#photo-activations-5" data-visionneuse data-sans-transition aria-label="Agrandir la photo : Deux artistes en scène, bras levés"><figure class="media mosaique-media" style="--cadrage:50% 50%">
   <picture>
     <img src="/assets/images/activations-5-1168.webp" srcset="/assets/images/activations-5-1024.webp 1024w, /assets/images/activations-5-1168.webp 1168w" sizes="(max-width: 760px) 50vw, 25vw" alt="Deux artistes en scène, bras levés" width="1168" height="1461" loading="lazy" decoding="async">
   </picture><figcaption class="media-legende">Deux artistes en scène, bras levés</figcaption>
-</figure></li>
+</figure><span class="zoom-signe" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M12 5v14M5 12h14"/></svg></span></a></li>
     </ul>
   </article><article class="chapitre" id="stands" data-metier="stands" aria-labelledby="chap-stands">
     <div class="conteneur chapitre-tete">
@@ -282,27 +282,27 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
       </div>
     </div>
     <ul class="conteneur mosaique" data-anime="cascade">
-      <li class="mosaique-1"><figure class="media mosaique-media" style="--cadrage:50% 50%">
+      <li class="mosaique-1" id="photo-stands-1"><a class="zoom" href="#photo-stands-1" data-visionneuse data-sans-transition aria-label="Agrandir la photo : Voiture de sport reproduite en briques sur un stand"><figure class="media mosaique-media" style="--cadrage:50% 50%">
   <picture>
     <img src="/assets/images/stands-1-1600.webp" srcset="/assets/images/stands-1-1024.webp 1024w, /assets/images/stands-1-1168.webp 1168w, /assets/images/stands-1-1600.webp 1600w" sizes="(max-width: 760px) 100vw, 50vw" alt="Voiture de sport reproduite en briques sur un stand" width="1600" height="1600" loading="lazy" decoding="async">
   </picture><figcaption class="media-legende">Voiture de sport reproduite en briques sur un stand</figcaption>
-</figure></li><li class="mosaique-2"><figure class="media mosaique-media" style="--cadrage:50% 50%">
+</figure><span class="zoom-signe" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M12 5v14M5 12h14"/></svg></span></a></li><li class="mosaique-2" id="photo-stands-2"><a class="zoom" href="#photo-stands-2" data-visionneuse data-sans-transition aria-label="Agrandir la photo : Stand bleu avec bar et tabourets dans un hall d’exposition"><figure class="media mosaique-media" style="--cadrage:50% 50%">
   <picture>
     <img src="/assets/images/stands-2-1168.webp" srcset="/assets/images/stands-2-1024.webp 1024w, /assets/images/stands-2-1168.webp 1168w" sizes="(max-width: 760px) 50vw, 25vw" alt="Stand bleu avec bar et tabourets dans un hall d’exposition" width="1168" height="1460" loading="lazy" decoding="async">
   </picture><figcaption class="media-legende">Stand bleu avec bar et tabourets dans un hall d’exposition</figcaption>
-</figure></li><li class="mosaique-3"><figure class="media mosaique-media" style="--cadrage:50% 50%">
+</figure><span class="zoom-signe" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M12 5v14M5 12h14"/></svg></span></a></li><li class="mosaique-3" id="photo-stands-3"><a class="zoom" href="#photo-stands-3" data-visionneuse data-sans-transition aria-label="Agrandir la photo : Stand Crunchyroll pris d’assaut par les visiteurs"><figure class="media mosaique-media" style="--cadrage:50% 50%">
   <picture>
     <img src="/assets/images/stands-3-1600.webp" srcset="/assets/images/stands-3-1024.webp 1024w, /assets/images/stands-3-1168.webp 1168w, /assets/images/stands-3-1600.webp 1600w" sizes="(max-width: 760px) 50vw, 25vw" alt="Stand Crunchyroll pris d’assaut par les visiteurs" width="1600" height="2000" loading="lazy" decoding="async">
   </picture><figcaption class="media-legende">Stand Crunchyroll pris d’assaut par les visiteurs</figcaption>
-</figure></li><li class="mosaique-4"><figure class="media mosaique-media" style="--cadrage:50% 50%">
+</figure><span class="zoom-signe" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M12 5v14M5 12h14"/></svg></span></a></li><li class="mosaique-4" id="photo-stands-4"><a class="zoom" href="#photo-stands-4" data-visionneuse data-sans-transition aria-label="Agrandir la photo : Van jaune des Tortues Ninja devant un décor de rue"><figure class="media mosaique-media" style="--cadrage:50% 50%">
   <picture>
     <img src="/assets/images/stands-4-1600.webp" srcset="/assets/images/stands-4-1024.webp 1024w, /assets/images/stands-4-1168.webp 1168w, /assets/images/stands-4-1600.webp 1600w" sizes="(max-width: 760px) 50vw, 25vw" alt="Van jaune des Tortues Ninja devant un décor de rue" width="1600" height="2000" loading="lazy" decoding="async">
   </picture><figcaption class="media-legende">Van jaune des Tortues Ninja devant un décor de rue</figcaption>
-</figure></li><li class="mosaique-5"><figure class="media mosaique-media" style="--cadrage:50% 50%">
+</figure><span class="zoom-signe" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M12 5v14M5 12h14"/></svg></span></a></li><li class="mosaique-5" id="photo-stands-5"><a class="zoom" href="#photo-stands-5" data-visionneuse data-sans-transition aria-label="Agrandir la photo : Décor de chalet en rondins, fauteuil et magnétophone"><figure class="media mosaique-media" style="--cadrage:50% 50%">
   <picture>
     <img src="/assets/images/stands-5-1600.webp" srcset="/assets/images/stands-5-1024.webp 1024w, /assets/images/stands-5-1168.webp 1168w, /assets/images/stands-5-1600.webp 1600w" sizes="(max-width: 760px) 50vw, 25vw" alt="Décor de chalet en rondins, fauteuil et magnétophone" width="1600" height="2000" loading="lazy" decoding="async">
   </picture><figcaption class="media-legende">Décor de chalet en rondins, fauteuil et magnétophone</figcaption>
-</figure></li>
+</figure><span class="zoom-signe" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M12 5v14M5 12h14"/></svg></span></a></li>
     </ul>
   </article><article class="chapitre" id="soirees" data-metier="soirees" aria-labelledby="chap-soirees">
     <div class="conteneur chapitre-tete">
@@ -318,27 +318,27 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
       </div>
     </div>
     <ul class="conteneur mosaique" data-anime="cascade">
-      <li class="mosaique-1"><figure class="media mosaique-media" style="--cadrage:50% 50%">
+      <li class="mosaique-1" id="photo-soirees-1"><a class="zoom" href="#photo-soirees-1" data-visionneuse data-sans-transition aria-label="Agrandir la photo : Invitée en robe dorée au cœur d’une soirée"><figure class="media mosaique-media" style="--cadrage:50% 50%">
   <picture>
     <img src="/assets/images/soirees-1-1600.webp" srcset="/assets/images/soirees-1-1024.webp 1024w, /assets/images/soirees-1-1168.webp 1168w, /assets/images/soirees-1-1600.webp 1600w" sizes="(max-width: 760px) 100vw, 50vw" alt="Invitée en robe dorée au cœur d’une soirée" width="1600" height="1600" loading="lazy" decoding="async">
   </picture><figcaption class="media-legende">Invitée en robe dorée au cœur d’une soirée</figcaption>
-</figure></li><li class="mosaique-2"><figure class="media mosaique-media" style="--cadrage:50% 50%">
+</figure><span class="zoom-signe" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M12 5v14M5 12h14"/></svg></span></a></li><li class="mosaique-2" id="photo-soirees-2"><a class="zoom" href="#photo-soirees-2" data-visionneuse data-sans-transition aria-label="Agrandir la photo : Table ronde éclairée en violet sous l’enseigne Innovation Lab"><figure class="media mosaique-media" style="--cadrage:50% 50%">
   <picture>
     <img src="/assets/images/soirees-2-1600.webp" srcset="/assets/images/soirees-2-1024.webp 1024w, /assets/images/soirees-2-1168.webp 1168w, /assets/images/soirees-2-1600.webp 1600w" sizes="(max-width: 760px) 50vw, 25vw" alt="Table ronde éclairée en violet sous l’enseigne Innovation Lab" width="1600" height="2001" loading="lazy" decoding="async">
   </picture><figcaption class="media-legende">Table ronde éclairée en violet sous l’enseigne Innovation Lab</figcaption>
-</figure></li><li class="mosaique-3"><figure class="media mosaique-media" style="--cadrage:50% 50%">
+</figure><span class="zoom-signe" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M12 5v14M5 12h14"/></svg></span></a></li><li class="mosaique-3" id="photo-soirees-3"><a class="zoom" href="#photo-soirees-3" data-visionneuse data-sans-transition aria-label="Agrandir la photo : Concert dans une salle baignée de rouge"><figure class="media mosaique-media" style="--cadrage:50% 50%">
   <picture>
     <img src="/assets/images/soirees-3-1168.webp" srcset="/assets/images/soirees-3-1024.webp 1024w, /assets/images/soirees-3-1168.webp 1168w" sizes="(max-width: 760px) 50vw, 25vw" alt="Concert dans une salle baignée de rouge" width="1168" height="1461" loading="lazy" decoding="async">
   </picture><figcaption class="media-legende">Concert dans une salle baignée de rouge</figcaption>
-</figure></li><li class="mosaique-4"><figure class="media mosaique-media" style="--cadrage:50% 50%">
+</figure><span class="zoom-signe" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M12 5v14M5 12h14"/></svg></span></a></li><li class="mosaique-4" id="photo-soirees-4"><a class="zoom" href="#photo-soirees-4" data-visionneuse data-sans-transition aria-label="Agrandir la photo : Musiciens devant un mur de fleurs blanches"><figure class="media mosaique-media" style="--cadrage:50% 50%">
   <picture>
     <img src="/assets/images/soirees-4-1168.webp" srcset="/assets/images/soirees-4-1024.webp 1024w, /assets/images/soirees-4-1168.webp 1168w" sizes="(max-width: 760px) 50vw, 25vw" alt="Musiciens devant un mur de fleurs blanches" width="1168" height="1460" loading="lazy" decoding="async">
   </picture><figcaption class="media-legende">Musiciens devant un mur de fleurs blanches</figcaption>
-</figure></li><li class="mosaique-5"><figure class="media mosaique-media" style="--cadrage:50% 50%">
+</figure><span class="zoom-signe" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M12 5v14M5 12h14"/></svg></span></a></li><li class="mosaique-5" id="photo-soirees-5"><a class="zoom" href="#photo-soirees-5" data-visionneuse data-sans-transition aria-label="Agrandir la photo : Deux invitées posent devant le décor de la série Mobland"><figure class="media mosaique-media" style="--cadrage:50% 50%">
   <picture>
     <img src="/assets/images/soirees-5-1600.webp" srcset="/assets/images/soirees-5-1024.webp 1024w, /assets/images/soirees-5-1168.webp 1168w, /assets/images/soirees-5-1600.webp 1600w" sizes="(max-width: 760px) 50vw, 25vw" alt="Deux invitées posent devant le décor de la série Mobland" width="1600" height="2000" loading="lazy" decoding="async">
   </picture><figcaption class="media-legende">Deux invitées posent devant le décor de la série Mobland</figcaption>
-</figure></li>
+</figure><span class="zoom-signe" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M12 5v14M5 12h14"/></svg></span></a></li>
     </ul>
   </article><article class="chapitre" id="hospitalites" data-metier="hospitalites" aria-labelledby="chap-hospitalites">
     <div class="conteneur chapitre-tete">
@@ -354,27 +354,27 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
       </div>
     </div>
     <ul class="conteneur mosaique" data-anime="cascade">
-      <li class="mosaique-1"><figure class="media mosaique-media" style="--cadrage:50% 50%">
+      <li class="mosaique-1" id="photo-hospitalites-1"><a class="zoom" href="#photo-hospitalites-1" data-visionneuse data-sans-transition aria-label="Agrandir la photo : Hôtesses Emirates alignées en tribune, devant un court en terre battue"><figure class="media mosaique-media" style="--cadrage:50% 50%">
   <picture>
     <img src="/assets/images/hospitalites-1-1600.webp" srcset="/assets/images/hospitalites-1-1024.webp 1024w, /assets/images/hospitalites-1-1168.webp 1168w, /assets/images/hospitalites-1-1600.webp 1600w" sizes="(max-width: 760px) 100vw, 50vw" alt="Hôtesses Emirates alignées en tribune, devant un court en terre battue" width="1600" height="1600" loading="lazy" decoding="async">
   </picture><figcaption class="media-legende">Hôtesses Emirates alignées en tribune, devant un court en terre battue</figcaption>
-</figure></li><li class="mosaique-2"><figure class="media mosaique-media" style="--cadrage:50% 50%">
+</figure><span class="zoom-signe" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M12 5v14M5 12h14"/></svg></span></a></li><li class="mosaique-2" id="photo-hospitalites-2"><a class="zoom" href="#photo-hospitalites-2" data-visionneuse data-sans-transition aria-label="Agrandir la photo : Barista qui verse un café latte"><figure class="media mosaique-media" style="--cadrage:50% 50%">
   <picture>
     <img src="/assets/images/hospitalites-2-1600.webp" srcset="/assets/images/hospitalites-2-1024.webp 1024w, /assets/images/hospitalites-2-1168.webp 1168w, /assets/images/hospitalites-2-1600.webp 1600w" sizes="(max-width: 760px) 50vw, 25vw" alt="Barista qui verse un café latte" width="1600" height="2001" loading="lazy" decoding="async">
   </picture><figcaption class="media-legende">Barista qui verse un café latte</figcaption>
-</figure></li><li class="mosaique-3"><figure class="media mosaique-media" style="--cadrage:50% 50%">
+</figure><span class="zoom-signe" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M12 5v14M5 12h14"/></svg></span></a></li><li class="mosaique-3" id="photo-hospitalites-3"><a class="zoom" href="#photo-hospitalites-3" data-visionneuse data-sans-transition aria-label="Agrandir la photo : Service du thé dans une théière en verre"><figure class="media mosaique-media" style="--cadrage:50% 50%">
   <picture>
     <img src="/assets/images/hospitalites-3-1600.webp" srcset="/assets/images/hospitalites-3-1024.webp 1024w, /assets/images/hospitalites-3-1168.webp 1168w, /assets/images/hospitalites-3-1600.webp 1600w" sizes="(max-width: 760px) 50vw, 25vw" alt="Service du thé dans une théière en verre" width="1600" height="2001" loading="lazy" decoding="async">
   </picture><figcaption class="media-legende">Service du thé dans une théière en verre</figcaption>
-</figure></li><li class="mosaique-4"><figure class="media mosaique-media" style="--cadrage:50% 50%">
+</figure><span class="zoom-signe" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M12 5v14M5 12h14"/></svg></span></a></li><li class="mosaique-4" id="photo-hospitalites-4"><a class="zoom" href="#photo-hospitalites-4" data-visionneuse data-sans-transition aria-label="Agrandir la photo : Invitée qui regarde passer un voilier de course"><figure class="media mosaique-media" style="--cadrage:50% 50%">
   <picture>
     <img src="/assets/images/hospitalites-4-1600.webp" srcset="/assets/images/hospitalites-4-1024.webp 1024w, /assets/images/hospitalites-4-1168.webp 1168w, /assets/images/hospitalites-4-1600.webp 1600w" sizes="(max-width: 760px) 50vw, 25vw" alt="Invitée qui regarde passer un voilier de course" width="1600" height="2000" loading="lazy" decoding="async">
   </picture><figcaption class="media-legende">Invitée qui regarde passer un voilier de course</figcaption>
-</figure></li><li class="mosaique-5"><figure class="media mosaique-media" style="--cadrage:50% 50%">
+</figure><span class="zoom-signe" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M12 5v14M5 12h14"/></svg></span></a></li><li class="mosaique-5" id="photo-hospitalites-5"><a class="zoom" href="#photo-hospitalites-5" data-visionneuse data-sans-transition aria-label="Agrandir la photo : Spectateurs au chapeau blanc au-dessus d’un court de tennis"><figure class="media mosaique-media" style="--cadrage:50% 50%">
   <picture>
     <img src="/assets/images/hospitalites-5-1600.webp" srcset="/assets/images/hospitalites-5-1024.webp 1024w, /assets/images/hospitalites-5-1168.webp 1168w, /assets/images/hospitalites-5-1600.webp 1600w" sizes="(max-width: 760px) 50vw, 25vw" alt="Spectateurs au chapeau blanc au-dessus d’un court de tennis" width="1600" height="2000" loading="lazy" decoding="async">
   </picture><figcaption class="media-legende">Spectateurs au chapeau blanc au-dessus d’un court de tennis</figcaption>
-</figure></li>
+</figure><span class="zoom-signe" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M12 5v14M5 12h14"/></svg></span></a></li>
     </ul>
   </article>
 </section>
@@ -418,7 +418,7 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
   </div>
 </section>
 <section class="fin" id="fin" aria-labelledby="fin-titre">
-  <div class="fin-signature" data-visuel aria-hidden="true" data-audit-ignorer>
+  <div class="fin-signature" data-visuel aria-hidden="true" data-audit-ignorer data-grille="typo">
     <span class="sig-l1" data-effet="signature">we create</span>
     <span class="sig-l2"><span class="sig-amp">&amp;</span> deliver</span>
     <svg class="sig-barre" viewBox="0 0 100 100" preserveAspectRatio="none"><line x1="64" y1="2" x2="40" y2="98" pathLength="1" vector-effect="non-scaling-stroke"/></svg>
@@ -434,6 +434,14 @@ setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('
     </p>
   </div>
 </section>
+<div class="visionneuse" role="dialog" aria-modal="true" aria-label="Photos en grand" data-visionneuse-fenetre data-recouvrement data-gouttiere="#111113" hidden data-compte="{n} sur {total}">
+  <figure class="vis-cadre"><figcaption class="vis-legende" aria-live="polite"></figcaption></figure>
+  <p class="vis-compte" aria-hidden="true"></p>
+  <p class="vis-aide masque-petit">Flèches ← → pour naviguer, Échap pour fermer</p>
+  <button type="button" class="vis-bouton vis-fermer" data-vis-fermer aria-label="Fermer la visionneuse"><svg viewBox="0 0 24 24"><path d="M6 6l12 12M18 6L6 18"/></svg></button>
+  <button type="button" class="vis-bouton vis-prec" data-vis-prec aria-label="Photo précédente"><svg viewBox="0 0 24 24"><path d="M15 5l-7 7 7 7"/></svg></button>
+  <button type="button" class="vis-bouton vis-suiv" data-vis-suiv aria-label="Photo suivante"><svg viewBox="0 0 24 24"><path d="M9 5l7 7-7 7"/></svg></button>
+</div>
 </main>
 <footer class="pied" id="pied">
   <div class="conteneur pied-grille">
